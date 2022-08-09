@@ -6,8 +6,5 @@
     margin: 0 auto;
     padding: 16px 40px;
     box-sizing: border-box;
-}
-
-.page {
-    height: 300vh;
+    background-color: #fff;
 }
