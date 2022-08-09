@@ -1,0 +1,13 @@
+.header {
+    position: sticky;
+    top: 0;
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 16px 40px;
+    box-sizing: border-box;
+}
+
+.page {
+    height: 300vh;
+}
