@@ -1,0 +1,16 @@
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    width: 165px;
+    height: 48px;
+    background-color: #fff;
+    background-image: url(../../images/Icon/link-arrow-black.svg);
+    background-repeat: no-repeat;
+    background-position: 140px 17px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+}
