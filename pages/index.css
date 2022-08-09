@@ -2,6 +2,7 @@
 @import url(../vendor/font.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/card/card.css);
+@import url(../blocks/card/_position/card_position_padding30.css);
 @import url(../blocks/card/_color/card_color_blue.css);
 @import url(../blocks/card/_color/card_color_green.css);
 @import url(../blocks/card/_color/card_color_orange.css);
@@ -18,7 +19,9 @@
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__title/_position/card__title_position_top40.css);
 @import url(../blocks/card/__main-text/card__main-text.css);
+@import url(../blocks/card/__main-text/_size/card__main-text_size_l.css);
 @import url(../blocks/card/__main-text/_size/card__main-text_size_m.css);
 @import url(../blocks/card/__main-text/_size/card__main-text_size_s.css);
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__button-icon/card__button-icon.css);
+@import url(../blocks/card/__image/card__image.css);
