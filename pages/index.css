@@ -21,3 +21,4 @@
 @import url(../blocks/card/__date/card__date.css);
 @import url(../blocks/card/__container/_type/card__container_type_flex.css);
 @import url(../blocks/card/__main-text/_type/card__main-text_type_stretched.css);
+@import url(../blocks/card/__title/_position/card__title_position_top30.css);
