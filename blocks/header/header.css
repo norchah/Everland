@@ -1,5 +1,11 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    background-color: red;
+    width: 1440px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.page {
+    height: 300vh;
 }
