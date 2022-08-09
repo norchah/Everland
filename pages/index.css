@@ -10,6 +10,10 @@
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__conteiner-icon/card__conteiner-icon.css);
 @import url(../blocks/card/__icon/card__icon.css);
+@import url(../blocks/card/__icon/_color/card__icon_color_blue.css);
+@import url(../blocks/card/__icon/_color/card__icon_color_green.css);
+@import url(../blocks/card/__icon/_color/card__icon_color_orange.css);
+@import url(../blocks/card/__icon/_color/card__icon_color_violet.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__main-text/card__main-text.css);
 @import url(../blocks/card/__button/card__button.css);
