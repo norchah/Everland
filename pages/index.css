@@ -7,8 +7,9 @@
 @import url(../blocks/card/_color/card_color_orange.css);
 @import url(../blocks/card/_color/card_color_violet.css);
 @import url(../blocks/card/_color/card_color_white.css);
-@import url(../blocks/card/card.css);
-@import url(../blocks/card/__conteiner-icon/card__conteiner-icon.css);
+@import url(../blocks/card/__container/card__container.css);
+@import url(../blocks/card/__container/_size/card__container_size_m.css);
+@import url(../blocks/card/__container-icon/card__container-icon.css);
 @import url(../blocks/card/__icon/card__icon.css);
 @import url(../blocks/card/__icon/_color/card__icon_color_blue.css);
 @import url(../blocks/card/__icon/_color/card__icon_color_green.css);
@@ -16,5 +17,7 @@
 @import url(../blocks/card/__icon/_color/card__icon_color_violet.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__main-text/card__main-text.css);
+@import url(../blocks/card/__main-text/_size/card__main-text_size_m.css);
+@import url(../blocks/card/__main-text/_size/card__main-text_size_s.css);
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__button-icon/card__button-icon.css);
