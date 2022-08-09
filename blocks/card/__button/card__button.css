@@ -1,0 +1,17 @@
+.card__button{
+    margin-top: 40px;
+    border: 0;
+    padding: 0;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    width: 158px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #E7F0FF;
+    color: #0C4BA0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

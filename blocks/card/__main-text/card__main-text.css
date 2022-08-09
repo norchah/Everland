@@ -1,0 +1,9 @@
+.card__main-text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    width: 333px;
+    margin-top: 20px;
+    color: #333333;
+}
