@@ -2,6 +2,9 @@
     width: 443px;
     height: 428px;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     box-sizing: border-box;
     border-radius: 30px;
 }
