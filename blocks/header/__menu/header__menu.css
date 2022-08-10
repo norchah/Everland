@@ -1,0 +1,18 @@
+.header__menu {
+    width: 95px;
+    height: 26px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: right;
+    border: none;
+    background-color: inherit;
+    background-image: url(../../../images/menu-ico.svg);
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    padding: 2px 0 0;
+}
+
+.header__menu:hover {
+    cursor: pointer;
+}
