@@ -1,0 +1,14 @@
+.button {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    background-color: inherit;
+    border: none;
+    border-radius: 10px;
+    height: 48px;
+    transition: background-color .1s linear, color .1s linear, border .1s linear;
+}
+
+.button:hover {
+    cursor: pointer;
+}
