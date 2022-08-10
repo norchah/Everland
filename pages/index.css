@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font.css);
 @import url(../blocks/page/page.css);
+<<<<<<< HEAD
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_position/card_position_padding30.css);
 @import url(../blocks/card/_color/card_color_blue.css);
@@ -29,3 +30,22 @@
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__button-icon/card__button-icon.css);
 @import url(../blocks/card/__image/card__image.css);
+=======
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_size/button_size_s.css);
+@import url(../blocks/button/_size/button_size_m.css);
+@import url(../blocks/button/_size/button_size_l.css);
+@import url(../blocks/button/_back-clr/button_back-clr_white.css);
+@import url(../blocks/button/_back-clr/button_back-clr_blue.css);
+@import url(../blocks/button/_text-clr/button_text-clr_white.css);
+@import url(../blocks/button/_text-clr/button_text-clr_blue.css);
+@import url(../blocks/button/_text-clr/button_text-clr_black.css);
+@import url(../blocks/button/_border-clr/button_border-clr_blue.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__buttons/header__buttons.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/nav/nav__menu/nav__menu.css);
+@import url(../blocks/nav/__link/nav__link.css);
+>>>>>>> develop
