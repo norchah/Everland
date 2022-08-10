@@ -1,0 +1,6 @@
+.form__input-container_donor-info {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    padding-bottom: 40px;
+}

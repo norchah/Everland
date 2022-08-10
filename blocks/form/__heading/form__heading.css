@@ -1,0 +1,31 @@
+.form__heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.form__heading::before, .form__heading::after {
+    position: absolute;
+    top: 50%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: #DADADA;
+}
+
+.form__heading::before {
+    margin-left: -51%;
+}
+
+.form__heading::after {
+    margin-left: 1%;
+}
+
+
+
