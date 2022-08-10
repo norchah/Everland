@@ -1,3 +1,79 @@
 .footer {
-  outline: #df2100 solid 1px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  box-sizing: border-box;
+  padding: 0;
+  /* font-variation-settings: "wght" 250, "wdth" 75; */
+}
+.footer__logo {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 263px;
+  max-height: 46px;
+}
+.footer__text-info {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.footer__nav {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.footer__support-title {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.footer__support-logo {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.footer__social-net-title {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.footer__copyright-text {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.footer__img-yandex-workshop {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.footer__caption {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.nav__list {
+  margin: 0;
+}
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  box-sizing: border-box;
+  list-style-type: none;
+  padding: 0;
 }
