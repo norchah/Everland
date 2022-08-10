@@ -13,6 +13,12 @@
 @import url(../blocks/button/_border-clr/button_border-clr_blue.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_size/link_size_l.css);
+@import url(../blocks/link/_color/link_color_blue.css);
+@import url(../blocks/link/_color/link_color_orange.css);
+@import url(../blocks/link/_color/link_color_green.css);
+@import url(../blocks/link/_color/link_color_purple.css);
+@import url(../blocks/link/_disabled/link_disabled.css);
+@import url(../blocks/link/_disabled/link_disabled_colors.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__menu/header__menu.css);
