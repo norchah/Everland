@@ -1,0 +1,29 @@
+.form__checkbox {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form__checkbox input[type=checkbox] {
+    display: none;
+}
+
+/* checked */
+.form__checkbox input[type=checkbox]:checked + .form__label {
+    background-color: #DADADA;
+    background-image: url('../../../images/checked.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* hovered */
+.form__checkbox .form__label:hover {
+    color: #666;
+}
+
+/* disabled */
+.form__checkbox input[type=checkbox]:disabled + .form__label {
+    background: #efefef;
+    color: #666;
+}

@@ -1,0 +1,8 @@
+.form__label_checkbox {
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+    margin: 0;
+}

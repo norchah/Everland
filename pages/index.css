@@ -26,3 +26,27 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/nav/nav__menu/nav__menu.css);
 @import url(../blocks/nav/__link/nav__link.css);
+
+
+
+/*form*/
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__main-container/form__main-container.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__radio-button/form__radio-button.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__paragraph/form__paragraph.css);
+@import url(../blocks/form/__button-container/form__button-container.css);
+@import url(../blocks/form/__input-container/_donation_amount/form__input-container_donation-amount.css);
+@import url(../blocks/form/__button-container/_payment-method/form__button-container_payment-method.css);
+@import url(../blocks/form/__label/_payment-method/form__label_payment-method.css);
+@import url(../blocks/form/__label/_donation-frequency/form__label_donation-frequency.css);
+@import url(../blocks/form/__image/form__image.css);
+@import url(../blocks/form/__item/_text-input/form__item_text-input.css);
+@import url(../blocks/form/__input-container/_donor-info/form__input-container_donor-info.css);
+@import url(../blocks/form/__checkbox/form__checkbox.css);
+@import url(../blocks/form/__label-link/form__label-link.css);
+@import url(../blocks/form/__label-text/form__label-text.css);
+@import url(../blocks/form/__label/_checkbox/form__label_checkbox.css);
+@import url(../blocks/form/__input-container/_agreement/form__input-container_agreement.css);

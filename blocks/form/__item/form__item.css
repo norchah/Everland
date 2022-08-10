@@ -1,0 +1,25 @@
+.form__item {
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.form__item input[type=radio] {
+    display: none;
+}
+
+
+/* checked */
+.form__item input[type=radio]:checked + .form__label {
+    background: #ffe0a6;
+}
+
+/* hovered */
+.form__item .form__label:hover {
+    color: #666;
+}
+
+/* disabled */
+.form__item input[type=radio]:disabled + .form__label {
+    background: #efefef;
+    color: #666;
+}
