@@ -11,6 +11,10 @@
 @import url(../blocks/card/__container/card__container.css);
 @import url(../blocks/card/__container/_size/card__container_size_m.css);
 @import url(../blocks/card/__container-icon/card__container-icon.css);
+@import url(../blocks/card/__container-icon/_color/card__container-icon_color_blue.css);
+@import url(../blocks/card/__container-icon/_color/card__container-icon_color_green.css);
+@import url(../blocks/card/__container-icon/_color/card__container-icon_color_orange.css);
+@import url(../blocks/card/__container-icon/_color/card__container-icon_color_violet.css);
 @import url(../blocks/card/__icon/card__icon.css);
 @import url(../blocks/card/__icon/_color/card__icon_color_blue.css);
 @import url(../blocks/card/__icon/_color/card__icon_color_green.css);
