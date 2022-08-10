@@ -3,4 +3,5 @@
   object-fit: cover;
   display: grid;
   grid-area: foto-number;
+  border-radius: 30px;
 }
