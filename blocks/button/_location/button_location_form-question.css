@@ -1,21 +1,20 @@
-.button__question {
-    padding: 0px 0px 2px 13px;
-    box-sizing: border-box;
+.button_location_form-question  {
+    margin: 0 0 0 13px;
+    padding: 0;
     background-image: url('../../../images/question.svg');
     background-repeat: no-repeat;
     width: 10px;
     height: 10px;
-    margin: 0;
 }
 
-.button__question:hover {
+.button_location_form-question :hover {
     background-image: url('../../../images/question-hover.svg');
 }
 
-.button__question:disabled {
+.button_location_form-question :disabled {
     background-image: url('../../../images/question-disabled.svg');
 }
 
-.button__question_active {
+.button_location_form-question_active {
     background-image: url('../../../images/question-active.svg');
 }
