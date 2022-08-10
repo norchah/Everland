@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="refactor: change classes in labels and inputs + pixel perfect modifications">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: delete &quot;for&quot; in spans created for inputs">
+      <change beforePath="$PROJECT_DIR$/blocks/button/_location/button_location_form-submit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_location/button_location_form-submit.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660166527340</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix: delete &quot;for&quot; in spans created for inputs">
+      <created>1660166797098</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660166797098</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,6 +72,7 @@
     <MESSAGE value="feature: add button styles" />
     <MESSAGE value="refactor: delete the old version of form" />
     <MESSAGE value="refactor: change classes in labels and inputs + pixel perfect modifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: change classes in labels and inputs + pixel perfect modifications" />
+    <MESSAGE value="fix: delete &quot;for&quot; in spans created for inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: delete &quot;for&quot; in spans created for inputs" />
   </component>
 </project>
