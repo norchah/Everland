@@ -1,17 +1,50 @@
 .form__label {
     display: inline-block;
-    cursor: pointer;
-    border: 1px solid #DADADA;
-    height: 48px;
-    width: 159px;
-    border-radius: 10px;
-    margin: 0px 0px 12px 0px;
-    padding: 11px;
-    box-sizing: border-box;
-    text-align: center;
+}
 
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0px;
+
+/*for radio*/
+.form__label input[type=radio] {
+     display: none;
+ }
+
+/* checked */
+.form__label input[type=radio]:checked + .form__radio-button {
+    border-color: #0C4BA0;
+}
+
+/* hovered */
+.form__label .form__radio-button:hover {
+    color: #666;
+}
+
+/* disabled */
+.form__label input[type=radio]:disabled + .form__radio-button {
+    background: #efefef;
+    color: #666;
+}
+
+
+/*for checkbox*/
+.form__label input[type=checkbox] {
+    display: none;
+}
+
+/* checked */
+.form__label input[type=checkbox]:checked + .form__checkbox {
+    background-color: #DADADA;
+    background-image: url('../../../images/checked.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* hovered */
+.form__label .form__checkbox:hover {
+    color: #666;
+}
+
+/* disabled */
+.form__label input[type=checkbox]:disabled + .form__checkbox {
+    background: #efefef;
+    color: #666;
 }

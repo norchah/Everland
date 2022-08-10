@@ -2,56 +2,56 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="pages/index.css" />
-  <title>Everland</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css"/>
+    <title>Everland</title>
 </head>
 
 <body class="page">
-  <header class="header">
+<header class="header">
     <div class="header__container">
-      <img class="logo" src="./images/logo/Logo.svg" alt="Логотип Everland">
-      <button class="header__menu">Меню</button>
-      <ul class="header__buttons">
-        <li class="header__button">
-          <button class="button button_size_s button_text-clr_blue button_border-clr_blue">Платформа</button>
-        </li>
-        <li class="header__button">
-          <button class="button button_size_s button_back-clr_blue button_text-clr_white">Поддержать</button>
-        </li>
-      </ul>
+        <img class="logo" src="./images/logo/Logo.svg" alt="Логотип Everland">
+        <button class="header__menu">Меню</button>
+        <ul class="header__buttons">
+            <li class="header__button">
+                <button class="button button_size_s button_text-clr_blue button_border-clr_blue">Платформа</button>
+            </li>
+            <li class="header__button">
+                <button class="button button_size_s button_back-clr_blue button_text-clr_white">Поддержать</button>
+            </li>
+        </ul>
     </div>
 
-  </header>
-  <main class=main>
+</header>
+<main class=main>
     <nav class=nav>
-      <ul class=nav__menu>
-        <li class=nav__menu-item>
-          <a class="nav__link" href="#for-who">Для кого</a>
-        </li>
-        <li class=nav__menu-item>
-          <a class="nav__link" href="#direction">Направления работы</a>
-        </li>
-        <li class=hnav__menu-item>
-          <a class="nav__link" href="#features">Преимущества</a>
-        </li>
-        <li class=nav__menu-item>
-          <a class="nav__link" href="#digits">Основные цифры</a>
-        </li>
-        <li class=nav__menu-item>
-          <a class="nav__link" href="#spec-projects">Спецпроекты</a>
-        </li>
-        <li class=nav__menu-item>
-          <a class="nav__link" href="#stories">Истории</a>
-        </li>
-        <li class=nav__menu-item>
-          <a class="nav__link" href="#agency">Агентство</a>
-        </li>
-        <li class=nav__menu-item>
-          <a class="nav__link" href="#news">Новости</a>
-        </li>
-      </ul>
+        <ul class=nav__menu>
+            <li class=nav__menu-item>
+                <a class="nav__link" href="#for-who">Для кого</a>
+            </li>
+            <li class=nav__menu-item>
+                <a class="nav__link" href="#direction">Направления работы</a>
+            </li>
+            <li class=hnav__menu-item>
+                <a class="nav__link" href="#features">Преимущества</a>
+            </li>
+            <li class=nav__menu-item>
+                <a class="nav__link" href="#digits">Основные цифры</a>
+            </li>
+            <li class=nav__menu-item>
+                <a class="nav__link" href="#spec-projects">Спецпроекты</a>
+            </li>
+            <li class=nav__menu-item>
+                <a class="nav__link" href="#stories">Истории</a>
+            </li>
+            <li class=nav__menu-item>
+                <a class="nav__link" href="#agency">Агентство</a>
+            </li>
+            <li class=nav__menu-item>
+                <a class="nav__link" href="#news">Новости</a>
+            </li>
+        </ul>
     </nav>
     <section class="everland">
 
@@ -82,133 +82,151 @@
     </section>
 
 
-
-
     <section class="support">
 
 
+        <form class="form">
+            <div class="form__main-container">
+
+                <fieldset class="form__input-container form__input-container_donation-frequency">
+
+                    <label class="form__label">
+                        <input id="monthly" class="form__item" type="radio" name="donation-frequency" value="monthly">
+                        <span for="monthly" class="form__radio-button form__radio-button_donation-frequency">Ежемесячно
+                            <button class="button button_location_form-question"></button>
+                        </span>
+                    </label>
+
+                    <label class="form__label">
+                        <input id="one-time" class="form__item" type="radio" name="donation-frequency" value="one-time">
+                        <span for="one-time" class="form__radio-button form__radio-button_donation-frequency">Разово</span>
+                    </label>
+
+                </fieldset>
+
+                <h2 class="form__heading">Размер пожертвования</h2>
+
+                <fieldset class="form__input-container form__input-container_donation-amount">
+
+                    <div class="form__button-container">
+
+                        <label class="form__label">
+                            <input id="250" type="radio" class="form__item" name="donation-amount" value="250">
+                            <span for="250" class="form__radio-button">250₽</span>
+                        </label>
+
+                        <label class="form__label">
+                            <input id="500" type="radio" class="form__item" name="donation-amount" value="500">
+                            <span for="500" class="form__radio-button">500₽</span>
+                        </label>
+
+                        <label class="form__label">
+                            <input id="750" type="radio" class="form__item" name="donation-amount" value="750">
+                            <span for="750" class="form__radio-button">750₽</span>
+                        </label>
+
+                        <label class="form__label">
+                            <input id="1000" type="radio" class="form__item" name="donation-amount" value="1000">
+                            <span for="1000" class="form__radio-button">1000₽</span>
+                        </label>
+
+                        <label class="form__label">
+                            <input id="other" type="radio" class="form__item" name="donation-amount" value="other">
+                            <span for="other" class="form__radio-button">Другая сумма</span>
+                        </label>
+
+                    </div>
+
+                    <p class="form__paragraph">Регулярные пожертвования очень важны для Everland.
+                        Это то, что помогает нашим программам работать бесперебойно, что открывает
+                        новые востребованные проекты, что максимально эффективно решает социальную задачу.
+                        Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет
+                        списываться указанная вами сумма.
+                    </p>
+
+                </fieldset>
+
+                <h2 class="form__heading">Способ оплаты</h2>
+
+                <fieldset class="form__input-container form__input-container_payment-method">
+
+                    <div class="form__button-container form__button-container_payment-method">
+
+                        <label class="form__label">
+                            <input id="card-networks" type="radio" class="form__item" name="payment-method"
+                                   value="card-networks">
+                            <span for="card-networks" class="form__radio-button form__radio-button_payment-method"><img
+                                    src="./images/logos-card-networks.svg"/></span>
+                        </label>
+
+                        <label class="form__label">
+                            <input id="yu" type="radio" class="form__item" name="payment-method" value="yu">
+                            <span for="yu" class="form__radio-button form__radio-button_payment-method"><img
+                                    src="./images/logo-yu.svg"/></span>
+                        </label>
+
+                        <label class="form__label">
+                            <input id="web-money" type="radio" class="form__item" name="payment-method"
+                                   value="web-money">
+                            <span for="web-money" class="form__radio-button form__radio-button_payment-method"><img
+                                    src="./images/logo-web-money.svg"/></span>
+                        </label>
 
 
+                        <button class="button button_location_form-payment"><img src="./images/slide-button.svg"/>
+                        </button>
+                    </div>
+
+                </fieldset>
+
+                <h2 class="form__heading">Ваши данные</h2>
+
+                <fieldset class="form__input-container form__input-container_donor-info">
+
+                    <input type="text" class="form__item form__item_text-input" placeholder="Иван Иванов">
+                    <input type="text" class="form__item form__item_text-input" placeholder="myemail@example.com">
+
+                </fieldset>
 
 
-<form class="form">
-  <div class="form__main-container">
+                <fieldset class="form__input-container form__input-container_agreement">
 
-  <fieldset class="form__input-container form__input-container_donation-frequency">
-      <div class="form__radio-button">
-          <input id="monthly" type="radio" name="donation-frequency" value="monthly">
-          <label for="monthly" class="form__label form__label_donation-frequency">Ежемесячно<button class="button button_location_form-question"></button></label>
-      </div>
-      <div class="form__radio-button">
-          <input id="one-time" type="radio" name="donation-frequency" value="one-time">
-          <label for="one-time" class="form__label form__label_donation-frequency">Разово</label>
-      </div>
-  </fieldset>
+                    <label class="form__label form__label_checkbox" for="offer">
 
-  <h2 class="form__heading">Размер пожертвования</h2>
-
-  <fieldset class="form__input-container form__input-container_donation-amount">
-   <div class="form__button-container">
-        <div class="form__radio-button">
-        <input id="250" type="radio" name="donation-amount" value="250">
-        <label for="250" class="form__label">250₽</label>
-        </div>
-
-        <div class="form__radio-button">
-        <input id="500" type="radio" class="form__item" name="donation-amount" value="500">
-        <label for="500" class="form__label">500₽</label>
-        </div>
-
-        <div class="form__radio-button">
-        <input id="750" type="radio" class="form__item" name="donation-amount" value="750">
-        <label for="750" class="form__label">750₽</label>
-        </div>
-
-        <div class="form__radio-button">
-        <input id="1000" type="radio" class="form__item" name="donation-amount" value="1000">
-        <label for="1000" class="form__label">1000₽</label>
-        </div>
-
-        <div class="form__radio-button">
-        <input id="other" type="radio" class="form__item" name="donation-amount" value="other">
-        <label for="other" class="form__label">Другая сумма</label>
-        </div>
-    </div>
-    <p class="form__paragraph">Регулярные пожертвования очень важны для Everland.
-      Это то, что помогает нашим программам работать бесперебойно, что открывает
-      новые востребованные проекты, что максимально эффективно решает социальную задачу.
-      Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет
-      списываться указанная вами сумма.
-    </p>
-  </fieldset>
-
-  <h2 class="form__heading">Способ оплаты</h2>
-
-  <fieldset class="form__input-container form__input-container_payment-method">
-      <div class="form__button-container form__button-container_payment-method">
-      <div class="form__radio-button">
-          <input id="card-networks" type="radio" class="form__item" name="payment-method" value="card-networks">
-          <label for="card-networks" class="form__label form__label_payment-method"><img src="./images/logos-card-networks.svg"/></label>
-      </div>
-
-      <div class="form__radio-button">
-          <input id="yu" type="radio" class="form__item" name="payment-method" value="yu">
-          <label for="yu" class="form__label form__label_payment-method"><img src="./images/logo-yu.svg"/></label>
-      </div>
-
-      <div class="form__radio-button">
-          <input id="web-money" type="radio" class="form__item" name="payment-method" value="web-money">
-          <label for="web-money" class="form__label form__label_payment-method"><img src="./images/logo-web-money.svg"/></label>
-      </div>
+                        <input type="checkbox" class="form__item" name="offer" id="offer" value="agree">
+                        <span class="form__checkbox"></span>
+                        <span class="form__label-text">Соглашаюсь с <a class="form__label-link"
+                                                                       href="#">офертой</a></span>
+                    </label>
 
 
-    <button class="button button_location_form-payment"><img src="./images/slide-button.svg"/></button>
-      </div>
+                    <label class="form__label form__label_checkbox" for="personal-data">
 
-  </fieldset>
+                        <input type="checkbox" class="form__item" name="personal-data" id="personal-data" value="agree">
+                        <span class="form__checkbox"></span>
+                        <span class="form__label-text">Соглашаюсь на <a class="form__label-link" href="#">обработку моих персональных данных</a></span>
 
-  <h2 class="form__heading">Ваши данные</h2>
+                    </label>
 
-  <fieldset class="form__input-container form__input-container_donor-info">
-    <input type="text" class="form__item form__item_text-input" placeholder="Иван Иванов">
-    <input type="text" class="form__item form__item_text-input" placeholder="myemail@example.com">
-  </fieldset>
+                    <button class="button button_location_form-submit button_size_s button_back-clr_blue button_text-clr_white"
+                            type="submit">Поддержать
+                    </button>
 
-
-  <fieldset class="form__input-container form__input-container_agreement">
-
-      <label class="form__checkbox" for="offer">
-          <input type="checkbox" class="form__item" name="offer" id="offer" value="agree">
-          <span class="form__label form__label_checkbox"></span>
-          <span class="form__label-text">Соглашаюсь с <a class="form__label-link" href="#">офертой</a></span>
-      </label>
+                </fieldset>
 
 
-      <label class="form__checkbox" for="personal-data">
-          <input type="checkbox" class="form__item" name="personal-data" id="personal-data" value="agree">
-          <span class="form__label form__label_checkbox"></span>
-          <span class="form__label-text">Соглашаюсь на <a class="form__label-link" href="#">обработку моих персональных данных</a></span>
-      </label>
-      <button class="button button_location_form-submit button_size_s button_back-clr_blue button_text-clr_white">Поддержать</button>
-
-  </fieldset>
-
-
-  </div>
-</form>
-
+            </div>
+        </form>
 
 
     </section>
-
-
 
 
     <section class="footer">
 
     </section>
 
-  </main>
+</main>
 
 
 </body>

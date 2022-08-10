@@ -2,11 +2,12 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     text-align: center;
     position: relative;
     z-index: 1;
     overflow: hidden;
+    margin: 0;
 }
 
 .form__heading::before, .form__heading::after {
@@ -20,11 +21,11 @@
 }
 
 .form__heading::before {
-    margin-left: -51%;
+    margin-left: -51.5%;
 }
 
 .form__heading::after {
-    margin-left: 1%;
+    margin-left: 1.7%;
 }
 
 

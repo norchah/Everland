@@ -1,5 +1,5 @@
 .form__input-container_agreement {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
 }

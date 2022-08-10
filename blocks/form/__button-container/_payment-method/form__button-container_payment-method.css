@@ -1,5 +1,5 @@
 .form__button-container_payment-method {
-    gap: 18px;
+    gap: 14px;
     justify-content: center;
-    align-items: center;
+    padding: 16px 2px 30px 25px;
 }

@@ -1,17 +1,17 @@
 .button_location_form-question  {
-    margin: 0 0 0 13px;
+    margin: 0 0 0 7px;
     padding: 0;
     background-image: url('../../../images/question.svg');
     background-repeat: no-repeat;
     width: 10px;
-    height: 10px;
+    height: 12px;
 }
 
-.button_location_form-question :hover {
+.button_location_form-question:hover {
     background-image: url('../../../images/question-hover.svg');
 }
 
-.button_location_form-question :disabled {
+.button_location_form-question:disabled {
     background-image: url('../../../images/question-disabled.svg');
 }
 
