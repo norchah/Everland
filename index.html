@@ -94,6 +94,116 @@
   <fieldset class="form__input-container form__input-container_donation-frequency">
       <div class="form__radio-button">
           <input id="monthly" type="radio" name="donation-frequency" value="monthly">
+          <label for="monthly" class="form__label form__label_donation-frequency">Ежемесячно<button class="button button__question"></button></label>
+      </div>
+      <div class="form__radio-button">
+          <input id="one-time" type="radio" name="donation-frequency" value="one-time">
+          <label for="one-time" class="form__label form__label_donation-frequency">Разово</label>
+      </div>
+  </fieldset>
+
+  <h2 class="form__heading">Размер пожертвования</h2>
+
+  <fieldset class="form__input-container form__input-container_donation-amount">
+   <div class="form__button-container">
+        <div class="form__radio-button">
+        <input id="250" type="radio" name="donation-amount" value="250">
+        <label for="250" class="form__label">250₽</label>
+        </div>
+
+        <div class="form__radio-button">
+        <input id="500" type="radio" class="form__item" name="donation-amount" value="500">
+        <label for="500" class="form__label">500₽</label>
+        </div>
+
+        <div class="form__radio-button">
+        <input id="750" type="radio" class="form__item" name="donation-amount" value="750">
+        <label for="750" class="form__label">750₽</label>
+        </div>
+
+        <div class="form__radio-button">
+        <input id="1000" type="radio" class="form__item" name="donation-amount" value="1000">
+        <label for="1000" class="form__label">1000₽</label>
+        </div>
+
+        <div class="form__radio-button">
+        <input id="other" type="radio" class="form__item" name="donation-amount" value="other">
+        <label for="other" class="form__label">Другая сумма</label>
+        </div>
+    </div>
+    <p class="form__paragraph">Регулярные пожертвования очень важны для Everland.
+      Это то, что помогает нашим программам работать бесперебойно, что открывает
+      новые востребованные проекты, что максимально эффективно решает социальную задачу.
+      Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет
+      списываться указанная вами сумма.
+    </p>
+  </fieldset>
+
+  <h2 class="form__heading">Способ оплаты</h2>
+
+  <fieldset class="form__input-container form__input-container_payment-method">
+      <div class="form__button-container form__button-container_payment-method">
+      <div class="form__radio-button">
+          <input id="card-networks" type="radio" class="form__item" name="payment-method" value="card-networks">
+          <label for="card-networks" class="form__label form__label_payment-method"><img src="./images/logos-card-networks.svg"/></label>
+      </div>
+
+      <div class="form__radio-button">
+          <input id="yu" type="radio" class="form__item" name="payment-method" value="yu">
+          <label for="yu" class="form__label form__label_payment-method"><img src="./images/logo-yu.svg"/></label>
+      </div>
+
+      <div class="form__radio-button">
+          <input id="web-money" type="radio" class="form__item" name="payment-method" value="web-money">
+          <label for="web-money" class="form__label form__label_payment-method"><img src="./images/logo-web-money.svg"/></label>
+      </div>
+
+
+    <button class="button button__slide"><img src="./images/slide-button.svg"/></button>
+      </div>
+
+  </fieldset>
+
+  <h2 class="form__heading">Ваши данные</h2>
+
+  <fieldset class="form__input-container form__input-container_donor-info">
+    <input type="text" class="form__item form__item_text-input" placeholder="Иван Иванов">
+    <input type="text" class="form__item form__item_text-input" placeholder="myemail@example.com">
+  </fieldset>
+
+
+  <fieldset class="form__input-container form__input-container_agreement">
+
+      <label class="form__checkbox" for="offer">
+          <input type="checkbox" class="form__item" name="offer" id="offer" value="agree">
+          <span class="form__label form__label_checkbox"></span>
+          <span class="form__label-text">Соглашаюсь с <a class="form__label-link" href="#">офертой</a></span>
+      </label>
+
+
+      <label class="form__checkbox" for="personal-data">
+          <input type="checkbox" class="form__item" name="personal-data" id="personal-data" value="agree">
+          <span class="form__label form__label_checkbox"></span>
+          <span class="form__label-text">Соглашаюсь на <a class="form__label-link" href="#">обработку моих персональных данных</a></span>
+      </label>
+
+
+  </fieldset>
+
+  <button></button>
+  </div>
+</form>
+
+
+
+
+
+<form class="form">
+  <div class="form__main-container">
+
+  <fieldset class="form__input-container form__input-container_donation-frequency">
+      <div class="form__radio-button">
+          <input id="monthly" type="radio" name="donation-frequency" value="monthly">
           <label for="monthly" class="form__label form__label_donation-frequency">Ежемесячно<button class="button button_location_form-question"></button></label>
       </div>
       <div class="form__radio-button">

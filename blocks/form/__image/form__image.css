@@ -1,0 +1,21 @@
+.button__question {
+    padding: 0px 0px 2px 13px;
+    box-sizing: border-box;
+    background-image: url('../../../images/question.svg');
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    margin: 0;
+}
+
+.button__question:hover {
+    background-image: url('../../../images/question-hover.svg');
+}
+
+.button__question:disabled {
+    background-image: url('../../../images/question-disabled.svg');
+}
+
+.button__question_active {
+    background-image: url('../../../images/question-active.svg');
+}
