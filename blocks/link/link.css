@@ -11,6 +11,7 @@
     background-image: url(../../images/Icon/link-arrow-black-ico.svg);
     background-repeat: no-repeat;
     background-position: 140px 17px;
+    border-radius: 10px;
     padding: 12px 10px;
     box-sizing: border-box;
     transition: color .1s linear, background-image .1s linear, background-color .1s linear;
