@@ -18,3 +18,12 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/nav/nav__menu/nav__menu.css);
 @import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/spec-projects/spec-projects.css);
+@import url(../blocks/spec-projects/__block-number/spec-projects__block-number.css);
+@import url(../blocks/spec-projects/__blocks/spec-projects__blocks.css);
+@import url(../blocks/spec-projects/__foto-number/spec-projects__foto-number.css);
+@import url(../blocks/spec-projects/__number-text/spec-projects__number-text.css);
+@import url(../blocks/spec-projects/__number-title/spec-projects__number-title.css);
+@import url(../blocks/spec-projects/__number/spec-projects__number.css);
+@import url(../blocks/spec-projects/__numbers/spec-projects__numbers.css);
+@import url(../blocks/spec-projects/__title/spec-projects__title.css);
