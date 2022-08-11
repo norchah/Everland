@@ -1,0 +1,8 @@
+.footer__nav-list {
+  margin: 0;
+  padding: 0;
+  max-width: 230px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}

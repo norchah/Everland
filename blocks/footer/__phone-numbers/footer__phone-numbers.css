@@ -1,0 +1,9 @@
+.footer__phone-numbers {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}

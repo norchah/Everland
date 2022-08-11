@@ -1,0 +1,10 @@
+.footer__ya-workshop-box {
+  grid-row: 6/7;
+  grid-column: 1/2;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+}

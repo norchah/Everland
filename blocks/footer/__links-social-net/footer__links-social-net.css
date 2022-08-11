@@ -1,0 +1,9 @@
+.footer__links-social-net {
+  grid-row: 4/5;
+  grid-column: 2/3;
+  margin: 0;
+  padding: 15px 11px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px;
+}

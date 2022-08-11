@@ -1,0 +1,9 @@
+.footer__text-info {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  max-width: 470px;
+  padding: 18px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+}

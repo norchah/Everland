@@ -3,3 +3,31 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/footer/footer.css);
+
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__links-social-net/footer__links-social-net.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__nav-list/footer__nav-list.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__phone-numbers/footer__phone-numbers.css);
+@import url(../blocks/footer/__phone-number/footer__phone-number.css);
+@import url(../blocks/footer/__soc-net-link/footer__soc-net-link.css);
+@import url(../blocks/footer/__soc-net-link/--icon_telegram/footer__soc-net-link--icon_telegram.css);
+@import url(../blocks/footer/__soc-net-link/--icon_vk/footer__soc-net-link--icon_vk.css);
+@import url(../blocks/footer/__support-logo/footer__support-logo.css);
+@import url(../blocks/footer/__support-logos/footer__support-logos.css);
+@import url(../blocks/footer/__support-title/footer__support-title.css);
+@import url(../blocks/footer/__text-info/footer__text-info.css);
+@import url(../blocks/footer/__title-social-net/footer__title-social-net.css);
+@import url(../blocks/footer/__ya-workshop-box/footer__ya-workshop-box.css);
+@import url(../blocks/footer/__ya-workshop-caption/footer__ya-workshop-caption.css);
+@import url(../blocks/footer/__ya-workshop-logo/footer__ya-workshop-logo.css);
+
+@import url(../blocks/link/link.css);
+
+@import url(../blocks/list/list.css);
+
+@import url(../blocks/main-text/main-text.css);

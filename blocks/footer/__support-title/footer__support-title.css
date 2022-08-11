@@ -1,0 +1,8 @@
+.footer__support-title {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  padding: 71px 0 10px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+}
