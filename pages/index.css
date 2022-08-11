@@ -12,7 +12,6 @@
 @import url(../blocks/button/_text-clr/button_text-clr_black.css);
 @import url(../blocks/button/_border-clr/button_border-clr_blue.css);
 @import url(../blocks/button/_location/button_location_form-submit.css);
-@import url(../blocks/button/_location/button_location_form-question.css);
 @import url(../blocks/button/_location/button_location_form-payment.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_size/link_size_l.css);
@@ -54,6 +53,9 @@
 @import url(../blocks/form/__label-link/form__label-link.css);
 @import url(../blocks/form/__label-text/form__label-text.css);
 @import url(../blocks/form/__input-container/_agreement/form__input-container_agreement.css);
+@import url(../blocks/form/__question-icon/form__question-icon.css);
+
+
 
 
 

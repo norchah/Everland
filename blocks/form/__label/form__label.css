@@ -15,7 +15,7 @@
 
 /* hovered */
 .form__label .form__radio-button:hover {
-    color: #666;
+    border-color: #0C4BA0;
 }
 
 /* disabled */

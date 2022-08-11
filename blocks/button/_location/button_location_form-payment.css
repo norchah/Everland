@@ -2,4 +2,9 @@
     align-self: center;
     margin: 0 0 12px;
     padding: 0;
+    background-image: url('../../../images/slide-button.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 8px;
+    height: 14px;
 }

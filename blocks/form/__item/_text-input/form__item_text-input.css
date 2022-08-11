@@ -12,3 +12,8 @@
     letter-spacing: 0;
     color: #DADADA;
 }
+
+.form__item_text-input:focus {
+    border: 1px solid #0C4BA0;
+    outline: none;
+}
