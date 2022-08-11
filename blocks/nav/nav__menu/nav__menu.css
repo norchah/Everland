@@ -1,6 +1,6 @@
 .nav__menu {
-    margin: 0;
-    padding: 13px 42px 0 42px;
+    margin: 0 auto;
+    padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
