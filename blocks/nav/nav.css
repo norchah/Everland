@@ -1,0 +1,10 @@
+.nav {
+    margin: 0 auto;
+    padding: 11px 42px 0;
+}
+
+@media screen and (max-width: 1160px) {
+    .nav {
+        display: none;
+    }
+}
