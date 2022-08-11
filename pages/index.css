@@ -1,11 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font.css);
 @import url(../blocks/page/page.css);
-
-
-
-
-
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_size/button_size_s.css);
 @import url(../blocks/button/_size/button_size_m.css);
@@ -31,13 +26,17 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__list-heading/menu__list-heading.css);
+@import url(../blocks/menu/__list-heading/_correct-size/menu__list-heading_correct-size.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/nav__menu/nav__menu.css);
 @import url(../blocks/nav/__link/nav__link.css);
-<<<<<<< HEAD
 
-
-/*cards*/
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_correct/card_correct_padding-m.css);
 @import url(../blocks/card/_color/card_color_green.css);
@@ -71,18 +70,3 @@
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__image/_size/card__image_size_s.css);
 @import url(../blocks/card/__date/card__date.css);
-
-
-
-
-
-
-=======
-@import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/__list/menu__list.css);
-@import url(../blocks/menu/__item/menu__item.css);
-@import url(../blocks/menu/__list-heading/menu__list-heading.css);
-@import url(../blocks/menu/__list-heading/_correct-size/menu__list-heading_correct-size.css);
-@import url(../blocks/menu/__link/menu__link.css);
-@import url(../blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css);
->>>>>>> develop
