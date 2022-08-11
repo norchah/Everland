@@ -1,0 +1,10 @@
+.link_disabled {
+    cursor: auto;
+    background-image: url(../../../images/Icon/link-arrow-lightgrey-ico.svg);
+    color: #c4c4c4;
+}
+
+.link_disabled:hover {
+    background-image: url(../../../images/Icon/link-arrow-lightgrey-ico.svg);
+    color: #c4c4c4;
+}

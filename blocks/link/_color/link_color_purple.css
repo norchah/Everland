@@ -1,0 +1,16 @@
+.link_color_purple {
+    color: #8B75FF;
+    background-color: #EAE6FF;
+    background-image: url(../../../images/Icon/link-arrow-purple-ico.svg);
+}
+
+
+.link_color_purple:hover {
+    color: #fff;
+    background-color: #8B75FF;
+    background-image: url(../../../images/Icon/link-arrow-white-ico.svg);
+}
+
+.link_color_purple:active {
+    background-color: #4935B5;
+}
