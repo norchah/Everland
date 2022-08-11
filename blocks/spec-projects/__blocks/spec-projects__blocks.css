@@ -1,3 +1,6 @@
 .spec-projects__blocks{
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap:150px
 }

@@ -50,3 +50,11 @@
 @import url(../blocks/menu/__list-heading/_correct-size/menu__list-heading_correct-size.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css);
+@import url(../blocks/spec-projects/__button/spec-projects__button.css);
+@import url(../blocks/spec-projects/__arrows/spec-projects__arrows.css);
+@import url(../blocks/spec-projects/__arrow/-icon/spec-projects__arrow-icon.css);
+@import url(../blocks/spec-projects/__arrow/-left/spec-projects__arrow-left.css);
+@import url(../blocks/spec-projects/__arrow/-right/spec-projects__arrow-right.css);
+@import url(../blocks/spec-projects/__block-family/spec-projects__block-family.css);
+@import url(../blocks/spec-projects/__foto-family/spec-projects__foto-family.css);
+@import url(../blocks/spec-projects/__main-family/spec-projects__main-family.css);
