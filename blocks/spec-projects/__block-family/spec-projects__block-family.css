@@ -1,8 +1,15 @@
 .spec-projects__block-family{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-areas: 
+  "spec-projects__subtitle spec-projects__subtitle spec-projects__subtitlev"
+  "spec-projects__title-family spec-projects__title-family spec-projects__foto-family"
+  "spec-projects__family-text spec-projects__family-text spec-projects__foto-family"
+  "spec-projects__button  spec-projects__arrows spec-projects__foto-family";
+  grid-template-columns: 603px 134px 1fr;
+  grid-template-rows: 20px 194px 100px 1fr ;
   max-width: 1360px;
   min-height: 344px;
+  max-height: 453px;
   background-color: rgba(231, 240, 255, 1);
   padding: 30px;
 }

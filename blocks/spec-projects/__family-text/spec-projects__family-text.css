@@ -1,3 +1,5 @@
 .spec-projects__family-text{
   max-width: 427px;
+  grid-area: spec-projects__family-text;
+  
 }

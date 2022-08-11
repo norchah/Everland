@@ -1,4 +1,6 @@
 .spec-projects__arrows{
-  margin: 0;
-  position: relative;
+  margin-top: 65px;
+  grid-area: spec-projects__arrows;
+  display: flex;
+  gap: 8px;
 }
