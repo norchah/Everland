@@ -33,7 +33,7 @@
 @import url(../blocks/nav/__link/nav__link.css);
 
 
-
+/*cards*/
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_correct/card_correct_padding-m.css);
 @import url(../blocks/card/_color/card_color_green.css);
@@ -63,11 +63,9 @@
 @import url(../blocks/card/__icon/_color/card__icon_color_green.css);
 @import url(../blocks/card/__icon/_color/card__icon_color_orange.css);
 @import url(../blocks/card/__icon/_color/card__icon_color_violet.css);
-@import url(../blocks/card/__button/card__button.css);
-@import url(../blocks/card/__button-icon/card__button-icon.css);
-@import url(../blocks/card/__image/_type/card__image_type_small.css);
 @import url(../blocks/card/__theme/card__theme.css);
 @import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__image/_size/card__image_size_s.css);
 @import url(../blocks/card/__date/card__date.css);
 
 
