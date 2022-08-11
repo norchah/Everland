@@ -1,9 +1,0 @@
-.spec-projects__arrow-left{
-  width: 35px;
-  height: 35px;
-  border: none;
-  background-color: rgba(51, 51, 51, 1);
-  border-radius: 6px;
-  transform: rotate(180deg);
-  cursor: pointer;
-}

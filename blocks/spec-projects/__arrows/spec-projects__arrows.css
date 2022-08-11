@@ -3,4 +3,5 @@
   grid-area: spec-projects__arrows;
   display: flex;
   gap: 8px;
+  padding: 0;
 }
