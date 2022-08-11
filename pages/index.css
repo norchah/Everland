@@ -37,6 +37,14 @@
 @import url(../blocks/nav/nav__menu/nav__menu.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/everland/everland.css);
+@import url(../blocks/everland/__container/everland__container.css);
+@import url(../blocks/everland/__main-head/everland__main-head.css);
+@import url(../blocks/everland/__span-accent/everland__span-accent.css);
+@import url(../blocks/everland/__description/everland__description.css);
+@import url(../blocks/everland/__image/everland__image.css);
+@import url(../blocks/everland/__image/_absolute/everland__image_absolute.css);
+@import url(../blocks/everland/__buttons-list/everland__buttons-list.css);
+@import url(../blocks/everland/__page-count/everland__page-count.css);
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_correct/card_correct_padding-m.css);

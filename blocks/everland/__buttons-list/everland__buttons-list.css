@@ -1,0 +1,8 @@
+.everland__buttons-list {
+    margin: 127px 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    max-width: 126px;
+    justify-content: space-between;
+}
