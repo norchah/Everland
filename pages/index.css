@@ -3,7 +3,6 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/footer/footer.css);
-
 @import url(../blocks/footer/__address/footer__address.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
@@ -25,5 +24,3 @@
 @import url(../blocks/footer/__ya-workshop-box/footer__ya-workshop-box.css);
 @import url(../blocks/footer/__ya-workshop-caption/footer__ya-workshop-caption.css);
 @import url(../blocks/footer/__ya-workshop-logo/footer__ya-workshop-logo.css);
-
-@import url(../blocks/main-text/main-text.css);
