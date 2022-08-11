@@ -5,4 +5,6 @@
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+  box-sizing: border-box;
+  list-style-type: none;
 }
