@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feature: add files">
-      <change afterPath="$PROJECT_DIR$/blocks/form/__logo/_type/form__logo_type_maestro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__logo/_type/form__logo_type_mastercard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__logo/_type/form__logo_type_mir.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__logo/_type/form__logo_type_visa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_location/button_location_form-payment.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_location/button_location_form-payment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_location/button_location_form-question.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__question-icon/form__question-icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/_payment-method/form__button-container_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/_payment-method/form__button-container_payment-method.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__item/_text-input/form__item_text-input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__item/_text-input/form__item_text-input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__label/form__label.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__label/form__label.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-web-money.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo-yu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logos-card-networks.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: add changes to question mark, text-inputs and logos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +53,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660166797098</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix: add changes to question mark, text-inputs and logos">
+      <created>1660247851383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660247851383</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +79,7 @@
     <MESSAGE value="refactor: delete the old version of form" />
     <MESSAGE value="refactor: change classes in labels and inputs + pixel perfect modifications" />
     <MESSAGE value="fix: delete &quot;for&quot; in spans created for inputs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: delete &quot;for&quot; in spans created for inputs" />
+    <MESSAGE value="fix: add changes to question mark, text-inputs and logos" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add changes to question mark, text-inputs and logos" />
   </component>
 </project>
