@@ -1,9 +1,0 @@
-.header__container {
-    position: sticky;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1.44fr 1fr 0.9fr;
-    justify-content: space-between;
-    align-items: center;
-}
