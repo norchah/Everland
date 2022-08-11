@@ -5,12 +5,16 @@
 @import url(../blocks/button/_size/button_size_s.css);
 @import url(../blocks/button/_size/button_size_m.css);
 @import url(../blocks/button/_size/button_size_l.css);
+@import url(../blocks/button/_size/button_size_xs.css);
 @import url(../blocks/button/_back-clr/button_back-clr_white.css);
 @import url(../blocks/button/_back-clr/button_back-clr_blue.css);
+@import url(../blocks/button/_back-clr/button_back-clr_black.css);
 @import url(../blocks/button/_text-clr/button_text-clr_white.css);
 @import url(../blocks/button/_text-clr/button_text-clr_blue.css);
 @import url(../blocks/button/_text-clr/button_text-clr_black.css);
 @import url(../blocks/button/_border-clr/button_border-clr_blue.css);
+@import url(../blocks/button/_arrow/button_arrow_left.css);
+@import url(../blocks/button/_arrow/button_arrow_right.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_size/link_size_l.css);
 @import url(../blocks/link/_color/link_color_blue.css);
@@ -36,7 +40,6 @@
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/nav__menu/nav__menu.css);
 @import url(../blocks/nav/__link/nav__link.css);
-
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_correct/card_correct_padding-m.css);
 @import url(../blocks/card/_color/card_color_green.css);
