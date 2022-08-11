@@ -35,16 +35,24 @@
 
 
 @import url(../blocks/card/card.css);
-@import url(../blocks/card/__container/card__container.css);
-@import url(../blocks/card/__title/card__title.css);
-@import url(../blocks/card/__main-text/card__main-text.css);
+@import url(../blocks/card/_correct/card_correct_padding-m.css);
 @import url(../blocks/card/_color/card_color_green.css);
-@import url(../blocks/card/_position/card_position_padding30.css);
 @import url(../blocks/card/_color/card_color_blue.css);
 @import url(../blocks/card/_color/card_color_orange.css);
 @import url(../blocks/card/_color/card_color_violet.css);
 @import url(../blocks/card/_color/card_color_white.css);
+@import url(../blocks/card/_height/card_height_long.css);
+@import url(../blocks/card/__container/card__container.css);
 @import url(../blocks/card/__container/_size/card__container_size_m.css);
+@import url(../blocks/card/__container/_type/card__container_type_flex.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__title/_position/card__title_position_top-s.css);
+@import url(../blocks/card/__title/_position/card__title_position_top-m.css);
+@import url(../blocks/card/__main-text/card__main-text.css);
+@import url(../blocks/card/__main-text/_size/card__main-text_size_l.css);
+@import url(../blocks/card/__main-text/_size/card__main-text_size_m.css);
+@import url(../blocks/card/__main-text/_size/card__main-text_size_s.css);
+@import url(../blocks/card/__main-text/_type/card__main-text_type_stretched.css);
 @import url(../blocks/card/__container-icon/card__container-icon.css);
 @import url(../blocks/card/__container-icon/_color/card__container-icon_color_blue.css);
 @import url(../blocks/card/__container-icon/_color/card__container-icon_color_green.css);
@@ -55,20 +63,13 @@
 @import url(../blocks/card/__icon/_color/card__icon_color_green.css);
 @import url(../blocks/card/__icon/_color/card__icon_color_orange.css);
 @import url(../blocks/card/__icon/_color/card__icon_color_violet.css);
-@import url(../blocks/card/__title/_position/card__title_position_top40.css);
-@import url(../blocks/card/__main-text/_size/card__main-text_size_l.css);
-@import url(../blocks/card/__main-text/_size/card__main-text_size_m.css);
-@import url(../blocks/card/__main-text/_size/card__main-text_size_s.css);
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__button-icon/card__button-icon.css);
 @import url(../blocks/card/__image/_type/card__image_type_small.css);
-@import url(../blocks/card/_height/card_height_long.css);
 @import url(../blocks/card/__theme/card__theme.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__date/card__date.css);
-@import url(../blocks/card/__container/_type/card__container_type_flex.css);
-@import url(../blocks/card/__main-text/_type/card__main-text_type_stretched.css);
-@import url(../blocks/card/__title/_position/card__title_position_top30.css);
+
 
 
 
