@@ -4,7 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: merge commit" />
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blocks/button/_arrow/button_arrow_left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/button/_arrow/button_arrow_right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/button/_back-clr/button_back-clr_black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/button/_border-clr/button_border-clr_black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/button/_size/button_size_xs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/card__container-icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container/_size/card__container_size_m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container/_type/card__container_type_flex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container/card__container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__date/card__date.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/card__icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__image/_size/card__image_size_s.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__image/card__image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_size/card__main-text_size_l.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_size/card__main-text_size_m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_size/card__main-text_size_s.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_type/card__main-text_type_stretched.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/card__main-text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__theme/card__theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__title/_position/card__title_position_top-m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__title/_position/card__title_position_top-s.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__title/card__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_white.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_correct/card_correct_padding-m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_height/card_height_long.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__item/menu__item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__link/menu__link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__list-heading/_correct-size/menu__list-heading_correct-size.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__list-heading/menu__list-heading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__list/menu__list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/nav/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/_opened/popup_opened.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Icon/briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Icon/button-arrow-toleft-ico.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Icon/button-arrow-toright-ico.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Icon/following.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Icon/wheelchair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image-of-a-seller-and-a-customer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image-of-new-year.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/portfolio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__container/header__container.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__container/header__container.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__menu/header__menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__menu-button/header__menu-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/nav/nav__menu/nav__menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/nav/nav__menu/nav__menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
