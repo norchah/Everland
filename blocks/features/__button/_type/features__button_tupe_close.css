@@ -1,0 +1,12 @@
+.features__button {
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+
+  background: #0C4BA0;;
+  border: none;
+  border-radius: 20px;
+  background-image: url(../../../images/Icon/accordeon-icon-cross.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

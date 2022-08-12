@@ -148,8 +148,3 @@
 @import url(../blocks/features/__item-container/feature__item-container.css);
 @import url(../blocks/features/__text/features__text.css);
 
-
-@import url(../blocks/accordion-body/accordion-body.css);
-@import url(../blocks/accordion-header/accordion-header.css);
-@import url(../blocks/accordion-opened/accordion-opened.css);
-@import url(../blocks/accordion-section/accordion-section.css);
