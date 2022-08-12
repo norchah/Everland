@@ -1,0 +1,5 @@
+.form__button-container {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
