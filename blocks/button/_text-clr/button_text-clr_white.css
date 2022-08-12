@@ -1,0 +1,18 @@
+.button_text-clr_white {
+    color: white;
+}
+
+.button_text-clr_white:hover {
+    background-color: #4183DC;
+}
+
+.button_text-clr_white:active {
+    background-color: #00275C;
+}
+
+.button_text-clr_white:disabled {
+    border: 2px solid #C4C4C4;
+    color: rgba(38, 38, 38, .5);
+    cursor: auto;
+    background-color: #F5F5F5;
+}
