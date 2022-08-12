@@ -109,3 +109,47 @@
 @import url(../blocks/everland/__buttons-list/everland__buttons-list.css);
 @import url(../blocks/everland/__page-count/everland__page-count.css);
 @import url(../blocks/for-who/for-who.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__container/features__container.css);
+@import url(../blocks/features/__title/features__title.css);
+@import url(../blocks/features/__item/features__item.css);
+@import url(../blocks/features/__button/features__button.css);
+@import url(../blocks/features/__item-container/feature__item-container.css);
+@import url(../blocks/features/__text/features__text.css);
+
+
+@import url(../blocks/accordion-body/accordion-body.css);
+@import url(../blocks/accordion-header/accordion-header.css);
+@import url(../blocks/accordion-opened/accordion-opened.css);
+@import url(../blocks/accordion-section/accordion-section.css);
