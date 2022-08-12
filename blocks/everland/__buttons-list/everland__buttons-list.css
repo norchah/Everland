@@ -7,3 +7,9 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 1439px) {
+    .everland__buttons-list {
+        margin: 70px 0 0;
+    }
+}
