@@ -1,6 +1,7 @@
 .footer__support-title {
   grid-row: 3/4;
   grid-column: 1/2;
+  align-self: flex-end;
   padding: 71px 0 10px 0;
   box-sizing: border-box;
   overflow: hidden;
@@ -8,4 +9,33 @@
   font-weight: 700;
   font-size: 34px;
   line-height: 1.2;
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__support-title {
+    font-size: 29px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__support-title {
+    font-size: 20px;
+    padding: 0 0 36px 0;
+    max-width: 235px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer__support-title {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__support-title {
+    font-size: 16px;
+    padding: 17px 0 36px 0;
+  }
 }

@@ -8,4 +8,19 @@
   gap: 34px;
   box-sizing: border-box;
   list-style-type: none;
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__links-social-net {
+    gap: 30px;
+    padding: 14px 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__links-social-net {
+    gap: 20px;
+    padding: 10px;
+  }
 }
