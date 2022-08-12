@@ -1,7 +1,0 @@
-.spec-projects__foto-number{
-  max-width: 100%;
-  object-fit: cover;
-  display: grid;
-  grid-area: foto-number;
-  border-radius: 30px;
-}

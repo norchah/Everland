@@ -1,4 +1,6 @@
 .nav__link {
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     color: #333;
     font-size: 20px;
@@ -10,3 +12,5 @@
 .nav__link:hover {
     color: #00275C;
 }
+
+/* TODO добавить стили или объединить со ссылками */
