@@ -15,3 +15,16 @@
 .button:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 1439px) {
+    .button {
+        font-size: 16px;
+        height: 44px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .button {
+        font-size: 14px;
+    }
+}
