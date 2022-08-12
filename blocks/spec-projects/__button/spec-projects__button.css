@@ -1,4 +1,4 @@
 .spec-projects__button{
   grid-area: spec-projects__button;
-  margin-top: 50px;
+  margin:0;
 }
