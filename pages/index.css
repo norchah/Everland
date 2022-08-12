@@ -63,6 +63,7 @@
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__image/_size/card__image_size_s.css);
 @import url(../blocks/card/__date/card__date.css);
+@import url(../blocks/directions/directions.css);
 @import url(../blocks/form/__heading/form__heading.css);
 @import url(../blocks/form/__input-container/form__input-container.css);
 @import url(../blocks/form/__input-container/_donation-frequency/form__input-container_donation-frequency.css);
