@@ -11,6 +11,7 @@
 @media screen and (max-width: 1439px) {
     .header__buttons {
         width: 276px;
+        justify-self: end;
     }
 }
 

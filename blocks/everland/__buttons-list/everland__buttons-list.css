@@ -10,7 +10,13 @@
 
 @media screen and (max-width: 1439px) {
     .everland__buttons-list {
-        margin: 48px 0 0;
+        margin: 88px 0 0;
         max-width: 97px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .everland__buttons-list {
+        margin: 48px 0 0;
     }
 }
