@@ -1,6 +1,4 @@
 .digits{
-  max-width: 1360px;
-  margin:0 auto;
-  margin-top: 150px;
+  padding: 150px 40px 0%;
   color: rgba(51, 51, 51, 1);
 }
