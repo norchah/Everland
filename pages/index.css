@@ -47,6 +47,7 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_photo/section-title_photo.css);
 @import url(../blocks/cards-container/cards-container.css);
+
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_correct/card_correct_padding-m.css);
 @import url(../blocks/card/_color/card_color_green.css);
@@ -80,12 +81,9 @@
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__image/_size/card__image_size_s.css);
 @import url(../blocks/card/__date/card__date.css);
-<<<<<<< HEAD
+
 @import url(../blocks/directions/directions.css);
-=======
-@import url(../blocks/for-who/for-who.css);
-@import url(../blocks/cards-container/cards-container.css);
->>>>>>> develop
+
 @import url(../blocks/form/__heading/form__heading.css);
 @import url(../blocks/form/__input-container/form__input-container.css);
 @import url(../blocks/form/__input-container/_donation-frequency/form__input-container_donation-frequency.css);
