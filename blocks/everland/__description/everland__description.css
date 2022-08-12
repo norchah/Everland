@@ -6,3 +6,15 @@
     line-height: 1.3;
     max-width: 543px;
 }
+
+@media screen and (max-width: 1439px) {
+    .everland__description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .everland__description {
+        max-width: 401px;
+    }
+}
