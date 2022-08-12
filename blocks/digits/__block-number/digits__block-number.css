@@ -1,0 +1,9 @@
+.digits__block-number {
+  display: grid;
+  height: 368px;
+  grid-template-areas:
+  "foto-number numbers";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 135px;
+}

@@ -1,0 +1,31 @@
+.footer__ya-workshop-logo {
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 auto;
+  width: 162px;
+  height: 28px;
+  padding: 0;
+  margin: 0;
+  background: url(../../../images/yandex-workshop.svg) center / 100% auto no-repeat;
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (min-width: 450px) {
+  .footer__ya-workshop-logo:hover {
+    opacity: 0.6;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__ya-workshop-logo {
+    width: 150px;
+    height: 26px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__ya-workshop-logo {
+    width: 116px;
+    height: 20px;
+  }
+}
