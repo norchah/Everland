@@ -2,9 +2,44 @@
   grid-row: 3/4;
   grid-column: 2/3;
   padding: 71px 0 10px 0;
+  align-self: flex-end;
   box-sizing: border-box;
   overflow: hidden;
   margin: 0;
   box-sizing: border-box;
   list-style-type: none;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+  max-width: 670px;
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__title-social-net {
+    font-size: 29px;
+    padding: 60px 0 10px 0;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__title-social-net {
+    font-size: 20px;
+    padding: 40px 0 12px 3px;
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer__title-social-net {
+    padding: 13px 0 8px 0;
+    max-width: 185px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__title-social-net {
+    font-size: 16px;
+  }
 }

@@ -3,7 +3,6 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/footer/footer.css);
-
 @import url(../blocks/footer/__address/footer__address.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
@@ -20,10 +19,10 @@
 @import url(../blocks/footer/__support-logo/footer__support-logo.css);
 @import url(../blocks/footer/__support-logos/footer__support-logos.css);
 @import url(../blocks/footer/__support-title/footer__support-title.css);
+@import url(../blocks/footer/__support-logo/--image_beeline/footer__support-logo--image_beeline.css);
+@import url(../blocks/footer/__support-logo/--image_grant-fund/footer__support-logo--image_grant-fund.css);
 @import url(../blocks/footer/__text-info/footer__text-info.css);
 @import url(../blocks/footer/__title-social-net/footer__title-social-net.css);
 @import url(../blocks/footer/__ya-workshop-box/footer__ya-workshop-box.css);
 @import url(../blocks/footer/__ya-workshop-caption/footer__ya-workshop-caption.css);
 @import url(../blocks/footer/__ya-workshop-logo/footer__ya-workshop-logo.css);
-
-@import url(../blocks/main-text/main-text.css);
