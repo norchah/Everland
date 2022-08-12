@@ -27,8 +27,7 @@
 @import url(../blocks/link/_disabled/link_disabled.css);
 @import url(../blocks/link/_disabled/link_disabled_colors.css);
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_position/section-title_position_bottom-m.css);
-@import url(../blocks/section-title/_position/section-title_position_bottom-s.css);
+@import url(../blocks/section-title/_photo/section-title_photo.css);
 @import url(../blocks/cards-container/cards-container.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_correct/card_correct_padding-m.css);
