@@ -5,3 +5,12 @@
     width: 392;
     height: 407;
 }
+
+@media screen and (max-width: 1439px) {
+    .everland__image {
+        width: 170px;
+        height: 175px;
+        right: 74px;
+        top: 114px;
+    }
+}
