@@ -4,70 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blocks/button/_arrow/button_arrow_left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/button/_arrow/button_arrow_right.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/button/_back-clr/button_back-clr_black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/button/_border-clr/button_border-clr_black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/button/_size/button_size_xs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/card__container-icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__container/_size/card__container_size_m.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__container/_type/card__container_type_flex.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__container/card__container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__date/card__date.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/card__icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__image/_size/card__image_size_s.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__image/card__image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_size/card__main-text_size_l.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_size/card__main-text_size_m.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_size/card__main-text_size_s.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_type/card__main-text_type_stretched.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/card__main-text.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__theme/card__theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__title/_position/card__title_position_top-m.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__title/_position/card__title_position_top-s.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/__title/card__title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_violet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_white.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/_correct/card_correct_padding-m.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/_height/card_height_long.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/card/card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__item/menu__item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__link/menu__link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__list-heading/_correct-size/menu__list-heading_correct-size.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__list-heading/menu__list-heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/__list/menu__list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/menu/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/nav/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/popup/_opened/popup_opened.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/popup/popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Icon/briefcase.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Icon/button-arrow-toleft-ico.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Icon/button-arrow-toright-ico.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Icon/following.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Icon/wheelchair.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image-of-a-seller-and-a-customer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/image-of-new-year.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/portfolio.png" afterDir="false" />
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: delete html for the form for future merge">
+      <change afterPath="$PROJECT_DIR$/blocks/support/__amount/support__amount.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/support/__donation-info/support__donation-info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/support/__donations-container/support__donations-container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/support/__donations/support__donations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/support/__donor/support__donor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/support/__dots-decoration/support__dots-decoration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/support/__main-container/support__main-container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/support/__text/support__text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/support/__time-ago/support__time-ago.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/support/support.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/__container/header__container.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__container/header__container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/__menu/header__menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__menu-button/header__menu-button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/nav/nav__menu/nav__menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/nav/nav__menu/nav__menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="feature/form" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660247851383</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix: delete html for the form for future merge">
+      <created>1660259107425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660259107425</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +109,7 @@
     <MESSAGE value="refactor: change classes in labels and inputs + pixel perfect modifications" />
     <MESSAGE value="fix: delete &quot;for&quot; in spans created for inputs" />
     <MESSAGE value="fix: add changes to question mark, text-inputs and logos" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add changes to question mark, text-inputs and logos" />
+    <MESSAGE value="fix: delete html for the form for future merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: delete html for the form for future merge" />
   </component>
 </project>

@@ -1,0 +1,4 @@
+.support__main-container {
+    display: flex;
+    justify-content: space-between;
+}
