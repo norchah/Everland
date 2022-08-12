@@ -44,12 +44,8 @@
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css);
 @import url(../blocks/button/_border-clr/button_border-clr_black.css);
-@import url(../blocks/nav/nav.css);
-@import url(../blocks/nav/nav__menu/nav__menu.css);
-@import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_position/section-title_position_bottom-m.css);
-@import url(../blocks/section-title/_position/section-title_position_bottom-s.css);
+@import url(../blocks/section-title/_photo/section-title_photo.css);
 @import url(../blocks/cards-container/cards-container.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_correct/card_correct_padding-m.css);
@@ -85,7 +81,6 @@
 @import url(../blocks/card/__image/_size/card__image_size_s.css);
 @import url(../blocks/card/__date/card__date.css);
 @import url(../blocks/for-who/for-who.css);
-@import url(../blocks/section-title/section-title.css);
 @import url(../blocks/cards-container/cards-container.css);
 @import url(../blocks/form/__heading/form__heading.css);
 @import url(../blocks/form/__input-container/form__input-container.css);
@@ -123,9 +118,7 @@
 @import url(../blocks/menu/__list-heading/_correct-size/menu__list-heading_correct-size.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css);
-@import url(../blocks/nav/nav.css);
-@import url(../blocks/nav/nav__menu/nav__menu.css);
-@import url(../blocks/nav/__link/nav__link.css);
+
 @import url(../blocks/everland/everland.css);
 @import url(../blocks/everland/__container/everland__container.css);
 @import url(../blocks/everland/__main-head/everland__main-head.css);
@@ -136,6 +129,7 @@
 @import url(../blocks/everland/__buttons-list/everland__buttons-list.css);
 @import url(../blocks/everland/__page-count/everland__page-count.css);
 @import url(../blocks/for-who/for-who.css);
+
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__block-number/digits__block-number.css);
 @import url(../blocks/digits/__foto-number/digits__foto-number.css);
@@ -153,3 +147,28 @@
 @import url(../blocks/spec-projects/__subtitle/spec-projects__subtitle.css);
 @import url(../blocks/spec-projects/__text/spec-projects__text.css);
 @import url(../blocks/spec-projects/__title/spec-projects__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__links-social-net/footer__links-social-net.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__nav-list/footer__nav-list.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__phone-numbers/footer__phone-numbers.css);
+@import url(../blocks/footer/__phone-number/footer__phone-number.css);
+@import url(../blocks/footer/__soc-net-link/footer__soc-net-link.css);
+@import url(../blocks/footer/__soc-net-link/--icon_telegram/footer__soc-net-link--icon_telegram.css);
+@import url(../blocks/footer/__soc-net-link/--icon_vk/footer__soc-net-link--icon_vk.css);
+@import url(../blocks/footer/__support-logo/footer__support-logo.css);
+@import url(../blocks/footer/__support-logos/footer__support-logos.css);
+@import url(../blocks/footer/__support-title/footer__support-title.css);
+@import url(../blocks/footer/__support-logo/--image_beeline/footer__support-logo--image_beeline.css);
+@import url(../blocks/footer/__support-logo/--image_grant-fund/footer__support-logo--image_grant-fund.css);
+@import url(../blocks/footer/__text-info/footer__text-info.css);
+@import url(../blocks/footer/__title-social-net/footer__title-social-net.css);
+@import url(../blocks/footer/__ya-workshop-box/footer__ya-workshop-box.css);
+@import url(../blocks/footer/__ya-workshop-caption/footer__ya-workshop-caption.css);
+@import url(../blocks/footer/__ya-workshop-logo/footer__ya-workshop-logo.css);
