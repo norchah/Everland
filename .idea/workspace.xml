@@ -7,7 +7,6 @@
     <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: add section after merge conflict">
       <change afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_size/form__radio-button_size_m.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blocks/section-title/_support/section-title_support.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/button/_location/button_location_form-payment.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_location/button_location_form-payment.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/button/_location/button_location_form-submit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_location/button_location_form-submit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/_payment-method/form__button-container_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/_payment-method/form__button-container_payment-method.css" afterDir="false" />
@@ -25,8 +24,6 @@
       <change beforePath="$PROJECT_DIR$/blocks/support/__item/_type/support__item_type_dots-decoration.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/support/__item/_type/support__item_type_dots-decoration.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/support/__item/support__item.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/support/__item/support__item.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/support/__text/support__text.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/support/__text/support__text.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +42,12 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/blocks/support/__item/_type" />
@@ -115,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660372469003</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add donations">
+      <created>1660390136195</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660390136195</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +142,7 @@
     <MESSAGE value="fix: delete html for the form for future merge" />
     <MESSAGE value="feat: add draft section" />
     <MESSAGE value="fix: add section after merge conflict" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add section after merge conflict" />
+    <MESSAGE value="feat: add donations" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add donations" />
   </component>
 </project>
