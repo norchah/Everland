@@ -17,7 +17,7 @@ function toggleAccordion(evt) {
   const accordionItem = evt.target.closest('.accordion__heading')
   if (accordionItem) {
       accordionItem.parentNode.classList.toggle('accordion__opened')
-      toggleOtherItems(itemHeader)
+      toggleOtherItems(accordionItem)
   }
 }
 
