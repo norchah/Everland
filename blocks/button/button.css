@@ -9,8 +9,22 @@
     background-repeat: no-repeat;
     background-position: center;
     transition: background-color .1s linear, color .1s linear, border .1s linear;
+
 }
 
 .button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+    .button {
+        font-size: 16px;
+        height: 44px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .button {
+        font-size: 14px;
+    }
 }

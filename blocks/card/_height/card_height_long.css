@@ -1,4 +1,4 @@
 .card_height_long {
-    height: 800px;
+    min-height: 800px;
     border: 1px solid #DADADA;
 }
