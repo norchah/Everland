@@ -1,0 +1,23 @@
+.support__text {
+    display: inline;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0;
+    text-align: center;
+    max-width: 488px;
+    width: 100%;
+    margin: 0;
+    padding: 36px 0 74px;
+}
+
+@media screen and (max-width: 768px){
+    .support__text {
+        font-size: 26px;
+        line-height: 31px;
+        max-width: 531px;
+        padding: 48px 0 32px;
+    }
+}
+
+
