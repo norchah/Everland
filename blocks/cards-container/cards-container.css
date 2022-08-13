@@ -1,5 +1,6 @@
-.cards-container{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+.cards-container {
+  display: flex;
+  gap: 20px;
+  /* max-width: 1380px; */
+  flex-wrap: wrap;
 }
