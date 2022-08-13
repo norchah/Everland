@@ -1,0 +1,8 @@
+.stories {
+  outline: #df00cd solid 1px;
+  box-sizing: border-box;
+  padding: 150px 40px 100px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, minmax(min-content, max-content));
+}
