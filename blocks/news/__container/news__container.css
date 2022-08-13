@@ -1,0 +1,5 @@
+.news__container {
+  display: grid;
+  grid-template-columns: 86% 1fr;
+  grid-template-rows: 130px 1fr;
+}

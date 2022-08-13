@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     background-position: center;
     transition: background-color .1s linear, color .1s linear, border .1s linear;
+
 }
 
 .button:hover {
