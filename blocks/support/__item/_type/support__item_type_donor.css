@@ -1,6 +1,6 @@
-.support__donor {
+.support__item_type_donor {
     grid-row: 1/2;
     grid-column: 1/2;
     margin: 0;
-    padding: 0;
+    padding-right: 7px;
 }

@@ -8,3 +8,11 @@
     max-width: 652px;
     width: 100%;
 }
+
+@media screen and (max-width: 768px){
+    .form__paragraph {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+    }
+}

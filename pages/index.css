@@ -49,12 +49,12 @@
 @import url(../blocks/support/__donations-container/support__donations-container.css);
 @import url(../blocks/support/__text/support__text.css);
 @import url(../blocks/support/__main-container/support__main-container.css);
-@import url(../blocks/support/__amount/support__amount.css);
+@import url(../blocks/support/__item/_type/support__item_type_amount.css);
 @import url(../blocks/support/__donation-info/support__donation-info.css);
-@import url(../blocks/support/__donor/support__donor.css);
-@import url(../blocks/support/__dots-decoration/support__dots-decoration.css);
-@import url(../blocks/support/__time-ago/support__time-ago.css);
-
+@import url(../blocks/support/__item/_type/support__item_type_donor.css);
+@import url(../blocks/support/__item/_type/support__item_type_dots-decoration.css);
+@import url(../blocks/support/__item/_type/support__item_type_time-ago.css);
+@import url(../blocks/support/__item/support__item.css);
 
 /*form*/
 @import url(../blocks/form/__heading/form__heading.css);

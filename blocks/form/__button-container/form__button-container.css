@@ -3,3 +3,9 @@
     gap: 5px;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px){
+    .form__button-container {
+        gap: 14px;
+    }
+}

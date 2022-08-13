@@ -3,3 +3,11 @@
      width: 194px;
      margin: 7px 40px 0 0;
  }
+
+ @media screen and (max-width: 768px){
+     .button_location_form-submit {
+         margin: 0;
+         width: 200px;
+         height: 44px;
+     }
+ }

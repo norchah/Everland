@@ -4,3 +4,9 @@
     gap: 5px;
     padding: 16px 0 24px;
 }
+
+@media screen and (max-width: 768px){
+    .form__input-container_donation-amount {
+        padding: 24px 0 26px;
+    }
+}
