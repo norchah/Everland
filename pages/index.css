@@ -46,6 +46,7 @@
 @import url(../blocks/button/_border-clr/button_border-clr_black.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_photo/section-title_photo.css);
+@import url(../blocks/section-title/_support/section-title_support.css);
 @import url(../blocks/cards-container/cards-container.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/nav__menu/nav__menu.css);
@@ -80,6 +81,7 @@
 @import url(../blocks/form/__button-container/_payment-method/form__button-container_payment-method.css);
 @import url(../blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css);
 @import url(../blocks/form/__radio-button/_donation-frequency/form__radio-button_donation-frequency.css);
+@import url(../blocks/form/__radio-button/_size/form__radio-button_size_m.css);
 @import url(../blocks/form/__item/_text-input/form__item_text-input.css);
 @import url(../blocks/form/__input-container/_donor-info/form__input-container_donor-info.css);
 @import url(../blocks/form/__checkbox/form__checkbox.css);

@@ -22,3 +22,11 @@
     top: 0;
     background: linear-gradient(transparent, #E7F0FF);
 }
+
+@media screen and (max-width: 768px){
+    .support__donations {
+        gap: 26px;
+        height: 459px;
+        max-width: 349px;
+    }
+}

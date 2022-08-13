@@ -12,6 +12,6 @@
     .form__main-container {
         width: 688px;
         height: 858px;
-        padding: 30px;
+        padding: 30px 24px 30px;
     }
 }

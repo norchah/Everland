@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 768px){
     .form__button-container_payment-method {
-        padding: 24px 0px 48px;
+        gap: 17px;
+        padding: 28px 0px 48px;
     }
 }

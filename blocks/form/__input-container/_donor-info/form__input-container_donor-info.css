@@ -4,3 +4,10 @@
     gap: 20px;
     padding: 28px 0 39px;
 }
+
+@media screen and (max-width: 768px){
+    .form__input-container_donor-info {
+        padding: 26px 0 24px;
+        gap: 16px;
+    }
+}

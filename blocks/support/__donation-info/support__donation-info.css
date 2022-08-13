@@ -8,3 +8,9 @@
     width: 100%;
     align-items: baseline;
 }
+
+@media screen and (max-width: 768px){
+    .support__donation-info {
+        min-width: 349px;
+    }
+}

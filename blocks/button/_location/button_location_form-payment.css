@@ -8,3 +8,9 @@
     width: 8px;
     height: 14px;
 }
+
+@media screen and (max-width: 768px){
+    .button_location_form-payment {
+        margin: 3px 0 0;
+    }
+}

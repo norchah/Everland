@@ -4,7 +4,6 @@
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0;
-    height: 138px;
     max-width: 652px;
     width: 100%;
 }
@@ -14,5 +13,6 @@
         font-size: 14px;
         font-weight: 500;
         line-height: 17px;
+        max-width: 633px;
     }
 }
