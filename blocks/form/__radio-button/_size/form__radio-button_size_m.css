@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px){
+    .form__radio-button_size_m  {
+        width: 190px;
+    }
+}

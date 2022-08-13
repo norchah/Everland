@@ -3,3 +3,10 @@
     display: flex;
     gap: 20px;
 }
+
+@media screen and (max-width: 768px){
+    .form__input-container_donation-frequency {
+        gap: 16px;
+        padding: 0 0 32px 5px;
+    }
+}
