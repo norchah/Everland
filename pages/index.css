@@ -90,6 +90,7 @@
 @import url(../blocks/form/__radio-button/_donation-frequency/form__radio-button_donation-frequency.css);
 @import url(../blocks/form/__radio-button/_size/form__radio-button_size_m.css);
 @import url(../blocks/form/__radio-button/_color/form__radio-button_color_white.css);
+@import url(../blocks/form/__radio-button/_margin/form__radio-button_margin_none.css);
 @import url(../blocks/form/__radio-button/_border-style/form__radio-button_border-style_none.css);
 @import url(../blocks/form/__item/_text-input/form__item_text-input.css);
 @import url(../blocks/form/__input-container/_donor-info/form__input-container_donor-info.css);

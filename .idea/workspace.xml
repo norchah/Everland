@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: add section after merge conflict">
-      <change afterPath="$PROJECT_DIR$/blocks/donations/__button-container/donations__button-container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/donations/__main-container/donations__main-container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/donations/_location/donations_location_everland.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/donations/donations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_border-style/form__radio-button_border-style_none.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_color/form__radio-button_color_white.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: add section after merge conflict" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
