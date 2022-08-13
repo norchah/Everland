@@ -7,10 +7,4 @@ menuButton.addEventListener("click", () => {
 
 
 
-const accordion = document.querySelectorAll('accordion-body');
 
-for (i=0; i<accordion.length; i++) {
-  accordion[i].addEventListener('click', function(){
-    this.classList.toggle('active')
-  });
-}

@@ -1,4 +1,5 @@
 .features__container {
+  list-style-type: none;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
