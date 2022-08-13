@@ -1,3 +1,15 @@
 .directions{
     padding: 100px 40px;
 }
+
+@media screen and (max-width:1439px) {
+    .directions{
+        padding: 50px 40px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .directions{
+        padding: 32px 10px;
+    }
+}
