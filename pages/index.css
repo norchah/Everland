@@ -46,7 +46,55 @@
 @import url(../blocks/button/_border-clr/button_border-clr_black.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_photo/section-title_photo.css);
+@import url(../blocks/section-title/_support/section-title_support.css);
 @import url(../blocks/cards-container/cards-container.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/nav__menu/nav__menu.css);
+@import url(../blocks/nav/__link/nav__link.css);
+
+/*support section*/
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__donations/support__donations.css);
+@import url(../blocks/support/__donations-container/support__donations-container.css);
+@import url(../blocks/support/__text/support__text.css);
+@import url(../blocks/support/__main-container/support__main-container.css);
+@import url(../blocks/support/__item/_type/support__item_type_amount.css);
+@import url(../blocks/support/__donation-info/support__donation-info.css);
+@import url(../blocks/support/__item/_type/support__item_type_donor.css);
+@import url(../blocks/support/__item/_type/support__item_type_dots-decoration.css);
+@import url(../blocks/support/__item/_type/support__item_type_time-ago.css);
+@import url(../blocks/support/__item/support__item.css);
+
+/*form*/
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__input-container/_donation-frequency/form__input-container_donation-frequency.css);
+@import url(../blocks/form/__input-container/_payment-method/form__input-container_payment-method.css);
+@import url(../blocks/form/__main-container/form__main-container.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__radio-button/form__radio-button.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__label/_checkbox/form__label_checkbox.css);
+@import url(../blocks/form/__paragraph/form__paragraph.css);
+@import url(../blocks/form/__button-container/form__button-container.css);
+@import url(../blocks/form/__input-container/_donation_amount/form__input-container_donation-amount.css);
+@import url(../blocks/form/__button-container/_payment-method/form__button-container_payment-method.css);
+@import url(../blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css);
+@import url(../blocks/form/__radio-button/_donation-frequency/form__radio-button_donation-frequency.css);
+@import url(../blocks/form/__radio-button/_size/form__radio-button_size_m.css);
+@import url(../blocks/form/__item/_text-input/form__item_text-input.css);
+@import url(../blocks/form/__input-container/_donor-info/form__input-container_donor-info.css);
+@import url(../blocks/form/__checkbox/form__checkbox.css);
+@import url(../blocks/form/__label-link/form__label-link.css);
+@import url(../blocks/form/__label-text/form__label-text.css);
+@import url(../blocks/form/__input-container/_agreement/form__input-container_agreement.css);
+@import url(../blocks/form/__question-icon/form__question-icon.css);
+
+
+
+
+
+
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_correct/card_correct_padding-m.css);
 @import url(../blocks/card/_color/card_color_green.css);
