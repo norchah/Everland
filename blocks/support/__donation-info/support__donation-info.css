@@ -1,0 +1,16 @@
+.support__donation-info {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
+    grid-gap: 5px;
+    height: 45px;
+    min-width: 396px;
+    width: 100%;
+    align-items: baseline;
+}
+
+@media screen and (max-width: 768px){
+    .support__donation-info {
+        min-width: 349px;
+    }
+}

@@ -3,7 +3,7 @@
     position: relative;
     display: inline-flex;
     align-items: center;
-    max-width: 100%;
+    width: min-content;
     text-decoration: none;
     color: inherit;
     font-size: 20px;
