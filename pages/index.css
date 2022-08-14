@@ -142,7 +142,6 @@
 
 @import url(../blocks/features/features.css);
 @import url(../blocks/features/__accordion/features__accordion.css);
-@import url(../blocks/features/__accordion/_type/features__accordion_type_opened.css);
 @import url(../blocks/features/__accordion-title/features__accordion-title.css);
 @import url(../blocks/features/__accordion-text/features__accordion-text.css);
 @import url(../blocks/features/__accordion-item/features__accordion-item.css);
