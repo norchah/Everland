@@ -1,3 +1,11 @@
 .stories__button {
   outline: #df00cd solid 1px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: flex-end;
+  align-self: flex-start;
+  margin: 18px 20px 0 0;
+  height: fit-content;
+  width: fit-content;
+  padding: 9px 34px 13px;
 }

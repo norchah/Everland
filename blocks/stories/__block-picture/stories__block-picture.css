@@ -1,3 +1,17 @@
 .stories__block-picture {
   outline: #df00cd solid 1px;
+  grid-column: 1/2;
+  grid-row: 1/4;
+  width: 224px;
+  height: 224px;
+  border: none;
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+}
+.stories__block-picture .stories__block-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }

@@ -1,3 +1,36 @@
 .stories__quote {
   outline: #df00cd solid 1px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+}
+.stories__quote::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -80px;
+  width: 61px;
+  height: 61px;
+  background: url(../../../images/Icon_quote.svg) center/60px 60px no-repeat;
+}
+@media screen and (max-width: 1200px) {
+  .stories__quote {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .stories__quote {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .stories__quote {
+    font-size: 16px;
+  }
 }
