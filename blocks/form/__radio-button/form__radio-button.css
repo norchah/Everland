@@ -1,9 +1,9 @@
 .form__radio-button {
     display: inline-block;
     cursor: pointer;
-    border: 1px solid #DADADA;
     height: 48px;
     width: 159px;
+    border: 1px solid transparent;
     border-radius: 10px;
     margin: 0 0 10px 0;
     padding: 9px;
