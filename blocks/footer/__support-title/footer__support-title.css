@@ -9,21 +9,21 @@
   font-weight: 700;
   font-size: 34px;
   line-height: 1.2;
-  transition: all 0.3s ease 0s;
+  transition: all .3s ease 0s;
 }
 
 @media screen and (max-width: 1200px) {
   .footer__support-title {
-    font-size: 29px;
     max-width: 400px;
+    font-size: 29px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .footer__support-title {
-    font-size: 20px;
     padding: 0 0 36px 0;
     max-width: 235px;
+    font-size: 20px;
   }
 }
 
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 450px) {
   .footer__support-title {
-    font-size: 16px;
     padding: 17px 0 36px 0;
+    font-size: 16px;
   }
 }
