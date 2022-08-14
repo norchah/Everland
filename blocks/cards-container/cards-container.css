@@ -4,3 +4,9 @@
   /* max-width: 1380px; */
   flex-wrap: wrap;
 }
+
+@media screen and (max-width:767px){
+  .cards-container {
+    gap: 16px;
+  }
+}

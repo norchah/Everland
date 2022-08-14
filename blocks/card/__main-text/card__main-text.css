@@ -6,3 +6,16 @@
     margin-top: 20px;
     color: #333333;
 }
+
+@media screen and (max-width:1439px){
+    .card__main-text {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .card__main-text {
+        font-size: 14px; 
+    }
+}
