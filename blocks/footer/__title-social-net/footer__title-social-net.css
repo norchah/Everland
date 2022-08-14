@@ -8,6 +8,9 @@
   box-sizing: border-box;
   overflow: hidden;
   max-width: 670px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
   transition: all .3s ease 0s;
 }
 
