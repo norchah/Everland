@@ -1,15 +1,3 @@
 .section-title_photo{
     padding: 20px 0;
 }
-
-@media screen and (max-width:1439px){
-    .section-title_photo{
-        padding: 10px 0 12px;
-    }
-}
-
-@media screen and (max-width:767px){
-    .section-title_photo{
-        padding: 20px 0 10px;
-    }
-}

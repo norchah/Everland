@@ -2,15 +2,3 @@
     background-color: #F5F5F5;
     padding: 100px 40px;
 }
-
-@media screen and (max-width:1439px) {
-    .for-who{
-        padding: 50px 40px;
-    }
-}
-
-@media screen and (max-width:767px) {
-    .for-who{
-        padding: 32px 10px;
-    }
-}

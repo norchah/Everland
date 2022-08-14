@@ -28,11 +28,5 @@
     margin-left: 1.7%;
 }
 
-@media screen and (max-width: 768px){
-    .form__heading {
-        font-size: 20px;
-        line-height: 24px;
-    }
-}
 
 

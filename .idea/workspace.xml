@@ -4,15 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add margin style">
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blocks/button/_arrow/button_arrow_left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/button/_arrow/button_arrow_right.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/button/_back-clr/button_back-clr_black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/button/_border-clr/button_border-clr_black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/button/_size/button_size_xs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/_color/card__container-icon_color_violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container-icon/card__container-icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container/_size/card__container_size_m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container/_type/card__container_type_flex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__container/card__container.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__date/card__date.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/_color/card__icon_color_violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__icon/card__icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__image/_size/card__image_size_s.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__image/card__image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_size/card__main-text_size_l.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_size/card__main-text_size_m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_size/card__main-text_size_s.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/_type/card__main-text_type_stretched.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__main-text/card__main-text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__theme/card__theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__title/_position/card__title_position_top-m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__title/_position/card__title_position_top-s.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/__title/card__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_color/card_color_white.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_correct/card_correct_padding-m.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/_height/card_height_long.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/card/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__item/menu__item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__link/menu__link.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__list-heading/_correct-size/menu__list-heading_correct-size.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__list-heading/menu__list-heading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/__list/menu__list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/menu/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/nav/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/_opened/popup_opened.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/popup/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Icon/briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Icon/button-arrow-toleft-ico.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Icon/button-arrow-toright-ico.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Icon/following.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Icon/wheelchair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image-of-a-seller-and-a-customer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/image-of-new-year.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/portfolio.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/donations/_location/donations_location_everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/donations/_location/donations_location_everland.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_location_donations-everland.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_location_payment-method.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_position/form__radio-button_position_last.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/_location/form_location_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/_location/form_location_donations-everland.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__container/header__container.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__container/header__container.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__menu/header__menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__menu-button/header__menu-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/nav/nav__menu/nav__menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/nav/nav__menu/nav__menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +87,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/blocks/form/__radio-button/_location" />
-      <recent name="$PROJECT_DIR$/blocks/form/__input-container/_location" />
-      <recent name="$PROJECT_DIR$/blocks/form/__button-container/_location" />
-      <recent name="$PROJECT_DIR$/blocks/support/__item/_type" />
       <recent name="$PROJECT_DIR$/blocks/form/__question-icon" />
+      <recent name="$PROJECT_DIR$/blocks/form/__radio-button" />
     </key>
   </component>
   <component name="TaskManager">
@@ -81,35 +132,7 @@
       <option name="project" value="LOCAL" />
       <updated>1660247851383</updated>
     </task>
-    <task id="LOCAL-00006" summary="fix: delete html for the form for future merge">
-      <created>1660259107425</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1660259107425</updated>
-    </task>
-    <task id="LOCAL-00007" summary="feat: add draft section">
-      <created>1660300703371</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1660300703371</updated>
-    </task>
-    <task id="LOCAL-00008" summary="fix: add section after merge conflict">
-      <created>1660372469003</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1660372469003</updated>
-    </task>
-    <task id="LOCAL-00009" summary="feat: add margin style">
-      <created>1660390573897</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1660390573897</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,12 +152,6 @@
     <MESSAGE value="refactor: change classes in labels and inputs + pixel perfect modifications" />
     <MESSAGE value="fix: delete &quot;for&quot; in spans created for inputs" />
     <MESSAGE value="fix: add changes to question mark, text-inputs and logos" />
-    <MESSAGE value="fix: delete html for the form for future merge" />
-    <MESSAGE value="feat: add draft section" />
-    <MESSAGE value="fix: add section after merge conflict" />
-    <MESSAGE value="feat: add margin style" />
-    <MESSAGE value="feat: add donations" />
-    <MESSAGE value="feat: before merge cpmmit" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: before merge cpmmit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add changes to question mark, text-inputs and logos" />
   </component>
 </project>

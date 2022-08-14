@@ -6,11 +6,3 @@
     text-align: left;
     color: #333333;
 }
-
-@media screen and (max-width: 768px){
-    .form__label-text {
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 14px;
-    }
-}
