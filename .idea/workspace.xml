@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add smooth scrolling (donations to support)">
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: fix top option in smooth scroll function (donations to support)">
+      <change afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_border-style/form__radio-button_border-style_displayed.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660465095933</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix: fix top option in smooth scroll function (donations to support)">
+      <created>1660466481302</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660466481302</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +157,7 @@
     <MESSAGE value="feat: before merge cpmmit" />
     <MESSAGE value="fix: minor changes (donations)" />
     <MESSAGE value="feat: add smooth scrolling (donations to support)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add smooth scrolling (donations to support)" />
+    <MESSAGE value="fix: fix top option in smooth scroll function (donations to support)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix top option in smooth scroll function (donations to support)" />
   </component>
 </project>
