@@ -1,0 +1,8 @@
+.agency__card{
+    min-height: 428px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap:20px
+}
