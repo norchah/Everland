@@ -18,14 +18,14 @@
 @import url(../blocks/button/_location/button_location_form-payment.css);
 @import url(../blocks/button/_arrow/button_arrow_left.css);
 @import url(../blocks/button/_arrow/button_arrow_right.css);
-@import url(../blocks/link/link.css);
-@import url(../blocks/link/_size/link_size_l.css);
-@import url(../blocks/link/_color/link_color_blue.css);
-@import url(../blocks/link/_color/link_color_orange.css);
-@import url(../blocks/link/_color/link_color_green.css);
-@import url(../blocks/link/_color/link_color_purple.css);
-@import url(../blocks/link/_disabled/link_disabled.css);
-@import url(../blocks/link/_disabled/link_disabled_colors.css);
+@import url(../blocks/link-button/link-button.css);
+@import url(../blocks/link-button/_size/link-button_size_l.css);
+@import url(../blocks/link-button/_color/link-button_color_blue.css);
+@import url(../blocks/link-button/_color/link-button_color_orange.css);
+@import url(../blocks/link-button/_color/link-button_color_green.css);
+@import url(../blocks/link-button/_color/link-button_color_purple.css);
+@import url(../blocks/link-button/_disabled/link-button_disabled.css);
+@import url(../blocks/link-button/_disabled/link-button_disabled_colors.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
@@ -197,3 +197,7 @@
 @import url(../blocks/footer/__ya-workshop-box/footer__ya-workshop-box.css);
 @import url(../blocks/footer/__ya-workshop-caption/footer__ya-workshop-caption.css);
 @import url(../blocks/footer/__ya-workshop-logo/footer__ya-workshop-logo.css);
+
+@import url(../blocks/list/list.css);
+
+@import url(../blocks/enlarged-text/enlarged-text.css);
