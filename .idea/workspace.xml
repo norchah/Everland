@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add margin style">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/donations/_location/donations_location_everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/donations/_location/donations_location_everland.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_location_donations-everland.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_location_payment-method.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_position/form__radio-button_position_last.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/form/_location/form_location_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/_location/form_location_donations-everland.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="feature/donations-component" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
