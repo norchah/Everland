@@ -1,0 +1,19 @@
+.form__radio-button_location_donations-everland {
+    background-color: #fff;
+    margin: 0;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .form__radio-button_location_donations-everland  {
+        height: 44px;
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .form__radio-button_location_donations-everland  {
+        width: 122px;
+        padding: 13px;
+    }
+}
