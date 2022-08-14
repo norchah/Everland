@@ -104,6 +104,7 @@
 @import url(../blocks/card/_color/card_color_violet.css);
 @import url(../blocks/card/_color/card_color_white.css);
 @import url(../blocks/card/_height/card_height_long.css);
+@import url(../blocks/card/_width/card_width_long.css);
 @import url(../blocks/card/__container/card__container.css);
 @import url(../blocks/card/__container/_size/card__container_size_m.css);
 @import url(../blocks/card/__container/_type/card__container_type_flex.css);
