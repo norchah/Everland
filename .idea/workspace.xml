@@ -30,6 +30,7 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
     </list>
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: before merge cpmmit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +43,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -119,6 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660372469003</updated>
     </task>
+    <task id="LOCAL-00009" summary="feat: add donations">
+      <created>1660390136195</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660390136195</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <task id="LOCAL-00009" summary="feat: add margin style">
       <created>1660390573897</created>
       <option name="number" value="00009" />
@@ -151,5 +159,8 @@
     <MESSAGE value="fix: add section after merge conflict" />
     <MESSAGE value="feat: add margin style" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: add margin style" />
+    <MESSAGE value="feat: add donations" />
+    <MESSAGE value="feat: before merge cpmmit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: before merge cpmmit" />
   </component>
 </project>
