@@ -1,4 +1,4 @@
-.form__input-container_donor-info {
+.form__input-container_location_donor-info {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .form__input-container_donor-info {
+    .form__input-container_location_donor-info {
         padding: 26px 0 24px;
         gap: 16px;
     }

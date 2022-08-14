@@ -171,8 +171,38 @@
     </section>
 
     <!-- Пожертвования -->
-    <section class="donations">
+    <section class="donations donations_location_everland">
+        <form class="form form_location_donations-everland">
+                <div class="form__button-container form__button-container_location_donations-everland">
+                    <label class="form__label">
+                        <input id="250-everland" type="radio" class="form__item" name="donation-amount" value="250">
+                        <span class="form__radio-button form__radio-button_location_donations-everland">250₽</span>
+                    </label>
 
+                    <label class="form__label">
+                        <input id="500-everland" type="radio" class="form__item" name="donation-amount" value="500">
+                        <span class="form__radio-button form__radio-button_location_donations-everland">500₽</span>
+                    </label>
+
+                    <label class="form__label">
+                        <input id="750-everland" type="radio" class="form__item" name="donation-amount" value="750">
+                        <span class="form__radio-button form__radio-button_location_donations-everland">750₽</span>
+                    </label>
+
+                    <label class="form__label">
+                        <input id="1000-everland" type="radio" class="form__item" name="donation-amount" value="1000">
+                        <span class="form__radio-button form__radio-button_location_donations-everland">1000₽</span>
+                    </label>
+
+                    <label class="form__label">
+                        <input id="other-everland" type="radio" class="form__item" name="donation-amount" value="other">
+                        <span class="form__radio-button form__radio-button_location_donations-everland form__radio-button_position_donations-last">Другая сумма</span>
+                    </label>
+                </div>
+                <button class="button button_size_xs button_back-clr_blue button_text-clr_white"
+                        type="submit">Поддержать
+                </button>
+        </form>
     </section>
 
     <!-- Для кого мы работаем -->
@@ -440,25 +470,25 @@
               <form class="form">
                   <div class="form__main-container">
 
-                      <fieldset class="form__input-container form__input-container_donation-frequency">
+                      <fieldset class="form__input-container form__input-container_location_donation-frequency">
 
                           <label class="form__label">
                               <input id="monthly" class="form__item" type="radio" name="donation-frequency" value="monthly" checked>
-                              <span class="form__radio-button form__radio-button_donation-frequency">Ежемесячно
+                              <span class="form__radio-button form__radio-button_location_donation-frequency">Ежемесячно
                               <abbr title="..."><span class="form__question-icon"></span></abbr>
                           </span>
                           </label>
 
                           <label class="form__label">
                               <input id="one-time" class="form__item" type="radio" name="donation-frequency" value="one-time">
-                              <span class="form__radio-button form__radio-button_donation-frequency">Разово</span>
+                              <span class="form__radio-button form__radio-button_location_donation-frequency">Разово</span>
                           </label>
 
                       </fieldset>
 
                       <h3 class="form__heading">Размер пожертвования</h3>
 
-                      <fieldset class="form__input-container form__input-container_donation-amount">
+                      <fieldset class="form__input-container form__input-container_location_donation-amount">
 
                           <div class="form__button-container">
 
@@ -484,7 +514,7 @@
 
                               <label class="form__label">
                                   <input id="other" type="radio" class="form__item" name="donation-amount" value="other">
-                                  <span class="form__radio-button form__radio-button_size_m">Другая сумма</span>
+                                  <span class="form__radio-button form__radio-button_position_last">Другая сумма</span>
                               </label>
 
                           </div>
@@ -500,14 +530,14 @@
 
                       <h3 class="form__heading">Способ оплаты</h3>
 
-                      <fieldset class="form__input-container form__input-container_payment-method">
+                      <fieldset class="form__input-container form__input-container_location_payment-method">
 
-                          <div class="form__button-container form__button-container_payment-method">
+                          <div class="form__button-container form__button-container_location_payment-method">
 
                               <label class="form__label">
                                   <input id="card-networks" type="radio" class="form__item" name="payment-method"
                                          value="card-networks" checked>
-                                  <span class="form__radio-button form__radio-button_payment-method">
+                                  <span class="form__radio-button form__radio-button_location_payment-method">
                                   <img src="./images/mir-logo.svg" class="form__logo form__logo_type_mir" alt="Логотип Мир"/>
                                   <img src="./images/maestro-logo.svg" class="form__logo form__logo_type_maestro" alt="Логотип Maestro"/>
                                   <img src="./images/visa-logo.svg" class="form__logo form__logo_type_visa" alt="Логотип Visa"/>
@@ -516,14 +546,14 @@
 
                               <label class="form__label">
                                   <input id="yu" type="radio" class="form__item" name="payment-method" value="yu">
-                                  <span class="form__radio-button form__radio-button_payment-method"><img
+                                  <span class="form__radio-button form__radio-button_location_payment-method"><img
                                           src="./images/yu-logo.svg" alt="Логотип Ю"/></span>
                               </label>
 
                               <label class="form__label">
                                   <input id="web-money" type="radio" class="form__item" name="payment-method"
                                          value="web-money">
-                                  <span class="form__radio-button form__radio-button_payment-method"><img
+                                  <span class="form__radio-button form__radio-button_location_payment-method"><img
                                           src="./images/web-money-logo.svg" alt="Логотип WebMoney"/></span>
                               </label>
 
@@ -535,7 +565,7 @@
 
                       <h3 class="form__heading">Ваши данные</h3>
 
-                      <fieldset class="form__input-container form__input-container_donor-info">
+                      <fieldset class="form__input-container form__input-container_location_donor-info">
 
                           <input type="text" class="form__item form__item_text-input" placeholder="Иван Иванов">
                           <input type="text" class="form__item form__item_text-input" placeholder="myemail@example.com">
@@ -543,7 +573,7 @@
                       </fieldset>
 
 
-                      <fieldset class="form__input-container form__input-container_agreement">
+                      <fieldset class="form__input-container form__input-container_location_agreement">
 
                           <label class="form__label form__label_checkbox" for="offer">
 
