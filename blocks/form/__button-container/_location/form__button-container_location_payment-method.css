@@ -10,3 +10,10 @@
         padding: 28px 0 48px;
     }
 }
+
+@media screen and (max-width: 768px){
+    .form__button-container_location_payment-method {
+        gap: 17px;
+        padding: 16px 0 21px;
+    }
+}
