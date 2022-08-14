@@ -8,8 +8,7 @@
   flex-wrap: wrap;
   box-sizing: border-box;
   justify-content: space-between;
-  gap: 10px;
-  transition: all 0.3s ease 0s;
+  gap: 5px;
 }
 
 @media screen and (max-width: 1200px) {

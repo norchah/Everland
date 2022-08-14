@@ -1,6 +1,6 @@
 .footer {
   box-sizing: border-box;
-  padding: 80px 36px 150px 40px;
+  padding: 80px 36px 84px 40px;
   display: grid;
   column-gap: 2%;
   grid-template-columns: 42% 56%;
