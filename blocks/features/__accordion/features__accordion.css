@@ -1,4 +1,4 @@
-.features__container {
+.features__accordion {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -7,4 +7,3 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, auto);
 }
-

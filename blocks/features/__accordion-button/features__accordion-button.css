@@ -1,4 +1,4 @@
-.features__button {
+.features__accordion-button {
   cursor: pointer;
   width: 45px;
   height: 45px;
@@ -11,11 +11,9 @@
   background-position: 50% 50%;
 }
 
-.features__button:hover {
+.features__accordion-button:hover {
   background: #0C4BA0;
   background-image: url(../../../images/Icon/accordeon-icon-plus-hover.svg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-
-
