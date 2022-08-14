@@ -32,7 +32,27 @@
 @import url(../blocks/link-button/_disabled/link-button_disabled.css);
 @import url(../blocks/link-button/_disabled/link-button_disabled_colors.css);
 
+@import url(../blocks/button/_border-clr/button_border-clr_black.css);
+
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_photo/section-title_photo.css);
 
 @import url(../blocks/stories/stories.css);
+@import url(../blocks/stories/__block-image/stories__block-image.css);
+@import url(../blocks/stories/__block-picture/stories__block-picture.css);
+@import url(../blocks/stories/__block/stories__block.css);
+@import url(../blocks/stories/__blocks/stories__blocks.css);
+@import url(../blocks/stories/__button/stories__button.css);
+@import url(../blocks/stories/__card-image/stories__card-image.css);
+@import url(../blocks/stories/__link-in-card/stories__link-in-card.css);
+@import url(../blocks/stories/__card-picture/stories__card-picture.css);
+@import url(../blocks/stories/__card-title/stories__card-title.css);
+@import url(../blocks/stories/__card/stories__card.css);
+@import url(../blocks/stories/__cards/stories__cards.css);
+@import url(../blocks/stories/__link-in-block/stories__link-in-block.css);
+@import url(../blocks/stories/__name/stories__name.css);
+@import url(../blocks/stories/__quote/stories__quote.css);
+@import url(../blocks/stories/__section-title/stories__section-title.css);
+@import url(../blocks/stories/__text-about/stories__text-about.css);
 
 @import url(../blocks/list/list.css);
