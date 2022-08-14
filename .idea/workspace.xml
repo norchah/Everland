@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: minor changes (donations)">
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add smooth scrolling (donations to support)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660439113392</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: add smooth scrolling (donations to support)">
+      <created>1660465095933</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660465095933</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +144,7 @@
     <MESSAGE value="feat: add donations" />
     <MESSAGE value="feat: before merge cpmmit" />
     <MESSAGE value="fix: minor changes (donations)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: minor changes (donations)" />
+    <MESSAGE value="feat: add smooth scrolling (donations to support)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add smooth scrolling (donations to support)" />
   </component>
 </project>

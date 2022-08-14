@@ -15,7 +15,7 @@ supportButton.addEventListener('click', (e) => {
   const offsetTop = document.querySelector('#support').offsetTop;
 
   scroll({
-    top: offsetTop,
+    top: offsetTop - 80,
     behavior: "smooth"
   });
 });
