@@ -14,7 +14,6 @@
 @media screen and (max-width:767px) {
   .card_height_long {
     max-width: 300px;
-    /* max-height: 448px; */
     display: block;
     height: auto;
   }

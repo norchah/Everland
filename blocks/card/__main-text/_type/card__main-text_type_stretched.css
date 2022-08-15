@@ -8,8 +8,9 @@
     }
 }
 
-/* @media screen and (max-width:767px) {
+@media screen and (max-width:767px) {
   .card__main-text_type_stretched {
-    max-width: 300px;
+    max-height: 153px;
+    width: 252px;
   }
-} */
+}
