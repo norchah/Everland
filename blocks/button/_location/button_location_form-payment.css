@@ -14,3 +14,10 @@
         margin: 3px 0 0;
     }
 }
+
+@media screen and (max-width: 320px){
+    .button_location_form-payment {
+        transform: rotate(90deg);
+        margin: -9px 0 0;
+    }
+}

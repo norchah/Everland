@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: fix top option in smooth scroll function (donations to support)">
       <change afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_border-style/form__radio-button_border-style_displayed.css" afterDir="false" />
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add margin style">
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add section + media queries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" afterDir="false" />
@@ -18,6 +20,10 @@
       <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_location_payment-method.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_position/form__radio-button_position_last.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/form/_location/form_location_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/_location/form_location_donations-everland.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +52,7 @@
       <recent name="$PROJECT_DIR$/blocks/form/__radio-button/_location" />
       <recent name="$PROJECT_DIR$/blocks/form/__input-container/_location" />
       <recent name="$PROJECT_DIR$/blocks/form/__button-container/_location" />
+      <recent name="$PROJECT_DIR$/blocks/form/__radio-button/_sizee" />
       <recent name="$PROJECT_DIR$/blocks/support/__item/_type" />
       <recent name="$PROJECT_DIR$/blocks/form/__question-icon" />
     </key>
@@ -114,6 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1660390573897</updated>
     </task>
+    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00009" summary="feat: add section + media queries">
+      <created>1660380400569</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660380400569</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <task id="LOCAL-00010" summary="fix: minor changes (donations)">
       <created>1660439113392</created>
       <option name="number" value="00010" />
@@ -161,6 +177,9 @@
     <MESSAGE value="feat: add margin style" />
     <MESSAGE value="feat: add donations" />
     <MESSAGE value="feat: before merge cpmmit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: before merge cpmmit" />
+    <MESSAGE value="feat: add section + media queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add section + media queries" />
     <MESSAGE value="fix: minor changes (donations)" />
     <MESSAGE value="feat: add smooth scrolling (donations to support)" />
     <MESSAGE value="fix: fix top option in smooth scroll function (donations to support)" />

@@ -5,3 +5,15 @@
     line-height: 1.2;
     color: #333333;
 }
+
+@media screen and (max-width:1439px){
+    .card__title {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .card__title {
+        font-size: 18px; 
+    }
+}

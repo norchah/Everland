@@ -31,6 +31,18 @@
 }
 
 
+@media screen and (max-width: 320px){
+    .form__item_text-input {
+        padding: 13.5px 0 17.5px 20px;
+        width: 260px;
+    }
+
+    .form__item_text-input::placeholder {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
 
 
 

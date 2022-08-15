@@ -6,3 +6,10 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width:1439px){
+    .card__container-icon{
+        width: 48px;
+        height: 48px;
+    }
+}
