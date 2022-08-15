@@ -8,7 +8,7 @@
     }    
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:800px){
     .card__main-text_size_s{
         max-width: 251px;
     }    
