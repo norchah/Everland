@@ -202,7 +202,5 @@
 @import url(../blocks/list/list.css);
 @import url(../blocks/agency/__subtitle/agency__subtitle.css);
 @import url(../blocks/agency/__title/agency__title.css);
-@import url(../blocks/agency/__cards/agency__cards.css);
 @import url(../blocks/agency/__main-text/agency__main-text.css);
-@import url(../blocks/agency/__card/agency__card.css);
-@import url(../blocks/agency/__button/agency__button.css);
+@import url(../blocks/agency/__section/agency__section.css);
