@@ -26,3 +26,20 @@
     content: 'Посмотреть все';
   }
 }
+
+@media screen and (max-width:767px) {
+  .news__item_type_button {
+
+
+  }
+  .news__item_type_button::before {
+    content: 'Все новости';
+  }
+}
+
+@media screen and (max-width:680px) {
+  .news__item_type_button {
+    grid-column: 1/2;
+    width: 300px;
+  }
+}

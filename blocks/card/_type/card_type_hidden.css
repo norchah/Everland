@@ -3,3 +3,9 @@
   display: none;
 }
 }
+
+@media screen and (max-width:680px) {
+  .card_type_hidden {
+    display: block;
+  }
+}

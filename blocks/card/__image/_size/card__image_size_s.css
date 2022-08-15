@@ -15,3 +15,9 @@
     margin-bottom: -5px;
   }
 }
+
+@media screen and (max-width:767px) {
+  .card__image_size_s {
+    max-width: 252px;
+  }
+}
