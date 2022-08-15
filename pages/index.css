@@ -81,9 +81,9 @@
 @import url(../blocks/form/__radio-button/form__radio-button.css);
 @import url(../blocks/form/__radio-button/_location/form__radio-button_location_payment-method.css);
 @import url(../blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css);
-@import url(../blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css);
 @import url(../blocks/form/__radio-button/_border-style/form__radio-button_border-style_displayed.css);
 @import url(../blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css);
+@import url(../blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css);
 @import url(../blocks/form/__label/form__label.css);
 @import url(../blocks/form/__label/_checkbox/form__label_checkbox.css);
 @import url(../blocks/form/__label-link/form__label-link.css);

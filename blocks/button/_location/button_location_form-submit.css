@@ -11,3 +11,10 @@
          height: 44px;
      }
  }
+
+ @media screen and (max-width: 320px){
+     .button_location_form-submit {
+         margin: 13px 0 0;
+         width: 260px;
+     }
+ }

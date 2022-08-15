@@ -9,3 +9,10 @@
         padding: 0 24px 0;
     }
 }
+
+
+@media screen and (max-width: 320px){
+    .support__item_type_dots-decoration {
+        padding: 0 20px 0;
+    }
+}
