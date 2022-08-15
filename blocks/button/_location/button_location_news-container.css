@@ -1,44 +1,41 @@
-.news__item_type_button {
+.button_location_news_container {
   margin-top: 22px;
   width: 195px;
   margin-left: auto;
 }
 
-.news__item_type_button::before {
+.button_location_news_container::before {
   content: 'Все новости';
 }
 
 @media screen and (max-width:1439px) {
-  .news__item_type_button {
+  .button_location_news_container {
     margin-top: 0;
   }
 }
 
 @media screen and (max-width:1200px) {
-  .news__item_type_button {
+  .button_location_news_container {
       grid-row: 3;
       grid-column: 2;
       margin: 32px auto 0;
       width: 200px;
   }
 
-  .news__item_type_button::before {
+  .button_location_news_container::before {
     content: 'Посмотреть все';
   }
 }
 
 @media screen and (max-width:767px) {
-  .news__item_type_button {
 
-
-  }
-  .news__item_type_button::before {
+  .button_location_news_container::before {
     content: 'Все новости';
   }
 }
 
 @media screen and (max-width:680px) {
-  .news__item_type_button {
+  .button_location_news_container {
     grid-column: 1/2;
     width: 300px;
   }

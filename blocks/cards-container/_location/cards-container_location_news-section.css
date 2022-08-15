@@ -1,10 +1,10 @@
-.news__item_type_container {
+.cards-container_location_news-section {
   grid-column: 1/3;
   flex-wrap: nowrap;
 }
 
 @media screen and (max-width:680px) {
-  .news__item_type_container {
+  .cards-container_location_news-section {
     flex-wrap: wrap;
   }
 }
