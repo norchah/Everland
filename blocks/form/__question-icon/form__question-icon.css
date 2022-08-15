@@ -12,3 +12,10 @@
     background-image: url('../../../images/question-hover.svg');
 }
 
+@media screen and (max-width: 320px){
+    .form__question-icon {
+        margin: 0;
+        width: 10px;
+        height: 10px;
+    }
+}

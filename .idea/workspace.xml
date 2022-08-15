@@ -4,29 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: add section after merge conflict">
-      <change afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_size/form__radio-button_size_m.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/section-title/_support/section-title_support.css" afterDir="false" />
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: fix top option in smooth scroll function (donations to support)">
+      <change afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_border-style/form__radio-button_border-style_displayed.css" afterDir="false" />
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add margin style">
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add section + media queries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_location/button_location_form-payment.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_location/button_location_form-payment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_location/button_location_form-submit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_location/button_location_form-submit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/_payment-method/form__button-container_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/_payment-method/form__button-container_payment-method.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/form__button-container.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/form__button-container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__input-container/_agreement/form__input-container_agreement.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__input-container/_agreement/form__input-container_agreement.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__input-container/_donation-frequency/form__input-container_donation-frequency.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__input-container/_donation-frequency/form__input-container_donation-frequency.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__input-container/_donation_amount/form__input-container_donation-amount.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__input-container/_donation_amount/form__input-container_donation-amount.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__input-container/_donor-info/form__input-container_donor-info.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__input-container/_donor-info/form__input-container_donor-info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__item/_text-input/form__item_text-input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__item/_text-input/form__item_text-input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__main-container/form__main-container.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__main-container/form__main-container.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/form/__paragraph/form__paragraph.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__paragraph/form__paragraph.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/section-title/section-title.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/section-title/section-title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/support/__donation-info/support__donation-info.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/support/__donation-info/support__donation-info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/support/__donations/support__donations.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/support/__donations/support__donations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/support/__item/_type/support__item_type_dots-decoration.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/support/__item/_type/support__item_type_dots-decoration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/support/__item/support__item.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/support/__item/support__item.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/support/__text/support__text.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/support/__text/support__text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add margin style">
+      <change beforePath="$PROJECT_DIR$/blocks/donations/_location/donations_location_everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/donations/_location/donations_location_everland.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_location_donations-everland.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__button-container/_location/form__button-container_location_payment-method.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_position/form__radio-button_position_last.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/_location/form_location_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/_location/form_location_donations-everland.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,26 +33,28 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/form" />
+        <entry key="$PROJECT_DIR$" value="feature/donations-component" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blocks/form/__radio-button/_location" />
+      <recent name="$PROJECT_DIR$/blocks/form/__input-container/_location" />
+      <recent name="$PROJECT_DIR$/blocks/form/__button-container/_location" />
+      <recent name="$PROJECT_DIR$/blocks/form/__radio-button/_sizee" />
       <recent name="$PROJECT_DIR$/blocks/support/__item/_type" />
       <recent name="$PROJECT_DIR$/blocks/form/__question-icon" />
-      <recent name="$PROJECT_DIR$/blocks/form/__radio-button" />
     </key>
   </component>
   <component name="TaskManager">
@@ -115,7 +114,44 @@
       <option name="project" value="LOCAL" />
       <updated>1660372469003</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add margin style">
+      <created>1660390573897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660390573897</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00009" summary="feat: add section + media queries">
+      <created>1660380400569</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660380400569</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix: minor changes (donations)">
+      <created>1660439113392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660439113392</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add smooth scrolling (donations to support)">
+      <created>1660465095933</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660465095933</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: fix top option in smooth scroll function (donations to support)">
+      <created>1660466481302</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660466481302</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +174,15 @@
     <MESSAGE value="fix: delete html for the form for future merge" />
     <MESSAGE value="feat: add draft section" />
     <MESSAGE value="fix: add section after merge conflict" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: add section after merge conflict" />
+    <MESSAGE value="feat: add margin style" />
+    <MESSAGE value="feat: add donations" />
+    <MESSAGE value="feat: before merge cpmmit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: before merge cpmmit" />
+    <MESSAGE value="feat: add section + media queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add section + media queries" />
+    <MESSAGE value="fix: minor changes (donations)" />
+    <MESSAGE value="feat: add smooth scrolling (donations to support)" />
+    <MESSAGE value="fix: fix top option in smooth scroll function (donations to support)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix top option in smooth scroll function (donations to support)" />
   </component>
 </project>

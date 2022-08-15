@@ -1,9 +1,0 @@
-.form__radio-button_donation-frequency {
-    width: 316px;
-}
-
-@media screen and (max-width: 768px){
-    .form__radio-button_donation-frequency {
-        width: 296px;
-    }
-}

@@ -1,0 +1,12 @@
+.form_location_donations-everland {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+    .form_location_donations-everland {
+        gap: 32px;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
