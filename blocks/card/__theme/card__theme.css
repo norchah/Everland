@@ -5,3 +5,11 @@
     color: #333333;
     margin: 0;
 }
+
+@media screen and (max-width:1439px) {
+  .card__theme {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}

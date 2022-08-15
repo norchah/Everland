@@ -1,5 +1,16 @@
 .card__image_size_s {
-  width: 380px;
-  height: 300px;
+  max-width: 380px;
+  width: 100%;
+  height: auto;
   margin-top: 29px;
+  object-fit: cover;
+}
+
+@media screen and (max-width:1439px) {
+  .card__image_size_s {
+    margin-top: 20px;
+    max-width: 274px;
+    border-radius: 20px;
+    aspect-ratio: 137/106;
+  }
 }

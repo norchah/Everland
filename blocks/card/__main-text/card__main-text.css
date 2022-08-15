@@ -11,11 +11,12 @@
     .card__main-text {
         font-size: 16px;
         margin-top: 10px;
+        line-height: 120%;
     }
 }
 
 @media screen and (max-width:767px){
     .card__main-text {
-        font-size: 14px; 
+        font-size: 14px;
     }
 }
