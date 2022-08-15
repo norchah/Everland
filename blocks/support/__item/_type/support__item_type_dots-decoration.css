@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 400px){
     .support__item_type_dots-decoration {
         padding: 0 20px 0;
     }

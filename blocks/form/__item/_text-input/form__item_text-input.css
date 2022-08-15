@@ -30,8 +30,7 @@
     }
 }
 
-
-@media screen and (max-width: 320px){
+@media screen and (max-width: 600px){
     .form__item_text-input {
         padding: 13.5px 0 17.5px 20px;
         width: 260px;

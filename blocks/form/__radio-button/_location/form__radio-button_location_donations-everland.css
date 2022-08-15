@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .form__radio-button_location_donations-everland  {
         width: 122px;
         padding: 13px;

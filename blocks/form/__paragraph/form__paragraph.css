@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 600px){
     .form__paragraph {
         font-size: 12px;
         line-height: 14px;

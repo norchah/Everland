@@ -3,13 +3,13 @@
     padding: 95px 104px 100px 40px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .support {
         padding: 44px 40px 52px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .support {
         padding: 31px 10px 33px;
     }
