@@ -1,0 +1,4 @@
+.features__accordion-item_type_opened .features__accordion-content {
+  display: block;
+  transition: all 0.9s;
+}
