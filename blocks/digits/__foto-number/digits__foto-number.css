@@ -4,4 +4,30 @@
   display: grid;
   grid-area: foto-number;
   border-radius: 30px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .digits__foto-number{
+
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .digits__foto-number{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .digits__foto-number {
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits__foto-number {
+    max-width: 300px;
+    display: grid;
+  }
 }

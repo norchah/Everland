@@ -1,9 +1,44 @@
 .digits__block-number {
   display: grid;
-  height: 368px;
+  min-height: 368px;
   grid-template-areas:
   "foto-number numbers";
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 135px;
+}
+
+@media screen and (max-width: 1200px) {
+  .digits__block-number{
+
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .digits__block-number{
+    grid-template-areas:
+    "numbers";
+    min-height: 191px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .digits__block-number {
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits__block-number{
+    grid-template-areas:
+    "numbers"
+    "foto-number";
+    gap: 24px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    min-height: 516px;
+  }
 }
