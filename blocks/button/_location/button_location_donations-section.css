@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px) {
+    .button_location_donation-section  {
+        margin: 0 auto;
+        max-width: 472px;
+        width: 100%;
+    }
+}

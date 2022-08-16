@@ -2,13 +2,13 @@
     margin: 90px 40px 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 939px) {
     .donations_location_everland  {
         margin: 40px 40px 32px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .donations_location_everland  {
         margin: 40px 10px 32px;
     }

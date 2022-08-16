@@ -16,6 +16,7 @@
 @import url(../blocks/button/_border-clr/button_border-clr_blue.css);
 @import url(../blocks/button/_location/button_location_form-submit.css);
 @import url(../blocks/button/_location/button_location_form-payment.css);
+@import url(../blocks/button/_location/button_location_donations-section.css);
 @import url(../blocks/button/_arrow/button_arrow_left.css);
 @import url(../blocks/button/_arrow/button_arrow_right.css);
 @import url(../blocks/link-button/link-button.css);
