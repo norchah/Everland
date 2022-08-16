@@ -1,16 +1,19 @@
-.section-title{
-    margin: 0;
-    padding: 0 0 50px;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 1.2;
-    letter-spacing: -0.01em;
+.features__title::before {
+  content: 'Главное в работе';
 }
+
+
 
 @media screen and (max-width:1439px){
   .section-title{
       font-size: 36px;
       padding: 0 0 32px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .features__title::before {
+    content: 'Главное в нашей работе';
   }
 }
 
