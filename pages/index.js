@@ -7,7 +7,7 @@ menuButton.addEventListener("click", () => {
 
 
 
-/*smooth scroll to support page*/
+/*smooth scroll to Support section*/
 const supportButton = document.querySelector('.button_support')
 
 supportButton.addEventListener('click', (e) => {
