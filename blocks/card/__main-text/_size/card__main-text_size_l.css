@@ -1,3 +1,9 @@
 .card__main-text_size_l{
     max-width: 440px;
 }
+
+@media screen and (max-width:1439px){
+    .card__main-text_size_l{
+        max-width: 297px;
+    }
+}

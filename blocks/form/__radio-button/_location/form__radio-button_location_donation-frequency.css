@@ -7,3 +7,10 @@
         width: 296px;
     }
 }
+
+@media screen and (max-width: 320px){
+    .form__radio-button_location_donation-frequency {
+        width: 122px;
+        padding-left: 10px;
+    }
+}

@@ -10,3 +10,9 @@
         padding: 24px 0 13px 5px;
     }
 }
+
+@media screen and (max-width: 320px){
+    .form__input-container_location_donation-amount {
+        padding: 22px 0 32px 0px;
+    }
+}

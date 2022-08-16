@@ -11,3 +11,10 @@
         gap: 16px;
     }
 }
+
+@media screen and (max-width: 320px){
+    .form__input-container_location_donor-info {
+        padding: 25px 0 26px;
+        gap: 18px;
+    }
+}
