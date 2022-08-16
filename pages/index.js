@@ -6,6 +6,9 @@ menuButton.addEventListener("click", () => {
 });
 
 
+
+
+//Аккордеон
 const accordionItems = Array.from(document.querySelectorAll('.features__accordion-item'));
 
 accordionItems.forEach((accordionItem) => {
@@ -21,12 +24,11 @@ function accordionHandler(e) {
   
    }
 
-
-
 let accordionButton = document.querySelectorAll('.features__accordion-button')
 
    if (currentAccordionItem.classList.contains('features__accordion_type_opened')) {
     accordionButton.classList.add('features__accordion-button_type_cross');
    } else {
     accordionButton.classList.remove('features__accordion-button_type_cross');
+    
    }

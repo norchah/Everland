@@ -1,5 +1,4 @@
 .features__accordion-content {
   height: 0;
   overflow: hidden;
-  transition: 0.4s;
 }
