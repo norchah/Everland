@@ -6,5 +6,27 @@ menuButton.addEventListener("click", () => {
 });
 
 
+const accordionItems = Array.from(document.querySelectorAll('.features__accordion-item'));
+
+accordionItems.forEach((accordionItem) => {
+  accordionItem.addEventListener('click', accordionHandler);
+});
+
+function accordionHandler(e) {
+  e.preventDefault();
+  let currentAccordionItem = e.target.closest('.features__accordion-item');
+  
+  currentAccordionItem.classList.toggle('features__accordion_type_opened');
+
+  
+   }
 
 
+
+let accordionButton = document.querySelectorAll('.features__accordion-button')
+
+   if (currentAccordionItem.classList.contains('features__accordion_type_opened')) {
+    accordionButton.classList.add('features__accordion-button_type_cross');
+   } else {
+    accordionButton.classList.remove('features__accordion-button_type_cross');
+   }
