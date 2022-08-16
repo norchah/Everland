@@ -9,6 +9,7 @@
   .features__accordion-item {
     border-radius: 20px;
     padding: 19px 20px;
+    max-width: 688px;
   }
 
 }
@@ -22,8 +23,14 @@
 }
 
 @media screen and (max-width: 450px) {
+
+.features__accordion-item {
+  max-width: 300px;
+}
+
   .features__accordion-item:first-child{
     padding: 15px 20px 18px 16px;
+
   }
   .features__accordion-item:nth-child(2) {
     padding: 15px 20px 8px 16px;
