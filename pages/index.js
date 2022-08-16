@@ -23,7 +23,7 @@ function accordionHandler(e) {
 
   
    }
-
+//вот эта часть не работает
 let accordionButton = document.querySelectorAll('.features__accordion-button')
 
    if (currentAccordionItem.classList.contains('features__accordion_type_opened')) {
