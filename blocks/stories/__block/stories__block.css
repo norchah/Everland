@@ -7,3 +7,11 @@
   row-gap: 17px;
   padding: 50px 0;
 }
+.stories__block .stories__picture {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+.stories__block .stories__enlarged-text {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}

@@ -1,0 +1,42 @@
+.stories__enlarged-text {
+  outline: #df00cd solid 1px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+  transition: all 0.3s ease 0s;
+  /* & .ligament {
+  	display: inline;
+  }
+  & .space {
+  	display: none;
+  } */
+}
+@media screen and (max-width: 1200px) {
+  .stories__enlarged-text {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .stories__enlarged-text {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .stories__enlarged-text {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .stories__enlarged-text {
+    font-size: 16px;
+    /* & .ligament {
+    	display: none;
+    }
+    & .space {
+    	display: inline;
+    } */
+  }
+}

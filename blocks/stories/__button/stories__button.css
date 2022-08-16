@@ -9,3 +9,11 @@
   width: fit-content;
   padding: 9px 34px 13px;
 }
+@media screen and (max-width: 900px) {
+  .stories__button {
+    padding: 9px 50px 13px;
+    font-size: 16px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+}
