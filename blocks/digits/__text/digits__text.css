@@ -6,21 +6,9 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1200px) {
-  .digits__text {
-
-  }
-}
-
 @media screen and (max-width: 1439px) {
   .digits__text {
     font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .digits__text {
-
   }
 }
 

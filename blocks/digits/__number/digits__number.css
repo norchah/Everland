@@ -1,27 +1,9 @@
-.digits__number{
+.digits__number {
   min-width: 325px;
 }
 
-@media screen and (max-width: 1200px) {
-  .digits__number{
-
-  }
-}
-
-@media screen and (max-width: 1439px) {
-  .digits__number {
-
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .digits__number{
-
-  }
-}
-
 @media screen and (max-width: 767px) {
-  .digits__number{
+  .digits__number {
     min-width: 300px;
   }
 }
