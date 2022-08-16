@@ -28,5 +28,7 @@
     .form__radio-button_location_donations-everland  {
         width: 122px;
         padding: 13px;
+        font-size: 14px;
+        line-height: 17px;
     }
 }
