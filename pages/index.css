@@ -43,7 +43,7 @@
 @import url(../blocks/link-button/_disabled/link-button_disabled_colors.css);
 
 @import url(../blocks/stories/stories.css);
-@import url(../blocks/stories/__info-in-card/stories__info-in-card.css);
+@import url(../blocks/stories/__text-box-in-card/stories__text-box-in-card.css);
 @import url(../blocks/stories/__section-title/stories__section-title.css);
 @import url(../blocks/stories/__enlarged-text/stories__enlarged-text.css);
 @import url(../blocks/stories/__button/stories__button.css);

@@ -1,15 +1,15 @@
 .button_size_l {
-    width: 204px;
+  width: 204px;
 }
 
-@media screen and (max-width: 1439px) {
-    .button_size_l {
-        width: 200px;
-    }
+@media screen and (max-width:1439px) {
+  .button_size_l {
+    width: 200px;
+  }
 }
 
-@media screen and (max-width: 767px) {
-    .button_size_l {
-        width: 300px;
-    }
+@media screen and (max-width:767px) {
+  .button_size_l {
+    width: 300px;
+  }
 }

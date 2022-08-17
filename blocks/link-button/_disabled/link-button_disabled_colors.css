@@ -1,18 +1,18 @@
 .link-button_disabled_colors {
-    background-color: #c4c4c4;
-    color: #262626;
+  background-color: #c4c4c4;
+  color: #262626;
 }
 
 .link-button_disabled_colors:hover {
-    cursor: default;
-    background-color: #c4c4c4;
-    color: #262626;
+  cursor: default;
+  background-color: #c4c4c4;
+  color: #262626;
 }
 
 .link-button_disabled_colors::before {
-    background-image: url(../../../images/Icon/link-arrow-lightgrey-ico.svg);
+  background-image: url(../../../images/Icon/link-arrow-lightgrey-ico.svg);
 }
 
 .link-button_disabled_colors:hover::before {
-    background-image: url(../../../images/Icon/link-arrow-lightgrey-ico.svg);
+  background-image: url(../../../images/Icon/link-arrow-lightgrey-ico.svg);
 }

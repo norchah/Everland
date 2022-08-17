@@ -1,60 +1,75 @@
 .stories__link-in-card {
   position: relative;
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: right;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.3;
-  align-self: flex-end;
-  width: fit-content;
-  align-self: flex-start;
-  padding-right: 50px;
+  padding: 3px 50px 3px 0;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-.stories__link-in-card::before {
+
+.stories__link-in-card::after {
   content: "";
   position: absolute;
-  top: -8px;
   right: 0;
+  top: 50%;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
   width: 41px;
   height: 41px;
   background: url(../../../images/Icon_paly.svg) center no-repeat;
   background-size: 40px 40px;
 }
-@media screen and (max-width: 900px) {
-  .stories__link-in-card::before {
-    top: -1px;
+
+@media screen and (max-width:900px) {
+  .stories__link-in-card::after {
     width: 29px;
     height: 29px;
     background-size: 28px 28px;
   }
 }
-@media screen and (max-width: 450px) {
-  .stories__link-in-card::before {
-    top: -4px;
+
+@media screen and (max-width:450px) {
+  .stories__link-in-card::after {
     width: 26px;
     height: 26px;
     background-size: 25px 25px;
   }
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width:900px) {
   .stories__link-in-card {
     font-size: 16px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .stories__link-in-card {
     line-height: 1.2;
-    padding: 2px 37px 5px 0;
+    padding: 3px 38px 3px 0;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width:767px) {
+  .stories__link-in-card {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:450px) {
   .stories__link-in-card {
     font-size: 12px;
     font-weight: 500;
-    padding: 0 35px 0 0;
+    padding: 3px 35px 3px 0;
   }
 }
-@media screen and (min-width: 450px) {
+
+@media screen and (min-width:450px) {
   .stories__link-in-card:hover {
     opacity: 0.7;
   }

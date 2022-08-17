@@ -1,75 +1,112 @@
 .stories__card {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
-  padding: 27px 30px 30px 30px;
+  padding: 27px 30px 30px;
   border-radius: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 19px;
+  -moz-column-gap: 19px;
   column-gap: 19px;
   height: 285px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width:1200px) {
   .stories__card {
     height: 228px;
   }
 }
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width:900px) {
   .stories__card {
     overflow: hidden;
     height: 170px;
-    padding: 16px 16px 7px 16px;
+    padding: 16px 16px 7px;
     border-radius: 20px;
+    -webkit-column-gap: 17px;
+    -moz-column-gap: 17px;
     column-gap: 17px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 }
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width:767px) {
   .stories__card {
     height: 150px;
     max-width: 360px;
   }
+
   .stories__card:not(:last-of-type) {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width:450px) {
   .stories__card {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     min-height: 112px;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
     column-gap: 16px;
-    padding: 16px 16px 10px 16px;
+    padding: 16px 16px 5px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
     align-items: flex-start;
   }
+
   .stories__card:not(:last-of-type) {
     margin-bottom: 16px;
   }
 }
+
 .stories__card .stories__picture {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width:1200px) {
   .stories__card .stories__picture {
     width: 150px;
     height: 150px;
   }
 }
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width:900px) {
   .stories__card .stories__picture {
     width: 120px;
     height: 120px;
+    margin-top: -10px;
   }
 }
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width:700px) {
   .stories__card .stories__picture {
     width: 100px;
     height: 100px;
+    margin-top: -5px;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width:450px) {
   .stories__card .stories__picture {
     width: 80px;
     height: 80px;
+    margin-top: 0;
   }
 }
