@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
     .support__donations {
         gap: 16px;
         height: 265px;

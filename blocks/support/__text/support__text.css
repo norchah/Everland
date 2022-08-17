@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 600px){
     .support__text {
         font-size: 18px;
         line-height: 22px;
