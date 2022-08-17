@@ -4,3 +4,15 @@
   font-size: 34px;
   line-height: 1.2;
 }
+
+@media screen and (max-width: 767px) {
+  .digits__number-title_blue{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .digits__number-title_blue{
+    font-size: 26px;
+  }
+}

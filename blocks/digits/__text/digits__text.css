@@ -5,3 +5,15 @@
   color: #333333;
   margin: 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .digits__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits__text {
+    font-size: 14px;
+  }
+}

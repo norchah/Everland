@@ -1,3 +1,9 @@
-.digits__number{
+.digits__number {
   min-width: 325px;
+}
+
+@media screen and (max-width: 767px) {
+  .digits__number {
+    min-width: 300px;
+  }
 }
