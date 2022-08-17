@@ -4,10 +4,6 @@
   margin-left: auto;
 }
 
-.button_location_news_container::before {
-  content: 'Все новости';
-}
-
 @media screen and (max-width:1439px) {
   .button_location_news_container {
     margin-top: 0;
@@ -21,18 +17,8 @@
       margin: 32px auto 0;
       width: 200px;
   }
-
-  .button_location_news_container::before {
-    content: 'Посмотреть все';
-  }
 }
 
-@media screen and (max-width:767px) {
-
-  .button_location_news_container::before {
-    content: 'Все новости';
-  }
-}
 
 @media screen and (max-width:680px) {
   .button_location_news_container {
