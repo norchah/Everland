@@ -16,6 +16,7 @@
 @import url(../blocks/button/_border-clr/button_border-clr_blue.css);
 @import url(../blocks/button/_location/button_location_form-submit.css);
 @import url(../blocks/button/_location/button_location_form-payment.css);
+@import url(../blocks/button/_location/button_location_donations-section.css);
 @import url(../blocks/button/_arrow/button_arrow_left.css);
 @import url(../blocks/button/_arrow/button_arrow_right.css);
 @import url(../blocks/link-button/link-button.css);
@@ -83,7 +84,8 @@
 @import url(../blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css);
 @import url(../blocks/form/__radio-button/_border-style/form__radio-button_border-style_displayed.css);
 @import url(../blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css);
-@import url(../blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css);
+@import url(../blocks/form/__radio-button/_value/form__radio-button_value_other-support.css);
+@import url(../blocks/form/__radio-button/_value/form__radio-button_value_other-donations.css);
 @import url(../blocks/form/__label/form__label.css);
 @import url(../blocks/form/__label/_checkbox/form__label_checkbox.css);
 @import url(../blocks/form/__label-link/form__label-link.css);
