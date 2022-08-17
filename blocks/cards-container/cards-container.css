@@ -1,5 +1,12 @@
-.cards-container{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  gap: 20px;
+  
+}
+
+@media screen and (max-width:767px){
+  .cards-container {
+    gap: 16px;
+  }
 }

@@ -6,3 +6,18 @@ menuButton.addEventListener("click", () => {
 });
 
 
+
+/*smooth scroll to support page*/
+const supportButton = document.querySelector('.button_support')
+
+supportButton.addEventListener('click', (e) => {
+  e.preventDefault();
+  const offsetTop = document.querySelector('#support').offsetTop;
+
+  scroll({
+    top: offsetTop - 80,
+    behavior: "smooth"
+  });
+});
+
+

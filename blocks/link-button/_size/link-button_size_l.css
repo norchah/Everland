@@ -1,0 +1,4 @@
+.link-button_size_l {
+    /* Надо задать через padding нужный размер (не нашёл в HTML этот класс)*/
+    padding: 10px 44px 14px 10px;
+}

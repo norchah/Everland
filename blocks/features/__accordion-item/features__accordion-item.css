@@ -21,25 +21,3 @@
   }
 
 }
-
-@media screen and (max-width: 450px) {
-
-.features__accordion-item {
-  max-width: 300px;
-  padding: 12px 20px 12px 16px;
-}
-
-  .features__accordion-item:first-child{
-    padding: 16px 20px 18px 16px;
-
-  }
-  .features__accordion-item:nth-child(2) {
-    padding: 12px 20px 13px 16px;
-  }
-  .features__accordion-item:nth-child(3) {
-    padding: 10px 20px 13px 16px;
-  }
-  .features__accordion-item:nth-child(4) {
-    padding: 10px 20px 10px 16px;
-  }
-}
