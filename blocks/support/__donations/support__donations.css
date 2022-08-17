@@ -30,3 +30,11 @@
         max-width: 349px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .support__donations {
+        gap: 16px;
+        height: 265px;
+        max-width: 300px;
+    }
+}

@@ -13,6 +13,8 @@
     .card {
         width: 334px;
         min-height: 291px;
+        gap:20px;
+        
     }
     .card:nth-child(3) {
         order: 1;
@@ -29,9 +31,23 @@
     
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:800px){
     .card {
-        width: 330px;
+        width: 300px;
         min-height: 212px;
     }
+    .card:nth-child(3) {
+        order: 0;
+      }
+    .card:nth-child(4) {
+        order: 1;
+      }
+    .card:nth-child(5) {
+        order: 2;
+      }
+    .card:nth-child(6) {
+        order: 3;
+      }
 }
+
+

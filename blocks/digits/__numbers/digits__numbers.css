@@ -10,3 +10,21 @@
   margin: auto;
   grid-area: numbers;
 }
+
+@media screen and (max-width: 1439px) {
+  .digits__numbers{
+    max-width: 688px;
+    min-height: 191px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits__numbers{
+    max-width: 300px;
+    min-height: 292px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+  }
+}

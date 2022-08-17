@@ -8,7 +8,13 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 601px) and (max-width: 767px){
+    .form__radio-button_position_donations-last {
+        width: 306px;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .form__radio-button_position_donations-last {
         width: 260px;
     }

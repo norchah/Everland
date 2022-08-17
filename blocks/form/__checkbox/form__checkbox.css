@@ -9,3 +9,10 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 320px){
+    .form__checkbox {
+        height: 24px;
+        width: 24px;
+    }
+}
+
