@@ -172,30 +172,30 @@
 
     <!-- Пожертвования -->
     <section class="donations donations_location_everland">
-      <form class="form form_location_donations-everland">
-        <div class="form__button-container form__button-container_location_donations-everland">
-          <label class="form__label">
-            <input id="250_donations-everland" type="radio" class="form__item" name="donation" value="250">
-            <span class="form__radio-button form__radio-button_location_donations-everland">250₽</span>
-          </label>
+        <form class="form form_location_donations-everland">
+                <div class="form__button-container form__button-container_location_donations-everland">
+                    <label class="form__label">
+                        <input id="250_donations-everland" type="radio" class="form__item form__item_donations-everland" name="donation" value="250">
+                        <span class="form__radio-button form__radio-button_location_donations-everland">250₽</span>
+                    </label>
+
+                    <label class="form__label">
+                        <input id="500_donations-everland" type="radio" class="form__item form__item_donations-everland" name="donation" value="500">
+                        <span class="form__radio-button form__radio-button_location_donations-everland">500₽</span>
+                    </label>
+
+                    <label class="form__label">
+                        <input id="750_donations-everland" type="radio" class="form__item form__item_donations-everland" name="donation" value="750">
+                        <span class="form__radio-button form__radio-button_location_donations-everland">750₽</span>
+                    </label>
+
+                    <label class="form__label">
+                        <input id="1000_donations-everland" type="radio" class="form__item form__item_donations-everland" name="donation" value="1000">
+                        <span class="form__radio-button form__radio-button_location_donations-everland">1000₽</span>
+                    </label>
 
           <label class="form__label">
-            <input id="500_donations-everland" type="radio" class="form__item" name="donation" value="500">
-            <span class="form__radio-button form__radio-button_location_donations-everland">500₽</span>
-          </label>
-
-          <label class="form__label">
-            <input id="750_donations-everland" type="radio" class="form__item" name="donation" value="750">
-            <span class="form__radio-button form__radio-button_location_donations-everland">750₽</span>
-          </label>
-
-          <label class="form__label">
-            <input id="1000_donations-everland" type="radio" class="form__item" name="donation" value="1000">
-            <span class="form__radio-button form__radio-button_location_donations-everland">1000₽</span>
-          </label>
-
-          <label class="form__label">
-            <input id="other_donations-everland" type="radio" class="form__item" name="donation" value="other">
+            <input id="other_donations-everland" type="radio" class="form__item form__item_donations-everland" name="donation" value="other">
             <span
               class="form__radio-button form__radio-button_location_donations-everland form__radio-button_value_other-donations">Другая
               сумма</span>
@@ -337,7 +337,67 @@
 
     <!-- Главное в работе -->
     <section class="features">
+      <div class="features__container">
+        <h2 class="section-title features__title">Главное в работе</h2>
+          <ul class="features__accordion">
 
+            <li class="features__accordion-item">
+              <div class="features__accordion-heading">
+                <h3 class="features__accordion-title">Заработанные средства</h3>
+                <button class="features__accordion-button"></button>
+              </div>
+              <div class="features__accordion-content">
+              </div>
+            </li>
+
+            <li class="features__accordion-item">
+              <div class="features__accordion-heading">
+                <h3 class="features__accordion-title">Крупные клиенты</h3>
+                <button class="features__accordion-button"></button>
+              </div>
+              <div class="features__accordion-content">
+              </div>
+            </li>
+
+            <li class="features__accordion-item">
+              <div class="features__accordion-heading">
+                <h3 class="features__accordion-title">Инклюзивность</h3>
+                <button class="features__accordion-button"></button>
+              </div>
+              <div class="features__accordion-content">
+              </div>
+            </li>
+
+            <li class="features__accordion-item">
+              <div class="features__accordion-heading">
+                <h3 class="features__accordion-title">Свои исследования</h3>
+                <button class="features__accordion-button"></button>
+              </div>
+              <div class="features__accordion-content">
+              </div>
+            </li>
+
+            <li class="features__accordion-item">
+              <div class="features__accordion-heading">
+                <h3 class="features__accordion-title">Использование Digital </h3>
+                <button class="features__accordion-button"></button>
+              </div>
+              <div class="features__accordion-content">
+              </div>
+            </li>
+
+            <li class="features__accordion-item">
+              <div class="features__accordion-heading">
+                <h3 class="features__accordion-title">Большой опыт</h3>
+                <button class="features__accordion-button"></button>
+              </div>
+              <div class="features__accordion-content">
+                <p class="features__accordion-text">За&nbsp;время сущетсования проекта с&nbsp;2016 года социальная предпринимательская модель Everland доказала свою эффективность&nbsp;&mdash; мы&nbsp;действительно умеем давать работу людям с&nbsp;разными видами инвалидности</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
     </section>
 
     <!-- Everland в цифрах -->
@@ -523,28 +583,29 @@
             <fieldset class="form__input-container form__input-container_location_donation-amount">
 
               <div class="form__button-container">
-                <label class="form__label">
-                  <input id="250" type="radio" class="form__item" name="donation-amount" value="250">
-                  <span class="form__radio-button form__radio-button_border-style_displayed">250₽</span>
-                </label>
+
+                              <label class="form__label">
+                                  <input id="250" type="radio" class="form__item form__item_donations-support" name="donation-amount" value="250">
+                                  <span class="form__radio-button form__radio-button_border-style_displayed">250₽</span>
+                              </label>
+
+                              <label class="form__label">
+                                  <input id="500" type="radio" class="form__item form__item_donations-support" name="donation-amount" value="500" checked>
+                                  <span class="form__radio-button form__radio-button_border-style_displayed">500₽</span>
+                              </label>
+
+                              <label class="form__label">
+                                  <input id="750" type="radio" class="form__item form__item_donations-support" name="donation-amount" value="750">
+                                  <span class="form__radio-button form__radio-button_border-style_displayed">750₽</span>
+                              </label>
+
+                              <label class="form__label">
+                                  <input id="1000" type="radio" class="form__item form__item_donations-support" name="donation-amount" value="1000">
+                                  <span class="form__radio-button form__radio-button_border-style_displayed">1000₽</span>
+                              </label>
 
                 <label class="form__label">
-                  <input id="500" type="radio" class="form__item" name="donation-amount" value="500" checked>
-                  <span class="form__radio-button form__radio-button_border-style_displayed">500₽</span>
-                </label>
-
-                <label class="form__label">
-                  <input id="750" type="radio" class="form__item" name="donation-amount" value="750">
-                  <span class="form__radio-button form__radio-button_border-style_displayed">750₽</span>
-                </label>
-
-                <label class="form__label">
-                  <input id="1000" type="radio" class="form__item" name="donation-amount" value="1000">
-                  <span class="form__radio-button form__radio-button_border-style_displayed">1000₽</span>
-                </label>
-
-                <label class="form__label">
-                  <input id="other" type="radio" class="form__item" name="donation-amount" value="other">
+                  <input id="other" type="radio" class="form__item form__item_donations-support" name="donation-amount" value="other">
                   <span
                     class="form__radio-button form__radio-button_value_other-support form__radio-button_border-style_displayed">Другая
                     сумма</span>
@@ -606,6 +667,7 @@
 
               <input type="text" class="form__item form__item_text-input" placeholder="Иван Иванов">
               <input type="text" class="form__item form__item_text-input" placeholder="myemail@example.com">
+              <input type="text" class="form__item form__item_text-input" placeholder="Введите сумму пожертвования">
 
             </fieldset>
 

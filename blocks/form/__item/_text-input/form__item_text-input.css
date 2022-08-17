@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.form__item_text-input:last-child {
+    display: none;
+}
+
 .form__item_text-input::placeholder {
     font-size: 20px;
     font-weight: 400;
