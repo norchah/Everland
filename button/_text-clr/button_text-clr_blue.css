@@ -1,0 +1,20 @@
+.button_text-clr_blue {
+  color: #0C4BA0;
+}
+
+.button_text-clr_blue:hover {
+  color: #00275C;
+  border: 1px solid #00275C;
+}
+
+.button_text-clr_blue:active {
+  color: #fff;
+  background-color: #00275C;
+}
+
+.button_text-clr_blue:disabled {
+  border: 2px solid #C4C4C4;
+  color: rgba(38,38,38,.5);
+  cursor: auto;
+  background-color: #F5F5F5;
+}
