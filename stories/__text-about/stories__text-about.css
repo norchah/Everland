@@ -1,9 +1,8 @@
 .stories__text-about {
+  outline: #df00cd solid 1px;
   box-sizing: border-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
   margin: 0;
-  padding: 0 0 0 78px;
+  padding: 0;
   grid-column: 2/3;
   grid-row: 2/3;
   font-weight: 400;
@@ -14,20 +13,16 @@
 @media screen and (max-width: 1200px) {
   .stories__text-about {
     font-size: 18px;
-    padding: 0 0 0 60px;
   }
 }
 @media screen and (max-width: 900px) {
   .stories__text-about {
     font-size: 16px;
     line-height: 1.2;
-    padding: 0 0 0 3px;
   }
 }
 @media screen and (max-width: 450px) {
   .stories__text-about {
     font-size: 14px;
-    margin: 0 0 19px 0;
-    padding: 0;
   }
 }

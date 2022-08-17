@@ -1,0 +1,7 @@
+.stories__blocks {
+  outline: #df00cd solid 1px;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  padding: 0;
+  margin: 0;
+}

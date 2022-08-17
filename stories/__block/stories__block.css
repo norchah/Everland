@@ -1,0 +1,17 @@
+.stories__block {
+  outline: #df00cd solid 1px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  column-gap: 11.7%;
+  row-gap: 17px;
+  padding: 50px 0;
+}
+.stories__block .stories__picture {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+.stories__block .stories__enlarged-text {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}

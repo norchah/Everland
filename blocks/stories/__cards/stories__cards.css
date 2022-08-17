@@ -1,19 +1,36 @@
 .stories__cards {
-  outline: #df00cd solid 1px;
   box-sizing: border-box;
   grid-column: 1/3;
   grid-row: 3/4;
   width: 100%;
-  padding: 49px 0;
+  padding: 50px 0;
   margin: 0 auto;
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(2, calc(50% - 10px));
   grid-auto-rows: fit-content;
 }
+@media screen and (max-width: 1200px) {
+  .stories__cards {
+    padding: 25px 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .stories__cards {
+    max-width: 690px;
+    padding: 0;
+    margin: 0 0 41px 0;
+  }
+}
 @media screen and (max-width: 700px) {
   .stories__cards {
     display: block;
-    margin: 0 auto;
+    margin-bottom: 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .stories__cards {
+    display: block;
+    margin-bottom: 25px;
   }
 }

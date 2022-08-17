@@ -1,7 +1,6 @@
 .stories__enlarged-text {
+  outline: #df00cd solid 1px;
   box-sizing: border-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
   margin: 0;
   padding: 0;
   font-weight: 700;

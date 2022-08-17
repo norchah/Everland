@@ -56,3 +56,8 @@
 @import url(../blocks/stories/__card/stories__card.css);
 @import url(../blocks/stories/__link-in-card/stories__link-in-card.css);
 @import url(../blocks/stories/__name-in-card/stories__name-in-card.css);
+@import url(../blocks/stories/__enlarged-text/--width_narrow/stories__enlarged-text--width_narrow.css);
+@import url(../blocks/stories/__card/--color_blue/stories__card--color_blue.css);
+@import url(../blocks/stories/__card/--color_green/stories__card--green_blue.css);
+@import url(../blocks/stories/__card/--color_pink/stories__card--color_pink.css);
+@import url(../blocks/stories/__card/--color_violet/stories__card--color_violet.css);

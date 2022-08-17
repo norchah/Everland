@@ -1,0 +1,31 @@
+.stories__picture {
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all 0.3s ease 0s;
+}
+@media screen and (max-width: 1200px) {
+  .stories__picture {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .stories__picture {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .stories__picture {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .stories__picture {
+    width: 80px;
+    height: 80px;
+  }
+}
