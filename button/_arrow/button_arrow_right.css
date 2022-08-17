@@ -1,0 +1,9 @@
+.button_arrow_right {
+  background-image: url(../../../images/Icon/button-arrow-toright-ico.svg);
+}
+
+@media screen and (max-width:1439px) {
+  .button_arrow_right {
+    background-image: url(../../../images/Icon/button-arrow-toright-tablet-ico.svg);
+  }
+}

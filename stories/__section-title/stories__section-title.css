@@ -1,7 +1,22 @@
 .stories__section-title {
   margin: 0;
-  padding: 0 0 55px 0;
-  outline: #df00cd solid 1px;
+  padding: 0 0 55px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
+}
+
+@media screen and (max-width:900px) {
+  .stories__section-title {
+    padding: 0 0 30px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .stories__section-title {
+    padding: 0 0 25px;
+  }
 }
