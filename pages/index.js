@@ -25,8 +25,8 @@ supportButton.addEventListener('click', (e) => {
 /*link radio-button with each other*/
 
 /*search for radio-buttons in DOM*/
-const radioButtonsDonations = document.querySelectorAll('input[name="donation"]');
-const radioButtonsSupport = document.querySelectorAll('input[name="donation-amount"]');
+const radioButtonsDonations = document.querySelectorAll('.form__item_donations-everland');
+const radioButtonsSupport = document.querySelectorAll('.form__item_donations-support');
 
 /*link radio-buttons from Donations and Support sections at submit*/
 supportButton.addEventListener('click', function linkRadioButtons (e) {
@@ -56,30 +56,29 @@ function toggleElement() {
   }
 }
 
-/*hide donation amount field*/
-function hideElement() {
-//  if(!(lastRadioButtonDonations) || !(lastRadioButtonSupport))
-//  {
+/*hide donation amount field in Support section*/
+function hideElement(event) {
+  if(event.target !== lastRadioButtonSupport) {
     lastTextInput.style.display = "none";
-//  }
+  }
 }
+
+/*show donation amount field from Donations section on submit*/
+function showElement() {
+  if (lastRadioButtonDonations.checked === true) {
+    lastTextInput.style.display = "block";
+  }
+}
+
+supportButton.addEventListener('click', showElement)
 
 /*toggle donation amount field on click in both Donations and Support sections*/
 lastRadioButtonDonations.addEventListener('click', toggleElement);
 lastRadioButtonSupport.addEventListener('click', toggleElement);
 
 /*hide donation amount field on click*/
-//radioButtonsSupport.forEach(el => el.addEventListener('click', hideElement));
-radioButtonsSupport[0].addEventListener('click', hideElement);
-radioButtonsSupport[1].addEventListener('click', hideElement);
-radioButtonsSupport[2].addEventListener('click', hideElement);
-radioButtonsSupport[3].addEventListener('click', hideElement);
-radioButtonsDonations[0].addEventListener('click', hideElement);
-radioButtonsDonations[1].addEventListener('click', hideElement);
-radioButtonsDonations[2].addEventListener('click', hideElement);
-radioButtonsDonations[3].addEventListener('click', hideElement);
-
-
+radioButtonsSupport.forEach((el) => el.addEventListener('click', hideElement));
+radioButtonsDonations.forEach((el) => el.addEventListener('click', hideElement));
 
 
 
