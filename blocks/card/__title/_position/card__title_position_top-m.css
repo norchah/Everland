@@ -1,9 +1,0 @@
-.card__title_position_top-m{
-    margin-top: 40px;
-}
-
-@media screen and (max-width:1439px){
-    .card__title_position_top-m{
-        margin-top: 20px;
-    }
-}

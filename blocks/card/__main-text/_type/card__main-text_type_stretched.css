@@ -1,9 +1,0 @@
-.card__main-text_type_stretched {
-    margin-top: 23px;
-}
-
-@media screen and (max-width:1439px){
-    .card__main-text_type_stretched {
-        margin-top: 10px;
-    }
-}
