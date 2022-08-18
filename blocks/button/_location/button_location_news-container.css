@@ -2,6 +2,8 @@
   margin-top: 22px;
   width: 195px;
   margin-left: auto;
+  grid-row: 1;
+  grid-column: 2/3;
 }
 
 @media screen and (max-width:1439px) {
