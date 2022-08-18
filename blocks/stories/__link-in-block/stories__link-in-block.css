@@ -1,27 +1,20 @@
 .stories__link-in-block {
   align-self: flex-end;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
   grid-column: 2/3;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
   grid-row: 3/4;
   margin-left: 78px;
 }
-
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .stories__link-in-block {
     margin-left: 60px;
   }
 }
-
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .stories__link-in-block {
     margin-left: 3px;
   }
 }
-
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
   .stories__link-in-block {
     margin: 0;
   }
