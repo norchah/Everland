@@ -1,3 +1,7 @@
-.spec-projects{
-  padding: 150px 40px 0;
+.spec-projects {
+  background-color: #E7F0FF;
+  border-radius: 30px;
+  padding: 30px;
+  height: fit-content;
+  width: 100%;
 }

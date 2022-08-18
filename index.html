@@ -11,32 +11,67 @@
 <body class="page">
 
   <main class=main>
-    
+
     <!-- Фотопроект -->
     <section class="spec-projects">
-      <div class="spec-projects__block">
-        <ul class="spec-projects__arrows">
-          <li class="spec-projects__button-arrow">
-            <button type="button"
-              class="button button_size_xxs button_back-clr_black button_text-clr_white button_arrow_left"
-              aria-label="стрелка влево">
-            </button>
+
+      <ul class="spec-projects__arrows">
+        <li class="spec-projects__button-arrow">
+          <button type="button"
+            class="spec-projects__button-left button button_size_xxs button_back-clr_black button_text-clr_white button_arrow_left"
+            aria-label="стрелка влево">
+          </button>
+        </li>
+        <li class="spec-projects__button-arrow">
+          <button type="button"
+            class="spec-projects__button-right button button_size_xxs button_back-clr_black button_text-clr_white button_arrow_right"
+            aria-label="стрелка вправа">
+          </button>
+        </li>
+      </ul>
+
+      <div class="spec-projects__slider-window">
+        <ul class="spec-projects__slider-line list">
+          <li>
+            <picture class="spec-projects__foto picture-adaptiv">
+              <source class="picture-adaptiv__img"
+                srcset="./images/spec-projects__foto-family.webp, ./images/spec-projects__foto-family.webp 1x"
+                type="image/webp">
+              <source class="picture-adaptiv__img" srcset="./images/spec-projects__foto-family.jpg 1x"
+                type="image/jpeg">
+              <img class="picture-adaptiv__img" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой.">
+            </picture>
           </li>
-          <li class="spec-projects__button-arrow">
-            <button type="button"
-              class="button button_size_xxs button_back-clr_black button_text-clr_white button_arrow_right"
-              aria-label="стрелка вправа">
-            </button>
+          <li>
+            <picture class="spec-projects__foto picture-adaptiv">
+              <source class="picture-adaptiv__img"
+                srcset="./images/spec-projects__foto.webp, ./images/spec-projects__foto.webp 1x, ./images/spec-projects__foto@2x.webp 2x"
+                type="image/webp">
+              <source class="picture-adaptiv__img" srcset="./images/spec-projects__foto.jpg 1x" type="image/jpeg">
+              <img class="picture-adaptiv__img" src="./images/spec-projects__foto.jpg" alt="Фото участников проекта.">
+            </picture>
+          </li>
+          <li>
+            <picture class="spec-projects__foto picture-adaptiv">
+              <source class="picture-adaptiv__img"
+                srcset="./images/stories-photos/maksim-gelfanov.webp, ./images/stories-photos/maksim-gelfanov.webp 1x, ./images/stories-photos/maksim-gelfanov@2x.webp 2x"
+                type="image/webp">
+              <source class="picture-adaptiv__img"
+                srcset="./images/stories-photos/maksim-gelfanov.jpg 1x, ./images/stories-photos/maksim-gelfanov@2x.jpg 2x"
+                type="image/jpeg">
+              <img class="picture-adaptiv__img" src="./images/stories-photos/maksim-gelfanov.jpg"
+                alt="Фото участника проекта.">
+            </picture>
           </li>
         </ul>
-        <img class="spec-projects__foto" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
       </div>
-      </div>
+
     </section>
 
   </main>
 
   <script src='pages/index.js'></script>
+  
 </body>
 
 </html>
