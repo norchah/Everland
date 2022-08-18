@@ -1,0 +1,15 @@
+.card__container-icon{
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1439px){
+    .card__container-icon{
+        width: 48px;
+        height: 48px;
+    }
+}

@@ -4,6 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="fix: fix top option in smooth scroll function (donations to support)">
+      <change afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_border-style/form__radio-button_border-style_displayed.css" afterDir="false" />
     <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/blocks/button/_arrow/button_arrow_left.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blocks/button/_arrow/button_arrow_right.css" afterDir="false" />
@@ -61,13 +63,22 @@
       <change afterPath="$PROJECT_DIR$/images/image-of-a-seller-and-a-customer.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/image-of-new-year.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/portfolio.png" afterDir="false" />
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add section + media queries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+    <list default="true" id="be31ef2b-780d-4b1c-8691-162548dcc941" name="Changes" comment="feat: add margin style">
       <change beforePath="$PROJECT_DIR$/blocks/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/header/__container/header__container.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__container/header__container.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/header/__menu/header__menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/__menu-button/header__menu-button.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/nav/nav__menu/nav__menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/nav/nav__menu/nav__menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_payment-method/form__radio-button_payment-method.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/form__radio-button.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +88,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="feature/donations-component" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,6 +103,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blocks/form/__radio-button/_location" />
+      <recent name="$PROJECT_DIR$/blocks/form/__input-container/_location" />
+      <recent name="$PROJECT_DIR$/blocks/form/__button-container/_location" />
+      <recent name="$PROJECT_DIR$/blocks/form/__radio-button/_sizee" />
+      <recent name="$PROJECT_DIR$/blocks/support/__item/_type" />
       <recent name="$PROJECT_DIR$/blocks/form/__question-icon" />
       <recent name="$PROJECT_DIR$/blocks/form/__radio-button" />
     </key>
@@ -132,7 +148,65 @@
       <option name="project" value="LOCAL" />
       <updated>1660247851383</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix: delete html for the form for future merge">
+      <created>1660259107425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660259107425</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add draft section">
+      <created>1660300703371</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660300703371</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: add section after merge conflict">
+      <created>1660372469003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660372469003</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add margin style">
+      <created>1660390573897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660390573897</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00009" summary="feat: add section + media queries">
+      <created>1660380400569</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660380400569</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix: minor changes (donations)">
+      <created>1660439113392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660439113392</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add smooth scrolling (donations to support)">
+      <created>1660465095933</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660465095933</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: fix top option in smooth scroll function (donations to support)">
+      <created>1660466481302</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660466481302</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,5 +227,11 @@
     <MESSAGE value="fix: delete &quot;for&quot; in spans created for inputs" />
     <MESSAGE value="fix: add changes to question mark, text-inputs and logos" />
     <option name="LAST_COMMIT_MESSAGE" value="fix: add changes to question mark, text-inputs and logos" />
+    <MESSAGE value="feat: add section + media queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add section + media queries" />
+    <MESSAGE value="fix: minor changes (donations)" />
+    <MESSAGE value="feat: add smooth scrolling (donations to support)" />
+    <MESSAGE value="fix: fix top option in smooth scroll function (donations to support)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix top option in smooth scroll function (donations to support)" />
   </component>
 </project>

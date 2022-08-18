@@ -1,0 +1,18 @@
+.form__checkbox {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+    border: 1px #DADADA solid;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 320px){
+    .form__checkbox {
+        height: 24px;
+        width: 24px;
+    }
+}
+
