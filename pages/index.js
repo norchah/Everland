@@ -6,20 +6,41 @@ const fotoSpecProjects = document.querySelector('.spec-projects__foto');
 const buttonLeftSpecProjects = document.querySelector('.spec-projects__button-left');
 const buttonRightSpecProjects = document.querySelector('.spec-projects__button-right');
 
-/* spec-projects Фотопроекты */
-buttonLeftSpecProjects.addEventListener('click', () => {
-  offset = offset + fotoSpecProjects.clientWidth;
-  if (offset > (sliderLine.clientWidth - fotoSpecProjects.clientWidth)) { offset = 0 }
-  sliderLine.style.left = -offset + 'px';
-  console.log(sliderLine.clientWidth);
-});
+/* Для слайдера */
+const slidePictureLeft = (line, foto, btnLeft, btnRight) => {
+  btnRight.removeAttribute('disabled');
+  offset = offset - foto.clientWidth;
+  if (offset < 0) {
+    offset = 0
+  }
+  if (offset < foto.clientWidth) {
+    btnLeft.setAttribute('disabled', 'disabled');
+  }
+  line.style.left = -offset + 'px';
+  line.clientWidth;
+};
+
+const slidePictureRight = (line, foto, btnLeft, btnRight) => {
+  btnLeft.removeAttribute('disabled');
+  offset = offset + foto.clientWidth;
+  if (offset > (line.clientWidth - foto.clientWidth)) {
+    offset = line.clientWidth - foto.clientWidth;
+  }
+  line.style.left = -offset + 'px';
+  if (offset > (line.clientWidth - (2 * foto.clientWidth))) {
+    btnRight.setAttribute('disabled', 'disabled');
+  }
+}
+
 buttonRightSpecProjects.addEventListener('click', () => {
-  offset = offset - fotoSpecProjects.clientWidth;
-  if (offset < 0) { offset = sliderLine.clientWidth - fotoSpecProjects.clientWidth }
-  sliderLine.style.left = -offset + 'px';
-  sliderLine.clientWidth;
+  slidePictureRight(sliderLine, fotoSpecProjects, buttonLeftSpecProjects, buttonRightSpecProjects);
 });
 
+buttonLeftSpecProjects.addEventListener('click', () => {
+  slidePictureLeft(sliderLine, fotoSpecProjects, buttonLeftSpecProjects, buttonRightSpecProjects);
+});
+
+buttonLeftSpecProjects.setAttribute('disabled', 'disabled');
 
 
 
