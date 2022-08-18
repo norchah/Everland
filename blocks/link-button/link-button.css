@@ -1,74 +1,86 @@
 .link-button {
-    cursor: pointer;
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    width: min-content;
-    text-decoration: none;
-    color: inherit;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 10px 45px 14px 10px;
-    box-sizing: border-box;
-    transition: color .1s linear, background-image .1s linear, background-color .1s linear;
+  cursor: pointer;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 45px 14px 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: color .1s linear,background-image .1s linear,background-color .1s linear;
+  -o-transition: color .1s linear,background-image .1s linear,background-color .1s linear;
+  transition: color .1s linear,background-image .1s linear,background-color .1s linear;
 }
 
 .link-button::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    right: 14px;
-    transform: translate(0, -50%);
-    background: no-repeat;
-    background: url(../../images/Icon/link-arrow-black-ico.svg) center no-repeat;
-    background-size: 16px 16px;
-    width: 17px;
-    height: 17px;
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+  background: url(../../images/Icon/link-arrow-black-ico.svg) center no-repeat;
+  background-size: 16px 16px;
+  width: 17px;
+  height: 17px;
 }
 
 .link-button:hover {
-    color: #00275C;
+  color: #00275C;
 }
 
 .link-button:active {
-    color: #0C4BA0;
+  color: #0C4BA0;
 }
 
 .link-button:disabled {
-    cursor: default;
-    color: #C4C4C4;
+  cursor: default;
+  color: #C4C4C4;
 }
 
 .link-button:hover::before {
-    background-image: url(../../images/Icon/link-arrow-blue-ico.svg);
+  background-image: url(../../images/Icon/link-arrow-blue-ico.svg);
 }
 
 .link-button:active::before {
-    background-image: url(../../images/Icon/link-arrow-lightblue-ico.svg);
+  background-image: url(../../images/Icon/link-arrow-lightblue-ico.svg);
 }
 
 .link-button:disabled::before {
-    background-image: url(../../images/Icon/link-arrow-lightgrey-ico.svg);
+  background-image: url(../../images/Icon/link-arrow-lightgrey-ico.svg);
 }
 
-@media screen and (max-width: 900px) {
-    .link-button {
-        font-size: 16px;
-        padding: 10px 42px 14px 10px;
-    }
+@media screen and (max-width:900px) {
+  .link-button {
+    font-size: 16px;
+    padding: 10px 42px 14px 10px;
+  }
 
-    .link-button::before {
-        background-size: 13px 13px;
-        width: 14px;
-        height: 14px;
-    }
+  .link-button::before {
+    background-size: 13px 13px;
+    width: 14px;
+    height: 14px;
+  }
 }
 
-@media screen and (max-width: 450px) {
-    .link-button {
-        font-size: 14px;
-    }
+@media screen and (max-width:450px) {
+  .link-button {
+    font-size: 14px;
+  }
 }
