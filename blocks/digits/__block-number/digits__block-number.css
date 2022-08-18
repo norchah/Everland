@@ -8,7 +8,7 @@
   grid-column-gap: 135px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1200px) {
   .digits__block-number {
     grid-template-areas:
       "numbers";
@@ -28,5 +28,16 @@
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     min-height: 516px;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width:1439px) {
+  .digits__block-number {
+    grid-template-areas:
+    "foto-number numbers";
+    min-height: 225px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }

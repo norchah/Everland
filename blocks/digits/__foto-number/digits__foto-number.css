@@ -7,7 +7,7 @@
   margin: auto;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1200px) {
   .digits__foto-number{
     display: none;
   }
@@ -17,5 +17,11 @@
   .digits__foto-number {
     max-width: 300px;
     display: grid;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width:1439px){
+  .digits__foto-number{
+    max-height: 226px;
   }
 }
