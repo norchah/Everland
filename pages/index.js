@@ -8,7 +8,7 @@ menuButton.addEventListener("click", () => {
 
 
 /*smooth scroll to Support section*/
-const supportButton = document.querySelector('.button_support')
+const supportButton = document.querySelector('.button_location_donations-section')
 
 supportButton.addEventListener('click', (e) => {
   e.preventDefault();
