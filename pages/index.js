@@ -93,6 +93,9 @@ function accordionHandler(e) {
   const container = e.target.closest('.features__accordion-item');
   e.target.classList.toggle('features__accordion-button_type_cross');
   container.classList.toggle('features__accordion-item_type_opened');
+
+  document.querySelectorAll('.features__accordion-content').transition = 'transition 1s';
+
 }
 
 
