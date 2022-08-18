@@ -1,0 +1,21 @@
+.stories__link-in-block {
+  align-self: flex-end;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  margin-left: 78px;
+}
+@media screen and (max-width: 1200px) {
+  .stories__link-in-block {
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .stories__link-in-block {
+    margin-left: 3px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .stories__link-in-block {
+    margin: 0;
+  }
+}

@@ -1,7 +1,5 @@
 .footer__phone-number {
   overflow: hidden;
-  color: inherit;
-  text-decoration: none;
   transition: all .3s ease 0s;
 }
 
