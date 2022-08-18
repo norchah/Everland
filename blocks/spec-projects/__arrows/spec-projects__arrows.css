@@ -1,0 +1,7 @@
+.spec-projects__arrows{
+  margin: 0 0 35 0;
+  grid-area: spec-projects__arrows;
+  display: flex;
+  gap: 8px;
+  padding: 0;
+}

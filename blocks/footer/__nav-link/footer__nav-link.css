@@ -1,0 +1,32 @@
+.footer__nav-link {
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 20px;
+  color: inherit;
+  text-decoration: none;
+  transition: all .3s ease 0s;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__nav-link {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__nav-link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .footer__nav-link:hover {
+    opacity: .7;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__nav-link {
+    font-size: 14px;
+  }
+}
