@@ -7,3 +7,17 @@
     line-height: 1.2;
     letter-spacing: -0.02em;
 }
+
+@media screen and (max-width: 1439px) {
+    .everland__main-head {
+        margin: 0 0 22px;
+        font-size: 38px;
+        letter-spacing: -0.03em;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .everland__main-head {
+        max-width: 424px;
+    }
+}

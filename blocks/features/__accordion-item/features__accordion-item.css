@@ -5,3 +5,20 @@
   border-radius: 30px;
   align-self: start;
 }
+
+@media screen and (max-width:1200px) {
+  .features__accordion-item {
+    border-radius: 20px;
+    padding: 19px 20px;
+    max-width: 688px;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  .features__accordion-item {
+    border: 1px solid #DADADA;
+    border-radius: 15px;
+  }
+
+}

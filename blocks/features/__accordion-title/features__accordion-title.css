@@ -8,3 +8,16 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width:1200px) {
+  .features__accordion-title {
+        font-size: 26px;
+}
+}
+
+@media screen and (max-width:450px) {
+  .features__accordion-title {
+    font-size: 18px;
+    max-width: 210px;
+  }
+}

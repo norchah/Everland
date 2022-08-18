@@ -1,9 +1,9 @@
 .form__radio-button {
     display: inline-block;
     cursor: pointer;
-    border: 1px solid #DADADA;
     height: 48px;
     width: 159px;
+    border: 1px solid transparent;
     border-radius: 10px;
     margin: 0 0 10px 0;
     padding: 9px;
@@ -14,3 +14,29 @@
     line-height: 24px;
     letter-spacing: 0;
 }
+
+@media screen and (max-width: 1439px){
+    .form__radio-button {
+        width: 145px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .form__radio-button {
+        font-size: 16px;
+        line-height: 19px;
+        height: 44px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .form__radio-button {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 10.5px 5px 13.5px 4px;
+        width: 122px;
+    }
+}
+
+
