@@ -1,0 +1,16 @@
+.link-button_disabled {
+  color: #c4c4c4;
+}
+
+.link-button_disabled:hover {
+  cursor: default;
+  color: #c4c4c4;
+}
+
+.link-button_disabled::before {
+  background-image: url(../../../images/Icon/link-arrow-lightgrey-ico.svg);
+}
+
+.link-button_disabled:hover::before {
+  background-image: url(../../../images/Icon/link-arrow-lightgrey-ico.svg);
+}

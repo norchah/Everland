@@ -1,0 +1,9 @@
+.footer__support-logo--image_beeline {
+	background: url(../../../../images/bilain.jpg) center / 100% auto no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+	.footer__support-logo--image_beeline {
+		background: url(../../../../images/bilain-2.jpg) center / 70% auto no-repeat;
+	}
+}

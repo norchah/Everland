@@ -1,8 +1,12 @@
 .form__item_text-input {
     height: 48px;
     width: 455px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 0 10px 20px;
     box-sizing: border-box;
+}
+
+.form__item_text-input:last-child {
+    display: none;
 }
 
 .form__item_text-input::placeholder {
@@ -17,3 +21,32 @@
     border: 1px solid #0C4BA0;
     outline: none;
 }
+
+@media screen and (max-width: 768px){
+    .form__item_text-input {
+        height: 44px;
+        padding: 6.5px 0 13.5px 20px;
+    }
+
+    .form__item_text-input::placeholder {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .form__item_text-input {
+        padding: 13.5px 0 17.5px 20px;
+        width: 260px;
+    }
+
+    .form__item_text-input::placeholder {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+
+
+
+
