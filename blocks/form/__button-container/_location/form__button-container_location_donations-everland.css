@@ -1,7 +1,22 @@
 .form__button-container_location_donations-everland {
-    justify-content: space-between;
     gap: 40px;
     padding: 0;
+}
+
+@media screen and (min-width: 870px) and (max-width: 1439px) {
+    .form__button-container_location_donations-everland  {
+        gap: 15px;
+        font-size: 16px;
+        height: 44px;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 869px) {
+    .form__button-container_location_donations-everland  {
+        gap: 6px;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -10,7 +25,13 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 514px) and (max-width: 519px) {
+    .form__button-container_location_donations-everland  {
+        gap: 9px;
+    }
+}
+
+@media screen and (max-width: 400px) {
     .form__button-container_location_donations-everland  {
         gap: 16px;
     }
