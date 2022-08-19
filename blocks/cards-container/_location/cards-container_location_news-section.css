@@ -3,7 +3,7 @@
   flex-wrap: nowrap;
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:767px) {
   .cards-container_location_news-section {
     flex-wrap: wrap;
   }

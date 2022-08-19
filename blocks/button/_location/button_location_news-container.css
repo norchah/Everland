@@ -22,7 +22,7 @@
 }
 
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:767px) {
   .button_location_news_container {
     grid-column: 1/2;
     width: 300px;

@@ -4,8 +4,9 @@
 
 @media screen and (max-width:1439px) {
   .card__image_size_s {
-    margin-top: 20px 0 -5px 0;
+    margin: 20px 0 0 0;
     border-radius: 20px;
+    aspect-ratio: 137/106;
 
   }
 }

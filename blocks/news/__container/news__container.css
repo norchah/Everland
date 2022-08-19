@@ -23,13 +23,6 @@
 
 @media screen and (max-width:767px) {
   .news__container {
-    max-width: 600px;
-    grid-template-columns: repeat(3, 200px);
-  }
-}
-
-@media screen and (max-width:680px) {
-  .news__container {
     grid-template-columns: 300px 0;
     max-width: 300px;
   }

@@ -4,7 +4,7 @@
 }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:767px) {
   .card_type_hidden {
     display: block;
   }
