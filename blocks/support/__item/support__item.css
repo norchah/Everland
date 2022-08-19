@@ -12,3 +12,11 @@
         line-height: 19px;
     }
 }
+
+
+@media screen and (max-width: 400px){
+    .support__item {
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+}

@@ -1,21 +1,21 @@
 .link-button_color_blue {
-    color: #0C4BA0;
-    background-color: #E7F0FF;
+  color: #0C4BA0;
+  background-color: #E7F0FF;
 }
 
 .link-button_color_blue:hover {
-    background-color: #0C4BA0;
-    color: #fff;
+  background-color: #0C4BA0;
+  color: #fff;
 }
 
 .link-button_color_blue:active {
-    background-color: #00275C;
+  background-color: #00275C;
 }
 
 .link-button_color_blue::before {
-    background-image: url(../../../images/Icon/link-arrow-lightblue-ico.svg);
+  background-image: url(../../../images/Icon/link-arrow-lightblue-ico.svg);
 }
 
 .link-button_color_blue:hover::before {
-    background-image: url(../../../images/Icon/link-arrow-white-ico.svg);
+  background-image: url(../../../images/Icon/link-arrow-white-ico.svg);
 }

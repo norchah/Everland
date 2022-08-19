@@ -1,0 +1,7 @@
+.features__accordion-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+}

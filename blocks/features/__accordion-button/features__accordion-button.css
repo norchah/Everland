@@ -1,0 +1,34 @@
+.features__accordion-button {
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+
+  background: #E7F0FF;
+  border: none;
+  border-radius: 20px;
+  background-image: url(../../../images/Icon/accordion-icon-plus.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: 0;
+  margin: 0;
+
+}
+
+.features__accordion-button:hover {
+  background: #0C4BA0;
+  background-image: url(../../../images/Icon/accordion-icon-plus-hover.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+@media screen and (max-width:1200px) {
+  .features__accordion-button {
+    width: 32px;
+    height: 32px;
+    background-image: url(../../../images/Icon/accordion-icon-plus-adaptive.svg);
+}
+
+.features__accordion-button:hover {
+  background-image: url(../../../images/Icon/accordion-icon-plus-hover-adaptive.svg);
+}
+}
