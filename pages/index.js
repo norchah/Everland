@@ -6,7 +6,6 @@ menuButton.addEventListener("click", () => {
 });
 
 
-
 /*smooth scroll to Support section*/
 const supportButton = document.querySelector('.button_location_donations-section')
 
@@ -82,6 +81,17 @@ radioButtonsDonations.forEach((el) => el.addEventListener('click', hideElement))
 
 
 
+//АККОРДЕОН
 
+const accordionItems = document.querySelectorAll('.features__accordion-button');
 
+accordionItems.forEach((accordionItem) => {
+  accordionItem.addEventListener('click', accordionHandler);
+});
 
+function accordionHandler(e) {
+  const container = e.target.closest('.features__accordion-item');
+  e.target.classList.toggle('features__accordion-button_type_cross');
+  container.classList.toggle('features__accordion-item_type_opened');
+
+}
