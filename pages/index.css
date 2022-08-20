@@ -7,16 +7,31 @@
 @import url(../blocks/slider-window/slider-window.css);
 @import url(../blocks/slider-list/slider-list.css);
 
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_photo/section-title_photo.css);
-@import url(../blocks/section-title/_support/section-title_support.css);
-
 @import url(../blocks/list/list.css);
 
 @import url(../blocks/link/link.css);
 
 @import url(../blocks/picture-adaptiv/picture-adaptiv.css);
 
+/* button */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_size/button_size_s.css);
+@import url(../blocks/button/_size/button_size_m.css);
+@import url(../blocks/button/_size/button_size_l.css);
+@import url(../blocks/button/_size/button_size_xs.css);
+@import url(../blocks/button/_size/button_size_xxs.css);
+@import url(../blocks/button/_back-clr/button_back-clr_white.css);
+@import url(../blocks/button/_back-clr/button_back-clr_blue.css);
+@import url(../blocks/button/_back-clr/button_back-clr_black.css);
+@import url(../blocks/button/_text-clr/button_text-clr_white.css);
+@import url(../blocks/button/_text-clr/button_text-clr_blue.css);
+@import url(../blocks/button/_text-clr/button_text-clr_black.css);
+@import url(../blocks/button/_border-clr/button_border-clr_blue.css);
+@import url(../blocks/button/_location/button_location_form-submit.css);
+@import url(../blocks/button/_location/button_location_form-payment.css);
+@import url(../blocks/button/_location/button_location_donations-section.css);
+@import url(../blocks/button/_arrow/button_arrow_left.css);
+@import url(../blocks/button/_arrow/button_arrow_right.css);
 
 /* everland */
 @import url(../blocks/everland/everland.css);

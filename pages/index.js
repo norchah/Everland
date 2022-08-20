@@ -1,15 +1,9 @@
 
 /* Переменные и константы для слайдера*/
 let offset = 0; // значение cмещения от левого края
-let slidePosition; // позиция элемента в слайдере
-let countItems; // Количество элементов в слайдере
-let lineWidth; // Общая длина всех элементов
-let itemWidth; // Ширина элемента
 const windowOfSlider = document.querySelector('.slider-window');
 const buttonsRight = document.querySelectorAll('.slider-btn-right');
 const buttonsLeft = document.querySelectorAll('.slider-btn-left');
-
-
 
 /* Для слайдера */
 const slideLeft = (event) => {
@@ -18,11 +12,12 @@ const slideLeft = (event) => {
   const sliderLine = sliderWindow.querySelector('.slider-list');
   const btnLeft = sliderWindow.querySelector('.slider-btn-left');
   const btnRight = sliderWindow.querySelector('.slider-btn-right');
+  const everlandCount = sliderWindow.querySelector('.everland__count');
 
-  let countItems = 0;
-  let lineWidth = 0;
-  let itemWidth = 0;
-  slidePosition = 0;
+  let slidePosition = 0; // позиция элемента в слайдере
+  let countItems = 0; // Количество элементов в слайдере
+  let lineWidth = 0; // Общая длина всех элементов
+  let itemWidth = 0; // Ширина элемента
 
   btnRight.removeAttribute('disabled');
   sliderItems.forEach(el => { countItems += 1; });
@@ -38,6 +33,7 @@ const slideLeft = (event) => {
   }
 
   slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
+  everlandCount.innerHTML = slidePosition;
   console.log(slidePosition);
 };
 
@@ -47,13 +43,14 @@ const slideRight = (event) => {
   const sliderLine = sliderWindow.querySelector('.slider-list');
   const btnLeft = sliderWindow.querySelector('.slider-btn-left');
   const btnRight = sliderWindow.querySelector('.slider-btn-right');
+  const everlandCount = sliderWindow.querySelector('.everland__count');
 
   btnLeft.removeAttribute('disabled');
 
-  let countItems = 0;
-  let lineWidth = 0;
-  let itemWidth = 0;
-  slidePosition = 0;
+  let slidePosition = 0; // позиция элемента в слайдере
+  let countItems = 0; // Количество элементов в слайдере
+  let lineWidth = 0; // Общая длина всех элементов
+  let itemWidth = 0; // Ширина элемента
 
   sliderItems.forEach(el => {
     countItems += 1;
@@ -76,7 +73,8 @@ const slideRight = (event) => {
   sliderLine.style.left = -offset + 'px';
 
   slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
-  console.log(slidePosition);
+  everlandCount.innerHTML = slidePosition;
+  console.log(everlandCount);
 }
 
 /* "Вешаем прослушку" на левые кнопки слайдеров
