@@ -5,6 +5,7 @@ max-width: 440px;
 @media screen and (max-width: 767px) {
   .agency__project{
   max-width: 320px;
+  display: block;
   }
 }
 
@@ -12,4 +13,8 @@ max-width: 440px;
   .agency__project{
   max-width: 334px;
   }
+}
+
+.agency__project:last-of-type{
+  display: none;
 }

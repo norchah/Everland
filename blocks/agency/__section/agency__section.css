@@ -4,15 +4,16 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 767px) {
-  .agency__section {
-    margin: auto;
-  }
-}
-
 @media screen and (max-width: 1439px) {
   .agency__section {
     gap: 32px;
     margin: auto;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .agency__section {
+    margin: auto;
+  }
+}
+

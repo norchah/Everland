@@ -3,7 +3,6 @@
   object-fit: cover;
   display: grid;
   grid-area: foto-number;
-  margin: auto;
 }
 
 @media screen and (max-width: 1200px) {

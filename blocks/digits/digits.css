@@ -6,7 +6,6 @@
 
 @media screen and (max-width: 1200px) {
   .digits {
-    padding: 0 40px 0;
     max-width: 688px;
   }
 }
@@ -20,7 +19,6 @@
 
 @media screen and (min-width: 1201px) and (max-width:1439px) {
   .digits {
-    padding: 0 40px 0;
     max-width: 1040px;
   }
 }
