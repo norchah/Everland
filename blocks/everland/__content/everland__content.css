@@ -1,35 +1,42 @@
 .everland__content {
-	padding: 50px 40px 0 40px;
-	margin: 0 0 0 0;
-	width: 100%;
+  padding: 50px 40px 0;
+  margin: 0;
+  width: 100%;
 }
 
-@media screen and (max-width: 900px) {
-	.everland__content {
-		padding: 50px 40px 8px 40px;
-	}
+@media screen and (max-width:900px) {
+  .everland__content {
+    padding: 50px 40px 8px;
+  }
 }
 
-@media screen and (max-width: 767px) {
-	.everland__content {
-		padding: 50px 20px 40px 20px;
-	}
+@media screen and (max-width:767px) {
+  .everland__content {
+    padding: 50px 20px 40px;
+  }
 }
 
-@media screen and (max-width: 450px) {
-	.everland__content {
-		padding: 50px 10px 40px 10px;
-	}
+@media screen and (max-width:450px) {
+  .everland__content {
+    padding: 50px 10px 40px;
+  }
 }
 
 .everland__content:nth-child(1) {
-	display: flex;
-	gap: 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 14px;
 }
 
-@media screen and (max-width: 767px) {
-	.everland__content:nth-child(1) {
-		flex-direction: column;
-		gap: 28px;
-	}
+@media screen and (max-width:767px) {
+  .everland__content:nth-child(1) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 28px;
+  }
 }

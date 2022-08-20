@@ -1,44 +1,48 @@
 .everland__pictures-box {
-	margin: 0;
-	padding: 0;
-	flex: 0 0 auto;
-	width: 38%;
-	height: 565px;
-	position: relative;
-	overflow: hidden;
-	transition: all .3s ease 0s;
+  margin: 0;
+  padding: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 38%;
+  height: 565px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
 }
 
-@media screen and (max-width: 1400px) {
-	.everland__pictures-box {
-		height: 450px;
-	}
+@media screen and (max-width:1400px) {
+  .everland__pictures-box {
+    height: 450px;
+  }
 }
 
-@media screen and (max-width: 1200px) {
-	.everland__pictures-box {
-		height: 350px;
-	}
+@media screen and (max-width:1200px) {
+  .everland__pictures-box {
+    height: 350px;
+  }
 }
 
-@media screen and (max-width: 900px) {
-	.everland__pictures-box {
-		height: 272px;
-		width: 35%;
-	}
+@media screen and (max-width:900px) {
+  .everland__pictures-box {
+    height: 272px;
+    width: 35%;
+  }
 }
 
-@media screen and (max-width: 767px) {
-	.everland__pictures-box {
-		/* height: 316px; */
-		width: 100%;
-		max-width: 350px;
-		margin: 0 auto;
-	}
+@media screen and (max-width:767px) {
+  .everland__pictures-box {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
 }
 
-@media screen and (max-width: 450px) {
-	.everland__pictures-box {
-		height: 200px;
-	}
+@media screen and (max-width:450px) {
+  .everland__pictures-box {
+    height: 200px;
+  }
 }

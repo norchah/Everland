@@ -1,23 +1,26 @@
 .button_location_form-payment {
-    align-self: center;
-    margin: 0 0 12px;
-    padding: 0;
-    background-image: url('../../../images/slide-button.svg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 8px;
-    height: 14px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin: 0 0 12px;
+  padding: 0;
+  background: url('../../../images/slide-button.svg') no-repeat center center;
+  width: 8px;
+  height: 14px;
 }
 
-@media screen and (max-width: 768px){
-    .button_location_form-payment {
-        margin: 3px 0 0;
-    }
+@media screen and (max-width:768px) {
+  .button_location_form-payment {
+    margin: 3px 0 0;
+  }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
-    .button_location_form-payment {
-        transform: rotate(90deg);
-        margin: -9px 0 0;
-    }
+@media screen and (min-width:320px) and (max-width:767px) {
+  .button_location_form-payment {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin: -9px 0 0;
+  }
 }

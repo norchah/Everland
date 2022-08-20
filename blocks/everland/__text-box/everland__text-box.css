@@ -1,18 +1,23 @@
 .everland__text-box {
-	flex: 0 1 auto;
-	height: fit-content;
-	padding: 0;
-	margin: -10px 0 0 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0;
+  margin: -10px 0 0;
 }
 
-@media screen and (max-width: 900px) {
-	.everland__text-box {
-		margin: -18px 0 0 0;
-	}
+@media screen and (max-width:900px) {
+  .everland__text-box {
+    margin: -18px 0 0;
+  }
 }
 
-@media screen and (max-width: 767px) {
-	.everland__text-box {
-		width: 100%;
-	}
+@media screen and (max-width:767px) {
+  .everland__text-box {
+    width: 100%;
+  }
 }
