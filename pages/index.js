@@ -34,7 +34,6 @@ const slideLeft = (event) => {
 
   slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
   everlandCount.innerHTML = slidePosition;
-  console.log(slidePosition);
 };
 
 const slideRight = (event) => {
@@ -74,7 +73,6 @@ const slideRight = (event) => {
 
   slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
   everlandCount.innerHTML = slidePosition;
-  console.log(everlandCount);
 }
 
 /* "Вешаем прослушку" на левые кнопки слайдеров
