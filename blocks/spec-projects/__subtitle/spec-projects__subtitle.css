@@ -6,3 +6,15 @@
   padding: 0;
   grid-area: spec-projects__subtitle;
 }
+
+@media screen and (max-width: 767px) {
+  .spec-projects__subtitle{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px){
+  .spec-projects__subtitle{
+    font-size: 16px;
+  }
+}

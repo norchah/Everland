@@ -2,3 +2,16 @@
   grid-area: spec-projects__title;
   width: 603px;
 }
+
+@media screen and (max-width: 767px) {
+  .spec-projects__title{
+    width: 245px;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px){
+  .spec-projects__title{
+    width: 339px;
+  }
+}
