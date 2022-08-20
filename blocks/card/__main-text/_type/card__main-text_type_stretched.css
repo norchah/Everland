@@ -7,3 +7,10 @@
         margin-top: 10px;
     }
 }
+
+@media screen and (max-width:767px) {
+  .card__main-text_type_stretched {
+    max-height: 153px;
+    width: 252px;
+  }
+}

@@ -1,5 +1,6 @@
 .card__image{
-    width: 440px;
-    height: 461px;
+    width: 100%;
     border-radius: 30px;
+    object-fit: cover;
 }
+

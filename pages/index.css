@@ -61,6 +61,9 @@
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css);
 @import url(../blocks/button/_border-clr/button_border-clr_black.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_photo/section-title_photo.css);
+@import url(../blocks/section-title/_support/section-title_support.css);
 @import url(../blocks/cards-container/cards-container.css);
 
 /*donations*/
@@ -122,7 +125,6 @@
 @import url(../blocks/card/_width/card_width_long.css);
 @import url(../blocks/card/__container/card__container.css);
 @import url(../blocks/card/__container/_size/card__container_size_m.css);
-@import url(../blocks/card/__container/_type/card__container_type_flex.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__title/_position/card__title_position_top-s.css);
 @import url(../blocks/card/__title/_position/card__title_position_top-m.css);
@@ -251,3 +253,16 @@
 @import url(../blocks/agency/__title/agency__title.css);
 @import url(../blocks/agency/__main-text/agency__main-text.css);
 @import url(../blocks/agency/__section/agency__section.css);
+@import url(../blocks/agency/__button/agency__button.css);
+@import url(../blocks/agency/__project/agency__project.css);
+
+
+
+
+
+@import url(../blocks/card/_type/card_type_hidden.css);
+@import url(../blocks/button/_location/button_location_news-container.css);
+@import url(../blocks/cards-container/_location/cards-container_location_news-section.css);
+
+@import url(../blocks/card/__main-text/_type/card__main-text_type_grow.css);
+@import url(../blocks/card/__image/_correct/card__image_correct_margin.css);

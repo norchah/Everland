@@ -3,3 +3,18 @@
   background-color: #F5F5F5;
 }
 
+@media screen and (max-width: 767px) {
+  .agency {
+    max-width: 320px;
+    margin: auto;
+    padding: 32px 10px 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .agency {
+    max-width: 768px;
+    margin: auto;
+    padding: 50px 40px 50px;
+  }
+}
