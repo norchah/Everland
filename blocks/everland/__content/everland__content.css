@@ -1,0 +1,35 @@
+.everland__content {
+	padding: 50px 40px 0 40px;
+	margin: 0 0 0 0;
+	width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+	.everland__content {
+		padding: 50px 40px 8px 40px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.everland__content {
+		padding: 50px 20px 40px 20px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.everland__content {
+		padding: 50px 10px 40px 10px;
+	}
+}
+
+.everland__content:nth-child(1) {
+	display: flex;
+	gap: 14px;
+}
+
+@media screen and (max-width: 767px) {
+	.everland__content:nth-child(1) {
+		flex-direction: column;
+		gap: 28px;
+	}
+}

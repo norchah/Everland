@@ -1,23 +1,51 @@
 .everland__main-head {
-    max-width: 826px;
-    margin: 0 0 20px;
+    height: fit-content;
     padding: 0;
+    margin: 0 0 24px 0;
     font-size: 72px;
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.02em;
+    overflow: hidden;
+    transition: all .3s ease 0s;
 }
 
-@media screen and (max-width: 1439px) {
+.everland__main-head .everland__logo-text {
+    color: #0C4BA0;
+}
+
+@media screen and (max-width: 1400px) {
     .everland__main-head {
-        margin: 0 0 22px;
-        font-size: 38px;
+        margin: 0 0 22px 0;
+        font-size: 50px;
         letter-spacing: -0.03em;
     }
 }
 
-@media screen and (max-width: 939px) {
+@media screen and (max-width: 1200px) {
     .everland__main-head {
-        max-width: 424px;
+        margin: 0 0 22px 0;
+        font-size: 44px;
+        letter-spacing: -0.03em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .everland__main-head {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .everland__main-head {
+        max-width: 550px;
+        font-size: 33px;
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .everland__main-head {
+        font-size: 28px;
     }
 }

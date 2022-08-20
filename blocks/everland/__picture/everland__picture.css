@@ -1,0 +1,46 @@
+.everland__picture {
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.everland__picture:nth-child(1) {
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 67.8923%;
+    height: 55.7522%;
+}
+
+.everland__picture:nth-child(2) {
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 75.3846%;
+    height: 72.0354%;
+}
+
+@media screen and (max-width: 900px) {
+    .everland__picture:nth-child(1) {
+        width: 75.4098%;
+        height: 55.8824%;
+    }
+
+    .everland__picture:nth-child(2) {
+        width: 69.6721%;
+        height: 64.3382%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .everland__picture:nth-child(1) {
+        width: 63.3333%;
+        height: 72%;
+    }
+
+    .everland__picture:nth-child(2) {
+        width: 56.6666%;
+        height: 80%;
+    }
+}
