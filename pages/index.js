@@ -7,11 +7,11 @@ menuButton.addEventListener("click", () => {
 
 
 /*smooth scroll to Support section*/
-const supportButton = document.querySelector('.button_support')
+const supportButton = document.querySelector('.button_location_donations-section')
 
 supportButton.addEventListener('click', (e) => {
   e.preventDefault();
-  const offsetTop = document.querySelector('#support').offsetTop;
+  const offsetTop = document.querySelector('.support').offsetTop;
 
   scroll({
     top: offsetTop - 80,

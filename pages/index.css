@@ -30,6 +30,7 @@
 @import url(../blocks/button/_border-clr/button_border-clr_blue.css);
 @import url(../blocks/button/_location/button_location_form-submit.css);
 @import url(../blocks/button/_location/button_location_form-payment.css);
+@import url(../blocks/button/_location/button_location_donations-section.css);
 @import url(../blocks/button/_arrow/button_arrow_left.css);
 @import url(../blocks/button/_arrow/button_arrow_right.css);
 
@@ -60,6 +61,9 @@
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css);
 @import url(../blocks/button/_border-clr/button_border-clr_black.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_photo/section-title_photo.css);
+@import url(../blocks/section-title/_support/section-title_support.css);
 @import url(../blocks/cards-container/cards-container.css);
 
 /*donations*/
@@ -95,7 +99,8 @@
 @import url(../blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css);
 @import url(../blocks/form/__radio-button/_border-style/form__radio-button_border-style_displayed.css);
 @import url(../blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css);
-@import url(../blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css);
+@import url(../blocks/form/__radio-button/_value/form__radio-button_value_other-support.css);
+@import url(../blocks/form/__radio-button/_value/form__radio-button_value_other-donations.css);
 @import url(../blocks/form/__label/form__label.css);
 @import url(../blocks/form/__label/_checkbox/form__label_checkbox.css);
 @import url(../blocks/form/__label-link/form__label-link.css);
@@ -120,7 +125,6 @@
 @import url(../blocks/card/_width/card_width_long.css);
 @import url(../blocks/card/__container/card__container.css);
 @import url(../blocks/card/__container/_size/card__container_size_m.css);
-@import url(../blocks/card/__container/_type/card__container_type_flex.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__title/_position/card__title_position_top-s.css);
 @import url(../blocks/card/__title/_position/card__title_position_top-m.css);
@@ -250,3 +254,14 @@
 @import url(../blocks/agency/__title/agency__title.css);
 @import url(../blocks/agency/__main-text/agency__main-text.css);
 @import url(../blocks/agency/__section/agency__section.css);
+
+
+
+
+
+@import url(../blocks/card/_type/card_type_hidden.css);
+@import url(../blocks/button/_location/button_location_news-container.css);
+@import url(../blocks/cards-container/_location/cards-container_location_news-section.css);
+
+@import url(../blocks/card/__main-text/_type/card__main-text_type_grow.css);
+@import url(../blocks/card/__image/_correct/card__image_correct_margin.css);
