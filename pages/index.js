@@ -32,8 +32,10 @@ const slideLeft = (event) => {
     btnLeft.setAttribute('disabled', 'disabled');
   }
 
-  slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
-  everlandCount.innerHTML = slidePosition;
+  if (everlandCount) {
+    slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
+    everlandCount.innerHTML = slidePosition;
+  }
 };
 
 const slideRight = (event) => {
@@ -71,8 +73,10 @@ const slideRight = (event) => {
 
   sliderLine.style.left = -offset + 'px';
 
-  slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
-  everlandCount.innerHTML = slidePosition;
+  if (everlandCount) {
+    slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
+    everlandCount.innerHTML = slidePosition;
+  }
 }
 
 /* "Вешаем прослушку" на левые кнопки слайдеров
