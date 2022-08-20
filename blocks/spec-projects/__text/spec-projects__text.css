@@ -7,3 +7,19 @@
   color: #333333;
   padding: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .spec-projects__text{
+    font-size: 14px;
+    max-width: 244px;
+    margin: 10px 0 20px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px){
+  .spec-projects__text{
+    font-size: 16px;
+    max-width: 315px;
+    margin: 10px 0 37px 0;
+  }
+}

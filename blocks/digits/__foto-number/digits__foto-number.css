@@ -3,7 +3,6 @@
   object-fit: cover;
   display: grid;
   grid-area: foto-number;
-  border-radius: 30px;
   margin: auto;
 }
 
@@ -13,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .digits__foto-number {
     max-width: 300px;
     display: grid;

@@ -1,3 +1,20 @@
 .spec-projects{
   padding: 150px 40px 0;
 }
+
+@media screen and (max-width: 767px) {
+  .spec-projects{
+    padding: 64px 10px 0;
+    margin: auto;
+    min-width: 300px;
+    max-height: 496px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px){
+  .spec-projects{
+    padding: 100px 40px 0;
+    margin: auto;
+    max-width: 688px;
+  }
+}
