@@ -1,24 +1,18 @@
 .everland__content {
-  padding: 50px 40px 0;
+  padding: 55px 40px 0 40px;
   margin: 0;
   width: 100%;
 }
 
 @media screen and (max-width:900px) {
   .everland__content {
-    padding: 50px 40px 8px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .everland__content {
-    padding: 50px 20px 40px;
+    padding: 70px 40px 12px;
   }
 }
 
 @media screen and (max-width:450px) {
   .everland__content {
-    padding: 50px 10px 40px;
+    padding: 55px 10px 30px 10px;
   }
 }
 
@@ -37,6 +31,6 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: 28px;
+    gap: 26px;
   }
 }
