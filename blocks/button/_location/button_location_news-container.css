@@ -1,0 +1,30 @@
+.button_location_news_container {
+  margin-top: 22px;
+  width: 195px;
+  margin-left: auto;
+  grid-row: 1;
+  grid-column: 2/3;
+}
+
+@media screen and (max-width:1439px) {
+  .button_location_news_container {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .button_location_news_container {
+      grid-row: 3;
+      grid-column: 2;
+      margin: 32px auto 0;
+      width: 200px;
+  }
+}
+
+
+@media screen and (max-width:767px) {
+  .button_location_news_container {
+    grid-column: 1/2;
+    width: 300px;
+  }
+}
