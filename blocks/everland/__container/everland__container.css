@@ -1,0 +1,9 @@
+.everland__container {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

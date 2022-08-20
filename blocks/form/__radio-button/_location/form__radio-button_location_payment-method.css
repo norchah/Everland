@@ -1,0 +1,14 @@
+.form__radio-button_location_payment-method {
+    width: 189px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+@media screen and (max-width: 767px){
+    .form__radio-button_location_payment-method {
+        width: 260px;
+        gap: 4px;
+    }
+}

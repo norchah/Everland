@@ -1,9 +1,0 @@
-.spec-projects__slider-line {
-	position: relative;
-	top: 0;
-	left: 0;
-	width: fit-content;
-	height: fit-content;
-	display: flex;
-	transition: all 1s ease 0s;
-}

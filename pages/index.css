@@ -4,6 +4,9 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/slider-window/slider-window.css);
+@import url(../blocks/slider-list/slider-list.css);
+
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_photo/section-title_photo.css);
 @import url(../blocks/section-title/_support/section-title_support.css);
@@ -44,12 +47,55 @@
 @import url(../blocks/link-button/_disabled/link-button_disabled.css);
 @import url(../blocks/link-button/_disabled/link-button_disabled_colors.css);
 
+/* everland */
+@import url(../blocks/everland/everland.css);
+@import url(../blocks/everland/__container/everland__container.css);
+@import url(../blocks/everland/__main-head/everland__main-head.css);
+@import url(../blocks/everland/__span-accent/everland__span-accent.css);
+@import url(../blocks/everland/__description/everland__description.css);
+@import url(../blocks/everland/__image/everland__image.css);
+@import url(../blocks/everland/__image/_absolute/everland__image_absolute.css);
+@import url(../blocks/everland/__buttons-row/everland__buttons-row.css);
+@import url(../blocks/everland/__page-count/everland__page-count.css);
+
+/*donations*/
+@import url(../blocks/donations/donations.css);
+@import url(../blocks/donations/_location/donations_location_everland.css);
+
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__input-container/_location/form__input-container_location_donation-frequency.css);
+@import url(../blocks/form/__input-container/_location/form__input-container_location_payment-method.css);
+@import url(../blocks/form/__input-container/_location/form__input-container_location_donation-amount.css);
+@import url(../blocks/form/__input-container/_location/form__input-container_location_donor-info.css);
+@import url(../blocks/form/__input-container/_location/form__input-container_location_agreement.css);
+@import url(../blocks/form/__main-container/form__main-container.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_text-input/form__item_text-input.css);
+@import url(../blocks/form/__radio-button/form__radio-button.css);
+@import url(../blocks/form/__radio-button/_location/form__radio-button_location_payment-method.css);
+@import url(../blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css);
+@import url(../blocks/form/__radio-button/_border-style/form__radio-button_border-style_displayed.css);
+@import url(../blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css);
+@import url(../blocks/form/__radio-button/_value/form__radio-button_value_other-support.css);
+@import url(../blocks/form/__radio-button/_value/form__radio-button_value_other-donations.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__label/_checkbox/form__label_checkbox.css);
+@import url(../blocks/form/__label-link/form__label-link.css);
+@import url(../blocks/form/__label-text/form__label-text.css);
+@import url(../blocks/form/__paragraph/form__paragraph.css);
+@import url(../blocks/form/__button-container/form__button-container.css);
+@import url(../blocks/form/__button-container/_location/form__button-container_location_payment-method.css);
+@import url(../blocks/form/__button-container/_location/form__button-container_location_donations-everland.css);
+@import url(../blocks/form/__checkbox/form__checkbox.css);
+@import url(../blocks/form/__question-icon/form__question-icon.css);
+@import url(../blocks/form/_location/form_location_donations-everland.css);
+
 /* spec-projects */
-@import url(../blocks/spec-projects/spec-projects.css);
+/* @import url(../blocks/spec-projects/spec-projects.css);
 @import url(../blocks/spec-projects/__arrows/spec-projects__arrows.css);
 @import url(../blocks/spec-projects/__button-arrow/spec-projects__button-arrow.css);
 @import url(../blocks/spec-projects/__button/spec-projects__button.css);
 @import url(../blocks/spec-projects/__foto/spec-projects__foto.css);
-@import url(../blocks/spec-projects/__slider-line/spec-projects__slider-line.css);
-@import url(../blocks/spec-projects/__slider-window/spec-projects__slider-window.css);
-
+@import url(../blocks/spec-projects/__slider/spec-projects__slider.css);
+@import url(../blocks/spec-projects/__slider-window/spec-projects__slider-window.css); */

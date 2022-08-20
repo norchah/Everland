@@ -1,0 +1,14 @@
+.everland {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 600px;
+    width: 100%;
+}
+
+/* @media screen and (max-width: 1439px) {
+    .everland {
+        padding: 53px 40px 0;
+
+    }
+} */
