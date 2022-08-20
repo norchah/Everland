@@ -1,0 +1,30 @@
+.features__container {
+  margin: 0 auto;
+
+}
+
+@media screen and (max-width:1439px) {
+  .features__container {
+     max-width: 1040px;
+  }
+}
+
+  @media screen and (max-width:1200px) {
+    .features__container {
+      max-width: 710px;
+
+    }
+  }
+
+  @media screen and (max-width:767px) {
+    .features__container {
+      max-width: 600px;
+
+    }
+  }
+
+  @media screen and (max-width:450px) {
+    .features__container {
+      max-width: 300px;
+    }
+  }

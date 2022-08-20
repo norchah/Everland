@@ -1,0 +1,21 @@
+.header__container {
+    position: sticky;
+    margin: 0;
+    padding: 16px 40px 0;
+    display: grid;
+    grid-template-columns: 1.44fr 1fr 0.9fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 940px) {
+    .header__container {
+        display: grid;
+        grid-template-areas:
+            "logo buttons menu";
+        grid-template-columns: 4fr 1fr 1fr;
+        gap: 24px;
+        justify-content: baseline;
+        padding: 18px 39px 0 42px;
+    }
+}

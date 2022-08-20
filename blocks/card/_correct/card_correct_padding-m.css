@@ -1,0 +1,9 @@
+.card_correct_padding-m{
+    padding: 30px;
+}
+
+@media screen and (max-width:767px) {
+  .card_correct_padding-m {
+    padding: 23px;
+  }
+}

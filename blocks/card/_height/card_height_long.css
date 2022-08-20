@@ -1,0 +1,21 @@
+.card_height_long {
+    height: 800px;
+    width: 440px;
+    border: 1px solid #DADADA;
+    justify-content: start;
+}
+
+@media screen and (max-width:1439px) {
+  .card_height_long {
+    height: 551px;
+    min-width: 334px;
+    border-radius: 20px;
+}
+}
+
+@media screen and (max-width:767px) {
+  .card_height_long {
+    min-width: 300px;
+    height: auto;
+  }
+}

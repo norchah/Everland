@@ -1,0 +1,5 @@
+.support__item_type_amount {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin: 0;
+}
