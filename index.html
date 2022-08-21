@@ -143,6 +143,7 @@
     <section class="everland slider-window">
 
       <ul class="everland__buttons-row list">
+
         <li class="everland__button-item">
           <button
             class="slider-btn-left button button_back-clr_blue button_text-clr_white button_size_xxs button_arrow_left"
@@ -189,23 +190,12 @@
         </li>
 
         <li class="everland__content slider-item">
-          <div class="everland__pictures-box">
-            <picture class="everland__picture picture-adaptiv">
-              <source class="picture-adaptiv__img" type="image/webp"
-                srcset="/images/everland-head-images/everland-image-2.webp 1x, /images/everland-head-images/everland-image-2@2x.webp 2x ">
-              <source class="picture-adaptiv__img" type="image/jpg"
-                srcset="/images/everland-head-images/everland-image-2.jpg 1x, /images/everland-head-images/everland-image-2@2x.jpg 2x">
-              <img class="picture-adaptiv__img" src="/images/everland-head-images/everland-image-2.jpg"
-                alt="Фото участника проекта.">
-            </picture>
-            <picture class="everland__picture picture-adaptiv">
-              <source class="picture-adaptiv__img" type="image/webp"
-                srcset="/images/everland-head-images/everland-image-1.webp 1x, /images/everland-head-images/everland-image-1@2x.webp 2x ">
-              <source class="picture-adaptiv__img" type="image/jpg"
-                srcset="/images/everland-head-images/everland-image-1.jpg 1x, /images/everland-head-images/everland-image-1@2x.jpg 2x">
-              <img class="picture-adaptiv__img" src="/images/everland-head-images/everland-image-1.jpg"
-                alt="Фото участника проекта.">
-            </picture>
+          <div class="everland__text-box">
+            <h1 class="everland__main-head"><span class="everland__logo-text">Everland</span> — социальный
+              предпринимательский проект</h1>
+            <p class="everland__description">Мы&nbsp;работаем с&nbsp;2016 года по&nbsp;России и СНГ и помогаем
+              людям с&nbsp;инвалидностью устойчиво
+              интегрироваться в открытый рынок труда</p>
           </div>
         </li>
 
@@ -436,16 +426,16 @@
     <section class="features">
       <div class="features__container">
         <h2 class="section-title features__title">Главное в работе</h2>
-          <ul class="features__accordion">
+        <ul class="features__accordion">
 
-            <li class="features__accordion-item">
-              <div class="features__accordion-heading">
-                <h3 class="features__accordion-title">Заработанные средства</h3>
-                <button class="features__accordion-button"></button>
-              </div>
-              <div class="features__accordion-content">
-              </div>
-            </li>
+          <li class="features__accordion-item">
+            <div class="features__accordion-heading">
+              <h3 class="features__accordion-title">Заработанные средства</h3>
+              <button class="features__accordion-button"></button>
+            </div>
+            <div class="features__accordion-content">
+            </div>
+          </li>
 
           <li class="features__accordion-item">
             <div class="features__accordion-heading">
@@ -648,39 +638,39 @@
     <!-- Лучшие проекты агентсва -->
     <section class="agency">
       <div class="agency__block">
-      <h2 class="section-title agency__title">Лучшие проекты агентства</h2>
-      <h3 class="card__title agency__subtitle">Мы выполняем работы в области веб-разработки, дизайна, права, видео,
-        анимации и контента</h3>
-      <div class="agency__section">
-        <div class="cards-container">
-          <div class="agency__project">
-            <article class="card">
-              <img class="card__image" src="./images/recommendation scripts.jpg" alt="два экрана страницы сайта">
-            </article>
-            <p class="card__main-text card__main-text_size_l agency__main-text">Скрипты-рекомендации для бизнеса
-              (DisQuestion)</p>
+        <h2 class="section-title agency__title">Лучшие проекты агентства</h2>
+        <h3 class="card__title agency__subtitle">Мы выполняем работы в области веб-разработки, дизайна, права, видео,
+          анимации и контента</h3>
+        <div class="agency__section">
+          <div class="cards-container">
+            <div class="agency__project">
+              <article class="card">
+                <img class="card__image" src="./images/recommendation scripts.jpg" alt="два экрана страницы сайта">
+              </article>
+              <p class="card__main-text card__main-text_size_l agency__main-text">Скрипты-рекомендации для бизнеса
+                (DisQuestion)</p>
+            </div>
+            <div class="agency__project">
+              <article class="card">
+                <img class="card__image" src="./images/Onconnavigator.jpg" alt="планшет и телефон с открытой страницы">
+              </article>
+              <p class="card__main-text card__main-text_size_l agency__main-text">Проект «Онконавигатор»</p>
+            </div>
+            <div class="agency__project">
+              <article class="card">
+                <img class="card__image" src="./images/Migrations revealing the personal.jpg"
+                  alt="3 телефона с открытыми страницами сайта">
+              </article>
+              <p class="card__main-text card__main-text_size_l agency__main-text">Проект «Миграции: приоткрывая личное»
+              </p>
+            </div>
           </div>
-          <div class="agency__project">
-            <article class="card">
-              <img class="card__image" src="./images/Onconnavigator.jpg" alt="планшет и телефон с открытой страницы">
-            </article>
-            <p class="card__main-text card__main-text_size_l agency__main-text">Проект «Онконавигатор»</p>
+          <div class="agency__button">
+            <button type="button" class="button_size_l button button_text-clr_blue button_border-clr_blue"
+              aria-label="Посмотреть все">Посмотреть все</button>
           </div>
-          <div class="agency__project">
-            <article class="card">
-              <img class="card__image" src="./images/Migrations revealing the personal.jpg"
-                alt="3 телефона с открытыми страницами сайта">
-            </article>
-            <p class="card__main-text card__main-text_size_l agency__main-text">Проект «Миграции: приоткрывая личное»
-            </p>
-          </div>
-        </div>
-        <div class="agency__button">
-        <button type="button" class="button_size_l button button_text-clr_blue button_border-clr_blue"
-          aria-label="Посмотреть все">Посмотреть все</button>
         </div>
       </div>
-    </div>
     </section>
 
     <!-- Новости -->
