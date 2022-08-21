@@ -197,13 +197,16 @@
 /* spec-projects */
 @import url(../blocks/spec-projects/spec-projects.css);
 @import url(../blocks/spec-projects/__arrows/spec-projects__arrows.css);
-@import url(../blocks/spec-projects/__block/spec-projects__block.css);
+@import url(../blocks/spec-projects/__content/spec-projects__content.css);
+@import url(../blocks/spec-projects/__content/--article_our-special-project/spec-projects__content--article_our-special-project.css);
 @import url(../blocks/spec-projects/__button-arrow/spec-projects__button-arrow.css);
 @import url(../blocks/spec-projects/__button/spec-projects__button.css);
+@import url(../blocks/spec-projects/__buttons-row/spec-projects__buttons-row.css);
 @import url(../blocks/spec-projects/__foto/spec-projects__foto.css);
 @import url(../blocks/spec-projects/__subtitle/spec-projects__subtitle.css);
 @import url(../blocks/spec-projects/__text/spec-projects__text.css);
 @import url(../blocks/spec-projects/__title/spec-projects__title.css);
+@import url(../blocks/spec-projects/__slider/spec-projects__slider.css);
 
 /* stories */
 @import url(../blocks/stories/stories.css);
