@@ -1,5 +1,9 @@
 .spec-projects__subtitle {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
   padding: 0;
   margin: 0;
@@ -8,20 +12,20 @@
   line-height: 1.3;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width:900px) {
   .spec-projects__subtitle {
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width:700px) {
   .spec-projects__subtitle {
     font-size: 14px;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .spec-projects__subtitle {
     font-size: 14px;
   }

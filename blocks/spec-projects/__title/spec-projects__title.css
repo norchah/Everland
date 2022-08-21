@@ -1,27 +1,29 @@
 .spec-projects__title {
   max-width: 630px;
   margin: 0;
-  padding: 15px 0 0 0;
+  padding: 15px 0 0;
+  height: -webkit-min-content;
+  height: -moz-min-content;
   height: min-content;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width:900px) {
   .spec-projects__title {
     max-width: 350px;
     font-size: 36px;
     line-height: 1.2;
-    padding: 10px 0 0 0;
+    padding: 10px 0 0;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width:700px) {
   .spec-projects__title {
     max-width: 100%;
-    padding: 20px 0 0 0;
+    padding: 20px 0 0;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .spec-projects__title {
     font-size: 26px;
   }

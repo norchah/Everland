@@ -1,28 +1,34 @@
 .footer__title-social-net {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
   grid-row: 3/4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
   grid-column: 2/3;
-  box-sizing: border-box;
   margin: 0;
-  padding: 71px 0 10px 0;
+  padding: 71px 0 10px;
   align-self: flex-end;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
   max-width: 670px;
   font-weight: 700;
   font-size: 34px;
   line-height: 1.2;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width:1200px) {
   .footer__title-social-net {
-    padding: 60px 0 10px 0;
+    padding: 60px 0 10px;
     max-width: 400px;
     font-size: 29px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width:900px) {
   .footer__title-social-net {
     padding: 40px 0 12px 3px;
     max-width: 200px;
@@ -30,14 +36,14 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width:700px) {
   .footer__title-social-net {
-    padding: 13px 0 8px 0;
+    padding: 13px 0 8px;
     max-width: 185px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .footer__title-social-net {
     font-size: 16px;
   }

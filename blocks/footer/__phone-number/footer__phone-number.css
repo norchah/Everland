@@ -1,9 +1,11 @@
 .footer__phone-number {
   overflow: hidden;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width:450px) {
   .footer__phone-number:hover {
     opacity: .7;
   }

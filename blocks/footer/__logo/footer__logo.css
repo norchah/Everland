@@ -1,15 +1,22 @@
 .footer__logo {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
   max-width: 263px;
   height: 46px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width:900px) {
   .footer__logo {
     max-width: 137px;
     height: 24px;

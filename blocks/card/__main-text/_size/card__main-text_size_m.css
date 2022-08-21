@@ -1,15 +1,15 @@
-.card__main-text_size_m{
-    max-width: 380px;
+.card__main-text_size_m {
+  max-width: 380px;
 }
 
-@media screen and (max-width:1439px){
-    .card__main-text_size_m{
-        max-width: 274px;
-    }
+@media screen and (max-width:1439px) {
+  .card__main-text_size_m {
+    max-width: 274px;
+  }
 }
 
-@media screen and (max-width:800px){
-    .card__main-text_size_m{
-        max-width: 251px;
-    }
+@media screen and (max-width:800px) {
+  .card__main-text_size_m {
+    max-width: 251px;
+  }
 }

@@ -1,34 +1,34 @@
 .form__radio-button_location_donations-everland {
-    background-color: #fff;
-    margin: 0;
+  background-color: #fff;
+  margin: 0;
 }
 
-@media screen and (max-width: 1313px) {
-    .form__radio-button_location_donations-everland  {
-        height: 44px;
-        width: 112px;
-        font-size: 16px;
-        line-height: 19px;
-    }
+@media screen and (max-width:1313px) {
+  .form__radio-button_location_donations-everland {
+    height: 44px;
+    width: 112px;
+    font-size: 16px;
+    line-height: 19px;
+  }
 }
 
-@media screen and (max-width: 1186px) {
-    .form__radio-button_location_donations-everland  {
-        width: 75px;
-    }
+@media screen and (max-width:1186px) {
+  .form__radio-button_location_donations-everland {
+    width: 75px;
+  }
 }
 
-@media screen and (max-width: 767px) {
-    .form__radio-button_location_donations-everland  {
-        width: 111px;
-        font-size: 14px;
-    }
+@media screen and (max-width:767px) {
+  .form__radio-button_location_donations-everland {
+    width: 111px;
+    font-size: 14px;
+  }
 }
 
-@media screen and (max-width: 601px) {
-    .form__radio-button_location_donations-everland  {
-        width: 122px;
-        padding: 13px;
-        line-height: 17px;
-    }
+@media screen and (max-width:601px) {
+  .form__radio-button_location_donations-everland {
+    width: 122px;
+    padding: 13px;
+    line-height: 17px;
+  }
 }

@@ -5,13 +5,13 @@
   width: 100%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .spec-projects {
     padding: 100px 20px;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width:450px) {
   .spec-projects {
     padding: 64px 10px;
   }

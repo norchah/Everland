@@ -1,11 +1,11 @@
-@media screen and (max-width: 1439px) {
+@media screen and (max-width:1439px) {
   .agency__block {
     max-width: 768px;
     margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .agency__block {
     max-width: 320px;
     margin: 0 auto;
