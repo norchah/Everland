@@ -17,22 +17,3 @@
     padding: 55px 10px 30px 10px;
   }
 }
-
-.everland__content:nth-child(1) {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 14px;
-}
-
-@media screen and (max-width:767px) {
-  .everland__content:nth-child(1) {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    gap: 26px;
-  }
-}
