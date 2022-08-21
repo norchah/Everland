@@ -1,0 +1,46 @@
+.everland__buttons-row {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 10px;
+}
+
+@media screen and (max-width:1200px) {
+  .everland__buttons-row {
+    gap: 11px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .everland__buttons-row {
+    left: 41px;
+    bottom: 7px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .everland__buttons-row {
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    bottom: 0;
+  }
+}

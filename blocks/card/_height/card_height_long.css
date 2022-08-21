@@ -3,6 +3,7 @@
     width: 440px;
     border: 1px solid #DADADA;
     justify-content: start;
+    gap: 0;
 }
 
 @media screen and (max-width:1439px) {

@@ -1,9 +1,9 @@
 .button_size_s {
-    width: 180px;
+  width: 180px;
 }
 
-@media screen and (max-width: 1439px) {
-    .button_size_s {
-        width: 134px;
-    }
+@media screen and (max-width:1439px) {
+  .button_size_s {
+    width: 134px;
+  }
 }

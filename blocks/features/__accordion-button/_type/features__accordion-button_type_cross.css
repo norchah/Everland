@@ -11,8 +11,16 @@
   background-position: 50% 50%;
 }
 
-@media screen and (max-width:1200px) {
+
+.features__accordion-button_type_cross:hover {
+
+  background-image: url(../../../../images/Icon/accordion-icon-cross.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+  @media screen and (max-width:1200px) {
   .features__accordion-button_type_cross {
     background-image: url(../../../../images/Icon/accordion-icon-cross-adaptive.svg);
   }
-}
+  }

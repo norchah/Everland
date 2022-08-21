@@ -10,6 +10,11 @@
   transition: all .3s ease 0s;
 }
 
+.footer__copyright-text .footer__paragraph-copyright-text {
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (max-width: 1200px) {
   .footer__copyright-text {
     max-width: 500px;
