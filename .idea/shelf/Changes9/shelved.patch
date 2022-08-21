@@ -1,0 +1,30 @@
+Index: blocks/donations/_location/donations_location_everland.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.donations_location_everland {\n    margin: 90px 40px 50px;\n}\n\n@media screen and (max-width: 768px) {\n    .donations_location_everland  {\n        margin: 40px 40px 32px;\n    }\n}\n\n@media screen and (max-width: 320px) {\n    .donations_location_everland  {\n        margin: 40px 10px 32px;\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/donations/_location/donations_location_everland.css b/blocks/donations/_location/donations_location_everland.css
+--- a/blocks/donations/_location/donations_location_everland.css	(revision 1e0d3f2bfa46bedfe86661243d6d69a893319649)
++++ b/blocks/donations/_location/donations_location_everland.css	(date 1660769165663)
+@@ -2,14 +2,15 @@
+     margin: 90px 40px 50px;
+ }
+ 
+-@media screen and (max-width: 768px) {
++@media screen and (max-width: 939px) {
+     .donations_location_everland  {
+         margin: 40px 40px 32px;
+     }
+ }
+ 
+-@media screen and (max-width: 320px) {
++@media screen and (max-width: 400px) {
+     .donations_location_everland  {
+         margin: 40px 10px 32px;
+     }
+-}
+\ No newline at end of file
++}
++
