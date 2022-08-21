@@ -1,0 +1,363 @@
+Index: blocks/form/__button-container/_location/form__button-container_location_donations-everland.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__button-container_location_donations-everland {\n    justify-content: space-between;\n    gap: 40px;\n    padding: 0;\n}\n\n@media screen and (max-width: 768px) {\n    .form__button-container_location_donations-everland  {\n        gap: 10px;\n    }\n}\n\n@media screen and (max-width: 320px) {\n    .form__button-container_location_donations-everland  {\n        gap: 16px;\n    }\n}\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__button-container/_location/form__button-container_location_donations-everland.css b/blocks/form/__button-container/_location/form__button-container_location_donations-everland.css
+--- a/blocks/form/__button-container/_location/form__button-container_location_donations-everland.css	(revision 1e0d3f2bfa46bedfe86661243d6d69a893319649)
++++ b/blocks/form/__button-container/_location/form__button-container_location_donations-everland.css	(date 1660769861520)
+@@ -1,16 +1,37 @@
+ .form__button-container_location_donations-everland {
+-    justify-content: space-between;
+     gap: 40px;
+     padding: 0;
+ }
+ 
++@media screen and (min-width: 870px) and (max-width: 1439px) {
++    .form__button-container_location_donations-everland  {
++        gap: 15px;
++        font-size: 16px;
++        height: 44px;
++        justify-content: flex-start;
++    }
++}
++
++@media screen and (max-width: 869px) {
++    .form__button-container_location_donations-everland  {
++        gap: 6px;
++        justify-content: center;
++    }
++}
++
+ @media screen and (max-width: 768px) {
+     .form__button-container_location_donations-everland  {
+         gap: 10px;
+     }
+ }
+ 
+-@media screen and (max-width: 320px) {
++@media screen and (min-width: 514px) and (max-width: 519px) {
++    .form__button-container_location_donations-everland  {
++        gap: 9px;
++    }
++}
++
++@media screen and (max-width: 400px) {
+     .form__button-container_location_donations-everland  {
+         gap: 16px;
+     }
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"ru\">\n\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link rel=\"stylesheet\" href=\"pages/index.css\" />\n  <title>Everland</title>\n</head>\n\n<body class=\"page\">\n  <header class=\"header\">\n    <div class=\"header__container\">\n      <img class=\"logo\" src=\"./images/logo/Logo.svg\" alt=\"Логотип Everland\">\n      <button class=\"header__menu-button\" type=\"button\">Меню</button>\n      <ul class=\"header__buttons\">\n        <li class=\"header__button\">\n          <button class=\"button button_size_s button_text-clr_blue button_border-clr_blue\">Платформа</button>\n        </li>\n        <li class=\"header__button\">\n          <button class=\"button button_size_s button_back-clr_blue button_text-clr_white\">Поддержать</button>\n        </li>\n      </ul>\n    </div>\n    <div class=\"popup\">\n      <nav class=\"menu\">\n        <ul class=\"menu__list\">\n          <li class=\"menu__item\">\n            <h3 class=\"menu__list-heading\">О проекте</h3>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">АНО Пространство равных возможностей</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Новости</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Сотрудничество</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Инклюзия</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Учебным заведениям</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Годовые отчеты</a>\n          </li>\n        </ul>\n        <ul class=\"menu__list\">\n          <li class=\"menu__item\">\n            <h3 class=\"menu__list-heading\"><span class=\"menu__list-heading_correct-size\">Людям</span> с инвалидностью\n            </h3>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Платформа</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Курсы</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Everland Profi</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Бесплатное такси </a>\n          </li>\n        </ul>\n        <ul class=\"menu__list\">\n          <li class=\"menu__item\">\n            <h3 class=\"menu__list-heading\">Услуги</h3>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Услуги агентства</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Готовые сайты </a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Доступность для людей с инвалидностью</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Работодателям</a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">Портфолио</a>\n          </li>\n        </ul>\n        <ul class=\"menu__list\">\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">\n              <h3 class=\"menu__list-heading menu__heaading_heading-correct\">Мы благодарим</h3>\n            </a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">\n              <h3 class=\"menu__list-heading menu__heaading_heading-correct\">Программы</h3>\n            </a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">\n              <h3 class=\"menu__list-heading menu__heaading_heading-correct\">Наставникам</h3>\n            </a>\n          </li>\n          <li class=\"menu__item\">\n            <a class=\"menu__link\" href=\"#\">\n              <h3 class=\"menu__list-heading menu__heaading_heading-correct\">Помочь</h3>\n            </a>\n          </li>\n        </ul>\n      </nav>\n    </div>\n  </header>\n  <main class=main>\n    <nav class=nav>\n      <ul class=nav__menu>\n        <li class=nav__menu-item>\n          <a class=\"nav__link\" href=\"#for-who\">Для кого</a>\n        </li>\n        <li class=nav__menu-item>\n          <a class=\"nav__link\" href=\"#direction\">Направления работы</a>\n        </li>\n        <li class=hnav__menu-item>\n          <a class=\"nav__link\" href=\"#features\">Преимущества</a>\n        </li>\n        <li class=nav__menu-item>\n          <a class=\"nav__link\" href=\"#digits\">Основные цифры</a>\n        </li>\n        <li class=nav__menu-item>\n          <a class=\"nav__link\" href=\"#spec-projects\">Спецпроекты</a>\n        </li>\n        <li class=nav__menu-item>\n          <a class=\"nav__link\" href=\"#stories\">Истории</a>\n        </li>\n        <li class=nav__menu-item>\n          <a class=\"nav__link\" href=\"#agency\">Агентство</a>\n        </li>\n        <li class=nav__menu-item>\n          <a class=\"nav__link\" href=\"#news\">Новости</a>\n        </li>\n      </ul>\n    </nav>\n\n    <!-- Everland -->\n    <section class=\"everland\">\n      <div class=everland__container>\n        <div class=\"everland__text\">\n          <h1 class=\"everland__main-head\"><span class=\"everland__span-accent\">Everland</span> — социальный\n            предпринимательский проект</h1>\n          <p class=\"everland__description\">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью\n            устойчиво интегрироваться в открытый рынок труда</p>\n        </div>\n        <img class=\"everland__image everland__image_absolute\" src=\"images/everland-image-2.png\"\n          alt=\"Мужчина пишет на белой доске\">\n        <img class=\"everland__image\" src=\"images/everland-image-1.png\"\n          alt=\"Мужчина говорит в микрофон, который держит в протезе кисти\">\n      </div>\n      <ul class=\"everland__buttons-list\">\n        <li class=\"everland__button-item\">\n          <button class=\"button button_back-clr_blue button_text-clr_white button_size_xxs button_arrow_left\"\n            type=\"button\" aria-label=\"стрелка\"></button>\n        </li>\n        <li class=\"everland__button-item\">\n          <p class=\"everland__page-count\"><span class=\"everland__count\">1</span>/6</p>\n        </li>\n        <li class=\"everland__button-item\">\n          <button class=\"button button_back-clr_blue button_text-clr_white button_size_xxs button_arrow_right\"\n            type=\"button\" aria-label=\"стрелка\"></button>\n        </li>\n      </ul>\n\n    </section>\n\n    <!-- Пожертвования -->\n    <section class=\"donations donations_location_everland\">\n      <form class=\"form form_location_donations-everland\">\n        <div class=\"form__button-container form__button-container_location_donations-everland\">\n          <label class=\"form__label\">\n            <input id=\"250_donations-everland\" type=\"radio\" class=\"form__item\" name=\"donation\" value=\"250\">\n            <span class=\"form__radio-button form__radio-button_location_donations-everland\">250₽</span>\n          </label>\n\n          <label class=\"form__label\">\n            <input id=\"500_donations-everland\" type=\"radio\" class=\"form__item\" name=\"donation\" value=\"500\">\n            <span class=\"form__radio-button form__radio-button_location_donations-everland\">500₽</span>\n          </label>\n\n          <label class=\"form__label\">\n            <input id=\"750_donations-everland\" type=\"radio\" class=\"form__item\" name=\"donation\" value=\"750\">\n            <span class=\"form__radio-button form__radio-button_location_donations-everland\">750₽</span>\n          </label>\n\n          <label class=\"form__label\">\n            <input id=\"1000_donations-everland\" type=\"radio\" class=\"form__item\" name=\"donation\" value=\"1000\">\n            <span class=\"form__radio-button form__radio-button_location_donations-everland\">1000₽</span>\n          </label>\n\n          <label class=\"form__label\">\n            <input id=\"other_donations-everland\" type=\"radio\" class=\"form__item\" name=\"donation\" value=\"other\">\n            <span\n              class=\"form__radio-button form__radio-button_location_donations-everland form__radio-button_position_donations-last\">Другая\n              сумма</span>\n          </label>\n        </div>\n        <button class=\"button button_support button_size_xs button_back-clr_blue button_text-clr_white\"\n          type=\"submit\">Поддержать\n        </button>\n      </form>\n    </section>\n\n    <!-- Для кого мы работаем -->\n    <section class=\"for-who\">\n      <h2 class=\"section-title\">Для кого мы работаем</h2>\n      <div class=\"cards-container\">\n        <article class=\"card card_width_long card_correct_padding-m card_color_white\">\n          <div class=\"card__container\">\n            <div class=\"card__container-icon card__container-icon_color_blue\">\n              <svg class=\"card__icon\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path class=\"card__icon card__icon_color_blue\"\n                  d=\"M28.9621 28.0025L26.2962 20.0075H17.3372C16.9836 20.0075 16.6446 19.8671 16.3946 19.6172C16.1446 19.3673 16.0042 19.0284 16.0042 18.675V17.3425H25.3351V14.6775H16.0042V10.4908C17.2607 10.1664 18.3558 9.39514 19.0842 8.32144C19.8125 7.24774 20.1242 5.94535 19.9606 4.6584C19.7971 3.37145 19.1697 2.1883 18.1959 1.33072C17.2222 0.473135 15.9689 0 14.6712 0C13.3734 0 12.1202 0.473135 11.1465 1.33072C10.1727 2.1883 9.54526 3.37145 9.38174 4.6584C9.21822 5.94535 9.52984 7.24774 10.2582 8.32144C10.9866 9.39514 12.0816 10.1664 13.3382 10.4908V18.675C13.3382 19.7352 13.7595 20.752 14.5095 21.5017C15.2594 22.2513 16.2766 22.6725 17.3372 22.6725H18.5502C18.296 24.1758 17.6171 25.5751 16.5935 26.7054C15.5699 27.8358 14.2444 28.65 12.7732 29.052C11.302 29.4541 9.74645 29.4272 8.29 28.9746C6.83355 28.5221 5.53692 27.6626 4.553 26.4976C3.56908 25.3327 2.9389 23.9108 2.73676 22.3996C2.53462 20.8884 2.76896 19.3509 3.41214 17.9685C4.05532 16.586 5.08052 15.4162 6.36686 14.5971C7.65319 13.7779 9.14703 13.3434 10.6722 13.345V10.68C8.61964 10.6784 6.6102 11.269 4.88511 12.3809C3.16003 13.4928 1.79261 15.0787 0.946998 16.9484C0.101386 18.818 -0.186483 20.8919 0.117945 22.921C0.422373 24.9502 1.30616 26.8484 2.66322 28.3878C4.02028 29.9272 5.79294 31.0424 7.76843 31.5995C9.74391 32.1567 11.8383 32.132 13.8001 31.5286C15.7619 30.9251 17.5078 29.7685 18.8283 28.1976C20.1487 26.6267 20.9876 24.7082 21.2441 22.6725H24.374L27.04 30.6675H32V28.0025H28.9621ZM12.0052 5.34997C12.0052 4.82288 12.1616 4.30763 12.4545 3.86938C12.7475 3.43112 13.1638 3.08954 13.651 2.88783C14.1381 2.68612 14.6741 2.63335 15.1913 2.73618C15.7084 2.83901 16.1835 3.09282 16.5563 3.46553C16.9292 3.83824 17.1831 4.3131 17.2859 4.83006C17.3888 5.34702 17.336 5.88286 17.1342 6.36982C16.9324 6.85679 16.5907 7.27301 16.1523 7.56584C15.7139 7.85867 15.1985 8.01497 14.6712 8.01497C13.9641 8.01497 13.286 7.7342 12.7861 7.23441C12.2861 6.73463 12.0052 6.05677 12.0052 5.34997Z\"\n                  fill=\"#0C4BA0\" />\n              </svg>\n            </div>\n            <h3 class=\"card__title card__title_position_top-m\">Для людей с&nbsp;инвалидностью</h3>\n            <p class=\"card__main-text card__main-text_size_s\">Помогаем найти работу, пройти обучение, предоставляем\n              разные виды поддержки</p>\n          </div>\n          <a href=\"#\" class=\"link-button link-button_color_blue\">Подробнее</a>\n        </article>\n\n        <article class=\"card card_width_long card_correct_padding-m card_color_white\">\n          <div class=\"card__container\">\n            <div class=\"card__container-icon card__container-icon_color_orange\">\n              <svg class=\"card__icon\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path class=\"card__icon card__icon_color_orange\"\n                  d=\"M25.3333 5.33333H23.8667C23.5572 3.82855 22.7384 2.47646 21.5483 1.50496C20.3582 0.533453 18.8696 0.00193937 17.3333 0L14.6667 0C13.1304 0.00193937 11.6418 0.533453 10.4517 1.50496C9.26157 2.47646 8.4428 3.82855 8.13333 5.33333H6.66667C4.89921 5.33545 3.20474 6.03851 1.95496 7.28829C0.705176 8.53808 0.00211714 10.2325 0 12L0 25.3333C0.00211714 27.1008 0.705176 28.7953 1.95496 30.045C3.20474 31.2948 4.89921 31.9979 6.66667 32H25.3333C27.1008 31.9979 28.7953 31.2948 30.045 30.045C31.2948 28.7953 31.9979 27.1008 32 25.3333V12C31.9979 10.2325 31.2948 8.53808 30.045 7.28829C28.7953 6.03851 27.1008 5.33545 25.3333 5.33333ZM14.6667 2.66667H17.3333C18.1577 2.67008 18.9608 2.92811 19.6329 3.40545C20.305 3.88279 20.8132 4.55612 21.088 5.33333H10.912C11.1868 4.55612 11.695 3.88279 12.3671 3.40545C13.0392 2.92811 13.8423 2.67008 14.6667 2.66667ZM6.66667 8H25.3333C26.3942 8 27.4116 8.42143 28.1618 9.17157C28.9119 9.92172 29.3333 10.9391 29.3333 12V16H2.66667V12C2.66667 10.9391 3.08809 9.92172 3.83824 9.17157C4.58839 8.42143 5.6058 8 6.66667 8ZM25.3333 29.3333H6.66667C5.6058 29.3333 4.58839 28.9119 3.83824 28.1618C3.08809 27.4116 2.66667 26.3942 2.66667 25.3333V18.6667H14.6667V20C14.6667 20.3536 14.8071 20.6928 15.0572 20.9428C15.3072 21.1929 15.6464 21.3333 16 21.3333C16.3536 21.3333 16.6928 21.1929 16.9428 20.9428C17.1929 20.6928 17.3333 20.3536 17.3333 20V18.6667H29.3333V25.3333C29.3333 26.3942 28.9119 27.4116 28.1618 28.1618C27.4116 28.9119 26.3942 29.3333 25.3333 29.3333Z\"\n                  fill=\"#E98509\" />\n              </svg>\n            </div>\n            <h3 class=\"card__title card__title_position_top-m\">Для работодателей</h3>\n            <p class=\"card__main-text card__main-text_size_s\">Помогаем создать устойчивые инклюзивные команды, вовлекаем\n              интеллектуальных волонтеров</p>\n          </div>\n          <a href=\"#\" class=\"link-button link-button_color_orange\">Подробнее</a>\n        </article>\n\n        <article class=\"card card_width_long card_correct_padding-m card_color_white\">\n          <div class=\"card__container\">\n            <div class=\"card__container-icon card__container-icon_color_green\">\n              <svg class=\"card__icon\" viewBox=\"0 0 32 32\" xmlns=\"http://www.w3.org/2000/svg\">\n                <g clip-path=\"url(#clip0_430_1109)\">\n                  <path class=\"card__icon card__icon_color_green\"\n                    d=\"M12 16C13.5822 16 15.129 15.5308 16.4446 14.6518C17.7602 13.7727 18.7855 12.5233 19.391 11.0615C19.9965 9.59966 20.155 7.99113 19.8463 6.43928C19.5376 4.88743 18.7757 3.46197 17.6569 2.34315C16.538 1.22433 15.1126 0.462403 13.5607 0.153721C12.0089 -0.15496 10.4003 0.00346629 8.93853 0.608967C7.47672 1.21447 6.22729 2.23985 5.34824 3.55544C4.46919 4.87104 4 6.41775 4 8C4.00212 10.1211 4.84565 12.1547 6.34548 13.6545C7.84532 15.1544 9.87892 15.9979 12 16ZM12 2.66667C13.0548 2.66667 14.086 2.97947 14.963 3.5655C15.8401 4.15153 16.5237 4.98449 16.9274 5.95903C17.331 6.93357 17.4366 8.00592 17.2309 9.04049C17.0251 10.0751 16.5171 11.0254 15.7712 11.7712C15.0254 12.5171 14.075 13.0251 13.0405 13.2309C12.0059 13.4366 10.9336 13.331 9.95902 12.9274C8.98448 12.5237 8.15153 11.8401 7.5655 10.963C6.97946 10.086 6.66667 9.05484 6.66667 8C6.66667 6.58552 7.22857 5.22896 8.22876 4.22877C9.22896 3.22857 10.5855 2.66667 12 2.66667Z\"\n                    fill=\"#319B17\" />\n                  <path class=\"card__icon card__icon_color_green\"\n                    d=\"M12 18.666C8.81859 18.6699 5.7686 19.9354 3.51901 22.185C1.26941 24.4346 0.00388127 27.4846 0 30.666C0 31.0196 0.140476 31.3587 0.390524 31.6088C0.640573 31.8588 0.979711 31.9993 1.33333 31.9993C1.68696 31.9993 2.02609 31.8588 2.27614 31.6088C2.52619 31.3587 2.66667 31.0196 2.66667 30.666C2.66667 28.1906 3.65 25.8167 5.40034 24.0663C7.15068 22.316 9.52465 21.3327 12 21.3327C14.4754 21.3327 16.8493 22.316 18.5997 24.0663C20.35 25.8167 21.3333 28.1906 21.3333 30.666C21.3333 31.0196 21.4738 31.3587 21.7239 31.6088C21.9739 31.8588 22.313 31.9993 22.6667 31.9993C23.0203 31.9993 23.3594 31.8588 23.6095 31.6088C23.8595 31.3587 24 31.0196 24 30.666C23.9961 27.4846 22.7306 24.4346 20.481 22.185C18.2314 19.9354 15.1814 18.6699 12 18.666Z\"\n                    fill=\"#319B17\" />\n                  <path class=\"card__icon card__icon_color_green\"\n                    d=\"M29.3332 10.5C28.5911 10.537 27.894 10.8664 27.3942 11.4161C26.8944 11.9658 26.6328 12.6911 26.6665 13.4333C26.7002 12.6911 26.4386 11.9658 25.9388 11.4161C25.439 10.8664 24.7419 10.537 23.9998 10.5C23.2578 10.537 22.5606 10.8664 22.0609 11.4161C21.5611 11.9658 21.2995 12.6911 21.3332 13.4333C21.3332 15.74 24.3412 18.4427 25.8398 19.6453C26.0744 19.8332 26.366 19.9355 26.6665 19.9355C26.967 19.9355 27.2586 19.8332 27.4932 19.6453C28.9918 18.4453 31.9998 15.74 31.9998 13.4333C32.0335 12.6911 31.7719 11.9658 31.2721 11.4161C30.7724 10.8664 30.0752 10.537 29.3332 10.5Z\"\n                    fill=\"#319B17\" />\n                </g>\n                <defs>\n                  <clipPath id=\"clip0_430_1109\">\n                    <rect width=\"32\" height=\"32\" fill=\"white\" />\n                  </clipPath>\n                </defs>\n              </svg>\n            </div>\n            <h3 class=\"card__title card__title_position_top-m\">Для КСО-партнеров</h3>\n            <p class=\"card__main-text card__main-text_size_s\">Помогаем найти работу, пройти обучение, предоставляем\n              разные виды поддержки</p>\n          </div>\n          <a href=\"#\" class=\"link-button link-button_color_green\">Подробнее</a>\n        </article>\n      </div>\n    </section>\n    <!-- Наши направления -->\n    <section class=\"directions\">\n      <h2 class=\"section-title\">Наши направления</h2>\n      <div class=\"cards-container\">\n        <article class=\"card card_correct_padding-m card_color_orange\">\n          <div class=\"card__container card__container_size_m\">\n            <h3 class=\"card__title\">Доступность услуг DisQuestion</h3>\n            <p class=\"card__main-text card__main-text_size_m\">Сервисы для бизнеса по повышению доступности услуг для\n              маломобильных клиентов ― контракты с крупнейшими компаниями в России</p>\n          </div>\n          <a href=\"#\" class=\"link-button\">Подробнее</a>\n        </article>\n        <article class=\"card card_correct_padding-m card_color_blue\">\n          <div class=\"card__container card__container_size_m\">\n            <h3 class=\"card__title\">Трудоустройство</h3>\n            <p class=\"card__main-text card__main-text_size_m\">Решение социальной проблемы с использованием\n              предпринимательских инструментов:\n              оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью\n            </p>\n          </div>\n          <a href=\"#\" class=\"link-button\">Подробнее</a>\n        </article>\n        <article class=\"card card_correct_padding-m card_color_green\">\n          <div class=\"card__container card__container_size_m\">\n            <h3 class=\"card__title\">Биржа проектов и&nbsp;готовые решения</h3>\n            <p class=\"card__main-text card__main-text_size_m\">ИТ-система для интеграции в открытый рынок труда людей с\n              инвалидностью в качестве самозанятых и в рамках трудоустройства в другие компании\n            </p>\n          </div>\n          <a href=\"#\" class=\"link-button\">Подробнее</a>\n        </article>\n        <article class=\"card card_correct_padding-m card_color_blue\">\n          <div class=\"card__container card__container_size_m\">\n            <h3 class=\"card__title\">Агентство</h3>\n            <p class=\"card__main-text card__main-text_size_m\">Услуги специалистов с инвалидностью для крупных компаний\n              (дизайн, право, контент и другие)\n            </p>\n          </div>\n          <a href=\"#\" class=\"link-button\">Подробнее</a>\n        </article>\n        <article class=\"card card_correct_padding-m card_color_green\">\n          <div class=\"card__container card__container_size_m\">\n            <h3 class=\"card__title\">Коворкинг</h3>\n            <p class=\"card__main-text card__main-text_size_m\">Уникальное пространство, в котором специалисты с\n              инвалидностью могут работать и офлайн –\n              приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в команде\n            </p>\n          </div>\n          <a href=\"#\" class=\"link-button\">Подробнее</a>\n        </article>\n        <article class=\"card card_correct_padding-m card_color_orange\">\n          <div class=\"card__container card__container_size_m\">\n            <h3 class=\"card__title\">Для людей с&nbsp;инвалидностью</h3>\n            <p class=\"card__main-text card__main-text_size_m\">Помогаем найти работу, пройти обучение, предоставляем\n              разные виды поддержки\n            </p>\n          </div>\n          <a href=\"#\" class=\"link-button\">Подробнее</a>\n        </article>\n      </div>\n    </section>\n\n    <!-- Главное в работе -->\n    <section class=\"features\">\n\n    </section>\n\n    <!-- Everland в цифрах -->\n    <section class=\"digits\">\n      <h2 class=\"section-title section-title_position_bottom-m\">Everland в цифрах</h2>\n      <div class=\"digits__block-number\">\n        <img class=\"digits__foto-number\" src=\"./images/spec-projects__foto.jpg\"\n          alt=\"Мужчина и женщина стоят вместе\"></img>\n        <div class=\"digits__numbers\">\n          <div class=\"digits__number\">\n            <span class=\"digits__number-title_blue\">380+ </span>\n            <h4 class=\"digits__number-title\">человек</h4>\n            <p class=\"digits__text\">прошли обучение и получили работу в разных статусах</p>\n          </div>\n          <div class=\"digits__number\">\n            <span class=\"digits__number-title_blue\">1200+ </span>\n            <h4 class=\"digits__number-title\">человек</h4>\n            <p class=\"digits__text\">наше сообщество ― люди с разными видами\n              инвалидности</p>\n          </div>\n          <div class=\"digits__number\">\n            <span class=\"digits__number-title_blue\">35 000 </span>\n            <h4 class=\"digits__number-title\">рублей</h4>\n            <p class=\"digits__text\">средний заработок в проекте/в рамках работы\n              агентства</p>\n          </div>\n          <div class=\"digits__number\">\n            <span class=\"digits__number-title_blue\">3 </span>\n            <h4 class=\"digits__number-title\">недели</h4>\n            <p class=\"digits__text\">нужно, чтобы получить первую оплату после\n              прокачки в Everland</p>\n          </div>\n        </div>\n      </div>\n    </section>\n\n    <!-- Фотопроект -->\n    <section class=\"spec-projects\">\n      <div class=\"spec-projects__block\">\n        <p class=\"spec-projects__subtitle\">Наши спецпроекты</p>\n        <h2 class=\"section-title spec-projects__title section-title_photo\">Фотопроект «Семья как семья»</h2>\n        <p class=\"spec-projects__text\">Фотопроект Алексея Горшенина включает в себя\n          восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>\n        <button type=\"button\"\n          class=\"button_size_m button button_text-clr_black button_border-clr_black spec-projects__button\"\n          aria-label=\"Посмотреть\">Посмотреть</button>\n        <ul class=\"spec-projects__arrows\">\n          <li class=\"spec-projects__button-arrow\">\n            <button type=\"button\"\n              class=\"button button_size_xxs button_back-clr_black button_text-clr_white button_arrow_left\"\n              aria-label=\"стрелка влево\">\n            </button>\n          </li>\n          <li class=\"spec-projects__button-arrow\">\n            <button type=\"button\"\n              class=\"button button_size_xxs button_back-clr_black button_text-clr_white button_arrow_right\"\n              aria-label=\"стрелка вправа\">\n            </button>\n          </li>\n        </ul>\n        <img class=\"spec-projects__foto\" src=\"./images/spec-projects__foto-family.jpg\" alt=\"Человек с собакой\">\n      </div>\n      </div>\n    </section>\n\n\n\n    <!-- Истории -->\n    <section class=\"stories\">\n\n    </section>\n\n    <!-- Лучшие проекты агентсва -->\n    <section class=\"agency\">\n      <h2 class=\"section-title agency__title\">Лучшие проекты агентства</h2>\n      <h3 class=\"card__title agency__subtitle\">Мы выполняем работы в области веб-разработки, дизайна, права, видео,\n        анимации и контента</h3>\n      <div class=\"agency__section\">\n        <div class=\"cards-container\">\n          <div class=\"best-projects\">\n            <article class=\"card\">\n              <img class=\"card__image\" src=\"./images/recommendation scripts.jpg\" alt=\"два экрана страницы сайта\">\n            </article>\n            <p class=\"card__main-text card__main-text_size_l agency__main-text\">Скрипты-рекомендации для бизнеса\n              (DisQuestion)</p>\n          </div>\n          <div class=\"best-projects\">\n            <article class=\"card\">\n              <img class=\"card__image\" src=\"./images/Onconnavigator.jpg\" alt=\"планшет и телефон с открытой страницы\">\n            </article>\n            <p class=\"card__main-text card__main-text_size_l agency__main-text\">Проект «Онконавигатор»</p>\n          </div>\n          <div class=\"best-projects\">\n            <article class=\"card\">\n              <img class=\"card__image\" src=\"./images/Migrations revealing the personal.jpg\"\n                alt=\"3 телефона с открытыми страницами сайта\">\n            </article>\n            <p class=\"card__main-text card__main-text_size_l agency__main-text\">Проект «Миграции: приоткрывая личное»\n            </p>\n          </div>\n        </div>\n        <button type=\"button\" class=\"button_size_l button button_text-clr_blue button_border-clr_blue\"\n          aria-label=\"Посмотреть все\">Посмотреть все</button>\n      </div>\n    </section>\n\n    <!-- Новости -->\n    <section class=\"news\">\n      <div class=\"news__container\">\n        <h2 class=\"section-title\">Новости</h2>\n        <button class=\"button button_size_s button_text-clr_blue button_border-clr_blue news__item_type_button\">Все\n          новости</button>\n        <div class=\"cards-container news__item_type_container\">\n          <article class=\"card card_height_long card_correct_padding-m\">\n            <div class=\"card__container_size_m\">\n              <p class=\"card__theme\">Тема</p>\n              <img class=\"card__image card__image_size_s\" src=\"./images/image-of-new-year.png\"\n                alt=\"Новогодняя открытка\">\n              <h3 class=\"card__title card__title_position_top-s\">Ура! Новое партнерство — с PepsiCo</h3>\n              <p class=\"card__main-text\">Everland совместно с&nbsp;PepsiCo приняли участие в&nbsp;акции\n                &laquo;Благотворительность вместо сувениров&raquo;</p>\n            </div>\n            <p class=\"card__date\">20 сентября 2021</p>\n          </article>\n          <article class=\"card card_height_long card_color_green card_correct_padding-m\">\n            <div class=\"card__container_size_m\">\n              <p class=\"card__theme\">Тема</p>\n              <h3 class=\"card__title card__title_position_top-s\">Трехдневный интенсив для КСО-менеджеров «Бизнес и\n                инклюзия:\n                как строить эффективные программы»</h3>\n              <p class=\"card__main-text card__main-text_type_stretched\">Эксперты с инвалидностью, представители бизнеса\n                и\n                некоммерческих организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству\n                людей\n                с инвалидностью, обсудили проблемы, к которым нужно быть готовым, и поделились успешными кейсами</p>\n            </div>\n            <p class=\"card__date\">20 сентября 2021</p>\n          </article>\n          <article class=\"card card_height_long card_correct_padding-m\">\n            <div class=\"card__container_size_m\">\n              <p class=\"card__theme\">Тема</p>\n              <h3 class=\"card__title card__title_position_top-s\">Тестируем супермаркеты на доступность</h3>\n              <p class=\"card__main-text\">Everland совместно с торговой сетью «Перекресток» провели аудит продуктовых\n                магазинов на доступность для людей с разными видами инвалидности</p>\n            </div>\n            <div class=\"card__container_size_m\">\n              <img src=\"./images/image-of-a-seller-and-a-customer.png\" alt=\"Продавец и покупатель\"\n                class=\"card__image card__image_size_s\">\n              <p class=\"card__date\">20 сентября 2021</p>\n            </div>\n          </article>\n        </div>\n      </div>\n    </section>\n\n    <section class=\"support\" id=\"support\">\n\n      <h2 class=\"section-title section-title_support\">Поддержите нас</h2>\n      <div class=\"support__main-container\">\n        <form class=\"form\">\n          <div class=\"form__main-container\">\n\n            <fieldset class=\"form__input-container form__input-container_location_donation-frequency\">\n\n              <label class=\"form__label\">\n                <input id=\"monthly\" class=\"form__item\" type=\"radio\" name=\"donation-frequency\" value=\"monthly\" checked>\n                <span\n                  class=\"form__radio-button form__radio-button_location_donation-frequency form__radio-button_border-style_displayed\">Ежемесячно\n                  <abbr title=\"...\"><span class=\"form__question-icon\"></span></abbr>\n                </span>\n              </label>\n\n              <label class=\"form__label\">\n                <input id=\"one-time\" class=\"form__item\" type=\"radio\" name=\"donation-frequency\" value=\"one-time\">\n                <span\n                  class=\"form__radio-button form__radio-button_location_donation-frequency form__radio-button_border-style_displayed\">Разово</span>\n              </label>\n\n            </fieldset>\n\n            <h3 class=\"form__heading\">Размер пожертвования</h3>\n\n            <fieldset class=\"form__input-container form__input-container_location_donation-amount\">\n\n              <div class=\"form__button-container\">\n                <label class=\"form__label\">\n                  <input id=\"250\" type=\"radio\" class=\"form__item\" name=\"donation-amount\" value=\"250\">\n                  <span class=\"form__radio-button form__radio-button_border-style_displayed\">250₽</span>\n                </label>\n\n                <label class=\"form__label\">\n                  <input id=\"500\" type=\"radio\" class=\"form__item\" name=\"donation-amount\" value=\"500\" checked>\n                  <span class=\"form__radio-button form__radio-button_border-style_displayed\">500₽</span>\n                </label>\n\n                <label class=\"form__label\">\n                  <input id=\"750\" type=\"radio\" class=\"form__item\" name=\"donation-amount\" value=\"750\">\n                  <span class=\"form__radio-button form__radio-button_border-style_displayed\">750₽</span>\n                </label>\n\n                <label class=\"form__label\">\n                  <input id=\"1000\" type=\"radio\" class=\"form__item\" name=\"donation-amount\" value=\"1000\">\n                  <span class=\"form__radio-button form__radio-button_border-style_displayed\">1000₽</span>\n                </label>\n\n                <label class=\"form__label\">\n                  <input id=\"other\" type=\"radio\" class=\"form__item\" name=\"donation-amount\" value=\"other\">\n                  <span\n                    class=\"form__radio-button form__radio-button_position_donations-last form__radio-button_border-style_displayed\">Другая\n                    сумма</span>\n                </label>\n\n              </div>\n\n              <p class=\"form__paragraph\">Регулярные пожертвования очень важны для Everland.\n                Это то, что помогает нашим программам работать бесперебойно, что открывает\n                новые востребованные проекты, что максимально эффективно решает социальную задачу.\n                Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет\n                списываться указанная вами сумма.\n              </p>\n\n            </fieldset>\n\n            <h3 class=\"form__heading\">Способ оплаты</h3>\n\n            <fieldset class=\"form__input-container form__input-container_location_payment-method\">\n\n              <div class=\"form__button-container form__button-container_location_payment-method\">\n\n                <label class=\"form__label\">\n                  <input id=\"card-networks\" type=\"radio\" class=\"form__item\" name=\"payment-method\" value=\"card-networks\"\n                    checked>\n                  <span\n                    class=\"form__radio-button form__radio-button_location_payment-method form__radio-button_border-style_displayed\">\n                    <img src=\"./images/mir-logo.svg\" class=\"form__logo form__logo_type_mir\" alt=\"Логотип Мир\" />\n                    <img src=\"./images/maestro-logo.svg\" class=\"form__logo form__logo_type_maestro\"\n                      alt=\"Логотип Maestro\" />\n                    <img src=\"./images/visa-logo.svg\" class=\"form__logo form__logo_type_visa\" alt=\"Логотип Visa\" />\n                    <img src=\"./images/mastercard-logo.svg\" class=\"form__logo form__logo_type_mastercard\"\n                      alt=\"Логотип MasterCard\" /></span>\n                </label>\n\n                <label class=\"form__label\">\n                  <input id=\"yu\" type=\"radio\" class=\"form__item\" name=\"payment-method\" value=\"yu\">\n                  <span\n                    class=\"form__radio-button form__radio-button_location_payment-method form__radio-button_border-style_displayed\"><img\n                      src=\"./images/yu-logo.svg\" alt=\"Логотип Ю\" /></span>\n                </label>\n\n                <label class=\"form__label\">\n                  <input id=\"web-money\" type=\"radio\" class=\"form__item\" name=\"payment-method\" value=\"web-money\">\n                  <span\n                    class=\"form__radio-button form__radio-button_location_payment-method form__radio-button_border-style_displayed\"><img\n                      src=\"./images/web-money-logo.svg\" alt=\"Логотип WebMoney\" /></span>\n                </label>\n\n\n                <button class=\"button button_location_form-payment\"></button>\n              </div>\n\n            </fieldset>\n\n            <h3 class=\"form__heading\">Ваши данные</h3>\n\n            <fieldset class=\"form__input-container form__input-container_location_donor-info\">\n\n              <input type=\"text\" class=\"form__item form__item_text-input\" placeholder=\"Иван Иванов\">\n              <input type=\"text\" class=\"form__item form__item_text-input\" placeholder=\"myemail@example.com\">\n\n            </fieldset>\n\n\n            <fieldset class=\"form__input-container form__input-container_location_agreement\">\n\n              <label class=\"form__label form__label_checkbox\" for=\"offer\">\n\n                <input type=\"checkbox\" class=\"form__item\" name=\"offer\" id=\"offer\" value=\"agree\" checked>\n                <span class=\"form__checkbox\"></span>\n                <span class=\"form__label-text\">Соглашаюсь с <a class=\"form__label-link\" href=\"#\">офертой</a></span>\n              </label>\n\n\n              <label class=\"form__label form__label_checkbox\" for=\"personal-data\">\n\n                <input type=\"checkbox\" class=\"form__item\" name=\"personal-data\" id=\"personal-data\" value=\"agree\" checked>\n                <span class=\"form__checkbox\"></span>\n                <span class=\"form__label-text\">Соглашаюсь на <a class=\"form__label-link\" href=\"#\">обработку моих\n                    персональных данных</a></span>\n\n              </label>\n\n              <button\n                class=\"button button_location_form-submit button_size_s button_back-clr_blue button_text-clr_white\"\n                type=\"submit\">Поддержать\n              </button>\n\n            </fieldset>\n\n\n          </div>\n        </form>\n\n\n        <div class=\"support__donations-container\">\n          <p class=\"support__text\">Everland создается силами многих. Мы благодарны каждому за поддержку!</p>\n          <div class=\"support__donations\">\n            <div class=\"support__donation-info\">\n              <p class=\"support__item support__item_type_donor\">Аноним</p>\n              <span\n                class=\"support__item support__item_type_dots-decoration\">........................................</span>\n              <p class=\"support__item support__item_type_amount\">500 ₽</p>\n              <p class=\"support__item support__item_type_time-ago\">2 часа назад</p>\n            </div>\n            <div class=\"support__donation-info\">\n              <p class=\"support__item support__item_type_donor\">Татьяна</p>\n              <span\n                class=\"support__item support__item_type_dots-decoration\">........................................</span>\n              <p class=\"support__item support__item_type_amount\">600 ₽</p>\n              <p class=\"support__item support__item_type_time-ago\">3 часа назад</p>\n            </div>\n            <div class=\"support__donation-info\">\n              <p class=\"support__item support__item_type_donor\">Аноним</p>\n              <span\n                class=\"support__item support__item_type_dots-decoration\">........................................</span>\n              <p class=\"support__item support__item_type_amount\">300 ₽</p>\n              <p class=\"support__item support__item_type_time-ago\">4 часа назад</p>\n            </div>\n            <div class=\"support__donation-info\">\n              <p class=\"support__item support__item_type_donor\">Аноним</p>\n              <span\n                class=\"support__item support__item_type_dots-decoration\">........................................</span>\n              <p class=\"support__item support__item_type_amount\">200 ₽</p>\n              <p class=\"support__item support__item_type_time-ago\">4 часа назад</p>\n            </div>\n            <div class=\"support__donation-info\">\n              <p class=\"support__item support__item_type_donor\">Аноним</p>\n              <span\n                class=\"support__item support__item_type_dots-decoration\">........................................</span>\n              <p class=\"support__item support__item_type_amount\">100 ₽</p>\n              <p class=\"support__item support__item_type_time-ago\">6 часа назад</p>\n            </div>\n            <div class=\"support__donation-info\">\n              <p class=\"support__item support__item_type_donor\">Наталья</p>\n              <span\n                class=\"support__item support__item_type_dots-decoration\">........................................</span>\n              <p class=\"support__item support__item_type_amount\">600 ₽</p>\n              <p class=\"support__item support__item_type_time-ago\">9 часа назад</p>\n            </div>\n            <div class=\"support__donation-info\">\n              <p class=\"support__item support__item_type_donor\">Наталья</p>\n              <span\n                class=\"support__item support__item_type_dots-decoration\">........................................</span>\n              <p class=\"support__item support__item_type_amount\">600 ₽</p>\n              <p class=\"support__item support__item_type_time-ago\">9 часа назад</p>\n            </div>\n            <div class=\"support__donation-info\">\n              <p class=\"support__item support__item_donor\">Наталья</p>\n              <span\n                class=\"support__item support__item_type_dots-decoration\">........................................</span>\n              <p class=\"support__item support__item_type_amount\">600 ₽</p>\n              <p class=\"support__item support__item_type_time-ago\">9 часа назад</p>\n            </div>\n          </div>\n        </div>\n      </div>\n\n    </section>\n\n    <footer class=\"footer\">\n\n      <img class=\"footer__logo\" src=\"images/logo/logo.svg\" alt=\"Логотип Everland.\">\n\n      <p class=\"footer__text-info\">\n        Платформа Everland&nbsp;&mdash; инклюзивный социальный предпринимательский проект.<br>\n        Реализуется ООО &laquo;ЭВЕРЛЭНД&raquo;, АНО &laquo;Пространство равных возможностей&raquo;.\n      </p>\n\n      <nav class=\"footer__navigation\">\n        <ul class=\"footer__nav-list list\">\n          <li><a class=\"footer__nav-link\" href=\"#\" target=\"_blank\">О проекте</a></li>\n          <li><a class=\"footer__nav-link\" href=\"#\" target=\"_blank\">Услуги</a></li>\n          <li><a class=\"footer__nav-link\" href=\"#\" target=\"_blank\">Людям с&nbsp;инвалидностью</a></li>\n        </ul>\n        <ul class=\"footer__nav-list list\">\n          <li><a class=\"footer__nav-link\" href=\"#\" target=\"_blank\">Программы</a></li>\n          <li><a class=\"footer__nav-link\" href=\"#\" target=\"_blank\">Платформа</a></li>\n          <li><a class=\"footer__nav-link\" href=\"#\" target=\"_blank\">Мы&nbsp;благодарим</a></li>\n        </ul>\n      </nav>\n\n      <h2 class=\"footer__support-title\">При поддержке</h2>\n\n      <ul class=\"footer__support-logos list\">\n        <li>\n          <a class=\"footer__support-logo footer__support-logo--image_beeline\" href=\"https://new.beeline.ru\"\n            target=\"_blank\"></a>\n        </li>\n        <li>\n          <a class=\"footer__support-logo footer__support-logo--image_grant-fund\"\n            href=\"https://xn--80afcdbalict6afooklqi5o.xn--p1ai/\" target=\"_blank\"></a>\n        </li>\n      </ul>\n\n      <div class=\"footer__contacts\">\n        <ul class=\"footer__phone-numbers list\">\n          <li><a class=\"footer__phone-number\" href=\"tel:+74956460428\">+7 (495) 646 04 28</a></li>\n          <li><a class=\"footer__phone-number\" href=\"tel:+79854730893\">+7 (985) 473 08 93</a></li>\n        </ul>\n        <a class=\"footer__address\" href=\"https://yandex.ru/maps/-/CCURFIENXA\" target=\"_blank\">Гоголевский\n          бульвар, дом&nbsp;8, строение&nbsp;2, офис 8, Москва, Россия.</a>\n      </div>\n\n      <h2 class=\"footer__title-social-net\">Подписывайтесь на нас в&nbsp;соцсетях</h2>\n\n      <ul class=\"footer__links-social-net list\">\n        <li><a class=\"footer__soc-net-link footer__soc-net-link--icon_telegram\" href=\"https://t.me/inclusion_everland\"\n            target=\"_blank\"></a></li>\n        <li><a class=\"footer__soc-net-link footer__soc-net-link--icon_vk\" href=\"https://vk.com/everland\"\n            target=\"_blank\"></a>\n        </li>\n      </ul>\n\n      <p class=\"footer__copyright-text\">&copy; ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».<br>\n        Если не указано иначе, все материалы сайта доступны по лицензии Creative Commons CC-BY-SA 3.0</p>\n\n      <div class=\"footer__ya-workshop-box\">\n        <a class=\"footer__ya-workshop-logo\" href=\"https://practicum.yandex.ru\" target=\"_blank\"></a>\n        <p class=\"footer__ya-workshop-caption\">сделано при участии Яндекс Практикума</p>\n      </div>\n\n    </footer>\n\n  </main>\n\n  <script src='pages/index.js'></script>\n</body>\n\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 1e0d3f2bfa46bedfe86661243d6d69a893319649)
++++ b/index.html	(date 1660770729345)
+@@ -197,11 +197,11 @@
+           <label class="form__label">
+             <input id="other_donations-everland" type="radio" class="form__item" name="donation" value="other">
+             <span
+-              class="form__radio-button form__radio-button_location_donations-everland form__radio-button_position_donations-last">Другая
++              class="form__radio-button form__radio-button_location_donations-everland form__radio-button_value_other-donations">Другая
+               сумма</span>
+           </label>
+         </div>
+-        <button class="button button_support button_size_xs button_back-clr_blue button_text-clr_white"
++        <button class="button button_location_donations-section button_size_xs button_back-clr_blue button_text-clr_white"
+           type="submit">Поддержать
+         </button>
+       </form>
+@@ -546,7 +546,7 @@
+                 <label class="form__label">
+                   <input id="other" type="radio" class="form__item" name="donation-amount" value="other">
+                   <span
+-                    class="form__radio-button form__radio-button_position_donations-last form__radio-button_border-style_displayed">Другая
++                    class="form__radio-button form__radio-button_value_other-support form__radio-button_border-style_displayed">Другая
+                     сумма</span>
+                 </label>
+ 
+Index: pages/index.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@import url(../vendor/normalize.css);\n@import url(../vendor/font.css);\n@import url(../blocks/page/page.css);\n@import url(../blocks/button/button.css);\n@import url(../blocks/button/_size/button_size_s.css);\n@import url(../blocks/button/_size/button_size_m.css);\n@import url(../blocks/button/_size/button_size_l.css);\n@import url(../blocks/button/_size/button_size_xs.css);\n@import url(../blocks/button/_size/button_size_xxs.css);\n@import url(../blocks/button/_back-clr/button_back-clr_white.css);\n@import url(../blocks/button/_back-clr/button_back-clr_blue.css);\n@import url(../blocks/button/_back-clr/button_back-clr_black.css);\n@import url(../blocks/button/_text-clr/button_text-clr_white.css);\n@import url(../blocks/button/_text-clr/button_text-clr_blue.css);\n@import url(../blocks/button/_text-clr/button_text-clr_black.css);\n@import url(../blocks/button/_border-clr/button_border-clr_blue.css);\n@import url(../blocks/button/_location/button_location_form-submit.css);\n@import url(../blocks/button/_location/button_location_form-payment.css);\n@import url(../blocks/button/_arrow/button_arrow_left.css);\n@import url(../blocks/button/_arrow/button_arrow_right.css);\n@import url(../blocks/link-button/link-button.css);\n@import url(../blocks/link-button/_size/link-button_size_l.css);\n@import url(../blocks/link-button/_color/link-button_color_blue.css);\n@import url(../blocks/link-button/_color/link-button_color_orange.css);\n@import url(../blocks/link-button/_color/link-button_color_green.css);\n@import url(../blocks/link-button/_color/link-button_color_purple.css);\n@import url(../blocks/link-button/_disabled/link-button_disabled.css);\n@import url(../blocks/link-button/_disabled/link-button_disabled_colors.css);\n@import url(../blocks/header/header.css);\n@import url(../blocks/header/__container/header__container.css);\n@import url(../blocks/header/__menu-button/header__menu-button.css);\n@import url(../blocks/header/__buttons/header__buttons.css);\n@import url(../blocks/logo/logo.css);\n@import url(../blocks/popup/popup.css);\n@import url(../blocks/popup/_opened/popup_opened.css);\n@import url(../blocks/nav/nav.css);\n@import url(../blocks/nav/nav__menu/nav__menu.css);\n@import url(../blocks/nav/__link/nav__link.css);\n@import url(../blocks/menu/menu.css);\n@import url(../blocks/menu/__list/menu__list.css);\n@import url(../blocks/menu/__item/menu__item.css);\n@import url(../blocks/menu/__list-heading/menu__list-heading.css);\n@import url(../blocks/menu/__list-heading/_correct-size/menu__list-heading_correct-size.css);\n@import url(../blocks/menu/__link/menu__link.css);\n@import url(../blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css);\n@import url(../blocks/button/_border-clr/button_border-clr_black.css);\n@import url(../blocks/section-title/section-title.css);\n@import url(../blocks/section-title/_photo/section-title_photo.css);\n@import url(../blocks/section-title/_support/section-title_support.css);\n@import url(../blocks/cards-container/cards-container.css);\n\n\n/*donations*/\n@import url(../blocks/donations/donations.css);\n@import url(../blocks/donations/_location/donations_location_everland.css);\n\n/*support section*/\n@import url(../blocks/support/support.css);\n@import url(../blocks/support/__donations/support__donations.css);\n@import url(../blocks/support/__donations-container/support__donations-container.css);\n@import url(../blocks/support/__text/support__text.css);\n@import url(../blocks/support/__main-container/support__main-container.css);\n@import url(../blocks/support/__item/_type/support__item_type_amount.css);\n@import url(../blocks/support/__donation-info/support__donation-info.css);\n@import url(../blocks/support/__item/_type/support__item_type_donor.css);\n@import url(../blocks/support/__item/_type/support__item_type_dots-decoration.css);\n@import url(../blocks/support/__item/_type/support__item_type_time-ago.css);\n@import url(../blocks/support/__item/support__item.css);\n\n/*form*/\n@import url(../blocks/form/__heading/form__heading.css);\n@import url(../blocks/form/__input-container/form__input-container.css);\n@import url(../blocks/form/__input-container/_location/form__input-container_location_donation-frequency.css);\n@import url(../blocks/form/__input-container/_location/form__input-container_location_payment-method.css);\n@import url(../blocks/form/__input-container/_location/form__input-container_location_donation-amount.css);\n@import url(../blocks/form/__input-container/_location/form__input-container_location_donor-info.css);\n@import url(../blocks/form/__input-container/_location/form__input-container_location_agreement.css);\n@import url(../blocks/form/__main-container/form__main-container.css);\n@import url(../blocks/form/__item/form__item.css);\n@import url(../blocks/form/__item/_text-input/form__item_text-input.css);\n@import url(../blocks/form/__radio-button/form__radio-button.css);\n@import url(../blocks/form/__radio-button/_location/form__radio-button_location_payment-method.css);\n@import url(../blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css);\n@import url(../blocks/form/__radio-button/_border-style/form__radio-button_border-style_displayed.css);\n@import url(../blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css);\n@import url(../blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css);\n@import url(../blocks/form/__label/form__label.css);\n@import url(../blocks/form/__label/_checkbox/form__label_checkbox.css);\n@import url(../blocks/form/__label-link/form__label-link.css);\n@import url(../blocks/form/__label-text/form__label-text.css);\n@import url(../blocks/form/__paragraph/form__paragraph.css);\n@import url(../blocks/form/__button-container/form__button-container.css);\n@import url(../blocks/form/__button-container/_location/form__button-container_location_payment-method.css);\n@import url(../blocks/form/__button-container/_location/form__button-container_location_donations-everland.css);\n@import url(../blocks/form/__checkbox/form__checkbox.css);\n@import url(../blocks/form/__question-icon/form__question-icon.css);\n@import url(../blocks/form/_location/form_location_donations-everland.css);\n\n@import url(../blocks/card/card.css);\n@import url(../blocks/card/_correct/card_correct_padding-m.css);\n@import url(../blocks/card/_color/card_color_green.css);\n@import url(../blocks/card/_color/card_color_blue.css);\n@import url(../blocks/card/_color/card_color_orange.css);\n@import url(../blocks/card/_color/card_color_violet.css);\n@import url(../blocks/card/_color/card_color_white.css);\n@import url(../blocks/card/_height/card_height_long.css);\n@import url(../blocks/card/_width/card_width_long.css);\n@import url(../blocks/card/__container/card__container.css);\n@import url(../blocks/card/__container/_size/card__container_size_m.css);\n@import url(../blocks/card/__container/_type/card__container_type_flex.css);\n@import url(../blocks/card/__title/card__title.css);\n@import url(../blocks/card/__title/_position/card__title_position_top-s.css);\n@import url(../blocks/card/__title/_position/card__title_position_top-m.css);\n@import url(../blocks/card/__main-text/card__main-text.css);\n@import url(../blocks/card/__main-text/_size/card__main-text_size_l.css);\n@import url(../blocks/card/__main-text/_size/card__main-text_size_m.css);\n@import url(../blocks/card/__main-text/_size/card__main-text_size_s.css);\n@import url(../blocks/card/__main-text/_type/card__main-text_type_stretched.css);\n@import url(../blocks/card/__container-icon/card__container-icon.css);\n@import url(../blocks/card/__container-icon/_color/card__container-icon_color_blue.css);\n@import url(../blocks/card/__container-icon/_color/card__container-icon_color_green.css);\n@import url(../blocks/card/__container-icon/_color/card__container-icon_color_orange.css);\n@import url(../blocks/card/__container-icon/_color/card__container-icon_color_violet.css);\n@import url(../blocks/card/__icon/card__icon.css);\n@import url(../blocks/card/__icon/_color/card__icon_color_blue.css);\n@import url(../blocks/card/__icon/_color/card__icon_color_green.css);\n@import url(../blocks/card/__icon/_color/card__icon_color_orange.css);\n@import url(../blocks/card/__icon/_color/card__icon_color_violet.css);\n@import url(../blocks/card/__theme/card__theme.css);\n@import url(../blocks/card/__image/card__image.css);\n@import url(../blocks/card/__image/_size/card__image_size_s.css);\n@import url(../blocks/card/__date/card__date.css);\n\n@import url(../blocks/for-who/for-who.css);\n\n@import url(../blocks/directions/directions.css);\n\n@import url(../blocks/news/news.css);\n@import url(../blocks/news/__container/news__container.css);\n@import url(../blocks/news/__item/_type/news__item_type_container.css);\n@import url(../blocks/news/__item/_type/news__item_type_button.css);\n\n\n\n\n\n\n\n\n@import url(../blocks/everland/everland.css);\n@import url(../blocks/everland/__container/everland__container.css);\n@import url(../blocks/everland/__main-head/everland__main-head.css);\n@import url(../blocks/everland/__span-accent/everland__span-accent.css);\n@import url(../blocks/everland/__description/everland__description.css);\n@import url(../blocks/everland/__image/everland__image.css);\n@import url(../blocks/everland/__image/_absolute/everland__image_absolute.css);\n@import url(../blocks/everland/__buttons-list/everland__buttons-list.css);\n@import url(../blocks/everland/__page-count/everland__page-count.css);\n\n@import url(../blocks/digits/digits.css);\n@import url(../blocks/digits/__block-number/digits__block-number.css);\n@import url(../blocks/digits/__foto-number/digits__foto-number.css);\n@import url(../blocks/digits/__number-title/digits__number-title.css);\n@import url(../blocks/digits/__number-title_blue/digits__number-title_blue.css);\n@import url(../blocks/digits/__number/digits__number.css);\n@import url(../blocks/digits/__numbers/digits__numbers.css);\n@import url(../blocks/digits/__text/digits__text.css);\n@import url(../blocks/spec-projects/spec-projects.css);\n@import url(../blocks/spec-projects/__arrows/spec-projects__arrows.css);\n@import url(../blocks/spec-projects/__block/spec-projects__block.css);\n@import url(../blocks/spec-projects/__button-arrow/spec-projects__button-arrow.css);\n@import url(../blocks/spec-projects/__button/spec-projects__button.css);\n@import url(../blocks/spec-projects/__foto/spec-projects__foto.css);\n@import url(../blocks/spec-projects/__subtitle/spec-projects__subtitle.css);\n@import url(../blocks/spec-projects/__text/spec-projects__text.css);\n@import url(../blocks/spec-projects/__title/spec-projects__title.css);\n\n@import url(../blocks/footer/footer.css);\n@import url(../blocks/footer/__address/footer__address.css);\n@import url(../blocks/footer/__contacts/footer__contacts.css);\n@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);\n@import url(../blocks/footer/__links-social-net/footer__links-social-net.css);\n@import url(../blocks/footer/__logo/footer__logo.css);\n@import url(../blocks/footer/__nav-link/footer__nav-link.css);\n@import url(../blocks/footer/__nav-list/footer__nav-list.css);\n@import url(../blocks/footer/__navigation/footer__navigation.css);\n@import url(../blocks/footer/__phone-numbers/footer__phone-numbers.css);\n@import url(../blocks/footer/__phone-number/footer__phone-number.css);\n@import url(../blocks/footer/__soc-net-link/footer__soc-net-link.css);\n@import url(../blocks/footer/__soc-net-link/--icon_telegram/footer__soc-net-link--icon_telegram.css);\n@import url(../blocks/footer/__soc-net-link/--icon_vk/footer__soc-net-link--icon_vk.css);\n@import url(../blocks/footer/__support-logo/footer__support-logo.css);\n@import url(../blocks/footer/__support-logos/footer__support-logos.css);\n@import url(../blocks/footer/__support-title/footer__support-title.css);\n@import url(../blocks/footer/__support-logo/--image_beeline/footer__support-logo--image_beeline.css);\n@import url(../blocks/footer/__support-logo/--image_grant-fund/footer__support-logo--image_grant-fund.css);\n@import url(../blocks/footer/__text-info/footer__text-info.css);\n@import url(../blocks/footer/__title-social-net/footer__title-social-net.css);\n@import url(../blocks/footer/__ya-workshop-box/footer__ya-workshop-box.css);\n@import url(../blocks/footer/__ya-workshop-caption/footer__ya-workshop-caption.css);\n@import url(../blocks/footer/__ya-workshop-logo/footer__ya-workshop-logo.css);\n@import url(../blocks/agency/agency.css);\n@import url(../blocks/list/list.css);\n@import url(../blocks/agency/__subtitle/agency__subtitle.css);\n@import url(../blocks/agency/__title/agency__title.css);\n@import url(../blocks/agency/__main-text/agency__main-text.css);\n@import url(../blocks/agency/__section/agency__section.css);\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pages/index.css b/pages/index.css
+--- a/pages/index.css	(revision 1e0d3f2bfa46bedfe86661243d6d69a893319649)
++++ b/pages/index.css	(date 1660770561915)
+@@ -16,6 +16,7 @@
+ @import url(../blocks/button/_border-clr/button_border-clr_blue.css);
+ @import url(../blocks/button/_location/button_location_form-submit.css);
+ @import url(../blocks/button/_location/button_location_form-payment.css);
++@import url(../blocks/button/_location/button_location_donations-section.css);
+ @import url(../blocks/button/_arrow/button_arrow_left.css);
+ @import url(../blocks/button/_arrow/button_arrow_right.css);
+ @import url(../blocks/link-button/link-button.css);
+@@ -83,7 +84,8 @@
+ @import url(../blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css);
+ @import url(../blocks/form/__radio-button/_border-style/form__radio-button_border-style_displayed.css);
+ @import url(../blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css);
+-@import url(../blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css);
++@import url(../blocks/form/__radio-button/_value/form__radio-button_value_other-support.css);
++@import url(../blocks/form/__radio-button/_value/form__radio-button_value_other-donations.css);
+ @import url(../blocks/form/__label/form__label.css);
+ @import url(../blocks/form/__label/_checkbox/form__label_checkbox.css);
+ @import url(../blocks/form/__label-link/form__label-link.css);
+Index: blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__radio-button_location_donations-everland {\n    background-color: #fff;\n    margin: 0;\n}\n\n@media screen and (max-width: 768px) {\n    .form__radio-button_location_donations-everland  {\n        height: 44px;\n        width: 75px;\n    }\n}\n\n@media screen and (max-width: 600px) {\n    .form__radio-button_location_donations-everland  {\n        width: 122px;\n        padding: 13px;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css b/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css
+--- a/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css	(revision 1e0d3f2bfa46bedfe86661243d6d69a893319649)
++++ b/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css	(date 1660771377647)
+@@ -3,16 +3,32 @@
+     margin: 0;
+ }
+ 
+-@media screen and (max-width: 768px) {
++@media screen and (max-width: 1313px) {
+     .form__radio-button_location_donations-everland  {
+         height: 44px;
++        width: 112px;
++        font-size: 16px;
++        line-height: 19px;
++    }
++}
++
++@media screen and (max-width: 1186px) {
++    .form__radio-button_location_donations-everland  {
+         width: 75px;
+     }
+ }
+ 
+-@media screen and (max-width: 600px) {
++@media screen and (max-width: 767px) {
++    .form__radio-button_location_donations-everland  {
++        width: 111px;
++        font-size: 14px;
++    }
++}
++
++@media screen and (max-width: 601px) {
+     .form__radio-button_location_donations-everland  {
+         width: 122px;
+         padding: 13px;
++        line-height: 17px;
+     }
+-}
++}
+\ No newline at end of file
+Index: blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css b/blocks/form/__radio-button/_value/form__radio-button_value_other-support.css
+rename from blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css
+rename to blocks/form/__radio-button/_value/form__radio-button_value_other-support.css
+--- a/blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css	(revision 1e0d3f2bfa46bedfe86661243d6d69a893319649)
++++ b/blocks/form/__radio-button/_value/form__radio-button_value_other-support.css	(date 1660770729337)
+@@ -1,21 +1,21 @@
+-.form__radio-button_position_donations-last {
++.form__radio-button_value_other-support {
+     width: 211px;
+ }
+ 
+ @media screen and (max-width: 768px){
+-    .form__radio-button_position_donations-last {
++    .form__radio-button_value_other-support {
+         width: 135px;
+     }
+ }
+ 
+ @media screen and (min-width: 601px) and (max-width: 767px){
+-    .form__radio-button_position_donations-last {
++    .form__radio-button_value_other-support {
+         width: 306px;
+     }
+ }
+ 
+ @media screen and (max-width: 600px) {
+-    .form__radio-button_position_donations-last {
++    .form__radio-button_value_other-support {
+         width: 260px;
+     }
+ }
+Index: blocks/button/_location/button_location_donations-section.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/button/_location/button_location_donations-section.css b/blocks/button/_location/button_location_donations-section.css
+new file mode 100644
+--- /dev/null	(date 1660769861541)
++++ b/blocks/button/_location/button_location_donations-section.css	(date 1660769861541)
+@@ -0,0 +1,7 @@
++@media screen and (max-width: 767px) {
++    .button_location_donations-section  {
++        margin: 0 auto;
++        max-width: 472px;
++        width: 100%;
++    }
++}
+\ No newline at end of file
+Index: blocks/form/__radio-button/_value/form__radio-button_value_other-donations.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__radio-button/_value/form__radio-button_value_other-donations.css b/blocks/form/__radio-button/_value/form__radio-button_value_other-donations.css
+new file mode 100644
+--- /dev/null	(date 1660770729341)
++++ b/blocks/form/__radio-button/_value/form__radio-button_value_other-donations.css	(date 1660770729341)
+@@ -0,0 +1,41 @@
++.form__radio-button_value_other-donations {
++    width: 211px;
++}
++
++@media screen and (max-width: 1439px){
++    .form__radio-button_value_other-donations {
++        width: 171px;
++    }
++}
++
++@media screen and (min-width: 769px) and (max-width: 838px){
++    .form__radio-button_value_other-donations {
++        width: 100%;
++    }
++}
++
++@media screen and (max-width: 768px){
++    .form__radio-button_value_other-donations {
++        width: 135px;
++    }
++}
++
++@media screen and (min-width: 602px) and (max-width: 767px){
++    .form__radio-button_value_other-donations {
++        width: 471px;
++    }
++}
++
++@media screen and (max-width: 601px) {
++    .form__radio-button_value_other-donations {
++        width: 254px;
++    }
++}
++
++
++
++
++
++
++
++
+Index: blocks/donations/donations.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.donations {\n    background-color: #E7F0FF;\n    padding: 58px 54px 58px 30px;\n    border-radius: 10px;\n}\n\n@media screen and (max-width: 768px) {\n    .donations  {\n        padding: 32px 24px 36px;\n    }\n}\n\n@media screen and (max-width: 320px) {\n    .donations  {\n        padding: 32px 20px 32px;\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/donations/donations.css b/blocks/donations/donations.css
+--- a/blocks/donations/donations.css	(revision 1e0d3f2bfa46bedfe86661243d6d69a893319649)
++++ b/blocks/donations/donations.css	(date 1660770309581)
+@@ -4,13 +4,13 @@
+     border-radius: 10px;
+ }
+ 
+-@media screen and (max-width: 768px) {
++@media screen and (max-width: 1439px) {
+     .donations  {
+         padding: 32px 24px 36px;
+     }
+ }
+ 
+-@media screen and (max-width: 320px) {
++@media screen and (max-width: 767px) {
+     .donations  {
+         padding: 32px 20px 32px;
+     }
+Index: blocks/donations/_location/donations_location_everland.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.donations_location_everland {\n    margin: 90px 40px 50px;\n}\n\n@media screen and (max-width: 768px) {\n    .donations_location_everland  {\n        margin: 40px 40px 32px;\n    }\n}\n\n@media screen and (max-width: 320px) {\n    .donations_location_everland  {\n        margin: 40px 10px 32px;\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/donations/_location/donations_location_everland.css b/blocks/donations/_location/donations_location_everland.css
+--- a/blocks/donations/_location/donations_location_everland.css	(revision 1e0d3f2bfa46bedfe86661243d6d69a893319649)
++++ b/blocks/donations/_location/donations_location_everland.css	(date 1660769861530)
+@@ -2,14 +2,15 @@
+     margin: 90px 40px 50px;
+ }
+ 
+-@media screen and (max-width: 768px) {
++@media screen and (max-width: 939px) {
+     .donations_location_everland  {
+         margin: 40px 40px 32px;
+     }
+ }
+ 
+-@media screen and (max-width: 320px) {
++@media screen and (max-width: 400px) {
+     .donations_location_everland  {
+         margin: 40px 10px 32px;
+     }
+-}
+\ No newline at end of file
++}
++
+Index: blocks/form/_location/form_location_donations-everland.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form_location_donations-everland {\n    display: flex;\n    justify-content: space-between;\n}\n\n@media screen and (max-width: 600px) {\n    .form_location_donations-everland {\n        gap: 32px;\n        justify-content: center;\n        flex-direction: column;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/_location/form_location_donations-everland.css b/blocks/form/_location/form_location_donations-everland.css
+--- a/blocks/form/_location/form_location_donations-everland.css	(revision 1e0d3f2bfa46bedfe86661243d6d69a893319649)
++++ b/blocks/form/_location/form_location_donations-everland.css	(date 1660769861533)
+@@ -3,10 +3,28 @@
+     justify-content: space-between;
+ }
+ 
+-@media screen and (max-width: 600px) {
++@media screen and (max-width: 768px) {
++    .form_location_donations-everland {
++        gap: 10px;
++        flex-direction: row;
++    }
++}
++
++@media screen and (max-width: 767px) {
++    .form_location_donations-everland {
++        flex-direction: column;
++        gap: 15px;
++    }
++}
++
++@media screen and (max-width: 513px) {
++    .form_location_donations-everland {
++        gap: 26px;
++    }
++}
++
++@media screen and (max-width: 320px) {
+     .form_location_donations-everland {
+         gap: 32px;
+-        justify-content: center;
+-        flex-direction: column;
+     }
+-}
++}
+\ No newline at end of file

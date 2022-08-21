@@ -1,0 +1,47 @@
+Index: blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__radio-button_location_donations-everland {\n    background-color: #fff;\n    margin: 0;\n}\n\n@media screen and (max-width: 768px) {\n    .form__radio-button_location_donations-everland  {\n        height: 44px;\n        width: 75px;\n    }\n}\n\n@media screen and (max-width: 600px) {\n    .form__radio-button_location_donations-everland  {\n        width: 122px;\n        padding: 13px;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css b/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css
+--- a/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css	(revision 1e0d3f2bfa46bedfe86661243d6d69a893319649)
++++ b/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css	(date 1660768961309)
+@@ -3,16 +3,32 @@
+     margin: 0;
+ }
+ 
+-@media screen and (max-width: 768px) {
++@media screen and (max-width: 1313px) {
+     .form__radio-button_location_donations-everland  {
+         height: 44px;
++        width: 112px;
++        font-size: 16px;
++        line-height: 19px;
++    }
++}
++
++@media screen and (max-width: 1186px) {
++    .form__radio-button_location_donations-everland  {
+         width: 75px;
+     }
+ }
+ 
+-@media screen and (max-width: 600px) {
++@media screen and (max-width: 767px) {
++    .form__radio-button_location_donations-everland  {
++        width: 111px;
++    }
++}
++
++@media screen and (max-width: 601px) {
+     .form__radio-button_location_donations-everland  {
+         width: 122px;
+         padding: 13px;
++        font-size: 14px;
++        line-height: 17px;
+     }
+-}
++}
+\ No newline at end of file

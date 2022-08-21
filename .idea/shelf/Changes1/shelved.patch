@@ -1,0 +1,19 @@
+Index: pages/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>const menuButton = document.querySelector(\".header__menu-button\");\nconst popup = document.querySelector(\".popup\");\n\nmenuButton.addEventListener(\"click\", () => {\n  popup.classList.toggle(\"popup_opened\");\n});\n\n\n\n/*smooth scroll to support page*/\nconst supportButton = document.querySelector('.button_support')\n\nsupportButton.addEventListener('click', (e) => {\n  e.preventDefault();\n  const offsetTop = document.querySelector('#support').offsetTop;\n\n  scroll({\n    top: offsetTop - 80,\n    behavior: \"smooth\"\n  });\n});\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pages/index.js b/pages/index.js
+--- a/pages/index.js	(revision d0670faf1ec7ce8b5ff773906ad5195d22ee5873)
++++ b/pages/index.js	(date 1660605159003)
+@@ -12,7 +12,7 @@
+ 
+ supportButton.addEventListener('click', (e) => {
+   e.preventDefault();
+-  const offsetTop = document.querySelector('#support').offsetTop;
++  const offsetTop = document.querySelector('#support').offsetHeight;
+ 
+   scroll({
+     top: offsetTop - 80,

@@ -1,0 +1,190 @@
+Index: blocks/form/__radio-button/form__radio-button.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__radio-button {\n    display: inline-block;\n    cursor: pointer;\n    height: 48px;\n    width: 159px;\n    border: 1px solid transparent;\n    border-radius: 10px;\n    margin: 0 0 10px 0;\n    padding: 9px;\n    box-sizing: border-box;\n    text-align: center;\n    font-size: 20px;\n    font-weight: 500;\n    line-height: 24px;\n    letter-spacing: 0;\n}\n\n@media screen and (max-width: 768px){\n    .form__radio-button {\n        font-size: 16px;\n        line-height: 19px;\n        height: 44px;\n        width: 145px;\n        margin: 0;\n    }\n}\n\n@media screen and (max-width: 320px){\n    .form__radio-button {\n        font-size: 14px;\n        line-height: 17px;\n        padding: 10.5px 5px 13.5px 4px;\n        width: 122px;\n    }\n}\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__radio-button/form__radio-button.css b/blocks/form/__radio-button/form__radio-button.css
+--- a/blocks/form/__radio-button/form__radio-button.css	(revision 18637eba33978430bead2f849ef8b8572aebaf78)
++++ b/blocks/form/__radio-button/form__radio-button.css	(date 1660586005074)
+@@ -25,7 +25,7 @@
+     }
+ }
+ 
+-@media screen and (max-width: 320px){
++@media screen and (max-width: 500px){
+     .form__radio-button {
+         font-size: 14px;
+         line-height: 17px;
+Index: blocks/form/__question-icon/form__question-icon.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__question-icon  {\n    display: inline-block;\n    margin: 0 0 0 7px;\n    padding: 0;\n    background-image: url('../../../images/question.svg');\n    background-repeat: no-repeat;\n    width: 10px;\n    height: 12px;\n}\n\n.form__question-icon:hover {\n    background-image: url('../../../images/question-hover.svg');\n}\n\n@media screen and (max-width: 320px){\n    .form__question-icon {\n        margin: 0;\n        width: 10px;\n        height: 10px;\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__question-icon/form__question-icon.css b/blocks/form/__question-icon/form__question-icon.css
+--- a/blocks/form/__question-icon/form__question-icon.css	(revision 18637eba33978430bead2f849ef8b8572aebaf78)
++++ b/blocks/form/__question-icon/form__question-icon.css	(date 1660586005073)
+@@ -12,7 +12,7 @@
+     background-image: url('../../../images/question-hover.svg');
+ }
+ 
+-@media screen and (max-width: 320px){
++@media screen and (max-width: 500px){
+     .form__question-icon {
+         margin: 0;
+         width: 10px;
+Index: blocks/form/__main-container/form__main-container.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__main-container {\n    height: 953px;\n    width: 691px;\n    border-radius: 30px;\n    box-shadow: 0 4px 30px 0 #2A30381A;\n    background-color: #fff;\n    padding: 30px 20px 30px 16px;\n    box-sizing: border-box;\n}\n\n@media screen and (max-width: 768px){\n    .form__main-container {\n        width: 688px;\n        height: 858px;\n        padding: 30px 24px 30px;\n    }\n}\n\n@media screen and (max-width: 320px){\n    .form__main-container {\n        width: 300px;\n        height: 1069px;\n        padding: 32px 18px 32px;\n        border-radius: 20px;\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__main-container/form__main-container.css b/blocks/form/__main-container/form__main-container.css
+--- a/blocks/form/__main-container/form__main-container.css	(revision 18637eba33978430bead2f849ef8b8572aebaf78)
++++ b/blocks/form/__main-container/form__main-container.css	(date 1660586005061)
+@@ -16,7 +16,7 @@
+     }
+ }
+ 
+-@media screen and (max-width: 320px){
++@media screen and (max-width: 500px){
+     .form__main-container {
+         width: 300px;
+         height: 1069px;
+Index: blocks/form/_location/form_location_donations-everland.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form_location_donations-everland {\n    display: flex;\n    justify-content: space-between;\n}\n\n@media screen and (max-width: 320px) {\n    .form_location_donations-everland {\n        gap: 32px;\n        justify-content: center;\n        flex-direction: column;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/_location/form_location_donations-everland.css b/blocks/form/_location/form_location_donations-everland.css
+--- a/blocks/form/_location/form_location_donations-everland.css	(revision 18637eba33978430bead2f849ef8b8572aebaf78)
++++ b/blocks/form/_location/form_location_donations-everland.css	(date 1660586005071)
+@@ -3,7 +3,7 @@
+     justify-content: space-between;
+ }
+ 
+-@media screen and (max-width: 320px) {
++@media screen and (max-width: 500px) {
+     .form_location_donations-everland {
+         gap: 32px;
+         justify-content: center;
+Index: blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__radio-button_location_donation-frequency {\n    width: 316px;\n}\n\n@media screen and (max-width: 768px){\n    .form__radio-button_location_donation-frequency {\n        width: 296px;\n    }\n}\n\n@media screen and (max-width: 320px){\n    .form__radio-button_location_donation-frequency {\n        width: 122px;\n        padding-left: 10px;\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css b/blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css
+--- a/blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css	(revision 18637eba33978430bead2f849ef8b8572aebaf78)
++++ b/blocks/form/__radio-button/_location/form__radio-button_location_donation-frequency.css	(date 1660586005065)
+@@ -8,7 +8,7 @@
+     }
+ }
+ 
+-@media screen and (max-width: 320px){
++@media screen and (max-width: 500px){
+     .form__radio-button_location_donation-frequency {
+         width: 122px;
+         padding-left: 10px;
+Index: blocks/form/__radio-button/_location/form__radio-button_location_payment-method.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__radio-button_location_payment-method {\n    width: 189px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 9px;\n}\n\n@media screen and (max-width: 320px){\n    .form__radio-button_location_payment-method {\n        width: 260px;\n        gap: 4px;\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__radio-button/_location/form__radio-button_location_payment-method.css b/blocks/form/__radio-button/_location/form__radio-button_location_payment-method.css
+--- a/blocks/form/__radio-button/_location/form__radio-button_location_payment-method.css	(revision 18637eba33978430bead2f849ef8b8572aebaf78)
++++ b/blocks/form/__radio-button/_location/form__radio-button_location_payment-method.css	(date 1660586005067)
+@@ -6,7 +6,7 @@
+     gap: 9px;
+ }
+ 
+-@media screen and (max-width: 320px){
++@media screen and (max-width: 500px){
+     .form__radio-button_location_payment-method {
+         width: 260px;
+         gap: 4px;
+Index: blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__radio-button_location_donations-everland {\n    background-color: #fff;\n    margin: 0;\n}\n\n@media screen and (max-width: 768px) {\n    .form__radio-button_location_donations-everland  {\n        height: 44px;\n        width: 75px;\n    }\n}\n\n@media screen and (max-width: 320px) {\n    .form__radio-button_location_donations-everland  {\n        width: 122px;\n        padding: 13px;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css b/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css
+--- a/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css	(revision 18637eba33978430bead2f849ef8b8572aebaf78)
++++ b/blocks/form/__radio-button/_location/form__radio-button_location_donations-everland.css	(date 1660586005076)
+@@ -10,7 +10,7 @@
+     }
+ }
+ 
+-@media screen and (max-width: 320px) {
++@media screen and (max-width: 500px) {
+     .form__radio-button_location_donations-everland  {
+         width: 122px;
+         padding: 13px;
+Index: blocks/form/__paragraph/form__paragraph.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__paragraph {\n    margin: 0;\n    font-size: 18px;\n    font-weight: 400;\n    line-height: 23px;\n    letter-spacing: 0;\n    max-width: 652px;\n    width: 100%;\n}\n\n@media screen and (max-width: 768px){\n    .form__paragraph {\n        font-size: 14px;\n        font-weight: 500;\n        line-height: 17px;\n        max-width: 633px;\n    }\n}\n\n@media screen and (max-width: 320px){\n    .form__paragraph {\n        font-size: 12px;\n        line-height: 14px;\n        max-width: 263px;\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__paragraph/form__paragraph.css b/blocks/form/__paragraph/form__paragraph.css
+--- a/blocks/form/__paragraph/form__paragraph.css	(revision 18637eba33978430bead2f849ef8b8572aebaf78)
++++ b/blocks/form/__paragraph/form__paragraph.css	(date 1660586005069)
+@@ -17,7 +17,7 @@
+     }
+ }
+ 
+-@media screen and (max-width: 320px){
++@media screen and (max-width: 500px){
+     .form__paragraph {
+         font-size: 12px;
+         line-height: 14px;
+Index: blocks/form/__item/_text-input/form__item_text-input.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__item_text-input {\n    height: 48px;\n    width: 455px;\n    padding: 10px 0 10px 20px;\n    box-sizing: border-box;\n}\n\n.form__item_text-input::placeholder {\n    font-size: 20px;\n    font-weight: 400;\n    line-height: 26px;\n    letter-spacing: 0;\n    color: #DADADA;\n}\n\n.form__item_text-input:focus {\n    border: 1px solid #0C4BA0;\n    outline: none;\n}\n\n@media screen and (max-width: 768px){\n    .form__item_text-input {\n        height: 44px;\n        padding: 6.5px 0 13.5px 20px;\n    }\n\n    .form__item_text-input::placeholder {\n        font-size: 14px;\n        line-height: 17px;\n    }\n}\n\n\n@media screen and (max-width: 320px){\n    .form__item_text-input {\n        padding: 13.5px 0 17.5px 20px;\n        width: 260px;\n    }\n\n    .form__item_text-input::placeholder {\n        font-size: 14px;\n        line-height: 17px;\n    }\n}\n\n\n\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__item/_text-input/form__item_text-input.css b/blocks/form/__item/_text-input/form__item_text-input.css
+--- a/blocks/form/__item/_text-input/form__item_text-input.css	(revision 18637eba33978430bead2f849ef8b8572aebaf78)
++++ b/blocks/form/__item/_text-input/form__item_text-input.css	(date 1660586037531)
+@@ -31,7 +31,7 @@
+ }
+ 
+ 
+-@media screen and (max-width: 320px){
++@media screen and (max-width: 500px){
+     .form__item_text-input {
+         padding: 13.5px 0 17.5px 20px;
+         width: 260px;
+Index: blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.form__radio-button_position_donations-last {\n    width: 211px;\n}\n\n@media screen and (max-width: 768px){\n    .form__radio-button_position_donations-last {\n        width: 135px;\n    }\n}\n\n@media screen and (max-width: 320px) {\n    .form__radio-button_position_donations-last {\n        width: 260px;\n    }\n}\n\n\n\n\n\n\n\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css b/blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css
+--- a/blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css	(revision 18637eba33978430bead2f849ef8b8572aebaf78)
++++ b/blocks/form/__radio-button/_position/form__radio-button_position_donations-last.css	(date 1660586005078)
+@@ -8,7 +8,7 @@
+     }
+ }
+ 
+-@media screen and (max-width: 320px) {
++@media screen and (max-width: 500px) {
+     .form__radio-button_position_donations-last {
+         width: 260px;
+     }
