@@ -163,6 +163,7 @@
 @import url(../blocks/everland/__text-box/everland__text-box.css);
 @import url(../blocks/everland/__buttons-row/everland__buttons-row.css);
 @import url(../blocks/everland/__content/everland__content.css);
+@import url(../blocks/everland/__content/--article_main/everland__content--article_main.css);
 @import url(../blocks/everland/__description/everland__description.css);
 @import url(../blocks/everland/__main-head/everland__main-head.css);
 @import url(../blocks/everland/__page-count/everland__page-count.css);
