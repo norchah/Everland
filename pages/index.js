@@ -186,7 +186,6 @@ const slideRight = (event) => {
       slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
       everlandCount.innerHTML = Math.round(slidePosition);
     }
-    console.log(correct);
     return offset;
   }
 
