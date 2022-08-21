@@ -1,4 +1,6 @@
 .everland__content {
+  position: relative;
+  z-index: -1;
   padding: 55px 40px 0 40px;
   margin: 0;
   width: 100%;
