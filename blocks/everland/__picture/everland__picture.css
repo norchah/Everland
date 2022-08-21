@@ -3,6 +3,8 @@
   border-radius: 10px;
   overflow: hidden;
   position: absolute;
+  margin: 0 0 15px 0;
+  transition: all .2s ease 0s;
 }
 
 .everland__picture:nth-child(1) {

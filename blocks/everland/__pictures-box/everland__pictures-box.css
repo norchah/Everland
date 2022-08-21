@@ -9,9 +9,6 @@
   height: 565px;
   position: relative;
   overflow: hidden;
-  -webkit-transition: all .3s ease 0s;
-  -o-transition: all .3s ease 0s;
-  transition: all .3s ease 0s;
 }
 
 @media screen and (max-width:1400px) {
@@ -37,7 +34,7 @@
   .everland__pictures-box {
     width: 100%;
     max-width: 350px;
-    margin: 0 auto;
+    margin: 0 auto 35px auto;
   }
 }
 
