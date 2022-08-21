@@ -139,7 +139,6 @@ const slideLeft = (event) => {
     correctWidth = 40;
     slidePositionSpecProjects = calculatePositionLeft(slidePositionSpecProjects);
     offsetSliderSpecProjects = calculateLeftShift(offsetSliderSpecProjects);
-    console.log(slidePositionSpecProjects);
   }
 };
 
@@ -197,7 +196,6 @@ const slideRight = (event) => {
     correctWidth = 40;
     slidePositionSpecProjects = calculatePositionRight(slidePositionSpecProjects, countItems);
     offsetSliderSpecProjects = calculateRightShift(offsetSliderSpecProjects);
-    console.log(slidePositionSpecProjects);
   }
 }
 

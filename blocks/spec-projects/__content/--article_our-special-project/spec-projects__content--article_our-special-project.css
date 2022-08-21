@@ -1,33 +1,13 @@
 .spec-projects__content--article_our-special-projects {
-  display: grid;
-  grid-template-areas:
-    "spec-projects__subtitle spec-projects__foto"
-    "spec-projects__title spec-projects__foto"
-    "spec-projects__text spec-projects__foto"
-    "spec-projects__button spec-projects__foto";
-  grid-template-columns: 603px 1fr;
-  grid-template-rows: 23px 172px 1fr 48px;
-  background-color: rgba(231, 240, 255, 1);
-  column-gap: 142px;
+  background: #E7F0FF;
+  border-radius: 30px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
   .spec-projects__content--article_our-special-projects {
-    grid-template-areas:
-      "spec-projects__subtitle spec-projects__subtitle"
-      "spec-projects__foto spec-projects__foto"
-      "spec-projects__title spec-projects__title"
-      "spec-projects__text spec-projects__text"
-      "spec-projects__button spec-projects__button ";
-    grid-template-columns: 1fr;
-    grid-template-rows: 43px 180px 82px 98px 1fr;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1439px) {
-  .spec-projects__content--article_our-special-projects {
-    grid-template-columns: 339px 1fr;
-    grid-template-rows: 31px 86px 123px 1fr;
-    column-gap: 30px;
+    display: block;
   }
 }

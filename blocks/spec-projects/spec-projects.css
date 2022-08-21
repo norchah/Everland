@@ -1,16 +1,18 @@
-.spec-projects{
+.spec-projects {
   position: relative;
-  padding: 150px 40px 0;
+  margin: 0;
+  padding: 100px 40px;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
-  .spec-projects{
-    padding: 64px 10px 0;
+  .spec-projects {
+    padding: 100px 20px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px){
-  .spec-projects{
-    padding: 100px 40px 0;
+@media (max-width: 450px) {
+  .spec-projects {
+    padding: 64px 10px;
   }
 }
