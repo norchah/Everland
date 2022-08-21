@@ -1,22 +1,10 @@
 .spec-projects__content {
-	/* outline: #df00cd solid 1px; */
-	padding: 30px;
-	margin-right: 300px;
-	border-radius: 30px;
-	margin: 0 auto;
-	min-height: 344px;
+  padding: 30px;
+  border-radius: 20px;
 }
 
-@media screen and (max-width: 767px) {
-	.spec-projects__content {
-		min-width: 300px;
-		max-height: 496px;
-	}
-}
-
-@media screen and (min-width: 768px) and (max-width: 1439px) {
-	.spec-projects__content {
-		max-width: 688px;
-		min-height: 284px;
-	}
+@media screen and (max-width:450px) {
+  .spec-projects__content {
+    padding: 24px;
+  }
 }

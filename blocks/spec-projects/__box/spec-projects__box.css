@@ -1,0 +1,12 @@
+.spec-projects__box {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 57.4%;
+  -ms-flex: 1 1 57.4%;
+  flex: 1 1 57.4%;
+}
+
+@media screen and (max-width:700px) {
+  .spec-projects__box {
+    width: 100%;
+  }
+}

@@ -34,13 +34,13 @@
   .everland__pictures-box {
     width: 100%;
     max-width: 350px;
-    margin: 0 auto 35px auto;
+    margin: 0 auto 35px;
   }
 }
 
 @media screen and (max-width:450px) {
   .everland__pictures-box {
     height: 200px;
-    margin: 0 0 15px 0;
+    margin: 0 0 15px;
   }
 }

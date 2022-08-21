@@ -3,7 +3,9 @@ const popup = document.querySelector(".popup");
 
 /* Переменные и константы для слайдера*/
 let offsetSliderEverland = 0; // значения cмещения от левого края
+let slidePositionEverland = 1; // позиция слайда
 let offsetSliderSpecProjects = 0;
+let slidePositionSpecProjects = 1;
 const windowOfSlider = document.querySelector('.slider-window');
 const buttonsRight = document.querySelectorAll('.slider-btn-right');
 const buttonsLeft = document.querySelectorAll('.slider-btn-left');
@@ -96,21 +98,20 @@ const slideLeft = (event) => {
   const btnRight = sliderWindow.querySelector('.slider-btn-right');
   const everlandCount = sliderWindow.querySelector('.everland__count');
 
-  let correct = 0;
+  let correctWidth = 0;
 
-  const calculateLeftShift = (offset) => {
+  let countItems = 0; // Количество элементов в слайдере
+  sliderItems.forEach(el => { countItems += 1; });
+
+  const calculateLeftShift = (offset, countItems) => {
 
     btnRight.removeAttribute('disabled');
 
-    let slidePosition = 0; // позиция элемента в слайдере
-    let countItems = 0; // Количество элементов в слайдере
     let lineWidth = 0; // Общая длина всех элементов
     let itemWidth = 0; // Ширина элемента
 
-    sliderItems.forEach(el => { countItems += 1; });
-
     lineWidth = countItems * sliderItems[0].clientWidth;
-    itemWidth = sliderItems[0].clientWidth + correct;
+    itemWidth = sliderItems[0].clientWidth + correctWidth;
 
     offset = offset - itemWidth;
 
@@ -120,23 +121,23 @@ const slideLeft = (event) => {
 
     sliderLine.style.left = -offset + 'px';
 
-    if (offset < itemWidth) {
-      btnLeft.setAttribute('disabled', 'disabled');
-    }
-
-    if (everlandCount) {
-      slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
-      everlandCount.innerHTML = Math.round(slidePosition);
-    }
-
     return offset;
   }
 
+  const calculatePositionLeft = (slidePosition) => {
+    if (slidePosition > 1) { slidePosition -= 1; }
+    if (slidePosition <= 1) { btnLeft.setAttribute('disabled', 'disabled'); }
+    return slidePosition;
+  }
+
   if (sliderWindow.classList.contains('everland')) {
+    slidePositionEverland = calculatePositionLeft(slidePositionEverland);
     offsetSliderEverland = calculateLeftShift(offsetSliderEverland);
+    if (everlandCount) { everlandCount.innerHTML = slidePositionEverland; }
   }
   else if (sliderWindow.classList.contains('spec-projects')) {
-    correct = 40;
+    correctWidth = 40;
+    slidePositionSpecProjects = calculatePositionLeft(slidePositionSpecProjects);
     offsetSliderSpecProjects = calculateLeftShift(offsetSliderSpecProjects);
   }
 };
@@ -149,23 +150,22 @@ const slideRight = (event) => {
   const btnRight = sliderWindow.querySelector('.slider-btn-right');
   const everlandCount = sliderWindow.querySelector('.everland__count');
 
-  let correct = 0;
+  let correctWidth = 0;
+  let countItems = 0; // Количество элементов в слайдере
 
-  const calculateRightShift = (offset) => {
+  sliderItems.forEach(el => {
+    countItems += 1;
+  });
+
+  const calculateRightShift = (offset, countItems) => {
 
     btnLeft.removeAttribute('disabled');
 
-    let slidePosition = 0; // позиция элемента в слайдере
-    let countItems = 0; // Количество элементов в слайдере
     let lineWidth = 0; // Общая длина всех элементов
     let itemWidth = 0; // Ширина элемента
 
-    sliderItems.forEach(el => {
-      countItems += 1;
-    });
-
     lineWidth = countItems * sliderItems[0].clientWidth;
-    itemWidth = sliderItems[0].clientWidth + correct;
+    itemWidth = sliderItems[0].clientWidth + correctWidth;
     offset = offset + itemWidth;
 
     if (offset > (lineWidth - itemWidth)) {
@@ -176,25 +176,25 @@ const slideRight = (event) => {
       offset = offset - itemWidth;
     }
 
-    if (offset > (lineWidth - itemWidth * 2)) {
-      btnRight.setAttribute('disabled', 'disabled');
-    }
-
     sliderLine.style.left = -offset + 'px';
 
-    if (everlandCount) {
-      slidePosition = countItems - ((lineWidth - offset) / itemWidth) + 1;
-      everlandCount.innerHTML = Math.round(slidePosition);
-    }
-    console.log(correct);
     return offset;
   }
 
+  const calculatePositionRight = (slidePosition, countItems) => {
+    if (slidePosition < countItems) { slidePosition += 1; }
+    if (slidePosition >= countItems) { btnRight.setAttribute('disabled', 'disabled'); }
+    return slidePosition;
+  }
+
   if (sliderWindow.classList.contains('everland')) {
+    slidePositionEverland = calculatePositionRight(slidePositionEverland, countItems);
     offsetSliderEverland = calculateRightShift(offsetSliderEverland);
+    if (everlandCount) { everlandCount.innerHTML = slidePositionEverland; }
   }
   else if (sliderWindow.classList.contains('spec-projects')) {
-    correct = 40;
+    correctWidth = 40;
+    slidePositionSpecProjects = calculatePositionRight(slidePositionSpecProjects, countItems);
     offsetSliderSpecProjects = calculateRightShift(offsetSliderSpecProjects);
   }
 }

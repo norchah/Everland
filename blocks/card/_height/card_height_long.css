@@ -1,9 +1,12 @@
 .card_height_long {
-    height: 800px;
-    width: 440px;
-    border: 1px solid #DADADA;
-    justify-content: start;
-    gap: 0;
+  height: 800px;
+  width: 440px;
+  border: 1px solid #DADADA;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  gap: 0;
 }
 
 @media screen and (max-width:1439px) {
@@ -11,7 +14,7 @@
     height: 551px;
     min-width: 334px;
     border-radius: 20px;
-}
+  }
 }
 
 @media screen and (max-width:767px) {

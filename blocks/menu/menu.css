@@ -1,6 +1,8 @@
 .menu {
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    padding: 40px 40px 0 39px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 40px 0 39px;
 }

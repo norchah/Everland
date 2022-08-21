@@ -1,17 +1,17 @@
-.agency__subtitle{
+.agency__subtitle {
   max-width: 955px;
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 767px) {
-  .agency__subtitle{
+@media screen and (max-width:767px) {
+  .agency__subtitle {
     margin-bottom: 24px;
     max-width: 300px;
   }
 }
 
-@media screen and (max-width: 1439px) {
-  .agency__subtitle{
+@media screen and (max-width:1439px) {
+  .agency__subtitle {
     margin-bottom: 22px;
     max-width: 504px;
   }
