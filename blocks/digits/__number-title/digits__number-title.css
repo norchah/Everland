@@ -10,10 +10,11 @@
 @media screen and (max-width: 1439px) {
   .digits__number-title {
     font-size: 26px;
+    padding-bottom: 10px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .digits__number-title {
     font-size: 18px;
   }

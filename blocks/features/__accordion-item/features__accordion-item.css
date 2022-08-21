@@ -3,6 +3,7 @@
   padding: 27px 20px;
   border: 2px solid #DADADA;
   border-radius: 30px;
+  align-self: start;
 }
 
 @media screen and (max-width:1200px) {

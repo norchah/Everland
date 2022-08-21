@@ -176,6 +176,7 @@
 @import url(../blocks/features/__accordion-title/features__accordion-title.css);
 @import url(../blocks/features/__accordion-text/features__accordion-text.css);
 @import url(../blocks/features/__accordion-item/features__accordion-item.css);
+@import url(../blocks/features/__accordion-item/_type/features__accordion-item_type_opened.css);
 @import url(../blocks/features/__accordion-heading/features__accordion-heading.css);
 @import url(../blocks/features/__accordion-content/features__accordion-content.css);
 @import url(../blocks/features/__accordion-button/features__accordion-button.css);
@@ -254,6 +255,9 @@
 @import url(../blocks/agency/__title/agency__title.css);
 @import url(../blocks/agency/__main-text/agency__main-text.css);
 @import url(../blocks/agency/__section/agency__section.css);
+@import url(../blocks/agency/__button/agency__button.css);
+@import url(../blocks/agency/__project/agency__project.css);
+@import url(../blocks/agency/__block/agency__block.css);
 
 @import url(../blocks/card/_type/card_type_hidden.css);
 @import url(../blocks/button/_location/button_location_news-container.css);

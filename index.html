@@ -436,16 +436,16 @@
     <section class="features">
       <div class="features__container">
         <h2 class="section-title features__title">Главное в работе</h2>
-        <ul class="features__accordion">
+          <ul class="features__accordion">
 
-          <li class="features__accordion-item">
-            <div class="features__accordion-heading">
-              <h3 class="features__accordion-title">Заработанные средства</h3>
-              <button class="features__accordion-button"></button>
-            </div>
-            <div class="features__accordion-content">
-            </div>
-          </li>
+            <li class="features__accordion-item">
+              <div class="features__accordion-heading">
+                <h3 class="features__accordion-title">Заработанные средства</h3>
+                <button class="features__accordion-button"></button>
+              </div>
+              <div class="features__accordion-content">
+              </div>
+            </li>
 
           <li class="features__accordion-item">
             <div class="features__accordion-heading">
@@ -543,7 +543,7 @@
         <button type="button"
           class="button_size_m button button_text-clr_black button_border-clr_black spec-projects__button"
           aria-label="Посмотреть">Посмотреть</button>
-        <ul class="spec-projects__arrows">
+        <!-- <ul class="spec-projects__arrows">
           <li class="spec-projects__button-arrow">
             <button type="button"
               class="button button_size_xxs button_back-clr_black button_text-clr_white button_arrow_left"
@@ -556,7 +556,7 @@
               aria-label="стрелка вправа">
             </button>
           </li>
-        </ul>
+        </ul> -->
         <img class="spec-projects__foto" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
       </div>
       </div>
@@ -647,25 +647,26 @@
 
     <!-- Лучшие проекты агентсва -->
     <section class="agency">
+      <div class="agency__block">
       <h2 class="section-title agency__title">Лучшие проекты агентства</h2>
       <h3 class="card__title agency__subtitle">Мы выполняем работы в области веб-разработки, дизайна, права, видео,
         анимации и контента</h3>
       <div class="agency__section">
         <div class="cards-container">
-          <div class="best-projects">
+          <div class="agency__project">
             <article class="card">
               <img class="card__image" src="./images/recommendation scripts.jpg" alt="два экрана страницы сайта">
             </article>
             <p class="card__main-text card__main-text_size_l agency__main-text">Скрипты-рекомендации для бизнеса
               (DisQuestion)</p>
           </div>
-          <div class="best-projects">
+          <div class="agency__project">
             <article class="card">
               <img class="card__image" src="./images/Onconnavigator.jpg" alt="планшет и телефон с открытой страницы">
             </article>
             <p class="card__main-text card__main-text_size_l agency__main-text">Проект «Онконавигатор»</p>
           </div>
-          <div class="best-projects">
+          <div class="agency__project">
             <article class="card">
               <img class="card__image" src="./images/Migrations revealing the personal.jpg"
                 alt="3 телефона с открытыми страницами сайта">
@@ -674,9 +675,12 @@
             </p>
           </div>
         </div>
+        <div class="agency__button">
         <button type="button" class="button_size_l button button_text-clr_blue button_border-clr_blue"
           aria-label="Посмотреть все">Посмотреть все</button>
+        </div>
       </div>
+    </div>
     </section>
 
     <!-- Новости -->
