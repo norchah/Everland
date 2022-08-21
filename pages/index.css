@@ -8,6 +8,9 @@
 @import url(../blocks/section-title/_photo/section-title_photo.css);
 @import url(../blocks/section-title/_support/section-title_support.css);
 
+@import url(../blocks/slider-window/slider-window.css);
+@import url(../blocks/slider-list/slider-list.css);
+
 @import url(../blocks/list/list.css);
 
 @import url(../blocks/link/link.css);
@@ -154,19 +157,17 @@
 
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__container/news__container.css);
-@import url(../blocks/news/__item/_type/news__item_type_container.css);
-@import url(../blocks/news/__item/_type/news__item_type_button.css);
 
 /* everland */
 @import url(../blocks/everland/everland.css);
-@import url(../blocks/everland/__container/everland__container.css);
-@import url(../blocks/everland/__main-head/everland__main-head.css);
-@import url(../blocks/everland/__span-accent/everland__span-accent.css);
+@import url(../blocks/everland/__text-box/everland__text-box.css);
+@import url(../blocks/everland/__buttons-row/everland__buttons-row.css);
+@import url(../blocks/everland/__content/everland__content.css);
 @import url(../blocks/everland/__description/everland__description.css);
-@import url(../blocks/everland/__image/everland__image.css);
-@import url(../blocks/everland/__image/_absolute/everland__image_absolute.css);
-@import url(../blocks/everland/__buttons-list/everland__buttons-list.css);
+@import url(../blocks/everland/__main-head/everland__main-head.css);
 @import url(../blocks/everland/__page-count/everland__page-count.css);
+@import url(../blocks/everland/__pictures-box/everland__pictures-box.css);
+@import url(../blocks/everland/__picture/everland__picture.css);
 
 /* features */
 @import url(../blocks/features/__container/features__container.css);
@@ -257,10 +258,6 @@
 @import url(../blocks/agency/__button/agency__button.css);
 @import url(../blocks/agency/__project/agency__project.css);
 @import url(../blocks/agency/__block/agency__block.css);
-
-
-
-
 
 @import url(../blocks/card/_type/card_type_hidden.css);
 @import url(../blocks/button/_location/button_location_news-container.css);

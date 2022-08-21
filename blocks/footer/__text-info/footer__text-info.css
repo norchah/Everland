@@ -9,6 +9,11 @@
   transition: all .3s ease 0s;
 }
 
+.footer__text-info .footer__paragraph-text-info {
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (max-width: 1200px) {
   .footer__text-info {
     padding: 17px 0;
