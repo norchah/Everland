@@ -1,0 +1,26 @@
+.spec-projects__buttons-row {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	bottom: 0;
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+	gap: 10px;
+}

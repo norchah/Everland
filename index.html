@@ -9,7 +9,7 @@
 </head>
 
 <body class="page">
-  <header class="header">
+  <!-- <header class="header">
     <div class="header__container">
       <img class="logo" src="./images/logo/Logo.svg" alt="Логотип Everland">
       <button class="header__menu-button" type="button">Меню</button>
@@ -109,7 +109,7 @@
         </ul>
       </nav>
     </div>
-  </header>
+  </header> -->
   <main class=main>
     <nav class=nav>
       <ul class=nav__menu>
@@ -168,7 +168,7 @@
             <p class="everland__description">Мы&nbsp;работаем с&nbsp;2016 года по&nbsp;России и СНГ и помогаем
               людям с&nbsp;инвалидностью устойчиво
               интегрироваться в открытый рынок труда</p>
-          </div>          
+          </div>
           <div class="everland__pictures-box">
             <picture class="everland__picture picture-adaptiv">
               <source class="picture-adaptiv__img" type="image/webp"
@@ -572,7 +572,7 @@
     </section>
 
     <!-- Everland в цифрах -->
-    <section class="digits">
+<!--     <section class="digits">
       <h2 class="section-title section-title_position_bottom-m">Everland в цифрах</h2>
       <div class="digits__block-number">
         <img class="digits__foto-number" src="./images/spec-projects__foto.jpg"
@@ -603,35 +603,72 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Фотопроект -->
-    <section class="spec-projects">
-      <div class="spec-projects__block">
-        <p class="spec-projects__subtitle">Наши спецпроекты</p>
-        <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
-        <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
-          восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
-        <button type="button"
-          class="button_size_m button button_text-clr_black button_border-clr_black spec-projects__button"
-          aria-label="Посмотреть">Посмотреть</button>
-        <!-- <ul class="spec-projects__arrows">
-          <li class="spec-projects__button-arrow">
-            <button type="button"
-              class="button button_size_xxs button_back-clr_black button_text-clr_white button_arrow_left"
-              aria-label="стрелка влево">
-            </button>
-          </li>
-          <li class="spec-projects__button-arrow">
-            <button type="button"
-              class="button button_size_xxs button_back-clr_black button_text-clr_white button_arrow_right"
-              aria-label="стрелка вправа">
-            </button>
-          </li>
-        </ul> -->
-        <img class="spec-projects__foto" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
-      </div>
-      </div>
+    <section class="spec-projects slider-window slider-window--location_spec-projects">
+      
+      <ul class="spec-projects__buttons-row list">
+
+        <li class="spec-projects__button-item">
+          <button
+            class="slider-btn-left button button_back-clr_blue button_text-clr_white button_size_xxs button_arrow_left"
+            type="button" aria-label="Стрелка влево."></button>
+        </li>
+        <li class="spec-projects__button-item">
+          <button
+            class="slider-btn-right button button_back-clr_blue button_text-clr_white button_size_xxs button_arrow_right"
+            type="button" aria-label="Стрелка вправо."></button>
+        </li>
+      </ul>
+
+      <ul class="spec-projects__slider slider-list list">
+
+        <li class="spec-projects__content spec-projects__content--article_our-special-projects slider-item">
+          <p class="spec-projects__subtitle">Наши спецпроекты</p>
+          <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
+          <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
+            восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+          <button type="button"
+            class="button_size_m button button_text-clr_black button_border-clr_black spec-projects__button"
+            aria-label="Посмотреть">Посмотреть</button>
+          <img class="spec-projects__foto" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
+        </li>
+
+        <li class="spec-projects__content spec-projects__content--article_our-special-projects slider-item">
+          <p class="spec-projects__subtitle">Наши спецпроекты</p>
+          <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
+          <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
+            восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+          <button type="button"
+            class="button_size_m button button_text-clr_black button_border-clr_black spec-projects__button"
+            aria-label="Посмотреть">Посмотреть</button>
+          <img class="spec-projects__foto" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
+        </li>
+
+        <li class="spec-projects__content spec-projects__content--article_our-special-projects slider-item">
+          <p class="spec-projects__subtitle">Наши спецпроекты</p>
+          <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
+          <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
+            восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+          <button type="button"
+            class="button_size_m button button_text-clr_black button_border-clr_black spec-projects__button"
+            aria-label="Посмотреть">Посмотреть</button>
+          <img class="spec-projects__foto" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
+        </li>
+
+        <li class="spec-projects__content spec-projects__content--article_our-special-projects slider-item">
+          <p class="spec-projects__subtitle">Наши спецпроекты</p>
+          <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
+          <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
+            восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+          <button type="button"
+            class="button_size_m button button_text-clr_black button_border-clr_black spec-projects__button"
+            aria-label="Посмотреть">Посмотреть</button>
+          <img class="spec-projects__foto" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
+        </li>
+
+      </ul>
     </section>
 
     <!-- Истории -->
