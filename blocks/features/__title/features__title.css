@@ -1,12 +1,12 @@
 @media screen and (max-width:1439px) {
-  .section-title {
+  .features__title {
     font-size: 36px;
     padding: 0 0 32px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .section-title {
+  .features__title {
     font-size: 26px;
     padding: 0 0 24px;
   }
