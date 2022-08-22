@@ -219,14 +219,18 @@ const correctSlidersPositions = () => {
     let lineWidth = 0; // Общая длина всех элементов
     let itemWidth = 0; // Ширина элементаet 
 
+    sliderLine.classList.add('slider-list--hidden');
+
     sliderItems.forEach(item => {
       countItems += 1;
     });
 
     lineWidth = countItems * sliderItems[0].clientWidth;
     itemWidth = sliderItems[0].clientWidth + correctWidth;
-    offsetSlider = offsetSlider + itemWidth * (slidePosition-1);
+    offsetSlider = offsetSlider + itemWidth * (slidePosition - 1);
     sliderLine.style.left = -offsetSlider + 'px';
+
+    sliderLine.classList.remove('slider-list--hidden');
 
     return offsetSlider;
   }
@@ -238,6 +242,7 @@ const correctSlidersPositions = () => {
   offsetSliderSpecProjects = 0;
   correctWidth = 40;
   offsetSliderSpecProjects = correctPosition(sliderItemsSpecProjects, sliderLineSpecProjects, offsetSliderSpecProjects, slidePositionSpecProjects);
+
 }
 
 window.addEventListener('resize', correctSlidersPositions);
