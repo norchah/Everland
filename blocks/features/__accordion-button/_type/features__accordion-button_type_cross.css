@@ -8,11 +8,17 @@
 }
 
 .features__accordion-button_type_cross:hover {
-  background: url(../../../../images/Icon/accordion-icon-cross.svg) no-repeat 50% 50%;
+  background: #0C4BA0 url(../../../../images/Icon/accordion-icon-cross.svg) no-repeat 50% 50%;
 }
 
 @media screen and (max-width:1200px) {
   .features__accordion-button_type_cross {
-    background-image: url(../../../../images/Icon/accordion-icon-cross-adaptive.svg);
+    width: 32px;
+    height: 32px;
+    background: #0C4BA0 url(../../../../images/Icon/accordion-icon-cross-adaptive.svg) no-repeat 50% 50%;
   }
+  .features__accordion-button_type_cross:hover {
+    background: #0C4BA0 url(../../../../images/Icon/accordion-icon-cross-adaptive.svg) no-repeat 50% 50%;
+  }
+
 }
