@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 1439px) {
     .menu__secondary-item {
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 }
 

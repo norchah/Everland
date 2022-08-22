@@ -1,0 +1,4 @@
+.menu__secondary-item_grid_help {
+    grid-area: help;
+    margin: 0;
+}

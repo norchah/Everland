@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1439px) {
   .menu__list-heading {
-    margin-top: 10px;
+    margin: 10px 0 0;
     font-size: 20px;
   }
 }

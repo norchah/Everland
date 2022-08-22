@@ -3,3 +3,23 @@
     margin: 0;
     list-style: none;
 }
+
+@media screen and (max-width: 971px) {
+    .menu__links {
+        display: grid;
+        grid-template-areas:
+            "thanks ment"
+            "prog help";
+        width: 378px;
+        height: 100px;
+        column-gap: 74px;
+        row-gap: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu__links {
+        display: block;
+    }
+
+}
