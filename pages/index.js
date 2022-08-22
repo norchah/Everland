@@ -266,6 +266,8 @@ const correctSlidersPositions = () => {
     offsetSlider = offsetSlider + itemWidth * (slidePosition - 1);
     sliderLine.style.left = -offsetSlider + "px";
 
+    sliderLine.classList.remove("slider-list--hidden");
+
     return offsetSlider;
   };
 
