@@ -6,3 +6,10 @@
   font-feature-settings: 'pnum' on,'lnum' on;
   color: #333;
 }
+
+@media screen and (max-width:1200px) {
+  .features__accordion-text {
+    font-size: 14px;
+  }
+}
+
