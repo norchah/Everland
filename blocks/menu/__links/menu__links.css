@@ -4,6 +4,8 @@
     list-style: none;
 }
 
+@media screen and (max-width: 1439px) {}
+
 @media screen and (max-width: 971px) {
     .menu__links {
         display: grid;
@@ -21,5 +23,4 @@
     .menu__links {
         display: block;
     }
-
 }

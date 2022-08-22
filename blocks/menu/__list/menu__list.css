@@ -2,32 +2,16 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 50px;
-  row-gap: 47px;
+  display: grid;
+  grid-template-columns: 345px 351px 339px 366px;
 }
 
-.menu__list:nth-of-type(2) {
-  max-width: 320px;
-  margin-right: 31px;
+@media screen and (max-width: 1439px) {
+  .menu__list {
+    flex-wrap: wrap;
+    row-gap: 47px;
+  }
 }
-
-.menu__list:nth-of-type(3) {
-  max-width: 243px;
-  margin-right: 96px;
-}
-
-.menu__list:nth-of-type(4) {
-  max-width: 268px;
-  margin: 0;
-}
-
-
 
 @media screen and (max-width: 767px) {
   .menu__list {
