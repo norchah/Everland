@@ -8,7 +8,9 @@
 
 @media screen and (max-width: 1439px) {
   .menu__list {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     row-gap: 47px;
   }
 }
