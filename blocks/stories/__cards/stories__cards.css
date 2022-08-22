@@ -28,7 +28,7 @@
 @media screen and (max-width:900px) {
   .stories__cards {
     padding: 0;
-    margin: 0 auto 41px;
+    margin: 0 auto 38px;
   }
 }
 
@@ -42,6 +42,6 @@
 @media screen and (max-width:450px) {
   .stories__cards {
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
   }
 }

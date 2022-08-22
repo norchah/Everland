@@ -197,14 +197,16 @@
 /* spec-projects */
 @import url(../blocks/spec-projects/spec-projects.css);
 @import url(../blocks/spec-projects/__content/spec-projects__content.css);
-@import url(../blocks/spec-projects/__content/--article_our-special-project/spec-projects__content--article_our-special-project.css);
-@import url(../blocks/spec-projects/__buttons-row/spec-projects__buttons-row.css);
+@import url(../blocks/spec-projects/__box/spec-projects__box.css);
 @import url(../blocks/spec-projects/__foto/spec-projects__foto.css);
+@import url(../blocks/spec-projects/__foto-mobile/spec-projects__foto-mobile.css);
 @import url(../blocks/spec-projects/__subtitle/spec-projects__subtitle.css);
 @import url(../blocks/spec-projects/__text/spec-projects__text.css);
 @import url(../blocks/spec-projects/__title/spec-projects__title.css);
 @import url(../blocks/spec-projects/__slider/spec-projects__slider.css);
-@import url(../blocks/spec-projects/__foto/__foto--type_mobile/--type_mobile.css);
+@import url(../blocks/spec-projects/__buttons-row/spec-projects__buttons-row.css);
+@import url(../blocks/spec-projects/__button/spec-projects__button.css);
+@import url(../blocks/spec-projects/__content/--article_our-special-project/spec-projects__content--article_our-special-project.css);
 
 /* stories */
 @import url(../blocks/stories/stories.css);

@@ -9,7 +9,7 @@
 </head>
 
 <body class="page">
-  <header class="header">
+    <header class="header">
     <div class="header__container">
       <img class="logo" src="./images/logo/Logo.svg" alt="Логотип Everland">
       <button class="header__menu-button" type="button">Меню</button>
@@ -111,7 +111,7 @@
     </div>
   </header>
   <main class=main>
-    <nav class=nav>
+        <nav class=nav>
       <ul class=nav__menu>
         <li class=nav__menu-item>
           <a class="nav__link" href="#for-who">Для кого</a>
@@ -376,7 +376,7 @@
     </section>
 
     <!-- Для кого мы работаем -->
-    <section class="for-who">
+        <section class="for-who">
       <h2 class="section-title">Для кого мы работаем</h2>
       <div class="cards-container">
         <article class="card card_width_long card_correct_padding-m card_color_white">
@@ -443,7 +443,7 @@
     </section>
 
     <!-- Наши направления -->
-    <section class="directions">
+        <section class="directions">
       <h2 class="section-title">Наши направления</h2>
       <div class="cards-container">
         <article class="card card_correct_padding-m card_color_orange">
@@ -505,7 +505,7 @@
     </section>
 
     <!-- Главное в работе -->
-    <section class="features">
+        <section class="features">
       <div class="features__container">
         <h2 class="section-title features__title">Главное в работе</h2>
         <ul class="features__accordion">
@@ -572,7 +572,7 @@
     </section>
 
     <!-- Everland в цифрах -->
-    <section class="digits">
+        <section class="digits">
       <h2 class="section-title section-title_position_bottom-m">Everland в цифрах</h2>
       <div class="digits__block-number">
         <img class="digits__foto-number" src="./images/spec-projects__foto.jpg"
@@ -628,7 +628,33 @@
           <div class="spec-projects__box">
             <p class="spec-projects__subtitle">Наши спецпроекты</p>
 
-            <picture class="spec-projects__foto spec-projects__foto--type_mobile picture-adaptiv">
+            <picture class="spec-projects__foto-mobile picture-adaptiv">
+              <source class="picture-adaptiv__img" type="image/webp" srcset="./images/spec-projects__foto-family.webp">
+              <img class="picture-adaptiv__img" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
+            </picture>
+
+            <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
+
+            <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
+              восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+
+            <button type="button"
+              class="button_size_m button button_text-clr_black button_border-clr_black spec-projects__button"
+              aria-label="Посмотреть">Посмотреть</button>
+          </div>
+
+          <picture class="spec-projects__foto picture-adaptiv">
+            <source class="picture-adaptiv__img" type="image/webp" srcset="./images/spec-projects__foto-family.webp">
+            <img class="picture-adaptiv__img" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
+          </picture>
+
+        </li>
+        
+        <li class="spec-projects__content spec-projects__content--article_our-special-projects slider-item">
+          <div class="spec-projects__box">
+            <p class="spec-projects__subtitle">Наши спецпроекты</p>
+
+            <picture class="spec-projects__foto-mobile picture-adaptiv">
               <source class="picture-adaptiv__img" type="image/webp" srcset="./images/spec-projects__foto-family.webp">
               <img class="picture-adaptiv__img" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
             </picture>
@@ -654,26 +680,10 @@
           <div class="spec-projects__box">
             <p class="spec-projects__subtitle">Наши спецпроекты</p>
 
-            <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
-
-            <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
-              восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
-
-            <button type="button"
-              class="button_size_m button button_text-clr_black button_border-clr_black spec-projects__button"
-              aria-label="Посмотреть">Посмотреть</button>
-          </div>
-
-          <picture class="spec-projects__foto picture-adaptiv">
-            <source class="picture-adaptiv__img" type="image/webp" srcset="./images/spec-projects__foto-family.webp">
-            <img class="picture-adaptiv__img" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
-          </picture>
-
-        </li>
-
-        <li class="spec-projects__content spec-projects__content--article_our-special-projects slider-item">
-          <div class="spec-projects__box">
-            <p class="spec-projects__subtitle">Наши спецпроекты</p>
+            <picture class="spec-projects__foto-mobile picture-adaptiv">
+              <source class="picture-adaptiv__img" type="image/webp" srcset="./images/spec-projects__foto-family.webp">
+              <img class="picture-adaptiv__img" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
+            </picture>
 
             <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
 
@@ -691,10 +701,14 @@
           </picture>
 
         </li>
-
         <li class="spec-projects__content spec-projects__content--article_our-special-projects slider-item">
           <div class="spec-projects__box">
             <p class="spec-projects__subtitle">Наши спецпроекты</p>
+
+            <picture class="spec-projects__foto-mobile picture-adaptiv">
+              <source class="picture-adaptiv__img" type="image/webp" srcset="./images/spec-projects__foto-family.webp">
+              <img class="picture-adaptiv__img" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
+            </picture>
 
             <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
 
@@ -717,6 +731,11 @@
           <div class="spec-projects__box">
             <p class="spec-projects__subtitle">Наши спецпроекты</p>
 
+            <picture class="spec-projects__foto-mobile picture-adaptiv">
+              <source class="picture-adaptiv__img" type="image/webp" srcset="./images/spec-projects__foto-family.webp">
+              <img class="picture-adaptiv__img" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
+            </picture>
+
             <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
 
             <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
@@ -738,6 +757,11 @@
           <div class="spec-projects__box">
             <p class="spec-projects__subtitle">Наши спецпроекты</p>
 
+            <picture class="spec-projects__foto-mobile picture-adaptiv">
+              <source class="picture-adaptiv__img" type="image/webp" srcset="./images/spec-projects__foto-family.webp">
+              <img class="picture-adaptiv__img" src="./images/spec-projects__foto-family.jpg" alt="Человек с собакой">
+            </picture>
+
             <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
 
             <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
@@ -754,7 +778,6 @@
           </picture>
 
         </li>
-
       </ul>
     </section>
 
@@ -880,7 +903,7 @@
     </section>
 
     <!-- Новости -->
-    <section class="news">
+        <section class="news">
       <div class="news__container">
         <h2 class="section-title">Новости</h2>
         <div class="cards-container cards-container_location_news-section">

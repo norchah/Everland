@@ -7,7 +7,14 @@
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
   max-width: 440px;
+  flex: 1 1 auto;
 }
 
 @media screen and (max-width:900px) {
@@ -16,12 +23,13 @@
     line-height: 1.2;
     padding: 10px 0 0;
     max-width: 310px;
-    margin: 0 0 35px;
+    margin: 0 0 37px;
   }
 }
 
 @media screen and (max-width:450px) {
   .spec-projects__text {
     font-size: 14px;
+    margin: 0 0 20px;
   }
 }
