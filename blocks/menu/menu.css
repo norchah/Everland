@@ -1,8 +1,15 @@
 .menu {
   margin: 0 auto;
+  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   padding: 40px 40px 0 39px;
+}
+
+@media screen and (max-width: 1122px) {
+  .menu {
+    flex-wrap: wrap;
+  }
 }

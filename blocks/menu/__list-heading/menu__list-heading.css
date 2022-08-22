@@ -7,3 +7,10 @@
   text-decoration: none;
   color: inherit;
 }
+
+@media screen and (max-width: 1122px) {
+  .menu__list-heading {
+    font-size: 20px;
+  }
+
+}
