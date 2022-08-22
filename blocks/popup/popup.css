@@ -1,14 +1,16 @@
 .popup {
   margin: 0 auto;
   display: none;
-  max-width: 1440px;
-  height: 520px;
+  width: 100%;
+  min-height: 520px;
   background-color: #fff;
 }
 
-@media screen and (max-width: 1122px) {
+@media screen and (max-width: 767px) {
   .popup {
-    max-width: 768px;
+    max-width: 320px;
+    min-height: 357px;
+    text-align: left;
+    padding: 16px 16px 20px 10px;
   }
-
 }

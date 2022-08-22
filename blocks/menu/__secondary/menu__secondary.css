@@ -1,0 +1,18 @@
+.menu__secondary {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@media screen and (max-width: 1439px) {
+    .menu__secondary {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu__secondary {
+        margin: -3px 0 19px;
+        display: none;
+    }
+}

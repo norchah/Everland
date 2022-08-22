@@ -2,15 +2,24 @@
   font-size: 34px;
   font-weight: 700;
   line-height: 1.2;
-  margin: 0 0 30px;
+  margin: 0;
   padding: 0;
   text-decoration: none;
   color: inherit;
 }
 
-@media screen and (max-width: 1122px) {
+@media screen and (max-width: 1439px) {
   .menu__list-heading {
+    margin-top: 10px;
     font-size: 20px;
   }
+}
 
+@media screen and (max-width: 767px) {
+  .menu__list-heading {
+    font-size: 18px;
+    margin: 0 0 22px;
+    background-repeat: no-repeat;
+    background-position: 282px 10px;
+  }
 }

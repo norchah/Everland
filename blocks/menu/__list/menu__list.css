@@ -1,8 +1,14 @@
 .menu__list {
-  margin: 0 86px 0 0;
+  margin: 0;
   padding: 0;
   list-style: none;
-  max-width: 259px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .menu__list:nth-of-type(2) {
@@ -20,6 +26,11 @@
   margin: 0;
 }
 
-.menu__list:first-of-type .menu__list-heading {
-  margin-bottom: 32px;
+
+
+@media screen and (max-width: 767px) {
+  .menu__list {
+    margin: 0;
+    display: block;
+  }
 }

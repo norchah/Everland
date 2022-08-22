@@ -1,3 +1,16 @@
 .menu__item {
-  margin: 0 0 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__item {
+    max-width: 186px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu__item {
+    max-width: 100%;
+  }
+
 }
