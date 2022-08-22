@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e989aca-4b6c-4ec0-bfd6-82acb48f7c38" name="Changes" comment="" />
+    <list default="true" id="3c673913-4fea-48bd-acac-8dca22175dfa" name="Changes" comment="fix: change title text-align in Support section">
+      <change beforePath="$PROJECT_DIR$/blocks/form/__radio-button/_value/form__radio-button_value_other-support.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/form/__radio-button/_value/form__radio-button_value_other-support.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/support/__main-container/support__main-container.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/support/__main-container/support__main-container.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
