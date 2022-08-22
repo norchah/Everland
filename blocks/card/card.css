@@ -23,7 +23,7 @@
 @media screen and (max-width:1439px) {
   .card {
     width: 334px;
-    min-height: 291px;
+    min-height: 272px;
     gap: 20px;
   }
 

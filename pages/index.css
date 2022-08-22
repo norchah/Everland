@@ -64,9 +64,6 @@
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css);
 @import url(../blocks/button/_border-clr/button_border-clr_black.css);
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_photo/section-title_photo.css);
-@import url(../blocks/section-title/_support/section-title_support.css);
 @import url(../blocks/cards-container/cards-container.css);
 @import url(../blocks/cards-container/_location/cards-container_location_for-who.css);
 
