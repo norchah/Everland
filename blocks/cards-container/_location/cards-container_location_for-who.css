@@ -1,0 +1,11 @@
+@media screen and (max-width:1439px) {
+    .cards-container_location_for-who{
+        grid-template-columns: repeat(auto-fit,minmax(450px,1fr));   
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cards-container_location_for-who{
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));   
+    }
+}
