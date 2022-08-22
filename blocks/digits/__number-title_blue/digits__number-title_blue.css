@@ -16,3 +16,9 @@
     font-size: 26px;
   }
 }
+
+@media screen and (max-width:450px) {
+  .digits__number-title_blue {
+    font-size: 18px;
+  }
+}
