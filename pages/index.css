@@ -155,6 +155,7 @@
 /* for-who */
 @import url(../blocks/for-who/for-who.css);
 @import url(../blocks/for-who/__container/for-who__container.css);
+@import url(../blocks/for-who/__title/for-who__title.css);
 
 /* directions */
 @import url(../blocks/directions/directions.css);
