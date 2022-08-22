@@ -1,12 +1,11 @@
 .card__image_size_s {
-   margin: 29px 0 0 0;
+  margin: 29px 0 0;
 }
 
 @media screen and (max-width:1439px) {
   .card__image_size_s {
-    margin: 20px 0 0 0;
+    margin: 20px 0 0;
     border-radius: 20px;
     aspect-ratio: 137/106;
-
   }
 }

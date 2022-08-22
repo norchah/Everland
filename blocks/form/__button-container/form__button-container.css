@@ -1,19 +1,24 @@
 .form__button-container {
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px){
-    .form__button-container {
-        gap: 16px;
-        padding-bottom: 12px
-    }
+@media screen and (max-width:768px) {
+  .form__button-container {
+    gap: 16px;
+    padding-bottom: 12px;
+  }
 }
 
-@media screen and (max-width: 320px){
-    .form__button-container {
-        gap: 16px;
-        padding-bottom: 10px
-    }
+@media screen and (max-width:320px) {
+  .form__button-container {
+    gap: 16px;
+    padding-bottom: 10px;
+  }
 }

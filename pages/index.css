@@ -68,6 +68,7 @@
 @import url(../blocks/section-title/_photo/section-title_photo.css);
 @import url(../blocks/section-title/_support/section-title_support.css);
 @import url(../blocks/cards-container/cards-container.css);
+@import url(../blocks/cards-container/_location/cards-container_location_for-who.css);
 
 /*donations*/
 @import url(../blocks/donations/donations.css);
@@ -151,10 +152,15 @@
 @import url(../blocks/card/__image/_size/card__image_size_s.css);
 @import url(../blocks/card/__date/card__date.css);
 
+/* for-who */
 @import url(../blocks/for-who/for-who.css);
+@import url(../blocks/for-who/__container/for-who__container.css);
 
+/* directions */
 @import url(../blocks/directions/directions.css);
+@import url(../blocks/directions/__container/directions__container.css);
 
+/* news */
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__container/news__container.css);
 
@@ -196,17 +202,17 @@
 
 /* spec-projects */
 @import url(../blocks/spec-projects/spec-projects.css);
-@import url(../blocks/spec-projects/__arrows/spec-projects__arrows.css);
 @import url(../blocks/spec-projects/__content/spec-projects__content.css);
-@import url(../blocks/spec-projects/__content/--article_our-special-project/spec-projects__content--article_our-special-project.css);
-@import url(../blocks/spec-projects/__button-arrow/spec-projects__button-arrow.css);
-@import url(../blocks/spec-projects/__button/spec-projects__button.css);
-@import url(../blocks/spec-projects/__buttons-row/spec-projects__buttons-row.css);
+@import url(../blocks/spec-projects/__box/spec-projects__box.css);
 @import url(../blocks/spec-projects/__foto/spec-projects__foto.css);
+@import url(../blocks/spec-projects/__foto-mobile/spec-projects__foto-mobile.css);
 @import url(../blocks/spec-projects/__subtitle/spec-projects__subtitle.css);
 @import url(../blocks/spec-projects/__text/spec-projects__text.css);
 @import url(../blocks/spec-projects/__title/spec-projects__title.css);
 @import url(../blocks/spec-projects/__slider/spec-projects__slider.css);
+@import url(../blocks/spec-projects/__buttons-row/spec-projects__buttons-row.css);
+@import url(../blocks/spec-projects/__button/spec-projects__button.css);
+@import url(../blocks/spec-projects/__content/--article_our-special-project/spec-projects__content--article_our-special-project.css);
 
 /* stories */
 @import url(../blocks/stories/stories.css);

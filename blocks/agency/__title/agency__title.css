@@ -1,15 +1,15 @@
-.agency__title{
+.agency__title {
   padding: 0 0 20px;
 }
 
-@media screen and (max-width: 767px) {
-  .agency__title{
+@media screen and (max-width:767px) {
+  .agency__title {
     padding: 0 0 10px;
   }
 }
 
-@media screen and (max-width: 1439px) {
-  .agency__title{
+@media screen and (max-width:1439px) {
+  .agency__title {
     padding: 0 0 15px;
   }
 }

@@ -1,17 +1,24 @@
 .form__input-container_location_agreement {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 18px;
 }
 
-@media screen and (max-width: 768px){
-    .form__input-container_location_agreement {
-        gap: 14px;
-    }
+@media screen and (max-width:768px) {
+  .form__input-container_location_agreement {
+    gap: 14px;
+  }
 }
 
-@media screen and (max-width: 768px){
-    .form__input-container_location_agreement {
-        gap: 12px;
-    }
+@media screen and (max-width:768px) {
+  .form__input-container_location_agreement {
+    gap: 12px;
+  }
 }

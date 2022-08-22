@@ -1,6 +1,6 @@
-.card__image{
-    width: 100%;
-    border-radius: 30px;
-    object-fit: cover;
+.card__image {
+  width: 100%;
+  border-radius: 30px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
-

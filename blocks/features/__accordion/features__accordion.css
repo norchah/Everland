@@ -1,19 +1,23 @@
 .features__accordion {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
+  display: -ms-grid;
   display: grid;
   gap: 18px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, auto);
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2,1fr);
+  -ms-grid-rows: (auto)[3];
+  grid-template-rows: repeat(3,auto);
 }
 
 @media screen and (max-width:1200px) {
-  .features__accordion{
+  .features__accordion {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, auto);
+    -ms-grid-rows: (auto)[6];
+    grid-template-rows: repeat(6,auto);
   }
-
 }
 
 @media screen and (max-width:600px) {

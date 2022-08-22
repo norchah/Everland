@@ -1,30 +1,35 @@
 .digits__numbers {
   max-width: 670px;
   min-height: 226px;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2,1fr);
+  -ms-grid-rows: (1fr)[2];
+  grid-template-rows: repeat(2,1fr);
   grid-column-gap: 20px;
   grid-row-gap: 30px;
-  color:rgba(51, 51, 51, 1);
+  color: rgba(51,51,51,1);
   margin: auto;
   grid-area: numbers;
 }
 
-@media screen and (max-width: 1439px) {
-  .digits__numbers{
+@media screen and (max-width:1439px) {
+  .digits__numbers {
     max-width: 688px;
     min-height: 191px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .digits__numbers{
+@media screen and (min-width:320px) and (max-width:767px) {
+  .digits__numbers {
     max-width: 300px;
     min-height: 292px;
     grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 0px;
+    -ms-grid-rows: (1fr)[4];
+    grid-template-rows: repeat(4,1fr);
+    grid-column-gap: 0;
   }
 }
