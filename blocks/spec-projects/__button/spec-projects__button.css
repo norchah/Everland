@@ -1,0 +1,11 @@
+.spec-projects__button {
+	justify-self: flex-end;
+	flex: 0 0 auto;
+}
+
+@media screen and (max-width:700px) {
+	.spec-projects__button {
+		display: block;
+		margin: 0 auto;
+	}
+}

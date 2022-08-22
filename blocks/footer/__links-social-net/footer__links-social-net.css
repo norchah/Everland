@@ -32,6 +32,6 @@
 @media screen and (max-width:900px) {
   .footer__links-social-net {
     gap: 20px;
-    padding: 10px;
+    padding: 8px;
   }
 }

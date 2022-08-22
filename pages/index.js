@@ -6,9 +6,18 @@ let offsetSliderEverland = 0; // значения cмещения от лево�
 let slidePositionEverland = 1; // позиция слайда
 let offsetSliderSpecProjects = 0;
 let slidePositionSpecProjects = 1;
-const windowOfSlider = document.querySelector('.slider-window');
+
+const sliderWindowEverland = document.querySelector('.everland.slider-window');
+const sliderItemsEverland = sliderWindowEverland.querySelectorAll('.everland__content.slider-item');
+const sliderLineEverland = sliderWindowEverland.querySelector('.everland__slider.slider-list');
+
+const sliderWindowSpecProjects = document.querySelector('.spec-projects.slider-window');
+const sliderItemsSpecProjects = sliderWindowSpecProjects.querySelectorAll('.spec-projects__content.slider-item');
+const sliderLineSpecProjects = sliderWindowSpecProjects.querySelector('.spec-projects__slider.slider-list');
+
 const buttonsRight = document.querySelectorAll('.slider-btn-right');
 const buttonsLeft = document.querySelectorAll('.slider-btn-left');
+
 
 menuButton.addEventListener("click", () => {
   popup.classList.toggle("popup_opened");
@@ -198,6 +207,40 @@ const slideRight = (event) => {
     offsetSliderSpecProjects = calculateRightShift(offsetSliderSpecProjects);
   }
 }
+
+/* Коррекция позиции слайдера при изменении размера экрана */
+const correctSlidersPositions = () => {
+
+  let correctWidth = 0;
+
+  const correctPosition = (sliderItems, sliderLine, offsetSlider, slidePosition) => {
+
+    let countItems = 0; // Количество элементов в слайдере
+    let lineWidth = 0; // Общая длина всех элементов
+    let itemWidth = 0; // Ширина элементаet 
+
+    sliderItems.forEach(item => {
+      countItems += 1;
+    });
+
+    lineWidth = countItems * sliderItems[0].clientWidth;
+    itemWidth = sliderItems[0].clientWidth + correctWidth;
+    offsetSlider = offsetSlider + itemWidth * (slidePosition-1);
+    sliderLine.style.left = -offsetSlider + 'px';
+
+    return offsetSlider;
+  }
+
+  offsetSliderEverland = 0;
+  correctWidth = 0;
+  offsetSliderEverland = correctPosition(sliderItemsEverland, sliderLineEverland, offsetSliderEverland, slidePositionEverland);
+
+  offsetSliderSpecProjects = 0;
+  correctWidth = 40;
+  offsetSliderSpecProjects = correctPosition(sliderItemsSpecProjects, sliderLineSpecProjects, offsetSliderSpecProjects, slidePositionSpecProjects);
+}
+
+window.addEventListener('resize', correctSlidersPositions);
 
 /* "Вешаем прослушку" на левые кнопки слайдеров
 и отключаем все левые кнопки */
