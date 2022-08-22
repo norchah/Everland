@@ -1,6 +1,23 @@
 const menuButton = document.querySelector(".header__menu-button");
 const popup = document.querySelector(".popup");
 
+/* Переменные и константы для слайдера*/
+let offsetSliderEverland = 0; // значения cмещения от левого края
+let slidePositionEverland = 1; // позиция слайда
+let offsetSliderSpecProjects = 0;
+let slidePositionSpecProjects = 1;
+
+const sliderWindowEverland = document.querySelector('.everland.slider-window');
+const sliderItemsEverland = sliderWindowEverland.querySelectorAll('.everland__content.slider-item');
+const sliderLineEverland = sliderWindowEverland.querySelector('.everland__slider.slider-list');
+
+const sliderWindowSpecProjects = document.querySelector('.spec-projects.slider-window');
+const sliderItemsSpecProjects = sliderWindowSpecProjects.querySelectorAll('.spec-projects__content.slider-item');
+const sliderLineSpecProjects = sliderWindowSpecProjects.querySelector('.spec-projects__slider.slider-list');
+
+const buttonsRight = document.querySelectorAll('.slider-btn-right');
+const buttonsLeft = document.querySelectorAll('.slider-btn-left');
+
 
 menuButton.addEventListener("click", () => {
   popup.classList.toggle("popup_opened");
@@ -80,25 +97,6 @@ lastRadioButtonSupport.addEventListener('click', toggleElement);
 radioButtonsSupport.forEach((el) => el.addEventListener('click', hideElement));
 radioButtonsDonations.forEach((el) => el.addEventListener('click', hideElement));
 
-
-
-/* Переменные и константы для слайдера*/
-
-let offsetSliderEverland = 0; // значения cмещения от левого края
-let slidePositionEverland = 1; // позиция слайда
-let offsetSliderSpecProjects = 0;
-let slidePositionSpecProjects = 1;
-
-const sliderWindowEverland = document.querySelector('.everland.slider-window');
-const sliderItemsEverland = sliderWindowEverland.querySelectorAll('.everland__content.slider-item');
-const sliderLineEverland = sliderWindowEverland.querySelector('.everland__slider.slider-list');
-
-const sliderWindowSpecProjects = document.querySelector('.spec-projects.slider-window');
-const sliderItemsSpecProjects = sliderWindowSpecProjects.querySelectorAll('.spec-projects__content.slider-item');
-const sliderLineSpecProjects = sliderWindowSpecProjects.querySelector('.spec-projects__slider.slider-list');
-
-const buttonsRight = document.querySelectorAll('.slider-btn-right');
-const buttonsLeft = document.querySelectorAll('.slider-btn-left');
 
 /* Слайдер */
 const slideLeft = (event) => {
