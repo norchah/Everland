@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:767px) {
   .card__container {
     width: 251px;
   }

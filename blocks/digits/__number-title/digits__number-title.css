@@ -19,3 +19,9 @@
     font-size: 18px;
   }
 }
+
+@media screen and (max-width:450px) {
+  .digits__number-title {
+    padding-bottom: 5px;
+  }
+}
