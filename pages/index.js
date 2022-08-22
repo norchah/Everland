@@ -5,6 +5,7 @@ const buttonsMenuLists = document.querySelectorAll(".menu__list-button");
 /* Переменные и константы для слайдера*/
 let offsetSliderEverland = 0; // значения cмещения от левого края
 let slidePositionEverland = 1; // позиция слайда
+
 let offsetSliderSpecProjects = 0;
 let slidePositionSpecProjects = 1;
 
@@ -220,13 +221,14 @@ const correctSlidersPositions = () => {
 
   let correctWidth = 0;
 
-  const correctPosition = (sliderItems, sliderLine, offsetSlider, slidePosition) => {
+  const correctPosition = (sliderItems, sliderLine, offsetSlider, slidePosition, sliderWindow) => {
 
     let countItems = 0; // Количество элементов в слайдере
     let lineWidth = 0; // Общая длина всех элементов
     let itemWidth = 0; // Ширина элементаet 
 
     sliderLine.classList.add('slider-list--hidden');
+    sliderWindow.classList.add('slider-window--hidden');
 
     sliderItems.forEach(item => {
       countItems += 1;
@@ -238,17 +240,20 @@ const correctSlidersPositions = () => {
     sliderLine.style.left = -offsetSlider + 'px';
 
     sliderLine.classList.remove('slider-list--hidden');
+    setTimeout(() => {
+      sliderWindow.classList.remove('slider-window--hidden');
+    }, 1000);
 
     return offsetSlider;
   }
 
   offsetSliderEverland = 0;
   correctWidth = 0;
-  offsetSliderEverland = correctPosition(sliderItemsEverland, sliderLineEverland, offsetSliderEverland, slidePositionEverland);
+  offsetSliderEverland = correctPosition(sliderItemsEverland, sliderLineEverland, offsetSliderEverland, slidePositionEverland, sliderWindowEverland);
 
   offsetSliderSpecProjects = 0;
   correctWidth = 40;
-  offsetSliderSpecProjects = correctPosition(sliderItemsSpecProjects, sliderLineSpecProjects, offsetSliderSpecProjects, slidePositionSpecProjects);
+  offsetSliderSpecProjects = correctPosition(sliderItemsSpecProjects, sliderLineSpecProjects, offsetSliderSpecProjects, slidePositionSpecProjects, sliderWindowSpecProjects);
 
 }
 

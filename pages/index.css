@@ -11,6 +11,7 @@
 @import url(../blocks/slider-window/slider-window.css);
 @import url(../blocks/slider-list/slider-list.css);
 @import url(../blocks/slider-list/--hidden/slider-list--hidden.css);
+@import url(../blocks/slider-window/--hidden/slider-window--hidden.css);
 
 @import url(../blocks/list/list.css);
 
