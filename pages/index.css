@@ -68,6 +68,7 @@
 @import url(../blocks/section-title/_photo/section-title_photo.css);
 @import url(../blocks/section-title/_support/section-title_support.css);
 @import url(../blocks/cards-container/cards-container.css);
+@import url(../blocks/cards-container/_location/cards-container_location_for-who.css);
 
 /*donations*/
 @import url(../blocks/donations/donations.css);
@@ -151,10 +152,15 @@
 @import url(../blocks/card/__image/_size/card__image_size_s.css);
 @import url(../blocks/card/__date/card__date.css);
 
+/* for-who */
 @import url(../blocks/for-who/for-who.css);
+@import url(../blocks/for-who/__container/for-who__container.css);
 
+/* directions */
 @import url(../blocks/directions/directions.css);
+@import url(../blocks/directions/__container/directions__container.css);
 
+/* news */
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/__container/news__container.css);
 
