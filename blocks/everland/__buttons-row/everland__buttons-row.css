@@ -1,0 +1,33 @@
+.everland__buttons-row {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 40px;
+  display: flex;
+  align-items: flex-start;
+  width: fit-content;
+  height: fit-content;
+  gap: 10px;
+}
+
+@media screen and (max-width:1200px) {
+  .everland__buttons-row {
+    gap: 11px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .everland__buttons-row {
+    left: 41px;
+    bottom: 7px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .everland__buttons-row {
+    left: 50%;
+    transform: translate(-50%,0);
+    bottom: 0;
+  }
+}

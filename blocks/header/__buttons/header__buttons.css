@@ -1,0 +1,26 @@
+.header__buttons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 376px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:1439px) {
+  .header__buttons {
+    width: 276px;
+  }
+}
+
+@media screen and (max-width:940px) {
+  .header__buttons {
+    grid-area: buttons;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .header__buttons {
+    display: none;
+  }
+}

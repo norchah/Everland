@@ -1,0 +1,19 @@
+.digits__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #333;
+  margin: 0;
+}
+
+@media screen and (max-width:1439px) {
+  .digits__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .digits__text {
+    font-size: 14px;
+  }
+}

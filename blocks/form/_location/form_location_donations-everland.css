@@ -1,0 +1,30 @@
+.form_location_donations-everland {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:768px) {
+  .form_location_donations-everland {
+    gap: 10px;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .form_location_donations-everland {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width:513px) {
+  .form_location_donations-everland {
+    gap: 26px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .form_location_donations-everland {
+    gap: 32px;
+  }
+}

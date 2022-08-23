@@ -1,0 +1,12 @@
+.spec-projects__content_article_our-special-projects {
+  background: #E7F0FF;
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:700px) {
+  .spec-projects__content_article_our-special-projects {
+    display: block;
+  }
+}

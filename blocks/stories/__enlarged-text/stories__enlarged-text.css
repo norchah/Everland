@@ -1,0 +1,35 @@
+.stories__enlarged-text {
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width:1200px) {
+  .stories__enlarged-text {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .stories__enlarged-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .stories__enlarged-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .stories__enlarged-text {
+    font-size: 16px;
+  }
+}

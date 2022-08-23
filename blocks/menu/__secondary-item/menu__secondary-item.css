@@ -1,0 +1,16 @@
+.menu__secondary-item {
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+@media screen and (max-width: 1439px) {
+    .menu__secondary-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+  .menu__secondary-item {
+    margin-bottom: 4px;
+  }
+}

@@ -1,0 +1,21 @@
+.menu__list {
+  display: grid;
+  grid-template-columns: 345px 351px 339px 366px;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 47px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu__list {
+    width: 100%;
+    margin: 0;
+    display: block;
+  }
+}

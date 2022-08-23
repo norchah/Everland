@@ -1,0 +1,11 @@
+@media screen and (max-width:1439px) {
+  .card_width_long {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .card_width_long {
+    width: 300px;
+  }
+}

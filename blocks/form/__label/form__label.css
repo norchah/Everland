@@ -1,0 +1,37 @@
+.form__label {
+  display: inline-block;
+}
+
+.form__label input[type=radio] {
+  display: none;
+}
+
+.form__label input[type=radio]:checked + .form__radio-button {
+  border-color: #0C4BA0;
+}
+
+.form__label .form__radio-button:hover {
+  border-color: #0C4BA0;
+}
+
+.form__label input[type=radio]:disabled + .form__radio-button {
+  background: #efefef;
+  color: #666;
+}
+
+.form__label input[type=checkbox] {
+  display: none;
+}
+
+.form__label input[type=checkbox]:checked + .form__checkbox {
+  background: #DADADA url('../../../images/checked.svg') no-repeat center center;
+}
+
+.form__label .form__checkbox:hover {
+  color: #666;
+}
+
+.form__label input[type=checkbox]:disabled + .form__checkbox {
+  background: #efefef;
+  color: #666;
+}

@@ -1,0 +1,18 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(440px,1fr));
+  gap: 20px;
+}
+
+@media screen and (max-width:1439px) {
+  .cards-container {
+    grid-template-columns: repeat(auto-fit,minmax(334px,1fr));
+  }
+}
+
+@media screen and (max-width:767px) {
+  .cards-container {
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 16px;
+  }
+}

@@ -1,0 +1,13 @@
+.everland__page-count {
+  margin: 0;
+  padding: 3px 0 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+@media screen and (max-width:1439px) {
+  .everland__page-count {
+    font-size: 14px;
+  }
+}

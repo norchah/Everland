@@ -1,0 +1,10 @@
+.card__title_position_top-s {
+  margin-top: 30px;
+}
+
+@media screen and (max-width:1439px) {
+  .card__title_position_top-s {
+    margin-top: 20px;
+    max-width: 280px;
+  }
+}

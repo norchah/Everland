@@ -1,0 +1,17 @@
+.footer__logo {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  max-width: 263px;
+  height: 46px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all .3s ease 0s;
+}
+
+@media screen and (max-width:900px) {
+  .footer__logo {
+    max-width: 137px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,89 @@
+.stories__card {
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  padding: 27px 30px 30px;
+  border-radius: 30px;
+  display: flex;
+  column-gap: 19px;
+  height: 285px;
+  transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width:1200px) {
+  .stories__card {
+    height: 228px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .stories__card {
+    overflow: hidden;
+    height: 170px;
+    padding: 16px 16px 7px;
+    border-radius: 20px;
+    column-gap: 17px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .stories__card {
+    height: 150px;
+    max-width: 360px;
+  }
+
+  .stories__card:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .stories__card {
+    height: fit-content;
+    min-height: 112px;
+    column-gap: 16px;
+    padding: 16px 16px 5px;
+    align-items: flex-start;
+  }
+
+  .stories__card:not(:last-of-type) {
+    margin-bottom: 16px;
+  }
+}
+
+.stories__card .stories__picture {
+  flex: 0 0 auto;
+}
+
+@media screen and (max-width:1200px) {
+  .stories__card .stories__picture {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .stories__card .stories__picture {
+    width: 120px;
+    height: 120px;
+    margin-top: -10px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .stories__card .stories__picture {
+    width: 100px;
+    height: 100px;
+    margin-top: -5px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .stories__card .stories__picture {
+    width: 80px;
+    height: 80px;
+    margin-top: 0;
+  }
+}

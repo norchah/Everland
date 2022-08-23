@@ -1,0 +1,11 @@
+@media screen and (max-width:1200px) {
+  .card_type_hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .card_type_hidden {
+    display: block;
+  }
+}

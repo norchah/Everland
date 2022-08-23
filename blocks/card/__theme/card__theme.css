@@ -1,0 +1,21 @@
+.card__theme {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #333;
+  margin: 0;
+}
+
+@media screen and (max-width:1439px) {
+  .card__theme {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .card__theme {
+    font-size: 12px;
+  }
+}

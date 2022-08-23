@@ -1,0 +1,41 @@
+.footer__support-title {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  align-self: flex-end;
+  padding: 71px 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+  transition: all .3s ease 0s;
+}
+
+@media screen and (max-width:1200px) {
+  .footer__support-title {
+    max-width: 400px;
+    font-size: 29px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .footer__support-title {
+    padding: 0 0 36px;
+    max-width: 235px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .footer__support-title {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .footer__support-title {
+    padding: 15px 0 33px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,28 @@
+.support {
+  background-color: #E7F0FF;
+  padding: 95px 104px 100px 40px;
+}
+
+@media screen and (max-width:1400px) {
+  .support {
+    padding: 95px 90px 100px 40px;
+  }
+}
+
+@media screen and (min-width:1300px) and (max-width:1369px) {
+  .support {
+    padding: 95px 50px 100px 40px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .support {
+    padding: 44px 40px 52px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .support {
+    padding: 31px 10px 33px;
+  }
+}

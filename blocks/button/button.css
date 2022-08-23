@@ -1,0 +1,29 @@
+.button {
+  font-weight: 500;
+  line-height: 1.2;
+  background-color: inherit;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all .3s ease 0s;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width:1439px) {
+  .button {
+    font-size: 16px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .button {
+    font-size: 14px;
+  }
+}

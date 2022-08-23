@@ -1,0 +1,18 @@
+.stories__section-title {
+  margin: 0;
+  padding: 0 0 55px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+@media screen and (max-width:900px) {
+  .stories__section-title {
+    padding: 0 0 30px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .stories__section-title {
+    padding: 0 0 25px;
+  }
+}

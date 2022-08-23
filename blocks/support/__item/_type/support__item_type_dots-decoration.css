@@ -1,0 +1,17 @@
+.support__item_type_dots-decoration {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  padding-right: 5px;
+}
+
+@media screen and (max-width:768px) {
+  .support__item_type_dots-decoration {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .support__item_type_dots-decoration {
+    padding: 0 20px;
+  }
+}

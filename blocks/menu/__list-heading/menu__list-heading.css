@@ -1,0 +1,25 @@
+.menu__list-heading {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 320px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width:1439px) {
+  .menu__list-heading {
+    margin: 10px 0 0;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .menu__list-heading {
+    font-size: 18px;
+    margin: 0 0 22px;
+    background: no-repeat 282px 10px;
+  }
+}

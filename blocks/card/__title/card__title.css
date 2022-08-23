@@ -1,0 +1,19 @@
+.card__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+  color: #333;
+}
+
+@media screen and (max-width:1439px) {
+  .card__title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .card__title {
+    font-size: 18px;
+  }
+}
