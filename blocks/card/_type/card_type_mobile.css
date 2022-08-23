@@ -1,0 +1,5 @@
+@media screen and (min-width: 900px) {
+	.card_type_mobile {
+		display: none;
+	}
+}
