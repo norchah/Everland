@@ -7,4 +7,5 @@
     text-align: left;
     cursor: auto;
     width: 100%;
+    font-weight: inherit;
 }

@@ -4,11 +4,12 @@
   width: 100%;
   min-height: 520px;
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 767px) {
   .popup {
-    max-width: 320px;
+    width: 320px;
     min-height: 357px;
     text-align: left;
     padding: 16px 16px 20px 10px;
