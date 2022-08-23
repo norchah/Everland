@@ -55,7 +55,7 @@
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/nav/nav.css);
-@import url(../blocks/nav/nav__menu/nav__menu.css);
+@import url(../blocks/nav/__menu/nav__menu.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__list/menu__list.css);

@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 767px) {
   .menu__list {
+    width: 100%;
     margin: 0;
     display: block;
   }
