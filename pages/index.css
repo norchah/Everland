@@ -7,10 +7,11 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_photo/section-title_photo.css);
 @import url(../blocks/section-title/_support/section-title_support.css);
+@import url(../blocks/section-title/_type/section-title_type_desktop.css);
+@import url(../blocks/section-title/_type/section-title_type_mobile.css);
 
 @import url(../blocks/slider-window/slider-window.css);
 @import url(../blocks/slider-list/slider-list.css);
-@import url(../blocks/slider-list/_hidden/slider-list_hidden.css);
 
 @import url(../blocks/list/list.css);
 
@@ -75,8 +76,8 @@
 @import url(../blocks/menu/__secondary-item/_grid/menu__secondary-item_grid_ment.css);
 @import url(../blocks/menu/__secondary-item/_grid/menu__secondary-item_grid_prog.css);
 @import url(../blocks/menu/__secondary-item/_grid/menu__secondary-item_grid_thanks.css);
-@import url(../blocks/button/_border-clr/button_border-clr_black.css);
 @import url(../blocks/cards-container/cards-container.css);
+@import url(../blocks/button/_border-clr/button_border-clr_black.css);
 @import url(../blocks/cards-container/_location/cards-container_location_for-who.css);
 
 /*donations*/
@@ -128,14 +129,6 @@
 
 /* card */
 @import url(../blocks/card/card.css);
-@import url(../blocks/card/_correct/card_correct_padding-m.css);
-@import url(../blocks/card/_color/card_color_green.css);
-@import url(../blocks/card/_color/card_color_blue.css);
-@import url(../blocks/card/_color/card_color_orange.css);
-@import url(../blocks/card/_color/card_color_violet.css);
-@import url(../blocks/card/_color/card_color_white.css);
-@import url(../blocks/card/_height/card_height_long.css);
-@import url(../blocks/card/_width/card_width_long.css);
 @import url(../blocks/card/__container/card__container.css);
 @import url(../blocks/card/__container/_size/card__container_size_m.css);
 @import url(../blocks/card/__title/card__title.css);
@@ -160,6 +153,14 @@
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__image/_size/card__image_size_s.css);
 @import url(../blocks/card/__date/card__date.css);
+@import url(../blocks/card/_correct/card_correct_padding-m.css);
+@import url(../blocks/card/_color/card_color_green.css);
+@import url(../blocks/card/_color/card_color_blue.css);
+@import url(../blocks/card/_color/card_color_orange.css);
+@import url(../blocks/card/_color/card_color_violet.css);
+@import url(../blocks/card/_color/card_color_white.css);
+@import url(../blocks/card/_height/card_height_long.css);
+@import url(../blocks/card/_width/card_width_long.css);
 
 /* for-who */
 @import url(../blocks/for-who/for-who.css);
@@ -280,6 +281,8 @@
 @import url(../blocks/agency/__block/agency__block.css);
 
 @import url(../blocks/card/_type/card_type_hidden.css);
+@import url(../blocks/card/_type/card_type_desktop.css);
+@import url(../blocks/card/_type/card_type_mobile.css);
 @import url(../blocks/button/_location/button_location_news-container.css);
 @import url(../blocks/cards-container/_location/cards-container_location_news-section.css);
 
