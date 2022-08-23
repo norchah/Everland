@@ -3,13 +3,7 @@
   margin: 0;
   padding: 0;
   width: 376px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -25,9 +19,8 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .header__buttons {
     display: none;
   }
-
 }

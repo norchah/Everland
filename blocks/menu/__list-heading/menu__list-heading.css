@@ -8,18 +8,17 @@
   color: inherit;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width:1439px) {
   .menu__list-heading {
     margin-top: 10px;
     font-size: 20px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .menu__list-heading {
     font-size: 18px;
     margin: 0 0 22px;
-    background-repeat: no-repeat;
-    background-position: 282px 10px;
+    background: no-repeat 282px 10px;
   }
 }

@@ -1,9 +1,6 @@
 .news__container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 130px 1fr;
   grid-template-rows: 130px 1fr;
   margin: 0 auto;
   max-width: 1380px;
@@ -12,7 +9,6 @@
 @media screen and (max-width:1439px) {
   .news__container {
     max-width: 1040px;
-    -ms-grid-rows: 80px 1fr;
     grid-template-rows: 80px 1fr;
   }
 }
@@ -20,16 +16,13 @@
 @media screen and (max-width:1200px) {
   .news__container {
     max-width: 690px;
-    -ms-grid-columns: (230px)[3];
     grid-template-columns: repeat(3,230px);
-    -ms-grid-rows: (minmax(50px,auto))[3];
     grid-template-rows: repeat(3,minmax(50px,auto));
   }
 }
 
 @media screen and (max-width:767px) {
   .news__container {
-    -ms-grid-columns: 300px 0;
     grid-template-columns: 300px 0;
     max-width: 300px;
   }

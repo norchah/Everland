@@ -28,8 +28,7 @@
   }
 }
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .header__menu-button {
     width: 25px;
     font-size: 0;

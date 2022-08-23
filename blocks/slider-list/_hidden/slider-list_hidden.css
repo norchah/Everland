@@ -1,0 +1,4 @@
+.slider-list_hidden {
+  transition: none;
+  opacity: 0;
+}

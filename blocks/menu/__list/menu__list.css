@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -26,9 +23,7 @@
   margin: 0;
 }
 
-
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .menu__list {
     margin: 0;
     display: block;

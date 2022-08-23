@@ -4,7 +4,7 @@
   padding: 40px 40px 0 39px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .menu {
     padding: 0;
   }

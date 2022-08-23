@@ -1,12 +1,8 @@
 .features__accordion-item {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 27px 20px;
   border: 2px solid #DADADA;
   border-radius: 30px;
-  -webkit-align-self: start;
-  -ms-flex-item-align: start;
-  -ms-grid-row-align: start;
   align-self: start;
 }
 

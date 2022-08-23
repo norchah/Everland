@@ -6,7 +6,7 @@
   background-color: #fff;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .popup {
     max-width: 320px;
     min-height: 357px;

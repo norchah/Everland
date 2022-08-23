@@ -1,23 +1,12 @@
 .footer__contacts {
   overflow: hidden;
-  -ms-grid-row: 5;
-  -ms-grid-row-span: 1;
   grid-row: 5/6;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-column: 1/2;
   margin: 0;
   padding: 40px 0 0;
-  display: -ms-grid;
   display: grid;
-  -webkit-column-gap: 2.5%;
-  -moz-column-gap: 2.5%;
   column-gap: 2.5%;
-  -ms-grid-columns: 33% 64.5%;
   grid-template-columns: 33% 64.5%;
-  -ms-grid-rows: (minmax(-webkit-min-content,-webkit-max-content))[2];
-  -ms-grid-rows: (minmax(min-content,max-content))[2];
-  grid-template-rows: repeat(2,minmax(-webkit-min-content,-webkit-max-content));
   grid-template-rows: repeat(2,minmax(min-content,max-content));
 }
 

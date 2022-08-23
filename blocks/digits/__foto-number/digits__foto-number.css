@@ -1,8 +1,6 @@
 .digits__foto-number {
   max-width: 100%;
-  -o-object-fit: cover;
   object-fit: cover;
-  display: -ms-grid;
   display: grid;
   grid-area: foto-number;
 }
@@ -16,7 +14,6 @@
 @media screen and (min-width:320px) and (max-width:767px) {
   .digits__foto-number {
     max-width: 300px;
-    display: -ms-grid;
     display: grid;
   }
 }
