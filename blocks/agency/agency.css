@@ -3,7 +3,7 @@
   background-color: #F5F5F5;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:800px) {
   .agency {
     padding: 32px 10px;
   }

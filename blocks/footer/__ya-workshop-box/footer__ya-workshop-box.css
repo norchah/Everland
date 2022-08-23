@@ -32,3 +32,9 @@
     padding: 29px 0 0;
   }
 }
+
+@media screen and (max-width:450px) {
+  .footer__ya-workshop-box {
+    display: none;
+  }
+}

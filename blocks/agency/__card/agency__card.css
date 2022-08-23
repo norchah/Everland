@@ -1,0 +1,22 @@
+.agency__card {
+	overflow: hidden;
+	border-radius: 30px;
+}
+
+.agency__card .card__image {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.agency__card {
+		border-radius: 20px;
+		max-height: 334px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.agency__card {
+		max-height: 300px;
+	}
+}
