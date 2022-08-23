@@ -3,8 +3,8 @@
   width: 300px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .menu__list-heading_correct-size {
-    width: 63px
+    width: 63px;
   }
 }

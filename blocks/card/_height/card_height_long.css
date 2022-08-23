@@ -2,9 +2,6 @@
   height: 800px;
   width: 440px;
   border: 1px solid #DADADA;
-  -webkit-box-pack: start;
-  -webkit-justify-content: start;
-  -ms-flex-pack: start;
   justify-content: start;
   gap: 0;
 }

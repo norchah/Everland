@@ -1,9 +1,5 @@
 .support__item_type_time-ago {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
   grid-row: 2/3;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
   grid-column: 3/4;
   margin: 0;
 }

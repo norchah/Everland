@@ -1,7 +1,6 @@
 .digits__photo{
   max-width: 100%;
   object-fit: cover;
-  display: -ms-grid;
   display: grid;
   grid-area: digits__photo;
 }
@@ -15,7 +14,6 @@
 @media screen and (min-width:320px) and (max-width:767px) {
   .digits__photo{
     max-width: 300px;
-    display: -ms-grid;
     display: grid;
   }
 }

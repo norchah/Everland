@@ -13,9 +13,9 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    .menu__secondary {
-        margin: -3px 0 19px;
-        display: none;
-    }
+@media screen and (max-width:767px) {
+  .menu__secondary {
+    margin: -3px 0 19px;
+    display: none;
+  }
 }

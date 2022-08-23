@@ -1,10 +1,6 @@
 .stories__link-in-block {
   align-self: flex-end;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
   grid-column: 2/3;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
   grid-row: 3/4;
   margin-left: 78px;
 }

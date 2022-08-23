@@ -8,8 +8,6 @@
   height: 48px;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-transition: background-color .1s linear,color .1s linear,border .1s linear;
-  -o-transition: background-color .1s linear,color .1s linear,border .1s linear;
   transition: background-color .1s linear,color .1s linear,border .1s linear;
 }
 

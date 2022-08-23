@@ -1,5 +1,4 @@
 .digits__block-number {
-  display: -ms-grid;
   display: grid;
   min-height: 368px;
   grid-template-areas: "digits__photo numbers";

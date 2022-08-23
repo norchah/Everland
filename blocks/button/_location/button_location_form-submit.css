@@ -1,7 +1,4 @@
 .button_location_form-submit {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
   width: 194px;
   margin: 7px 40px 0 0;

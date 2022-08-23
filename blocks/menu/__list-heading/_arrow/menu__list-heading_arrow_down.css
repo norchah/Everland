@@ -1,5 +1,5 @@
-@media screen and (max-width: 767px) {
-    .menu__list-heading_arrow_down {
-        background-image: url(../../../../images/Icon/Icon-shevron-down.svg);
-    }
+@media screen and (max-width:767px) {
+  .menu__list-heading_arrow_down {
+    background-image: url(../../../../images/Icon/Icon-shevron-down.svg);
+  }
 }

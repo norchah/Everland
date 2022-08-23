@@ -24,9 +24,8 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .menu__item {
     max-width: 100%;
   }
-
 }

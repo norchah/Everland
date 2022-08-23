@@ -12,7 +12,7 @@
 
 @media screen and (max-width:450px) {
   .spec-projects__content {
-    padding: 25px 24px 24px 24px;
+    padding: 25px 24px 24px;
     border-radius: 20px;
   }
 }

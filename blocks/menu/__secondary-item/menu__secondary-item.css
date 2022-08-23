@@ -9,8 +9,8 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    .menu__secondary-item {
-        margin-bottom: 4px;
-    }
+@media screen and (max-width:767px) {
+  .menu__secondary-item {
+    margin-bottom: 4px;
+  }
 }

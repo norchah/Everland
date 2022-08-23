@@ -8,9 +8,6 @@
     gap: 15px;
     font-size: 16px;
     height: 44px;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
     justify-content: flex-start;
   }
 }
@@ -18,9 +15,6 @@
 @media screen and (max-width:869px) {
   .form__button-container_location_donations-everland {
     gap: 6px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
   }
 }

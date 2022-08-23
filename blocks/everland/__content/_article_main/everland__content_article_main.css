@@ -1,0 +1,11 @@
+.everland__content_article_main {
+  display: flex;
+  gap: 14px;
+}
+
+@media screen and (max-width:767px) {
+  .everland__content_article_main {
+    flex-direction: column;
+    gap: 26px;
+  }
+}
