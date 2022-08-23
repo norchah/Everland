@@ -1,8 +1,24 @@
 .menu__item {
   margin: 0;
+  max-width: 320px;
 }
 
-@media screen and (max-width:1439px) {
+/* .menu__item:nth-of-type(2) {
+  flex-basis: 420px;
+  margin-left: 35px;
+}
+
+.menu__item:nth-of-type(3) {
+  flex-basis: 243px;
+  margin-right: 45px;
+}
+
+.menu__item:nth-of-type(4) {
+  padding-right: 50px;
+  flex-basis: 270px;
+} */
+
+@media screen and (max-width: 1439px) {
   .menu__item {
     max-width: 186px;
   }

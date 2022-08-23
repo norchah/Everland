@@ -2,29 +2,22 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 50px;
+  display: grid;
+  grid-template-columns: 345px 351px 339px 366px;
 }
 
-.menu__list:nth-of-type(2) {
-  max-width: 320px;
-  margin-right: 31px;
-}
-
-.menu__list:nth-of-type(3) {
-  max-width: 243px;
-  margin-right: 96px;
-}
-
-.menu__list:nth-of-type(4) {
-  max-width: 268px;
-  margin: 0;
-}
-
-@media screen and (max-width:767px) {
+@media screen and (max-width: 1439px) {
   .menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 47px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu__list {
+    width: 100%;
     margin: 0;
     display: block;
   }

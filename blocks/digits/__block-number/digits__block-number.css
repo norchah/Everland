@@ -1,7 +1,7 @@
 .digits__block-number {
   display: grid;
   min-height: 368px;
-  grid-template-areas: "foto-number numbers";
+  grid-template-areas: "digits__photo numbers";
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 135px;
@@ -19,7 +19,7 @@
 
 @media screen and (min-width:320px) and (max-width:767px) {
   .digits__block-number {
-    grid-template-areas: "numbers" "foto-number";
+    grid-template-areas: "numbers" "digits__photo";
     gap: 24px;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
@@ -29,7 +29,7 @@
 
 @media screen and (min-width:1201px) and (max-width:1439px) {
   .digits__block-number {
-    grid-template-areas: "foto-number numbers";
+    grid-template-areas: "photo-number numbers";
     min-height: 225px;
     grid-template-rows: 1fr;
     grid-column-gap: 30px;

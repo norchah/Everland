@@ -16,7 +16,7 @@
 
 @import url(../blocks/link/link.css);
 
-@import url(../blocks/picture-adaptiv/picture-adaptiv.css);
+@import url(../blocks/picture-adaptive/picture-adaptive.css);
 
 /* button */
 @import url(../blocks/button/button.css);
@@ -55,7 +55,7 @@
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/nav/nav.css);
-@import url(../blocks/nav/nav__menu/nav__menu.css);
+@import url(../blocks/nav/__menu/nav__menu.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__list/menu__list.css);
@@ -71,6 +71,10 @@
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__list-heading/_heading-correct/menu__heaading_heading-correct.css);
 @import url(../blocks/menu/__list-button/menu__list-button.css);
+@import url(../blocks/menu/__secondary-item/_grid/menu__secondary-item_grid_help.css);
+@import url(../blocks/menu/__secondary-item/_grid/menu__secondary-item_grid_ment.css);
+@import url(../blocks/menu/__secondary-item/_grid/menu__secondary-item_grid_prog.css);
+@import url(../blocks/menu/__secondary-item/_grid/menu__secondary-item_grid_thanks.css);
 @import url(../blocks/button/_border-clr/button_border-clr_black.css);
 @import url(../blocks/cards-container/cards-container.css);
 @import url(../blocks/cards-container/_location/cards-container_location_for-who.css);
@@ -199,7 +203,7 @@
 /* digits */
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__block-number/digits__block-number.css);
-@import url(../blocks/digits/__foto-number/digits__foto-number.css);
+@import url(../blocks/digits/__photo/digits__photo.css);
 @import url(../blocks/digits/__number-title/digits__number-title.css);
 @import url(../blocks/digits/__number-title_blue/digits__number-title_blue.css);
 @import url(../blocks/digits/__number/digits__number.css);
@@ -210,8 +214,8 @@
 @import url(../blocks/spec-projects/spec-projects.css);
 @import url(../blocks/spec-projects/__content/spec-projects__content.css);
 @import url(../blocks/spec-projects/__box/spec-projects__box.css);
-@import url(../blocks/spec-projects/__foto/spec-projects__foto.css);
-@import url(../blocks/spec-projects/__foto-mobile/spec-projects__foto-mobile.css);
+@import url(../blocks/spec-projects/__photo-mobile/spec-projects__photo-mobile.css);
+@import url(../blocks/spec-projects/__photo/spec-projects__photo.css);
 @import url(../blocks/spec-projects/__subtitle/spec-projects__subtitle.css);
 @import url(../blocks/spec-projects/__text/spec-projects__text.css);
 @import url(../blocks/spec-projects/__title/spec-projects__title.css);

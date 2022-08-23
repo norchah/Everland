@@ -1,4 +1,5 @@
-.picture-adaptiv {
+.picture-adaptive {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
   border: none;
@@ -8,7 +9,7 @@
   aspect-ratio: 1/1;
 }
 
-.picture-adaptiv .picture-adaptiv__img {
+.picture-adaptive .picture-adaptive__img {
   width: 100%;
   height: 100%;
   object-fit: cover;

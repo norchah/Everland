@@ -1,5 +1,30 @@
 .menu__links {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@media screen and (max-width: 1439px) {
+    .menu__links {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .menu__links {
+        display: grid;
+        grid-template-areas:
+            "thanks ment"
+            "prog help";
+        width: 378px;
+        column-gap: 74px;
+        row-gap: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu__links {
+        display: block;
+        width: 300px;
+    }
 }
