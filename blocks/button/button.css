@@ -8,7 +8,7 @@
   height: 48px;
   background-repeat: no-repeat;
   background-position: center;
-  transition: background-color .1s linear,color .1s linear,border .1s linear;
+  transition: all .3s ease 0s;
 }
 
 .button:hover {

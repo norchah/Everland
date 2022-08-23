@@ -1,4 +1,11 @@
 .form__label-link {
   color: #0C4BA0;
   text-decoration: none;
+  transition: all .3s ease 0s;
+}
+
+@media screen and (min-width:450px) {
+  .form__label-link:hover {
+    opacity: .8;
+  }
 }

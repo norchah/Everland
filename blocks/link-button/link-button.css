@@ -13,7 +13,7 @@
   border-radius: 10px;
   padding: 10px 45px 14px 10px;
   box-sizing: border-box;
-  transition: color .1s linear,background-image .1s linear,background-color .1s linear;
+  transition: all .3s ease 0s;
 }
 
 .link-button::before {
@@ -21,19 +21,11 @@
   position: absolute;
   top: 50%;
   right: 14px;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   background: url(../../images/Icon/link-arrow-black-ico.svg) center no-repeat;
   background-size: 16px 16px;
   width: 17px;
   height: 17px;
-}
-
-.link-button:hover {
-  color: #00275C;
-}
-
-.link-button:active {
-  color: #0C4BA0;
 }
 
 .link-button:disabled {
@@ -69,5 +61,16 @@
 @media screen and (max-width:450px) {
   .link-button {
     font-size: 14px;
+  }
+}
+
+@media screen and (min-width:450px) {
+  .link-button:hover {
+    color: #00275C;
+    opacity: .8;
+  }
+
+  .link-button:active {
+    color: #0C4BA0;
   }
 }

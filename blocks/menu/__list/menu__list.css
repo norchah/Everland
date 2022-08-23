@@ -1,7 +1,4 @@
 .menu__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
   display: grid;
   grid-template-columns: 345px 351px 339px 366px;
 }
