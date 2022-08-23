@@ -1,3 +1,16 @@
 .menu__heaading_heading-correct {
-    margin-bottom: 26px;
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__heaading_heading-correct {
+    margin: 8px 0;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .menu__heaading_heading-correct {
+    margin-bottom: 21px;
+  }
 }

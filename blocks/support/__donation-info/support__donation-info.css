@@ -1,22 +1,32 @@
 .support__donation-info {
-    display: grid;
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
-    grid-template-columns: repeat(3, minmax(min-content, max-content));
-    grid-gap: 5px;
-    height: 45px;
-    min-width: 396px;
-    width: 100%;
-    align-items: baseline;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (minmax(-webkit-min-content,-webkit-max-content))[2];
+  -ms-grid-rows: (minmax(min-content,max-content))[2];
+  grid-template-rows: repeat(2,minmax(-webkit-min-content,-webkit-max-content));
+  grid-template-rows: repeat(2,minmax(min-content,max-content));
+  -ms-grid-columns: (minmax(-webkit-min-content,-webkit-max-content))[3];
+  -ms-grid-columns: (minmax(min-content,max-content))[3];
+  grid-template-columns: repeat(3,minmax(-webkit-min-content,-webkit-max-content));
+  grid-template-columns: repeat(3,minmax(min-content,max-content));
+  grid-gap: 5px;
+  height: 45px;
+  min-width: 396px;
+  width: 100%;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
 }
 
-@media screen and (max-width: 768px){
-    .support__donation-info {
-        min-width: 349px;
-    }
+@media screen and (max-width:768px) {
+  .support__donation-info {
+    min-width: 349px;
+  }
 }
 
-@media screen and (max-width: 400px){
-    .support__donation-info {
-        min-width: 298px;
-    }
+@media screen and (max-width:400px) {
+  .support__donation-info {
+    min-width: 298px;
+  }
 }

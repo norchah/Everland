@@ -1,4 +1,10 @@
 .menu__list-heading_correct-size {
-    display: inline-block;
-    width: 300px;
+  display: inline-block;
+  width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .menu__list-heading_correct-size {
+    width: 63px
+  }
 }

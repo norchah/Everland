@@ -1,29 +1,21 @@
 .form__radio-button_value_other-support {
-    width: 211px;
+  width: 159px;
 }
 
 @media screen and (max-width: 768px){
-    .form__radio-button_value_other-support {
-        width: 135px;
+  .form__radio-button_value_other-support {
+        width: 190px;
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 767px){
-    .form__radio-button_value_other-support {
-        width: 306px;
-    }
+@media screen and (min-width:601px) and (max-width:767px) {
+  .form__radio-button_value_other-support {
+    width: 306px;
+  }
 }
 
-@media screen and (max-width: 600px) {
-    .form__radio-button_value_other-support {
-        width: 260px;
-    }
+@media screen and (max-width:600px) {
+  .form__radio-button_value_other-support {
+    width: 260px;
+  }
 }
-
-
-
-
-
-
-
-

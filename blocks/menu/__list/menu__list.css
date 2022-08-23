@@ -1,32 +1,24 @@
 .menu__list {
-    margin: 0 86px 0 0;
-    padding: 0;
-    list-style: none;
-    max-width: 259px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 345px 351px 339px 366px;
 }
 
-.menu__list:nth-of-type(2) {
-    max-width: 320px;
-    margin-right: 31px;
+@media screen and (max-width: 1439px) {
+  .menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 47px;
+  }
 }
 
-.menu__list:nth-of-type(3) {
-    max-width: 243px;
-    margin-right: 96px;
-}
-
-.menu__list:nth-of-type(4) {
-    max-width: 268px;
+@media screen and (max-width: 767px) {
+  .menu__list {
+    width: 100%;
     margin: 0;
+    display: block;
+  }
 }
-
-/* В первом списке иной отступ от заоголовка */
-.menu__list:first-of-type .menu__list-heading {
-    margin-bottom: 32px;
-}
-
-/* @media screen and (max-width: 1160) {
-    
-    необходимая точка перелома в tablet версию
-
-} */

@@ -1,23 +1,41 @@
 .footer__phone-numbers {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 3px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width:1200px) {
   .footer__phone-numbers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 16px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width:700px) {
   .footer__phone-numbers {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
   }
 }

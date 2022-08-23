@@ -1,43 +1,47 @@
 .digits__block-number {
+  display: -ms-grid;
   display: grid;
   min-height: 368px;
-  grid-template-areas:
-    "foto-number numbers";
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "foto-number numbers";
+  -ms-grid-columns: 1fr 135px 1fr;
+  grid-template-columns: repeat(2,1fr);
+  -ms-grid-rows: 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 135px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width:1200px) {
   .digits__block-number {
-    grid-template-areas:
-      "numbers";
+    grid-template-areas: "numbers";
     min-height: 191px;
+    -ms-grid-rows: 1fr;
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 0;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width:320px) and (max-width:767px) {
   .digits__block-number {
-    grid-template-areas:
-      "numbers"
-      "foto-number";
+    grid-template-areas: "numbers" "foto-number";
     gap: 24px;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    -ms-grid-rows: 2fr;
     grid-template-rows: 2fr;
     min-height: 516px;
   }
 }
 
-@media screen and (min-width: 1201px) and (max-width:1439px) {
+@media screen and (min-width:1201px) and (max-width:1439px) {
   .digits__block-number {
-    grid-template-areas:
-    "foto-number numbers";
+    grid-template-areas: "foto-number numbers";
     min-height: 225px;
+    -ms-grid-rows: 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 30px;
-    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: 1fr 30px 1fr;
+    grid-template-columns: repeat(2,1fr);
   }
 }

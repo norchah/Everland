@@ -1,29 +1,35 @@
 .footer__ya-workshop-logo {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 162px;
   height: 28px;
   padding: 0;
   margin: 0;
   background: url(../../../images/yandex-workshop.svg) center / 100% auto no-repeat;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width:450px) {
   .footer__ya-workshop-logo:hover {
     opacity: .6;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width:1200px) {
   .footer__ya-workshop-logo {
     width: 150px;
     height: 26px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width:900px) {
   .footer__ya-workshop-logo {
     width: 116px;
     height: 20px;

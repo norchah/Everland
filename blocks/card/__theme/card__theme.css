@@ -1,9 +1,9 @@
 .card__theme {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-    color: #333333;
-    margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #333;
+  margin: 0;
 }
 
 @media screen and (max-width:1439px) {

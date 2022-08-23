@@ -7,16 +7,16 @@
 }
 
 @media screen and (max-width:1439px) {
-.news__container {
-  max-width: 1040px;
-  grid-template-rows: 80px 1fr;
-}
+  .news__container {
+    max-width: 1040px;
+    grid-template-rows: 80px 1fr;
+  }
 }
 
 @media screen and (max-width:1200px) {
   .news__container {
     max-width: 690px;
-    grid-template-columns: repeat(3, 230px);
+    grid-template-columns: repeat(3,230px);
     grid-template-rows: repeat(3,minmax(50px,auto));
   }
 }

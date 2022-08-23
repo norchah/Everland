@@ -1,16 +1,15 @@
-.card__container_size_m{
-    max-width: 380px;
-
+.card__container_size_m {
+  max-width: 380px;
 }
 
-@media screen and (max-width:1439px){
-    .card__container_size_m {
-        width: 283px;
-    }
+@media screen and (max-width:1439px) {
+  .card__container_size_m {
+    width: 283px;
+  }
 }
 
-@media screen and (max-width:800px){
-    .card__container_size_m {
-        width: 251px;
-    }
+@media screen and (max-width:767px) {
+  .card__container_size_m {
+    width: 251px;
+  }
 }

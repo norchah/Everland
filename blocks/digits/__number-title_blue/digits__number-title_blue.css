@@ -1,18 +1,24 @@
-.digits__number-title_blue{
-  color:rgba(12, 75, 160, 1);
+.digits__number-title_blue {
+  color: rgba(12,75,160,1);
   font-weight: 700;
   font-size: 34px;
   line-height: 1.2;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
-  .digits__number-title_blue{
+@media screen and (min-width:320px) and (max-width:767px) {
+  .digits__number-title_blue {
     font-size: 18px;
   }
 }
 
-@media screen and (max-width: 1439px) {
-  .digits__number-title_blue{
+@media screen and (max-width:1439px) {
+  .digits__number-title_blue {
     font-size: 26px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .digits__number-title_blue {
+    font-size: 18px;
   }
 }

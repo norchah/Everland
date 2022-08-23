@@ -1,23 +1,37 @@
 .footer {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 80px 36px 84px 40px;
+  display: -ms-grid;
   display: grid;
+  -webkit-column-gap: 2%;
+  -moz-column-gap: 2%;
   column-gap: 2%;
+  -ms-grid-columns: 42% 56%;
   grid-template-columns: 42% 56%;
-  grid-template-rows: repeat(6, minmax(min-content, max-content));
+  -ms-grid-rows: (minmax(-webkit-min-content,-webkit-max-content))[6];
+  -ms-grid-rows: (minmax(min-content,max-content))[6];
+  grid-template-rows: repeat(6,minmax(-webkit-min-content,-webkit-max-content));
+  grid-template-rows: repeat(6,minmax(min-content,max-content));
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width:1200px) {
   .footer {
+    -webkit-column-gap: 2.4%;
+    -moz-column-gap: 2.4%;
     column-gap: 2.4%;
+    -ms-grid-columns: 44% 53.6%;
     grid-template-columns: 44% 53.6%;
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width:900px) {
   .footer {
+    -webkit-column-gap: 2.8%;
+    -moz-column-gap: 2.8%;
     column-gap: 2.8%;
+    -ms-grid-columns: 48% 49.2%;
     grid-template-columns: 48% 49.2%;
     font-size: 14px;
     font-weight: 500;
@@ -26,16 +40,16 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width:700px) {
   .footer {
     display: block;
-    padding: 40px 20px 32px 20px;
+    padding: 40px 20px 32px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .footer {
-    padding: 40px 10px 32px 10px;
+    padding: 40px 10px 32px;
     font-size: 12px;
   }
 }

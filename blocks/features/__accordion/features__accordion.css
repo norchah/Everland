@@ -1,19 +1,18 @@
 .features__accordion {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
   gap: 18px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,auto);
 }
 
 @media screen and (max-width:1200px) {
-  .features__accordion{
+  .features__accordion {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, auto);
+    grid-template-rows: repeat(6,auto);
   }
-
 }
 
 @media screen and (max-width:600px) {
