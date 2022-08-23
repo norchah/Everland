@@ -13,7 +13,6 @@
 
 @media screen and (max-width:320px) {
   .form__button-container {
-    gap: 16px;
     padding-bottom: 10px;
   }
 }

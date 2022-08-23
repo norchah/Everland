@@ -14,7 +14,6 @@
 @media screen and (max-width:600px) {
   .form__question-icon {
     margin: 0;
-    width: 10px;
     height: 10px;
   }
 }
