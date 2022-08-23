@@ -1,4 +1,4 @@
-.spec-projects__foto {
+.spec-projects__photo {
   background: #E7F0FF;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width:1200px) {
-  .spec-projects__foto {
+  .spec-projects__photo {
     width: 42%;
     height: 310px;
     border-radius: 20px;
@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width:900px) {
-  .spec-projects__foto {
+  .spec-projects__photo {
     width: 41.5%;
     height: 284px;
     border-radius: 10px;
@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width:700px) {
-  .spec-projects__foto {
+  .spec-projects__photo {
     display: none;
   }
 }

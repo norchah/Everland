@@ -16,7 +16,7 @@
 
 @import url(../blocks/link/link.css);
 
-@import url(../blocks/picture-adaptiv/picture-adaptiv.css);
+@import url(../blocks/picture-adaptive/picture-adaptive.css);
 
 /* button */
 @import url(../blocks/button/button.css);
@@ -203,7 +203,7 @@
 /* digits */
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__block-number/digits__block-number.css);
-@import url(../blocks/digits/__foto-number/digits__foto-number.css);
+@import url(../blocks/digits/__photo/digits__photo.css);
 @import url(../blocks/digits/__number-title/digits__number-title.css);
 @import url(../blocks/digits/__number-title_blue/digits__number-title_blue.css);
 @import url(../blocks/digits/__number/digits__number.css);
@@ -214,8 +214,8 @@
 @import url(../blocks/spec-projects/spec-projects.css);
 @import url(../blocks/spec-projects/__content/spec-projects__content.css);
 @import url(../blocks/spec-projects/__box/spec-projects__box.css);
-@import url(../blocks/spec-projects/__foto/spec-projects__foto.css);
-@import url(../blocks/spec-projects/__foto-mobile/spec-projects__foto-mobile.css);
+@import url(../blocks/spec-projects/__photo-mobile/spec-projects__photo-mobile.css);
+@import url(../blocks/spec-projects/__photo/spec-projects__photo.css);
 @import url(../blocks/spec-projects/__subtitle/spec-projects__subtitle.css);
 @import url(../blocks/spec-projects/__text/spec-projects__text.css);
 @import url(../blocks/spec-projects/__title/spec-projects__title.css);
