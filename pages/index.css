@@ -258,9 +258,9 @@
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__phone-numbers/footer__phone-numbers.css);
 @import url(../blocks/footer/__phone-number/footer__phone-number.css);
-@import url(../blocks/footer/__soc-net-link/footer__soc-net-link.css);
-@import url(../blocks/footer/__soc-net-link/_icon/footer__soc-net-link_icon_telegram.css);
-@import url(../blocks/footer/__soc-net-link/_icon/footer__soc-net-link_icon_vk.css);
+@import url(../blocks/footer/__link-soc-net/footer__link-soc-net.css);
+@import url(../blocks/footer/__link-soc-net/_icon/footer__link-soc-net_icon_telegram.css);
+@import url(../blocks/footer/__link-soc-net/_icon/footer__link-soc-net_icon_vk.css);
 @import url(../blocks/footer/__support-logo/footer__support-logo.css);
 @import url(../blocks/footer/__support-logos/footer__support-logos.css);
 @import url(../blocks/footer/__support-title/footer__support-title.css);
@@ -280,6 +280,7 @@
 @import url(../blocks/agency/__button/agency__button.css);
 @import url(../blocks/agency/__project/agency__project.css);
 @import url(../blocks/agency/__block/agency__block.css);
+@import url(../blocks/agency/__card/agency__card.css);
 
 @import url(../blocks/card/_type/card_type_hidden.css);
 @import url(../blocks/card/_type/card_type_desktop.css);

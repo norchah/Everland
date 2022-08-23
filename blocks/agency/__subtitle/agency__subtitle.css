@@ -3,8 +3,11 @@
   margin-bottom: 50px;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:800px) {
   .agency__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
     margin-bottom: 24px;
     max-width: 300px;
   }

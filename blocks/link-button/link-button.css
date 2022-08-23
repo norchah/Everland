@@ -67,7 +67,6 @@
 @media screen and (min-width:450px) {
   .link-button:hover {
     color: #00275C;
-    opacity: .8;
   }
 
   .link-button:active {

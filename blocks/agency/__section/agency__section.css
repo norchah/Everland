@@ -16,3 +16,9 @@
     margin: auto;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .agency__section {
+    gap: 13px;
+  }
+}
