@@ -28,5 +28,6 @@
 @media screen and (max-width:350px) {
   .spec-projects__photo-mobile {
     height: 180px;
+    margin-top: -5px;
   }
 }
