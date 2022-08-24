@@ -11,6 +11,8 @@
   background-repeat: no-repeat;
   background-position: 0 2px;
   padding: 2px 0 0;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 

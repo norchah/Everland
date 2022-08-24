@@ -7,6 +7,8 @@
   border-radius: 20px;
   padding: 0;
   margin: 0;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 

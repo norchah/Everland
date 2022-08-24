@@ -8,6 +8,8 @@
   height: 48px;
   background-repeat: no-repeat;
   background-position: center;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 

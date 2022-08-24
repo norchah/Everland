@@ -1,12 +1,18 @@
 .footer__ya-workshop-logo {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 162px;
   height: 28px;
   padding: 0;
   margin: 0;
   background: url(../../../images/yandex-workshop.svg) center / 100% auto no-repeat;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 

@@ -1,6 +1,9 @@
 .everland__pictures-box {
   margin: 0;
   padding: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   width: 38.4%;
   height: 579px;

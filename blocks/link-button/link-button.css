@@ -1,8 +1,16 @@
 .link-button {
   cursor: pointer;
   position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   text-decoration: none;
   color: inherit;
@@ -12,7 +20,10 @@
   background-color: #fff;
   border-radius: 10px;
   padding: 10px 45px 14px 10px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 
@@ -21,6 +32,8 @@
   position: absolute;
   top: 50%;
   right: 14px;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
   transform: translate(0,-50%);
   background: url(../../images/Icon/link-arrow-black-ico.svg) center no-repeat;
   background-size: 16px 16px;

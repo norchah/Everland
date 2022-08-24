@@ -14,7 +14,6 @@
 }
 
 @media screen and (max-width:767px) {
-
   .directions__container {
     max-width: 300px;
   }
@@ -28,7 +27,10 @@
   .directions__container .card {
     padding-bottom: 28px;
     padding-top: 22px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
-    gap:24px;
+    gap: 24px;
   }
 }
