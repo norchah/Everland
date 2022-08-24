@@ -7,6 +7,7 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_location/section-title_location_agency.css);
 @import url(../blocks/section-title/_location/section-title_location_directions.css);
+@import url(../blocks/section-title/_location/section-title_location_digits.css);
 @import url(../blocks/section-title/_location/section-title_location_features.css);
 @import url(../blocks/section-title/_location/section-title_location_for-who.css);
 @import url(../blocks/section-title/_location/section-title_location_news.css);
