@@ -24,5 +24,7 @@
 @media screen and (max-width:450px) {
   .stories__button {
     width: 100%;
+    font-size: 14px;
+    padding: 13px 10px 13px 10px;
   }
 }

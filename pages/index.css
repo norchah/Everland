@@ -12,6 +12,7 @@
 @import url(../blocks/section-title/_type/section-title_type_desktop.css);
 @import url(../blocks/section-title/_type/section-title_type_mobile.css);
 @import url(../blocks/section-title/_features/section-title_features.css);
+@import url(../blocks/section-title/_stories/section-title_stories.css);
 
 @import url(../blocks/slider-window/slider-window.css);
 @import url(../blocks/slider-list/slider-list.css);
@@ -234,7 +235,6 @@
 /* stories */
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/stories/__text-box-in-card/stories__text-box-in-card.css);
-@import url(../blocks/stories/__section-title/stories__section-title.css);
 @import url(../blocks/stories/__enlarged-text/stories__enlarged-text.css);
 @import url(../blocks/stories/__button/stories__button.css);
 @import url(../blocks/stories/__picture/stories__picture.css);
