@@ -38,6 +38,8 @@
 @import url(../blocks/button/_location/button_location_donations-section.css);
 @import url(../blocks/button/_arrow/button_arrow_left.css);
 @import url(../blocks/button/_arrow/button_arrow_right.css);
+@import url(../blocks/button/_type/button_type_desktop.css);
+@import url(../blocks/button/_type/button_type_mobile.css);
 
 /* link-button */
 @import url(../blocks/link-button/link-button.css);
