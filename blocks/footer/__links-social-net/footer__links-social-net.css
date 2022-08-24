@@ -20,6 +20,12 @@
 @media screen and (max-width:900px) {
   .footer__links-social-net {
     gap: 20px;
-    padding: 8px;
+    padding: 9px 8px 9px 11px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .footer__links-social-net {
+    padding: 9px 8px 9px 7px;
   }
 }
