@@ -18,6 +18,7 @@
 @import url(../blocks/link/link.css);
 
 @import url(../blocks/picture-adaptive/picture-adaptive.css);
+@import url(../blocks/picture-adaptive/__img/picture-adaptive__img.css);
 
 /* button */
 @import url(../blocks/button/button.css);
