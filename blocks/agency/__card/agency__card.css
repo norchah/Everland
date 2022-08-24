@@ -1,6 +1,7 @@
 .agency__card {
   overflow: hidden;
   border-radius: 30px;
+  margin: 0 0 20px 0;
 }
 
 .agency__card .card__image {
@@ -12,11 +13,13 @@
   .agency__card {
     border-radius: 20px;
     max-height: 334px;
+    margin: 0 0 15px 0;
   }
 }
 
 @media screen and (max-width:450px) {
   .agency__card {
     max-height: 300px;
+    margin: 0 0 2px 0;
   }
 }

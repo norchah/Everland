@@ -10,18 +10,21 @@
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
   .agency__subtitle {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     margin-bottom: 24px;
-    max-width: 300px;
   }
 }
 
 @media screen and (max-width:767px) {
   .agency__subtitle {
     font-size: 16px;
+    padding: 0;
+    margin-bottom: 25px;
+    max-width: 100%;
+    width: 100%;
   }
 }
