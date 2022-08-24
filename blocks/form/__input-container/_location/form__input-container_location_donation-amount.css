@@ -13,6 +13,6 @@
 
 @media screen and (max-width:320px) {
   .form__input-container_location_donation-amount {
-    padding: 22px 0 32px 0;
+    padding: 22px 0 32px;
   }
 }

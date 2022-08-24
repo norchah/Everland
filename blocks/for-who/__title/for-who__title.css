@@ -1,13 +1,13 @@
-@media screen and (max-width: 1439px) {
-    .for-who__title {
-        padding-left: 25px;
-        font-size: 36px;
-    }
+@media screen and (max-width:1439px) {
+  .for-who__title {
+    padding-left: 25px;
+    font-size: 36px;
+  }
 }
 
-@media screen and (max-width: 767px) {
-    .for-who__title {
-        padding-left: 0;
-        font-size: 26px;
-    }
+@media screen and (max-width:767px) {
+  .for-who__title {
+    padding-left: 0;
+    font-size: 26px;
+  }
 }

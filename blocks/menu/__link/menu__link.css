@@ -12,7 +12,7 @@
 @media screen and (min-width:450px) {
   .menu__link:hover {
     opacity: .8;
-    color: #00275C
+    color: #00275C;
   }
 
   .menu__link:active {

@@ -21,7 +21,7 @@
   position: absolute;
   top: 50%;
   right: 14px;
-  transform: translate(0, -50%);
+  transform: translate(0,-50%);
   background: url(../../images/Icon/link-arrow-black-ico.svg) center no-repeat;
   background-size: 16px 16px;
   width: 17px;

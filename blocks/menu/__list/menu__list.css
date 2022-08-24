@@ -3,7 +3,7 @@
   grid-template-columns: 345px 351px 339px 366px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width:1439px) {
   .menu__list {
     display: flex;
     flex-wrap: wrap;
@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .menu__list {
     width: 100%;
     margin: 0;
