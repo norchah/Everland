@@ -5,14 +5,16 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/_photo/section-title_photo.css);
-@import url(../blocks/section-title/_news/section-title_news.css);
-@import url(../blocks/section-title/_support/section-title_support.css);
-@import url(../blocks/section-title/_directions/section-title_directions.css);
+@import url(../blocks/section-title/_location/section-title_location_agency.css);
+@import url(../blocks/section-title/_location/section-title_location_directions.css);
+@import url(../blocks/section-title/_location/section-title_location_features.css);
+@import url(../blocks/section-title/_location/section-title_location_for-who.css);
+@import url(../blocks/section-title/_location/section-title_location_news.css);
+@import url(../blocks/section-title/_location/section-title_location_spec-projects.css);
+@import url(../blocks/section-title/_location/section-title_location_stories.css);
+@import url(../blocks/section-title/_location/section-title_location_support.css);
 @import url(../blocks/section-title/_type/section-title_type_desktop.css);
 @import url(../blocks/section-title/_type/section-title_type_mobile.css);
-@import url(../blocks/section-title/_features/section-title_features.css);
-@import url(../blocks/section-title/_stories/section-title_stories.css);
 
 @import url(../blocks/slider-window/slider-window.css);
 @import url(../blocks/slider-list/slider-list.css);
@@ -173,7 +175,6 @@
 @import url(../blocks/for-who/for-who.css);
 @import url(../blocks/for-who/__container/for-who__container.css);
 @import url(../blocks/for-who/__card/for-who__card.css);
-@import url(../blocks/for-who/__title/for-who__title.css);
 
 /* directions */
 @import url(../blocks/directions/directions.css);
@@ -226,7 +227,6 @@
 @import url(../blocks/spec-projects/__photo/spec-projects__photo.css);
 @import url(../blocks/spec-projects/__subtitle/spec-projects__subtitle.css);
 @import url(../blocks/spec-projects/__text/spec-projects__text.css);
-@import url(../blocks/spec-projects/__title/spec-projects__title.css);
 @import url(../blocks/spec-projects/__slider/spec-projects__slider.css);
 @import url(../blocks/spec-projects/__buttons-row/spec-projects__buttons-row.css);
 @import url(../blocks/spec-projects/__button/spec-projects__button.css);
@@ -280,7 +280,6 @@
 
 @import url(../blocks/agency/agency.css);
 @import url(../blocks/agency/__subtitle/agency__subtitle.css);
-@import url(../blocks/agency/__title/agency__title.css);
 @import url(../blocks/agency/__main-text/agency__main-text.css);
 @import url(../blocks/agency/__section/agency__section.css);
 @import url(../blocks/agency/__button/agency__button.css);

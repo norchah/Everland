@@ -1,12 +1,12 @@
 @media screen and (max-width:1439px) {
-  .for-who__title {
+  .section-title_location_for-who {
     padding-left: 25px;
     font-size: 36px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .for-who__title {
+  .section-title_location_for-who {
     padding-left: 0;
     font-size: 26px;
   }
