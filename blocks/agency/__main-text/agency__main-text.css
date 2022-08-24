@@ -4,20 +4,20 @@
   line-height: 1.2;
   margin: 0;
   padding: 0;
-  color: rgba(51, 51, 51, 1);
+  color: rgba(51,51,51,1);
 }
 
 @media screen and (max-width:800px) {
   .agency__main-text {
-    padding: 20px 0 0 0;
+    padding: 20px 0 0;
     margin-bottom: 4px;
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .agency__main-text {
-    padding: 15px 0 0 0;
+    padding: 15px 0 0;
     margin-bottom: 12px;
     max-height: 300px;
   }

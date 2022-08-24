@@ -6,6 +6,7 @@
 
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_photo/section-title_photo.css);
+@import url(../blocks/section-title/_news/section-title_news.css);
 @import url(../blocks/section-title/_support/section-title_support.css);
 @import url(../blocks/section-title/_type/section-title_type_desktop.css);
 @import url(../blocks/section-title/_type/section-title_type_mobile.css);

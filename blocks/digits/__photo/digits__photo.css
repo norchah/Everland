@@ -1,4 +1,4 @@
-.digits__photo{
+.digits__photo {
   max-width: 100%;
   object-fit: cover;
   display: grid;
@@ -6,20 +6,20 @@
 }
 
 @media screen and (max-width:1200px) {
-  .digits__photo{
+  .digits__photo {
     display: none;
   }
 }
 
 @media screen and (max-width:767px) {
-  .digits__photo{
+  .digits__photo {
     max-width: 300px;
     display: grid;
   }
 }
 
 @media screen and (min-width:1201px) and (max-width:1439px) {
-  .digits__photo{
+  .digits__photo {
     max-height: 226px;
   }
 }

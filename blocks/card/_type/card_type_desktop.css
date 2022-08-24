@@ -1,5 +1,5 @@
-@media screen and (max-width: 900px) {
-	.card_type_desktop {
-		display: none;
-	}
+@media screen and (max-width:900px) {
+  .card_type_desktop {
+    display: none;
+  }
 }
