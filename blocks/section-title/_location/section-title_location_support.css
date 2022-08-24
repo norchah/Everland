@@ -1,11 +1,11 @@
 @media screen and (max-width:768px) {
-  .section-title_support {
+  .section-title_location_support {
     padding-bottom: 20px;
   }
 }
 
 @media screen and (max-width:1439px) {
-  .section-title_support {
+  .section-title_location_support {
     text-align: center;
   }
 }

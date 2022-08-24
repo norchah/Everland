@@ -1,16 +1,16 @@
-.agency__title {
+.section-title_location_agency {
   padding: 0 0 20px;
 }
 
 @media screen and (max-width:800px) {
-  .agency__title {
+  .section-title_location_agency {
     padding: 0 0 10px;
     max-width: 430px;
   }
 }
 
 @media screen and (max-width:1439px) {
-  .agency__title {
+  .section-title_location_agency {
     padding: 0 0 15px;
   }
 }
