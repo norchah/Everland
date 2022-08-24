@@ -1,13 +1,21 @@
 .stories__card {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
   padding: 27px 30px 30px;
   border-radius: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 19px;
+  -moz-column-gap: 19px;
   column-gap: 19px;
   height: 285px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
@@ -23,7 +31,12 @@
     height: 170px;
     padding: 16px 16px 7px;
     border-radius: 20px;
+    -webkit-column-gap: 17px;
+    -moz-column-gap: 17px;
     column-gap: 17px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 }
@@ -41,10 +54,17 @@
 
 @media screen and (max-width:450px) {
   .stories__card {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     min-height: 112px;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
     column-gap: 16px;
     padding: 16px 16px 5px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
     align-items: flex-start;
   }
 
@@ -54,6 +74,9 @@
 }
 
 .stories__card .stories__picture {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 

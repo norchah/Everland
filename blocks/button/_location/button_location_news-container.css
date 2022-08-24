@@ -2,7 +2,10 @@
   margin-top: 22px;
   width: 195px;
   margin-left: auto;
+  -ms-grid-row: 1;
   grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
   grid-column: 2/3;
 }
 
@@ -14,7 +17,9 @@
 
 @media screen and (max-width:1200px) {
   .button_location_news_container {
+    -ms-grid-row: 3;
     grid-row: 3;
+    -ms-grid-column: 2;
     grid-column: 2;
     margin: 32px auto 0;
     width: 200px;
@@ -23,6 +28,8 @@
 
 @media screen and (max-width:767px) {
   .button_location_news_container {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1/2;
     width: 300px;
   }

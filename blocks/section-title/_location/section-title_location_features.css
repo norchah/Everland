@@ -1,24 +1,24 @@
 .section-title_location_features {
-	margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 @media screen and (max-width:1439px) {
-	.section-title_location_features {
-		font-size: 36px;
-		padding: 0 0 32px 0;
-		margin-bottom: 0;
-	}
+  .section-title_location_features {
+    font-size: 36px;
+    padding: 0 0 32px;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width:900px) {
-	.section-title_location_features {
-		padding-bottom: 35px;
-	}
+  .section-title_location_features {
+    padding-bottom: 35px;
+  }
 }
 
 @media screen and (max-width:767px) {
-	.section-title_location_features {
-		font-size: 26px;
-		padding: 0 0 24px 0;
-	}
+  .section-title_location_features {
+    font-size: 26px;
+    padding: 0 0 24px;
+  }
 }

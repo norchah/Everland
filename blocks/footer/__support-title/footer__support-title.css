@@ -1,14 +1,21 @@
 .footer__support-title {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
   grid-row: 3/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
   align-self: flex-end;
   padding: 71px 0 10px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
   margin: 0;
   font-weight: 700;
   font-size: 34px;
   line-height: 1.2;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 
@@ -21,7 +28,7 @@
 
 @media screen and (max-width:900px) {
   .footer__support-title {
-    padding: 0 0 35px 0;
+    padding: 0 0 35px;
     max-width: 235px;
     font-size: 20px;
   }

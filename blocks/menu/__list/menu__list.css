@@ -1,12 +1,22 @@
 .menu__list {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 345px 351px 339px 366px;
   grid-template-columns: 345px 351px 339px 366px;
 }
 
 @media screen and (max-width:1439px) {
   .menu__list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     row-gap: 47px;
   }

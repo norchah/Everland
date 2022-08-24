@@ -1,8 +1,11 @@
 .digits__numbers {
   max-width: 670px;
   min-height: 226px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2,1fr);
+  -ms-grid-rows: (1fr)[2];
   grid-template-rows: repeat(2,1fr);
   grid-column-gap: 20px;
   grid-row-gap: 30px;
@@ -23,7 +26,9 @@
     max-width: 300px;
     min-height: 292px;
     grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[4];
     grid-template-rows: repeat(4,1fr);
     grid-column-gap: 0;
   }

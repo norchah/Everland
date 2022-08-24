@@ -1,8 +1,12 @@
 .features__accordion-item {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 27px 20px;
   border: 2px solid #DADADA;
   border-radius: 30px;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
   align-self: start;
 }
 
@@ -14,7 +18,7 @@
   }
 
   .features__accordion-item:nth-child(6) {
-    padding: 25px 20px 19px 20px;
+    padding: 25px 20px 19px;
   }
 }
 
@@ -36,19 +40,24 @@
     padding: 17px 16px;
     min-width: 300px;
   }
+
   .features__accordion-item:nth-child(2) {
     padding: 13px 16px;
   }
+
   .features__accordion-item:nth-child(3) {
-    padding: 9px 16px 12px 16px;
+    padding: 9px 16px 12px;
   }
+
   .features__accordion-item:nth-child(4) {
     padding: 10px 16px;
   }
+
   .features__accordion-item:nth-child(5) {
     padding: 12px 16px;
   }
-  .features__accordion-item:last-child{
+
+  .features__accordion-item:last-child {
     padding: 15px 16px;
   }
 }

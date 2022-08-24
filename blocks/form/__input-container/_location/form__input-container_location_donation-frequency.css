@@ -1,5 +1,8 @@
 .form__input-container_location_donation-frequency {
   padding-bottom: 11px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   gap: 20px;
   margin: 0;

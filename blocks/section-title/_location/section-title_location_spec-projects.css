@@ -2,9 +2,14 @@
   max-width: 630px;
   margin: 0;
   padding: 15px 0 0;
+  height: -webkit-min-content;
+  height: -moz-min-content;
   height: min-content;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
   overflow: hidden;
+  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
 

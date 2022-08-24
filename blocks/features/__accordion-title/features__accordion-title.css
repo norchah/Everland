@@ -2,8 +2,12 @@
   font-weight: 700;
   font-size: 34px;
   line-height: 120%;
+  -webkit-font-feature-settings: 'pnum' on,'lnum' on;
   font-feature-settings: 'pnum' on,'lnum' on;
   color: #333;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
   padding: 0;
   margin: 0;

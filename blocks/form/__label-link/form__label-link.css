@@ -1,6 +1,8 @@
 .form__label-link {
   color: #0C4BA0;
   text-decoration: none;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 

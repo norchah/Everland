@@ -1,4 +1,6 @@
 .everland__main-head {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   padding: 0;
   margin: 0 0 24px;
@@ -7,6 +9,8 @@
   line-height: 1.2;
   letter-spacing: -0.02em;
   overflow: hidden;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 
