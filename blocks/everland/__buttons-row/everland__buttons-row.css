@@ -2,7 +2,7 @@
   box-sizing: border-box;
   position: absolute;
   z-index: 1;
-  bottom: 0;
+  bottom: 12px;
   left: 40px;
   display: flex;
   align-items: flex-start;
@@ -20,7 +20,7 @@
 @media screen and (max-width:900px) {
   .everland__buttons-row {
     left: 41px;
-    bottom: 7px;
+    bottom: 25px;
   }
 }
 
@@ -28,6 +28,6 @@
   .everland__buttons-row {
     left: 50%;
     transform: translate(-50%,0);
-    bottom: 0;
+    bottom: 18px;
   }
 }

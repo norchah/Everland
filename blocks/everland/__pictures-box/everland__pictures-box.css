@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   flex: 0 0 auto;
-  width: 38%;
-  height: 565px;
+  width: 38.4%;
+  height: 579px;
   position: relative;
   overflow: hidden;
 }
@@ -22,8 +22,8 @@
 
 @media screen and (max-width:900px) {
   .everland__pictures-box {
-    height: 272px;
-    width: 35%;
+    height: 285px;
+    width: 35.5%;
   }
 }
 
@@ -37,7 +37,7 @@
 
 @media screen and (max-width:450px) {
   .everland__pictures-box {
-    height: 200px;
+    height: 215px;
     margin: 0 0 15px;
   }
 }
