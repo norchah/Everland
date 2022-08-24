@@ -13,7 +13,7 @@
     <div class="header__container">
       <img class="logo" src="./images/logo/Logo.svg" alt="Логотип Everland">
       <button class="header__menu-button" type="button">Меню</button>
-      <ul class="header__buttons">
+      <ul class="header__buttons list">
         <li class="header__button">
           <button class="button button_size_s button_text-clr_blue button_border-clr_blue">Платформа</button>
         </li>
@@ -30,7 +30,7 @@
             <h3 class="menu__list-heading menu__list-heading_arrow_down">
               <button class="menu__list-button" type="button">О проекте</button>
             </h3>
-            <ul class="menu__secondary">
+            <ul class="menu__secondary list">
               <li class="menu__secondary-item">
                 <a class="menu__link" href="#">АНО Пространство равных возможностей</a>
               </li>
@@ -59,7 +59,7 @@
                 с инвалидностью
               </button>
             </h3>
-            <ul class="menu__secondary">
+            <ul class="menu__secondary list">
               <li class="menu__secondary-item">
                 <a class="menu__link" href="#">Платформа</a>
               </li>
@@ -79,7 +79,7 @@
             <h3 class="menu__list-heading menu__list-heading_arrow_down">
               <button class="menu__list-button" type="button">Услуги</button>
             </h3>
-            <ul class="menu__secondary">
+            <ul class="menu__secondary list">
               <li class="menu__secondary-item">
                 <a class="menu__link" href="#">Услуги агентства</a>
               </li>
@@ -130,7 +130,7 @@
   </header>
   <main class="main">
     <nav class="nav">
-      <ul class="nav__menu">
+      <ul class="nav__menu list">
         <li class="nav__menu-item">
           <a class="nav__link" href="#for-who">Для кого</a>
         </li>
@@ -348,9 +348,10 @@
     <!-- Для кого мы работаем -->
     <section class="for-who">
       <div class="for-who__container">
-        <h2 class="section-title for-who__title">Для кого мы работаем</h2>
+        <h2 class="section-title section-title_location_for-who">Для кого мы работаем</h2>
         <div class="cards-container">
-          <article class="card card_width_long card_correct_padding-m card_color_white">
+
+          <article class="for-who__card card card_width_long card_correct_padding-m card_color_white">
             <div class="card__container">
               <div class="card__container-icon card__container-icon_color_blue">
                 <svg class="card__icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -366,7 +367,7 @@
             <a href="#" class="link-button link-button_color_blue">Подробнее</a>
           </article>
 
-          <article class="card card_width_long card_correct_padding-m card_color_white">
+          <article class="for-who__card card card_width_long card_correct_padding-m card_color_white">
             <div class="card__container">
               <div class="card__container-icon card__container-icon_color_orange">
                 <svg class="card__icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -383,7 +384,7 @@
             <a href="#" class="link-button link-button_color_orange">Подробнее</a>
           </article>
 
-          <article class="card card_width_long card_correct_padding-m card_color_white">
+          <article class="for-who__card card card_width_long card_correct_padding-m card_color_white">
             <div class="card__container">
               <div class="card__container-icon card__container-icon_color_green">
                 <svg class="card__icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -421,8 +422,9 @@
     <!-- Наши направления -->
     <section class="directions">
       <div class="directions__container">
-        <h2 class="section-title section-title_type_desktop">Наши направления</h2>
-        <h2 class="section-title section-title_type_mobile ">В каких направлениях мы работаем?</h2>
+        <h2 class="section-title section-title_location_directions section-title_type_desktop">Наши направления</h2>
+        <h2 class="section-title section-title_location_directions section-title_type_mobile ">В каких направлениях мы
+          работаем?</h2>
         <div class="cards-container">
           <article class="card card_correct_padding-m card_color_orange">
             <div class="card__container card__container_size_m">
@@ -486,9 +488,9 @@
     <!-- Главное в работе -->
     <section class="features">
       <div class="features__container">
-        <h2 class="section-title features__title section-title_type_desktop">Главное в работе</h2>
-        <h2 class="section-title features__title section-title_type_mobile">Главное в нашей работе</h2>
-        <ul class="features__accordion">
+        <h2 class="section-title section-title_location_features section-title_type_desktop">Главное в работе</h2>
+        <h2 class="section-title section-title_location_features section-title_type_mobile">Главное в нашей работе</h2>
+        <ul class="features__accordion list">
 
           <li class="features__accordion-item">
             <div class="features__accordion-heading">
@@ -543,7 +545,7 @@
             <div class="features__accordion-content">
               <p class="features__accordion-text">За&nbsp;время сущетсования проекта с&nbsp;2016 года социальная
                 предпринимательская модель Everland доказала свою эффективность&nbsp;&mdash; мы&nbsp;действительно умеем
-                давать работу людям с&nbsp;разными видами инвалидности</p>
+                давать работу людям с разными видами инвалидности</p>
             </div>
           </li>
 
@@ -553,7 +555,7 @@
 
     <!-- Everland в цифрах -->
     <section class="digits">
-      <h2 class="section-title section-title_position_bottom-m">Everland в цифрах</h2>
+      <h2 class="section-title section-title_location_digits">Everland в цифрах</h2>
       <div class="digits__block-number">
         <img class="digits__photo" src="images/spec-projects-photo.jpg" alt="Мужчина и женщина стоят вместе">
         <div class="digits__numbers">
@@ -612,7 +614,7 @@
               <img class="picture-adaptive__img" src="./images/spec-projects-photo-family.jpg" alt="Человек с собакой">
             </picture>
 
-            <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
+            <h2 class="section-title section-title_location_spec-projects">Фотопроект «Семья как семья»</h2>
 
             <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
               восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
@@ -638,7 +640,7 @@
               <img class="picture-adaptive__img" src="./images/spec-projects-photo-family.jpg" alt="Человек с собакой">
             </picture>
 
-            <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
+            <h2 class="section-title section-title_location_spec-projects">Фотопроект «Семья как семья»</h2>
 
             <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
               восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
@@ -664,7 +666,7 @@
               <img class="picture-adaptive__img" src="./images/spec-projects-photo-family.jpg" alt="Человек с собакой">
             </picture>
 
-            <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
+            <h2 class="section-title section-title_location_spec-projects">Фотопроект «Семья как семья»</h2>
 
             <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
               восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
@@ -689,33 +691,7 @@
               <img class="picture-adaptive__img" src="./images/spec-projects-photo-family.jpg" alt="Человек с собакой">
             </picture>
 
-            <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
-
-            <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
-              восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
-
-            <button type="button"
-              class="button_size_m button button_text-clr_black button_border-clr_black spec-projects__button"
-              aria-label="Посмотреть">Посмотреть</button>
-          </div>
-
-          <picture class="spec-projects__photo picture-adaptive">
-            <source class="picture-adaptive__img" type="image/webp" srcset="./images/spec-projects-photo-family.webp">
-            <img class="picture-adaptive__img" src="./images/spec-projects-photo-family.jpg" alt="Человек с собакой">
-          </picture>
-
-        </li>
-
-        <li class="spec-projects__content spec-projects__content_article_our-special-projects slider-item">
-          <div class="spec-projects__box">
-            <p class="spec-projects__subtitle">Наши спецпроекты</p>
-
-            <picture class="spec-projects__photo-mobile picture-adaptive">
-              <source class="picture-adaptive__img" type="image/webp" srcset="./images/spec-projects-photo-family.webp">
-              <img class="picture-adaptive__img" src="./images/spec-projects-photo-family.jpg" alt="Человек с собакой">
-            </picture>
-
-            <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
+            <h2 class="section-title section-title_location_spec-projects">Фотопроект «Семья как семья»</h2>
 
             <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
               восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
@@ -741,7 +717,33 @@
               <img class="picture-adaptive__img" src="./images/spec-projects-photo-family.jpg" alt="Человек с собакой">
             </picture>
 
-            <h2 class="section-title spec-projects__title section-title_photo">Фотопроект «Семья как семья»</h2>
+            <h2 class="section-title section-title_location_spec-projects">Фотопроект «Семья как семья»</h2>
+
+            <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
+              восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+
+            <button type="button"
+              class="button_size_m button button_text-clr_black button_border-clr_black spec-projects__button"
+              aria-label="Посмотреть">Посмотреть</button>
+          </div>
+
+          <picture class="spec-projects__photo picture-adaptive">
+            <source class="picture-adaptive__img" type="image/webp" srcset="./images/spec-projects-photo-family.webp">
+            <img class="picture-adaptive__img" src="./images/spec-projects-photo-family.jpg" alt="Человек с собакой">
+          </picture>
+
+        </li>
+
+        <li class="spec-projects__content spec-projects__content_article_our-special-projects slider-item">
+          <div class="spec-projects__box">
+            <p class="spec-projects__subtitle">Наши спецпроекты</p>
+
+            <picture class="spec-projects__photo-mobile picture-adaptive">
+              <source class="picture-adaptive__img" type="image/webp" srcset="./images/spec-projects-photo-family.webp">
+              <img class="picture-adaptive__img" src="./images/spec-projects-photo-family.jpg" alt="Человек с собакой">
+            </picture>
+
+            <h2 class="section-title section-title_location_spec-projects">Фотопроект «Семья как семья»</h2>
 
             <p class="spec-projects__text">Фотопроект Алексея Горшенина включает в себя
               восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
@@ -763,8 +765,8 @@
     <!-- Истории -->
     <section class="stories">
 
-      <h2 class="stories__section-title section-title section-title_type_desktop">Истории</h2>
-      <h2 class="stories__section-title section-title section-title_type_mobile">Наши истории</h2>
+      <h2 class="section-title section-title_stories section-title_type_desktop">Истории</h2>
+      <h2 class="section-title section-title_stories section-title_type_mobile">Наши истории</h2>
 
       <ul class="stories__blocks list">
 
@@ -833,38 +835,51 @@
     <section class="agency">
       <div class="agency__block">
 
-        <h2 class="section-title agency__title section-title_type_desktop">Лучшие проекты агентства</h2>
-        <h2 class="section-title agency__title section-title_type_mobile">Лучшие проекты нашего агентства</h2>
+        <h2 class="section-title section-title_location_agency section-title_type_desktop">Лучшие проекты агентства</h2>
+        <h2 class="section-title section-title_location_agency section-title_type_mobile">Лучшие проекты нашего
+          агентства</h2>
 
         <h3 class="card__title agency__subtitle">Мы выполняем работы в области веб-разработки, дизайна, права, видео,
           анимации и контента</h3>
         <div class="agency__section">
           <div class="cards-container">
             <div class="agency__project">
-              <article class="card">
-                <img class="card__image" src="images/recommendation.jpg" alt="два экрана страницы сайта">
+              <article class="agency__card card">
+                <picture class="card__image picture-adaptive">
+                  <source class="picture-adaptive__img" type="image/webp" srcset="images/recommendation.webp">
+                  <img class="picture-adaptive__img" src="images/recommendation.jpg" alt="два экрана страницы сайта">
+                </picture>
               </article>
               <p class="card__main-text card__main-text_size_l agency__main-text">Скрипты-рекомендации для бизнеса
                 (DisQuestion)</p>
             </div>
             <div class="agency__project">
-              <article class="card">
-                <img class="card__image" src="images/Onconnavigator.jpg" alt="планшет и телефон с открытой страницы">
+              <article class="agency__card card">
+                <picture class="card__image picture-adaptive">
+                  <source class="picture-adaptive__img" type="image/webp" srcset="images/Onconnavigator.webp">
+                  <img class="picture-adaptive__img" src="images/Onconnavigator.jpg"
+                    alt="планшет и телефон с открытой страницы">
+                </picture>
               </article>
               <p class="card__main-text card__main-text_size_l agency__main-text">Проект «Онконавигатор»</p>
             </div>
             <div class="agency__project">
-              <article class="card">
-                <img class="card__image" src="images/Migrations-revealing-the-personal.jpg"
-                  alt="3 телефона с открытыми страницами сайта">
+              <article class="agency__card card">
+                <picture class="card__image picture-adaptive">
+                  <source class="picture-adaptive__img" type="image/webp"
+                    srcset="images/Migrations-revealing-the-personal.webp">
+                  <img class="picture-adaptive__img" src="images/Migrations-revealing-the-personal.jpg"
+                    alt="3 телефона с открытыми страницами сайта">
+                </picture>
               </article>
-              <p class="card__main-text card__main-text_size_l agency__main-text">Проект «Миграции: приоткрывая личное»
+              <p class="card__main-text card__main-text_size_l agency__main-text">Проект «Миграции: приоткрывая
+                личное»
               </p>
             </div>
           </div>
           <div class="agency__button">
             <button type="button" class="button_size_l button button_text-clr_blue button_border-clr_blue"
-              aria-label="Посмотреть все">Посмотреть все</button>
+              aria-label="Посмотреть всё">Посмотреть всё</button>
           </div>
         </div>
       </div>
@@ -873,7 +888,7 @@
     <!-- Новости -->
     <section class="news">
       <div class="news__container">
-        <h2 class="section-title">Новости</h2>
+        <h2 class="section-title section-title_location_news">Новости</h2>
         <div class="cards-container cards-container_location_news-section">
           <article class="card card_height_long card_correct_padding-m">
             <p class="card__theme">Тема</p>
@@ -910,8 +925,11 @@
           </article>
         </div>
         <button
-          class="button button_size_s button_text-clr_blue button_border-clr_blue button_location_news_container">Все
+          class="button button_size_s button_text-clr_blue button_border-clr_blue button_location_news_container button_type_desktop">Все
           новости</button>
+        <button
+          class="button button_size_s button_text-clr_blue button_border-clr_blue button_location_news_container button_type_mobile">Посмотреть
+          всё</button>
 
       </div>
     </section>
@@ -1180,14 +1198,14 @@
     <h2 class="footer__title-social-net">Подписывайтесь на нас в&nbsp;соцсетях</h2>
 
     <ul class="footer__links-social-net list">
-      <li><a class="footer__soc-net-link footer__soc-net-link_icon_telegram link" href="#" target="_blank"></a></li>
-      <li><a class="footer__soc-net-link footer__soc-net-link_icon_vk link" href="#" target="_blank"></a>
+      <li><a class="footer__link-soc-net footer__link-soc-net_icon_telegram link" href="#" target="_blank"></a></li>
+      <li><a class="footer__link-soc-net footer__link-soc-net_icon_vk link" href="#" target="_blank"></a>
       </li>
     </ul>
 
     <div class="footer__copyright-text">
-      <p class="footer__paragraph-copyright-text">&copy; ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».</p>
-      <p class="footer__paragraph-copyright-text">Если не указано иначе, все материалы сайта доступны по лицензии
+      <p class="footer__paragraph-copyright">&copy; ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».</p>
+      <p class="footer__paragraph-copyright">Если не указано иначе, все материалы сайта доступны по лицензии
         Creative Commons CC-BY-SA 3.0</p>
     </div>
 

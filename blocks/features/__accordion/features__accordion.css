@@ -1,17 +1,21 @@
 .features__accordion {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  display: -ms-grid;
   display: grid;
   gap: 18px;
+  -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2,1fr);
+  -ms-grid-rows: (auto)[3];
   grid-template-rows: repeat(3,auto);
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 
 @media screen and (max-width:1200px) {
   .features__accordion {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    -ms-grid-rows: (auto)[6];
     grid-template-rows: repeat(6,auto);
   }
 }

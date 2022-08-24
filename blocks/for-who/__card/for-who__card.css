@@ -1,0 +1,10 @@
+@media screen and (max-width:450px) {
+  .for-who__card {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 32px;
+    margin-bottom: 5px;
+  }
+}

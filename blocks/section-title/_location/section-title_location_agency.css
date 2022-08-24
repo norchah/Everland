@@ -1,0 +1,16 @@
+.section-title_location_agency {
+  padding: 0 0 20px;
+}
+
+@media screen and (max-width:800px) {
+  .section-title_location_agency {
+    max-width: 430px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .section-title_location_agency {
+    max-width: 100%;
+    padding: 0 0 10px;
+  }
+}

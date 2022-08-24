@@ -2,6 +2,8 @@
   overflow: hidden;
   font-weight: 400;
   font-size: 20px;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 

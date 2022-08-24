@@ -1,25 +1,27 @@
-.footer__soc-net-link {
+.footer__link-soc-net {
   display: block;
   width: 40px;
   height: 40px;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 
 @media screen and (min-width:450px) {
-  .footer__soc-net-link:hover {
+  .footer__link-soc-net:hover {
     opacity: .7;
   }
 }
 
 @media screen and (max-width:1200px) {
-  .footer__soc-net-link {
+  .footer__link-soc-net {
     width: 36px;
     height: 36px;
   }
 }
 
 @media screen and (max-width:900px) {
-  .footer__soc-net-link {
+  .footer__link-soc-net {
     width: 24px;
     height: 24px;
   }

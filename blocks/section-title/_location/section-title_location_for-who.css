@@ -1,13 +1,13 @@
 @media screen and (max-width:1439px) {
-  .features__title {
+  .section-title_location_for-who {
+    padding-left: 25px;
     font-size: 36px;
-    padding: 0 0 32px;
   }
 }
 
 @media screen and (max-width:767px) {
-  .features__title {
+  .section-title_location_for-who {
+    padding-left: 0;
     font-size: 26px;
-    padding: 0 0 24px;
   }
 }

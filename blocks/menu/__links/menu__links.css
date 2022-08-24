@@ -1,29 +1,30 @@
 .menu__links {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-@media screen and (max-width: 1439px) {
-    .menu__links {
-        display: block;
-    }
+@media screen and (max-width:1439px) {
+  .menu__links {
+    display: block;
+  }
 }
 
-@media screen and (max-width: 821px) {
-    .menu__links {
-        display: grid;
-        grid-template-areas:
-            "thanks ment"
-            "prog help";
-        width: 378px;
-        column-gap: 74px;
-        row-gap: 0px;
-    }
+@media screen and (max-width:821px) {
+  .menu__links {
+    display: -ms-grid;
+    display: grid;
+    grid-template-areas: "thanks ment" "prog help";
+    width: 378px;
+    -webkit-column-gap: 74px;
+    -moz-column-gap: 74px;
+    column-gap: 74px;
+    row-gap: 0;
+  }
 }
 
-@media screen and (max-width: 767px) {
-    .menu__links {
-        display: block;
-        width: 300px;
-    }
+@media screen and (max-width:767px) {
+  .menu__links {
+    display: block;
+    width: 300px;
+  }
 }

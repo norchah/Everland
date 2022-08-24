@@ -1,5 +1,12 @@
 .form__input-container_location_donation-amount {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   gap: 5px;
   padding: 16px 0 24px;
@@ -13,6 +20,6 @@
 
 @media screen and (max-width:320px) {
   .form__input-container_location_donation-amount {
-    padding: 22px 0 32px 0;
+    padding: 22px 0 32px;
   }
 }

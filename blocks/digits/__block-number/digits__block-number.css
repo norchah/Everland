@@ -1,8 +1,11 @@
 .digits__block-number {
+  display: -ms-grid;
   display: grid;
   min-height: 368px;
   grid-template-areas: "digits__photo numbers";
+  -ms-grid-columns: 1fr 135px 1fr;
   grid-template-columns: repeat(2,1fr);
+  -ms-grid-rows: 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 135px;
 }
@@ -11,17 +14,21 @@
   .digits__block-number {
     grid-template-areas: "numbers";
     min-height: 191px;
+    -ms-grid-rows: 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 0;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
   .digits__block-number {
     grid-template-areas: "numbers" "digits__photo";
     gap: 24px;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    -ms-grid-rows: 2fr;
     grid-template-rows: 2fr;
     min-height: 516px;
   }
@@ -31,8 +38,10 @@
   .digits__block-number {
     grid-template-areas: "photo-number numbers";
     min-height: 225px;
+    -ms-grid-rows: 1fr;
     grid-template-rows: 1fr;
     grid-column-gap: 30px;
+    -ms-grid-columns: 1fr 30px 1fr;
     grid-template-columns: repeat(2,1fr);
   }
 }

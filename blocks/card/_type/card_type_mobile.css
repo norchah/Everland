@@ -1,5 +1,9 @@
-@media screen and (min-width: 900px) {
-	.card_type_mobile {
-		display: none;
-	}
+.card_type_mobile {
+  max-width: 370px;
+}
+
+@media screen and (min-width:900px) {
+  .card_type_mobile {
+    display: none;
+  }
 }

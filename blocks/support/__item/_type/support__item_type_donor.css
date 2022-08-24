@@ -1,5 +1,9 @@
 .support__item_type_donor {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
   grid-row: 1/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
   grid-column: 1/2;
   margin: 0;
   padding-right: 7px;

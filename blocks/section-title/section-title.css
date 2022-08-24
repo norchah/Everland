@@ -1,4 +1,5 @@
 .section-title {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0 0 50px;
@@ -7,6 +8,8 @@
   line-height: 1.2;
   color: #333;
   letter-spacing: -0.01em;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
   transition: all .3s ease 0s;
 }
 
