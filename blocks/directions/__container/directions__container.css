@@ -7,10 +7,28 @@
   .directions__container {
     max-width: 688px;
   }
+
+  .directions__container .card {
+    border-radius: 20px;
+  }
 }
 
 @media screen and (max-width:767px) {
+
   .directions__container {
     max-width: 300px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .directions__container .link-button {
+    padding: 11px 40px 11px 10px;
+  }
+
+  .directions__container .card {
+    padding-bottom: 28px;
+    padding-top: 22px;
+    justify-content: flex-start;
+    gap:24px;
   }
 }

@@ -14,3 +14,9 @@
     padding: 32px 10px;
   }
 }
+
+@media screen and (max-width:450px) {
+  .for-who {
+    padding: 32px 10px 29px 10px;
+  }
+}

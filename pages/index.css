@@ -8,8 +8,10 @@
 @import url(../blocks/section-title/_photo/section-title_photo.css);
 @import url(../blocks/section-title/_news/section-title_news.css);
 @import url(../blocks/section-title/_support/section-title_support.css);
+@import url(../blocks/section-title/_directions/section-title_directions.css);
 @import url(../blocks/section-title/_type/section-title_type_desktop.css);
 @import url(../blocks/section-title/_type/section-title_type_mobile.css);
+@import url(../blocks/section-title/_features/section-title_features.css);
 
 @import url(../blocks/slider-window/slider-window.css);
 @import url(../blocks/slider-list/slider-list.css);
@@ -169,6 +171,7 @@
 /* for-who */
 @import url(../blocks/for-who/for-who.css);
 @import url(../blocks/for-who/__container/for-who__container.css);
+@import url(../blocks/for-who/__card/for-who__card.css);
 @import url(../blocks/for-who/__title/for-who__title.css);
 
 /* directions */
@@ -203,7 +206,6 @@
 @import url(../blocks/features/__accordion-content/features__accordion-content.css);
 @import url(../blocks/features/__accordion-button/features__accordion-button.css);
 @import url(../blocks/features/__accordion-button/_type/features__accordion-button_type_cross.css);
-@import url(../blocks/features/__title/features__title.css);
 
 /* digits */
 @import url(../blocks/digits/digits.css);

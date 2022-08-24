@@ -1,0 +1,7 @@
+	@media screen and (max-width:450px) {
+		.for-who__card {
+			justify-content: flex-start;
+			gap: 32px;
+			margin-bottom: 5px;
+		}
+	}
