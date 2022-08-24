@@ -1,5 +1,11 @@
 .features {
-  padding: 50px 40px 100px;
+  padding: 43px 40px 100px;
+}
+
+@media screen and (max-width:900px) {
+  .features {
+    padding-top: 45px;
+  }
 }
 
 @media screen and (max-width:767px) {
